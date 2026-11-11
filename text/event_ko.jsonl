@@ -2568,33 +2568,496 @@
 {"id": "EVENT/p32h0m.mes/p03a0m_01", "sha1": "ed118bc422e94649239c57831ae925f1f9f75ae2", "ko": "『공부벌레는@n\n　결번입니다』@n", "state": "needs_review"}
 {"id": "EVENT/p32h0n.mes/p18a0n_01", "sha1": "55bed33754a1e6f290a34d144ef1a6782ed5184a", "ko": "$OKA$「$POO$이（가） 제법@n\n　괜찮아요@n\n,\n　멋쟁이 여성이 되어@n\n　가고 있어요～　」@n", "state": "needs_review"}
 {"id": "EVENT/p32h0n.mes/p18a0n_02", "sha1": "7e4813655d4df0f8e7ee86af63e7e9cf71b1e98b", "ko": "$OKA$「여자아이는 역시 귀여워야@n\n　하는 법이에요！」@n", "state": "needs_review"}
+{"id": "EVENT/t00f0a.mes/t00f0a_01", "sha1": "ffe225f6e6ffe863280843f90012341c266811be", "ko": "$PAN$「맘마」@n", "state": "needs_review"}
+{"id": "EVENT/t00f0a.mes/t00f0a_02", "sha1": "3f15e90c139c7233d5ac9f56630a6bd42f6ffe21", "ko": "$OTO$「이거，말하는 건@n\n　가？」@n", "state": "needs_review"}
+{"id": "EVENT/t00f0a.mes/t00f0a_03", "sha1": "ffe225f6e6ffe863280843f90012341c266811be", "ko": "$PAN$「맘마」@n", "state": "needs_review"}
+{"id": "EVENT/t00f0c.mes/t00f0c_01", "sha1": "79d65773d7c6e7daa132579bf42a547aedbd9b22", "ko": "$OTO$「우리 집처럼 형제가@n\n　많으면@n\n,\n　아이들 사회성도 훌륭하게@n\n　자라지 않을까」@n", "state": "needs_review"}
+{"id": "EVENT/t00f0c.mes/t00f0c_02", "sha1": "7d2985c7e5ff61efd4ab1151cbc7c06936842e1d", "ko": "$OKA$「서바이벌 테크닉이라고도@n\n　하지」@n", "state": "needs_review"}
+{"id": "EVENT/t00f0e.mes/t00f0e_01", "sha1": "d14a51e63424534214a6e0cc98acbf05d527ef7b", "ko": "$PAN$「찌찌…　」@n", "state": "needs_review"}
+{"id": "EVENT/t00f0e.mes/t00f0e_02", "sha1": "bd7e031014b9b208f4df54e4ddc0cfe6c599728a", "ko": "$OTO$「어，어이，엄마는@n\n　저쪽이야」@n", "state": "needs_review"}
+{"id": "EVENT/t00f0e.mes/t00f0e_03", "sha1": "ff78b4b1740ec46ee5712fc15fee14f45fbbc5b9", "ko": "$OKA$「잠결에 그러나 봐」@n", "state": "needs_review"}
+{"id": "EVENT/t00h0a.mes/t00h0a_01", "sha1": "1ac5e9af1a4970c3284f4b7f4a01b1b68851b215", "ko": "$OTO$「여섯째 아이，사남@n\n　이천칠백 그램으로 태어났다」@n", "state": "needs_review"}
+{"id": "EVENT/t00h0a.mes/t00h0a_02", "sha1": "7739be031dc78f8dc6e701ca512adde6afc06c89", "ko": "$OTO$「아이 이름은@n\n　$PAN$으로（로） 정했다」@n", "state": "needs_review"}
+{"id": "EVENT/t00h0a.mes/t00h0a_03", "sha1": "c2f1900d64e3879ccc38e4cb50153189e1b96243", "ko": "$OTO$「이 녀석，땀이 많네@n\n　얼굴 닦아 줘야지」@n", "state": "needs_review"}
+{"id": "EVENT/t00h0a.mes/t00h0a_04", "sha1": "53f10ca086a6a0b6fedaeb8162209188b36ea59d", "ko": "$OKA$「어머，여보」@n", "state": "needs_review"}
+{"id": "EVENT/t00h0a.mes/t00h0a_05", "sha1": "d5a66432f956557520532f7578ea9012b058209c", "ko": "$OTO$「내가 손에 들고 있던 천은@n\n　$MOK$의 팬티였다」@n", "state": "needs_review"}
+{"id": "EVENT/t00h0a.mes/t00h0a_06", "sha1": "74f1563e0921c23a363375f463785abe0549d787", "ko": "$OKA$「…미안，네 별명은@n\n　판츠야」@n", "state": "needs_review"}
+{"id": "EVENT/t01h0a.mes/t01h0a_01", "sha1": "42dd3cabd96804de7a5d0936938a24805386cc57", "ko": "『한 살이 된 $PAN$에게@n\n　할머니가 책을 사 주시기로@n\n　했습니다』@n", "state": "needs_review"}
+{"id": "EVENT/t01h0a.mes/t01h0a_02", "sha1": "baa17528874260bc403c27b6f0399412f75a87b2", "ko": "$OKA$「남은 것에 복이 있다…@n\n,\n　책이 얼마 안 남았지만@n\n　열심히 골라 보자　」@n", "state": "needs_review"}
+{"id": "EVENT/t01h0a.mes/t01h0a_03", "sha1": "9df94a195599cdddc7053ab1578e6d0053937d3e", "ko": "$PAN$「할마，할마」@n", "state": "needs_review"}
+{"id": "EVENT/t01h0a.mes/t01h0a_04", "sha1": "9df94a195599cdddc7053ab1578e6d0053937d3e", "ko": "$PAN$「할마，할마」@n", "state": "needs_review"}
+{"id": "EVENT/t03a0a.mes/t03a0a_01", "sha1": "c9311662bdfe2bca4492a80ba3b75605933127ab", "ko": "$OKA$「$PAN$은（는） 정말 착한@n\n　아이예요　쑥쑥 곧게@n\n　자라고 있어요」@n", "state": "needs_review"}
+{"id": "EVENT/t03a0a.mes/t03a0a_02", "sha1": "c52b0cba30fdabc6781a5d27887224845d6cd7a2", "ko": "$OKA$「너무 곧아서 어디에@n\n　쿵 부딪치지 마」@n", "state": "needs_review"}
+{"id": "EVENT/t03a0b.mes/t03a0b_01", "sha1": "7b4d3b32cd9fad5e30a41251580af1c7cdbdb1fd", "ko": "$OKA$「$PAN$은（는） 요즘 감기에@n\n　걸렸어요」@n", "state": "needs_review"}
+{"id": "EVENT/t03a0b.mes/t03a0b_02", "sha1": "1b82fe88ba76bf61bd771e844b69c23743d953a3", "ko": "$OKA$「벗고 자기라도 한 걸까？」@n", "state": "needs_review"}
+{"id": "EVENT/t03a0c.mes/t03a0c_01", "sha1": "cff905e5b82e22c75e05dd144c257f2f839cec67", "ko": "$OKA$「개구쟁이 $PAN$이에요（예요）@n\n　기운이 펄펄 넘쳐요」@n", "state": "needs_review"}
+{"id": "EVENT/t03a0c.mes/t03a0c_02", "sha1": "e41ee7e64a3f60289e35187111e33f11a49ae590", "ko": "$OKA$「넌 막내라서@n\n　천방지축인 것도 어쩔 수 없나」@n", "state": "needs_review"}
+{"id": "EVENT/t03a0d.mes/t03a0d_01", "sha1": "d98f865a4b11c24ee3f6ff9812cf43beafbed95b", "ko": "$OKA$「$PAN$은（는） 요즘 무기력해요@n\n　판츠 주제에 무기력해요@n\n,\n　계단 중간에서 멍～하니@n\n　있을 때가 많은데@n\n,\n　대체 무슨 생각 하는 거니？@n\n　꼬맹아」@n", "state": "needs_review"}
+{"id": "EVENT/t03a0d.mes/t03a0d_02", "sha1": "6ab73a68ee2872674cb3cee27b5cc90112a19fa2", "ko": "$OKA$「거기서 너무 멍하니@n\n　있으면 저녁밥 먼저@n\n　먹어 버린다」@n", "state": "needs_review"}
 {"id": "EVENT/t03a0e.mes/t03a0e_01", "sha1": "c53ec77a3e00dd5203a6587aea7a4244e7d48e47", "ko": "『노력파는@n\n　결번입니다』@n", "state": "needs_review"}
+{"id": "EVENT/t03a0f.mes/t03a0f_01", "sha1": "6e81841fe36d930b0b261e2424d5f4f7b92abcd1", "ko": "$OKA$「$PAN$은（는） 역시@n\n　몽상가예요@n\n,\n　이 아이는 분명 엄청난 생각을@n\n　하고 있을 거야」@n", "state": "needs_review"}
+{"id": "EVENT/t03a0f.mes/t03a0f_02", "sha1": "3b5e0dcf4acdd6ad26ead1174a2a794e93b96f6e", "ko": "$OKA$「어？　무슨 생각 하는지@n\n　엄마한테 알려 준다고？@n\n,\n　아냐아냐 됐어，사양할게요～」@n", "state": "needs_review"}
+{"id": "EVENT/t03a0g.mes/t03a0g_01", "sha1": "beb7a27abf959fc5d748ec41da4489b2dad68893", "ko": "$OKA$「역시 튀고 싶어 하는@n\n　$PAN$이에요（예요）　보시는@n\n　그대로의 남자아이」@n", "state": "needs_review"}
+{"id": "EVENT/t03a0g.mes/t03a0g_02", "sha1": "339240d7133d283ddc9c0e404f12a0e0ff7c196a", "ko": "$OKA$「너는 정말이지 엉망진창@n\n　이라니까～　」@n", "state": "needs_review"}
+{"id": "EVENT/t03a0h.mes/t03a0h_01", "sha1": "09290cec122203cfd9094bee37967d9e08d3f6d3", "ko": "$OKA$「$PAN$은（는） 역시 알아주는@n\n　응석꾸러기」@n", "state": "needs_review"}
+{"id": "EVENT/t03a0h.mes/t03a0h_02", "sha1": "0917ae979cd23b8bbb4e343f23e7701537e7b495", "ko": "$OKA$「막내라서 이런 걸까？」@n", "state": "needs_review"}
 {"id": "EVENT/t03a0i.mes/t03a0i_01", "sha1": "8115edc6c51a26baceb15f85fa02f36dcb25d3c5", "ko": "『애늙은이는@n\n　결번입니다』@n", "state": "needs_review"}
+{"id": "EVENT/t03a0j.mes/t03a0j_01", "sha1": "9c22f012da24f2115536f7c49571a603b28c4dfe", "ko": "$OKA$「요즘 $PAN$은（는） 난폭해요@n\n　판츠 주제에 난폭해요」@n", "state": "needs_review"}
+{"id": "EVENT/t03a0j.mes/t03a0j_02", "sha1": "3001219802a3d0ed370a7640a9e0ce966908823f", "ko": "$OKA$「어떻게 해야 좀 더@n\n　다정한 아이가 되어 줄까」@n", "state": "needs_review"}
+{"id": "EVENT/t03a0k.mes/t03a0k_01", "sha1": "c57cc8c1fa22daf106305b9063a1443dffe6aa7a", "ko": "$OKA$「$PAN$은（는） 요즘 러블리해요@n\n　판츠 주제에 러블리해요@n\n　대체 무슨 일이 있었을까」@n", "state": "needs_review"}
+{"id": "EVENT/t04h0a.mes/t04h0a_01", "sha1": "bfc8430a5d7bd136712214894cc11fef7a321414", "ko": "$OTO$「$PAN$이（가） 사쿠라 유치원에@n\n　들어갔다」@n", "state": "needs_review"}
+{"id": "EVENT/t04h0a.mes/t04h0a_02", "sha1": "384d22d916d3e581a937fc726d059b797dff7596", "ko": "$OTO$「자～，소감 한마디」@n", "state": "needs_review"}
+{"id": "EVENT/t04h0a.mes/t04h0a_03", "sha1": "0ee1c5f07d6194eb089479009d77932068499313", "ko": "$PAN$「끝내줘！」@n", "state": "needs_review"}
+{"id": "EVENT/t04h0a.mes/t04h0a_04", "sha1": "11c05da6c4df2da6af980b5275b2a1ff7005f3c8", "ko": "$PAN$「오늘…　몸이 안 좋아」@n", "state": "needs_review"}
+{"id": "EVENT/t04h0a.mes/t04h0a_05", "sha1": "2a26978ee17bbb5109722ac9fed33c9c41f6f64a", "ko": "$PAN$「기운이 펄펄 나！」@n", "state": "needs_review"}
+{"id": "EVENT/t04h0a.mes/t04h0a_06", "sha1": "07426da77fb620601fa71b0760cf208d6d31437c", "ko": "$PAN$「의욕이 안 나」@n", "state": "needs_review"}
+{"id": "EVENT/t04h0a.mes/t04h0a_07", "sha1": "164910301950e60b8b973484ff23a727eafcae33", "ko": "$PAN$「음～，글쎄…　」@n", "state": "needs_review"}
+{"id": "EVENT/t04h0a.mes/t04h0a_08", "sha1": "8a29487799983de1dc103597a3aded9a9dc36679", "ko": "$PAN$「좀 너무 튀나」@n", "state": "needs_review"}
+{"id": "EVENT/t04h0a.mes/t04h0a_09", "sha1": "1f359283429324f3e2350f1d862daacee4f5aad6", "ko": "$PAN$「매일 잘 다닐 수@n\n　있을까？」@n", "state": "needs_review"}
+{"id": "EVENT/t04h0a.mes/t04h0a_10", "sha1": "5eb1ecdd0a663e1ce919821e13bd96b7d6ee8428", "ko": "$PAN$「몰라～」@n", "state": "needs_review"}
+{"id": "EVENT/t04h0a.mes/t04h0a_11", "sha1": "d763ccc7a1aaac41e9280da0c3d3a89d549d61c8", "ko": "$PAN$「러브러브래！」@n", "state": "needs_review"}
+{"id": "EVENT/t05f0a.mes/t05f0a_01", "sha1": "3a43dc2990e37e2d3441cbc420ae1e6c3fa64451", "ko": "『일 년 뒤면 $PAN$은（는）@n\n　초등학생이 됩니다』@n", "state": "needs_review"}
+{"id": "EVENT/t05f0a.mes/t05f0a_02", "sha1": "31fb9a586b26b561df1a90ac31e5cb78824d0d6b", "ko": "$OKA$「$PAN$의 초등학교는@n\n　어떻게 할까？」@n", "state": "needs_review"}
+{"id": "EVENT/t05f0a.mes/t05f0a_03", "sha1": "fec7f60feb290a156ced6e71922c6e9cec34657b", "ko": "$PAN$「그럼 나 열심히 할게」@n", "state": "needs_review"}
+{"id": "EVENT/t05f0a.mes/t05f0a_04", "sha1": "6d58606db72faddbf8e3707dd73606c8f24ff5e9", "ko": "$PAN$「나，괜찮을까…　」@n", "state": "needs_review"}
+{"id": "EVENT/t05n0a.mes/t05n0a_01", "sha1": "d8218d6a9ed5ebe3bd5beac2653f94fc17b7e81c", "ko": "$PAN$「엄마 휴대폰@n\n　줘」@n", "state": "needs_review"}
+{"id": "EVENT/t05n0a.mes/t05n0a_02", "sha1": "3579a783f6f94cb05af0d8f5a90c2d33f8d02f92", "ko": "$OKA$「무슨 소리야，어른들이@n\n　쓰는 거잖아」@n", "state": "needs_review"}
+{"id": "EVENT/t05n0a.mes/t05n0a_03", "sha1": "09c91618f0dc49930d95b706c340eca2ae50c281", "ko": "$GEN$「그러고 보니 나，애들은@n\n　술 마시지 말라고 들었어」@n", "state": "needs_review"}
+{"id": "EVENT/t05n0a.mes/t05n0a_04", "sha1": "d3001b4e8c10a391e8cb5179ecaa2d77939b0c47", "ko": "$JIJ$「담배도 피우면@n\n　안 된대」@n", "state": "needs_review"}
+{"id": "EVENT/t05n0a.mes/t05n0a_05", "sha1": "45291a52c9b76c6f87964d15d208ce22600ad271", "ko": "$MOK$「요 녀석！　밤늦게 안 자도@n\n　혼난다」@n", "state": "needs_review"}
+{"id": "EVENT/t05n0a.mes/t05n0a_06", "sha1": "9ab5bc0e8193a5e8c0cff9903337cfd4ed24db2e", "ko": "$PAN$「엄마，나@n\n　빨리 어른이 되고 싶어…　」@n", "state": "needs_review"}
+{"id": "EVENT/t05n0b.mes/t05n0b_01", "sha1": "f6e02b4798b328927af0e00dc238ef148dd41e8b", "ko": "$PAN$「있잖아，형한테@n\n　들었는데@n\n,\n　팬티로 얼굴 닦아서 판츠@n\n　야？」@n", "state": "needs_review"}
+{"id": "EVENT/t05n0b.mes/t05n0b_02", "sha1": "d549e639cbc0cd7dc5e1d5577d4f1ada32ea689d", "ko": "$PAN$「있잖아！　형한테@n\n　들었는데…@n\n,\n　팬티로 얼굴 닦아서 판츠야？」@n", "state": "needs_review"}
+{"id": "EVENT/t05n0c.mes/t05n0c_01", "sha1": "052ea050e933dde247c7e3c3e8c02e439ef96b94", "ko": "$OKA$「요 녀석 $PAN$！　밥을@n\n　꼬～박꼬박 먹어야지」@n", "state": "needs_review"}
+{"id": "EVENT/t05n0c.mes/t05n0c_02", "sha1": "9fd28b35a9a59e713d30c351047322c8310ec49f", "ko": "$PAN$「이건 밥이 아니라@n\n　후루룩이잖아」@n", "state": "needs_review"}
+{"id": "EVENT/t06a0a.mes/t03a0a_01", "sha1": "c9311662bdfe2bca4492a80ba3b75605933127ab", "ko": "$OKA$「$PAN$은（는） 정말 착한@n\n　아이예요　쑥쑥 곧게@n\n　자라고 있어요」@n", "state": "needs_review"}
+{"id": "EVENT/t06a0a.mes/t03a0a_02", "sha1": "c52b0cba30fdabc6781a5d27887224845d6cd7a2", "ko": "$OKA$「너무 곧아서 어디에@n\n　쿵 부딪치지 마」@n", "state": "needs_review"}
+{"id": "EVENT/t06a0b.mes/t03a0b_01", "sha1": "7b4d3b32cd9fad5e30a41251580af1c7cdbdb1fd", "ko": "$OKA$「$PAN$은（는） 요즘 감기에@n\n　걸렸어요」@n", "state": "needs_review"}
+{"id": "EVENT/t06a0b.mes/t03a0b_02", "sha1": "1b82fe88ba76bf61bd771e844b69c23743d953a3", "ko": "$OKA$「벗고 자기라도 한 걸까？」@n", "state": "needs_review"}
+{"id": "EVENT/t06a0c.mes/t03a0c_01", "sha1": "cff905e5b82e22c75e05dd144c257f2f839cec67", "ko": "$OKA$「개구쟁이 $PAN$이에요（예요）@n\n　기운이 펄펄 넘쳐요」@n", "state": "needs_review"}
+{"id": "EVENT/t06a0c.mes/t03a0c_02", "sha1": "e41ee7e64a3f60289e35187111e33f11a49ae590", "ko": "$OKA$「넌 막내라서@n\n　천방지축인 것도 어쩔 수 없나」@n", "state": "needs_review"}
+{"id": "EVENT/t06a0d.mes/t03a0d_01", "sha1": "d98f865a4b11c24ee3f6ff9812cf43beafbed95b", "ko": "$OKA$「$PAN$은（는） 요즘 무기력해요@n\n　판츠 주제에 무기력해요@n\n,\n　계단 중간에서 멍～하니@n\n　있을 때가 많은데@n\n,\n　대체 무슨 생각 하는 거니？@n\n　꼬맹아」@n", "state": "needs_review"}
+{"id": "EVENT/t06a0d.mes/t03a0d_02", "sha1": "6ab73a68ee2872674cb3cee27b5cc90112a19fa2", "ko": "$OKA$「거기서 너무 멍하니@n\n　있으면 저녁밥 먼저@n\n　먹어 버린다」@n", "state": "needs_review"}
 {"id": "EVENT/t06a0e.mes/t03a0e_01", "sha1": "c53ec77a3e00dd5203a6587aea7a4244e7d48e47", "ko": "『노력파는@n\n　결번입니다』@n", "state": "needs_review"}
+{"id": "EVENT/t06a0f.mes/t03a0f_01", "sha1": "6e81841fe36d930b0b261e2424d5f4f7b92abcd1", "ko": "$OKA$「$PAN$은（는） 역시@n\n　몽상가예요@n\n,\n　이 아이는 분명 엄청난 생각을@n\n　하고 있을 거야」@n", "state": "needs_review"}
+{"id": "EVENT/t06a0f.mes/t03a0f_02", "sha1": "3b5e0dcf4acdd6ad26ead1174a2a794e93b96f6e", "ko": "$OKA$「어？　무슨 생각 하는지@n\n　엄마한테 알려 준다고？@n\n,\n　아냐아냐 됐어，사양할게요～」@n", "state": "needs_review"}
+{"id": "EVENT/t06a0g.mes/t03a0g_01", "sha1": "beb7a27abf959fc5d748ec41da4489b2dad68893", "ko": "$OKA$「역시 튀고 싶어 하는@n\n　$PAN$이에요（예요）　보시는@n\n　그대로의 남자아이」@n", "state": "needs_review"}
+{"id": "EVENT/t06a0g.mes/t03a0g_02", "sha1": "339240d7133d283ddc9c0e404f12a0e0ff7c196a", "ko": "$OKA$「너는 정말이지 엉망진창@n\n　이라니까～　」@n", "state": "needs_review"}
+{"id": "EVENT/t06a0h.mes/t03a0h_01", "sha1": "09290cec122203cfd9094bee37967d9e08d3f6d3", "ko": "$OKA$「$PAN$은（는） 역시 알아주는@n\n　응석꾸러기」@n", "state": "needs_review"}
+{"id": "EVENT/t06a0h.mes/t03a0h_02", "sha1": "0917ae979cd23b8bbb4e343f23e7701537e7b495", "ko": "$OKA$「막내라서 이런 걸까？」@n", "state": "needs_review"}
 {"id": "EVENT/t06a0i.mes/t03a0i_01", "sha1": "8115edc6c51a26baceb15f85fa02f36dcb25d3c5", "ko": "『애늙은이는@n\n　결번입니다』@n", "state": "needs_review"}
+{"id": "EVENT/t06a0j.mes/t03a0j_01", "sha1": "9c22f012da24f2115536f7c49571a603b28c4dfe", "ko": "$OKA$「요즘 $PAN$은（는） 난폭해요@n\n　판츠 주제에 난폭해요」@n", "state": "needs_review"}
+{"id": "EVENT/t06a0j.mes/t03a0j_02", "sha1": "3001219802a3d0ed370a7640a9e0ce966908823f", "ko": "$OKA$「어떻게 해야 좀 더@n\n　다정한 아이가 되어 줄까」@n", "state": "needs_review"}
+{"id": "EVENT/t06a0k.mes/t03a0k_01", "sha1": "c57cc8c1fa22daf106305b9063a1443dffe6aa7a", "ko": "$OKA$「$PAN$은（는） 요즘 러블리해요@n\n　판츠 주제에 러블리해요@n\n　대체 무슨 일이 있었을까」@n", "state": "needs_review"}
+{"id": "EVENT/t06f0a.mes/t06f0a_01", "sha1": "e792fc681d8a8902aa894c17340842abbcad62a6", "ko": "『$PAN$의 유치원 졸업 시즌이@n\n　다가왔습니다』@n", "state": "needs_review"}
+{"id": "EVENT/t06f0a.mes/t06f0a_02", "sha1": "1492019f086e896e2e7981fe1b44045e5e886c10", "ko": "$OTO$「자，$PAN$의 진로는」@n", "state": "needs_review"}
 {"id": "EVENT/t06f0a.mes/t06f0a_03", "sha1": "e461a16bedd6cad16c616c77adeea08c97fe4312", "ko": "$OKA$「어떻게 할래？」@n", "state": "needs_review"}
+{"id": "EVENT/t07h0a.mes/t07h0a_01", "sha1": "e9b4bc2201e34ee8f9ed91b595209ab449a001c3", "ko": "$OTO$「벚꽃 만발한 날@n\n　$PAN$이（가） 초등학생이 되었다」@n", "state": "needs_review"}
+{"id": "EVENT/t07h0a.mes/t07h0a_02", "sha1": "47833320a7e5a8e83846500331ab5332c810b377", "ko": "$PAN$「됐어」@n", "state": "needs_review"}
+{"id": "EVENT/t07h0b.mes/t07h0b_01", "sha1": "59cd3f48d2fb207895788157b1d32e4d56127185", "ko": "$OTO$「$PAN$이（가） 노비노비 학원@n\n　초등부에 합격했다」@n", "state": "needs_review"}
+{"id": "EVENT/t07h0b.mes/t07h0b_02", "sha1": "254c1a27730675768e0c608a06b7cf068905c69d", "ko": "$PAN$「합격했어」@n", "state": "needs_review"}
+{"id": "EVENT/t07h1a.mes/t07h1a_01", "sha1": "a424289c60c22e29110f8c48cdf2b0231ac08293", "ko": "『초등학생이 된 $PAN$에게@n\n　읽히고 싶은 책을 골라 주세요』@n", "state": "needs_review"}
+{"id": "EVENT/t07h1a.mes/t07h1a_02", "sha1": "0ee1c5f07d6194eb089479009d77932068499313", "ko": "$PAN$「끝내줘！」@n", "state": "needs_review"}
+{"id": "EVENT/t07h1a.mes/t07h1a_03", "sha1": "11c05da6c4df2da6af980b5275b2a1ff7005f3c8", "ko": "$PAN$「오늘…　몸이 안 좋아」@n", "state": "needs_review"}
+{"id": "EVENT/t07h1a.mes/t07h1a_04", "sha1": "2a26978ee17bbb5109722ac9fed33c9c41f6f64a", "ko": "$PAN$「기운이 펄펄 나！」@n", "state": "needs_review"}
+{"id": "EVENT/t07h1a.mes/t07h1a_05", "sha1": "bfece9c6cd7222de0da502bbd3fe67ee05fb2d1d", "ko": "$PAN$「의욕이 안 나…　」@n", "state": "needs_review"}
+{"id": "EVENT/t07h1a.mes/t07h1a_06", "sha1": "164910301950e60b8b973484ff23a727eafcae33", "ko": "$PAN$「음～，글쎄…　」@n", "state": "needs_review"}
+{"id": "EVENT/t07h1a.mes/t07h1a_07", "sha1": "a1e812a0697ac938c878b1d8aac2a2d7d9602cf4", "ko": "$PAN$「음～，나 좀@n\n　너무 튀나」@n", "state": "needs_review"}
+{"id": "EVENT/t07h1a.mes/t07h1a_08", "sha1": "04f3ff9e338db1d0abcc5beeec1688fc2bbf25a7", "ko": "$PAN$「나，매일 잘@n\n　다닐 수 있을까…　」@n", "state": "needs_review"}
+{"id": "EVENT/t07h1a.mes/t07h1a_09", "sha1": "1d86d5ee796e66215ed456f93d1a7d7723717e8d", "ko": "$PAN$「몰라！」@n", "state": "needs_review"}
+{"id": "EVENT/t07h1a.mes/t07h1a_10", "sha1": "5dda3418f77ed5aa0a074a258ed57df7576b1d01", "ko": "$PAN$「헤헤，러브러브한 느낌」@n", "state": "needs_review"}
+{"id": "EVENT/t07h1a.mes/t07h1a_11", "sha1": "754e18439d08ea6199792a97960042034d270f33", "ko": "$PAN$「어떨까요？」@n", "state": "needs_review"}
+{"id": "EVENT/t07h1a.mes/t07h1a_12", "sha1": "8ee30f82dfda26ec9b7be436fcc5da6ed5dcc65f", "ko": "$PAN$「빨리 공부하고 싶어～　」@n", "state": "needs_review"}
+{"id": "EVENT/t08n0a.mes/t08n0a_01", "sha1": "4a58e67ea99888e0b7c9800c738df2c10bc828ce", "ko": "$OKA$「어젯밤，애들이랑@n\n　용돈 액수로 대판 싸움！@n\n,\n　그 뒤 $MOK$한테서 문자가 왔어@n\n　뭐야，흠흠…@n\n,\n　미안，뒤에@n\n　하트가 붙어 있어도@n\n　엄마는 용서 안 해」@n", "state": "needs_review"}
+{"id": "EVENT/t08n0a.mes/t08n0a_02", "sha1": "c3780a907086e2cfcda9481464fed2fadb2dec23", "ko": "$OKA$「봐，이게 하트@n\n　마크야！」@n", "state": "needs_review"}
+{"id": "EVENT/t08n0b.mes/t08n0b_01", "sha1": "a5d53fe8d2ee09494e33c0f2049adbe7f8fce10a", "ko": "$PAN$「있잖아，할머니@n\n　뭐 봐？」@n", "state": "needs_review"}
+{"id": "EVENT/t08n0b.mes/t08n0b_02", "sha1": "5f1b79e070b0398927e27cbee2534976f2912c6c", "ko": "할머니「영화란다」@n", "state": "needs_review"}
+{"id": "EVENT/t08n0c.mes/t08n0c_01", "sha1": "316539467640c2465b0dea16bceb3a58c8183e8a", "ko": "$PAN$「있잖아，왜 $MOK$@n\n　형은 맨날 여기에@n\n　없어？」@n", "state": "needs_review"}
+{"id": "EVENT/t08n0c.mes/t08n0c_02", "sha1": "32aff9c61909e1debd070db909f1ba4ab1a0437f", "ko": "$GEN$「형은 일찍 자잖아」@n", "state": "needs_review"}
+{"id": "EVENT/t08n0c.mes/t08n0c_03", "sha1": "42d2701386ec037009a34d6a366fe909a67898df", "ko": "$JIJ$「왜일까～」@n", "state": "needs_review"}
+{"id": "EVENT/t08n0c.mes/t08n0c_04", "sha1": "482eb7020bb227e42ed3f1e8fe0767f05857cab4", "ko": "$GEN$「장남은 어른이잖아」@n", "state": "needs_review"}
+{"id": "EVENT/t08n0c.mes/t08n0c_05", "sha1": "c5cb2d8838fd07d09ec68ea4754f7b64d120fce1", "ko": "$JIJ$「성실하잖아」@n", "state": "needs_review"}
+{"id": "EVENT/t08n0d.mes/t08n0d_01", "sha1": "720a83a3e408712c6c812a6fae507f7a39c2f3da", "ko": "$OKA$「노비노비 학원은 아이의@n\n　개성을 키우는 교육이 모토래요@n\n,\n　개성 있는 $PAN$ 군에게는@n\n　맞을지도 모르겠네요」@n", "state": "needs_review"}
+{"id": "EVENT/t09a0a.mes/t09a0a_01", "sha1": "1abc5c1b2ece032b44da207a11380e2bd8fbe568", "ko": "$OTO$「아，왔다 왔다」@n", "state": "needs_review"}
+{"id": "EVENT/t09a0a.mes/t09a0a_02", "sha1": "9616e90a64284fffc4d9fdf14f9e62e7c479ee0f", "ko": "이사하야 유리코「이 서류면 돼요？」@n", "state": "needs_review"}
+{"id": "EVENT/t09a0a.mes/t09a0a_03", "sha1": "28aff0ccaa85a95035c4b758f323d681714f806e", "ko": "$OTO$「응，이거야，미안해@n\n　일부러 가져오게 해서@n\n,\n　이쪽은 회사 부하인@n\n　이사하야 유리코 씨@n\n　통칭 릴리　」@n", "state": "needs_review"}
+{"id": "EVENT/t09a0a.mes/t09a0a_04", "sha1": "4f0e671ef7340848a770bad706f80272e2f3aa51", "ko": "$OKA$「좋은 이름이네요@n\n　안녕하세요！」@n", "state": "needs_review"}
+{"id": "EVENT/t09a0a.mes/t09a0a_05", "sha1": "0e0260563548b51a2bd5fd95d8533a26046701f8", "ko": "릴리「입사 반년 된 신참이에요！@n\n　안녕하세요！@n\n,\n　…뭐든 시켜 주세요@n\n　아직 아무것도 못 하거든요@n\n,\n　어머 아드님 귀여워라～！@n\n　얘，너 몇 살이야？」@n", "state": "needs_review"}
+{"id": "EVENT/t09a0a.mes/t09a0a_06", "sha1": "6364bfe6de7f70935bf897c62feb11ee0b217751", "ko": "$PAN$「아홉 살@n\n,\n　누나는？」@n", "state": "needs_review"}
+{"id": "EVENT/t09a0a.mes/t09a0a_07", "sha1": "763053c86d0a9b395a07227ebf51001a5d36710b", "ko": "릴리「그럼 나도 아홉 살！@n\n,\n　…열 살 더해서 열아홉　우와～@n\n　진짜 귀여워～！@n\n,\n　데려가도 돼요？」@n", "state": "needs_review"}
+{"id": "EVENT/t11a0a.mes/t03a0a_01", "sha1": "c9311662bdfe2bca4492a80ba3b75605933127ab", "ko": "$OKA$「$PAN$은（는） 정말 착한@n\n　아이예요　쑥쑥 곧게@n\n　자라고 있어요」@n", "state": "needs_review"}
+{"id": "EVENT/t11a0a.mes/t03a0a_02", "sha1": "c52b0cba30fdabc6781a5d27887224845d6cd7a2", "ko": "$OKA$「너무 곧아서 어디에@n\n　쿵 부딪치지 마」@n", "state": "needs_review"}
+{"id": "EVENT/t11a0b.mes/t03a0b_01", "sha1": "7b4d3b32cd9fad5e30a41251580af1c7cdbdb1fd", "ko": "$OKA$「$PAN$은（는） 요즘 감기에@n\n　걸렸어요」@n", "state": "needs_review"}
+{"id": "EVENT/t11a0b.mes/t03a0b_02", "sha1": "1b82fe88ba76bf61bd771e844b69c23743d953a3", "ko": "$OKA$「벗고 자기라도 한 걸까？」@n", "state": "needs_review"}
+{"id": "EVENT/t11a0c.mes/t03a0c_01", "sha1": "cff905e5b82e22c75e05dd144c257f2f839cec67", "ko": "$OKA$「개구쟁이 $PAN$이에요（예요）@n\n　기운이 펄펄 넘쳐요」@n", "state": "needs_review"}
+{"id": "EVENT/t11a0c.mes/t03a0c_02", "sha1": "e41ee7e64a3f60289e35187111e33f11a49ae590", "ko": "$OKA$「넌 막내라서@n\n　천방지축인 것도 어쩔 수 없나」@n", "state": "needs_review"}
+{"id": "EVENT/t11a0d.mes/t03a0d_01", "sha1": "d98f865a4b11c24ee3f6ff9812cf43beafbed95b", "ko": "$OKA$「$PAN$은（는） 요즘 무기력해요@n\n　판츠 주제에 무기력해요@n\n,\n　계단 중간에서 멍～하니@n\n　있을 때가 많은데@n\n,\n　대체 무슨 생각 하는 거니？@n\n　꼬맹아」@n", "state": "needs_review"}
+{"id": "EVENT/t11a0d.mes/t03a0d_02", "sha1": "6ab73a68ee2872674cb3cee27b5cc90112a19fa2", "ko": "$OKA$「거기서 너무 멍하니@n\n　있으면 저녁밥 먼저@n\n　먹어 버린다」@n", "state": "needs_review"}
 {"id": "EVENT/t11a0e.mes/t03a0e_01", "sha1": "c53ec77a3e00dd5203a6587aea7a4244e7d48e47", "ko": "『노력파는@n\n　결번입니다』@n", "state": "needs_review"}
+{"id": "EVENT/t11a0f.mes/t03a0f_01", "sha1": "6e81841fe36d930b0b261e2424d5f4f7b92abcd1", "ko": "$OKA$「$PAN$은（는） 역시@n\n　몽상가예요@n\n,\n　이 아이는 분명 엄청난 생각을@n\n　하고 있을 거야」@n", "state": "needs_review"}
+{"id": "EVENT/t11a0f.mes/t03a0f_02", "sha1": "3b5e0dcf4acdd6ad26ead1174a2a794e93b96f6e", "ko": "$OKA$「어？　무슨 생각 하는지@n\n　엄마한테 알려 준다고？@n\n,\n　아냐아냐 됐어，사양할게요～」@n", "state": "needs_review"}
+{"id": "EVENT/t11a0g.mes/t03a0g_01", "sha1": "beb7a27abf959fc5d748ec41da4489b2dad68893", "ko": "$OKA$「역시 튀고 싶어 하는@n\n　$PAN$이에요（예요）　보시는@n\n　그대로의 남자아이」@n", "state": "needs_review"}
+{"id": "EVENT/t11a0g.mes/t03a0g_02", "sha1": "339240d7133d283ddc9c0e404f12a0e0ff7c196a", "ko": "$OKA$「너는 정말이지 엉망진창@n\n　이라니까～　」@n", "state": "needs_review"}
+{"id": "EVENT/t11a0h.mes/t03a0h_01", "sha1": "09290cec122203cfd9094bee37967d9e08d3f6d3", "ko": "$OKA$「$PAN$은（는） 역시 알아주는@n\n　응석꾸러기」@n", "state": "needs_review"}
+{"id": "EVENT/t11a0h.mes/t03a0h_02", "sha1": "0917ae979cd23b8bbb4e343f23e7701537e7b495", "ko": "$OKA$「막내라서 이런 걸까？」@n", "state": "needs_review"}
 {"id": "EVENT/t11a0i.mes/t03a0i_01", "sha1": "8115edc6c51a26baceb15f85fa02f36dcb25d3c5", "ko": "『애늙은이는@n\n　결번입니다』@n", "state": "needs_review"}
+{"id": "EVENT/t11a0j.mes/t03a0j_01", "sha1": "9c22f012da24f2115536f7c49571a603b28c4dfe", "ko": "$OKA$「요즘 $PAN$은（는） 난폭해요@n\n　판츠 주제에 난폭해요」@n", "state": "needs_review"}
+{"id": "EVENT/t11a0j.mes/t03a0j_02", "sha1": "3001219802a3d0ed370a7640a9e0ce966908823f", "ko": "$OKA$「어떻게 해야 좀 더@n\n　다정한 아이가 되어 줄까」@n", "state": "needs_review"}
+{"id": "EVENT/t11a0k.mes/t03a0k_01", "sha1": "c57cc8c1fa22daf106305b9063a1443dffe6aa7a", "ko": "$OKA$「$PAN$은（는） 요즘 러블리해요@n\n　판츠 주제에 러블리해요@n\n　대체 무슨 일이 있었을까」@n", "state": "needs_review"}
 {"id": "EVENT/t11a0l.mes/t11n0l_01", "sha1": "68b746ffb3729ec06b8eeaf738aa6ad5b51ac2fd", "ko": "『오타쿠는@n\n　결번입니다』@n", "state": "needs_review"}
 {"id": "EVENT/t11a0m.mes/t11n0m_01", "sha1": "e742a8dd39af65c092b94ca23e508ebf41b0eca0", "ko": "『공부벌레는@n\n　결번입니다』@n", "state": "needs_review"}
+{"id": "EVENT/t11f0a.mes/t11f0a_01", "sha1": "f0de144de51e022b95cd2c1f25519a04d660f144", "ko": "『일 년 뒤면 $PAN$은（는）@n\n　초등학교를 졸업합니다』@n", "state": "needs_review"}
+{"id": "EVENT/t11f0a.mes/t11f0a_02", "sha1": "c2243b2e122711a4f079f33520549a96d2bc6ad4", "ko": "$OKA$「$PAN$의 중학교는@n\n　어떻게 할까？」@n", "state": "needs_review"}
+{"id": "EVENT/t11f0a.mes/t11f0a_03", "sha1": "fec7f60feb290a156ced6e71922c6e9cec34657b", "ko": "$PAN$「그럼 나 열심히 할게」@n", "state": "needs_review"}
+{"id": "EVENT/t11f0a.mes/t11f0a_04", "sha1": "6d58606db72faddbf8e3707dd73606c8f24ff5e9", "ko": "$PAN$「나，괜찮을까…　」@n", "state": "needs_review"}
+{"id": "EVENT/t12f0a.mes/t12f0a_01", "sha1": "25d775b669dce89a54f12e5499c5aac2f8c76571", "ko": "『$PAN$의 졸업 시즌이@n\n　다가왔습니다』@n", "state": "needs_review"}
+{"id": "EVENT/t12f0a.mes/t12f0a_02", "sha1": "1492019f086e896e2e7981fe1b44045e5e886c10", "ko": "$OTO$「자，$PAN$의 진로는」@n", "state": "needs_review"}
 {"id": "EVENT/t12f0a.mes/t12f0a_03", "sha1": "e461a16bedd6cad16c616c77adeea08c97fe4312", "ko": "$OKA$「어떻게 할래？」@n", "state": "needs_review"}
+{"id": "EVENT/t13f0a.mes/t13f0a_01", "sha1": "3f9f6068cf504f043255b406afd7779bfff91fbe", "ko": "『$PAN$이（가） 아르바이트를@n\n　하고 싶어 하는 것 같습니다』@n", "state": "needs_review"}
+{"id": "EVENT/t13f0a.mes/t13f0a_02", "sha1": "8320c4b76434e52696aaf667109846b477a15e12", "ko": "$OTO$「$PAN$은（는） 신문 배달을@n\n　시작하기로 했다」@n", "state": "needs_review"}
+{"id": "EVENT/t13f0a.mes/t13f0a_03", "sha1": "c8aed295f28fdfcd2e9892dd3c14d978e261fe14", "ko": "$OTO$「$PAN$은（는） 라멘집@n\n　설거지를 시작하기로 했다」@n", "state": "needs_review"}
+{"id": "EVENT/t13f0a.mes/t13f0a_04", "sha1": "23c730447ea4bb7336e190b7d116204e723137e0", "ko": "『$PAN$은（는） 아르바이트를@n\n　하지 않기로 했다』@n", "state": "needs_review"}
+{"id": "EVENT/t13h0a.mes/t13h0a_01", "sha1": "bc39483c3b43d33ace77311d4a0a26d075090362", "ko": "$OKA$「오늘부터 $PAN$은（는）@n\n　스기나미 중학교 일 학년」@n", "state": "needs_review"}
+{"id": "EVENT/t13h0b.mes/t13h0b_01", "sha1": "80f4f0a5a968d629df2f0d26c131f1b77b705bb1", "ko": "$OKA$「오늘부터 $PAN$은（는）@n\n　클레버 학원 중학교 일 학년」@n", "state": "needs_review"}
+{"id": "EVENT/t13h1a.mes/t13h1a_01", "sha1": "5414379bac60910973aabbff4bd4d54bb3c8ec6a", "ko": "『중학생이 된 $PAN$에게@n\n　읽히고 싶은 책을 골라 주세요』@n", "state": "needs_review"}
+{"id": "EVENT/t13h1a.mes/t13h1a_02", "sha1": "0ee1c5f07d6194eb089479009d77932068499313", "ko": "$PAN$「끝내줘！」@n", "state": "needs_review"}
+{"id": "EVENT/t13h1a.mes/t13h1a_03", "sha1": "6712a75ffef0824519e79b0ab09efe350b144843", "ko": "$PAN$「오늘…　몸이 안 좋아」@n", "state": "needs_review"}
+{"id": "EVENT/t13h1a.mes/t13h1a_04", "sha1": "2a26978ee17bbb5109722ac9fed33c9c41f6f64a", "ko": "$PAN$「기운이 펄펄 나！」@n", "state": "needs_review"}
+{"id": "EVENT/t13h1a.mes/t13h1a_05", "sha1": "bfece9c6cd7222de0da502bbd3fe67ee05fb2d1d", "ko": "$PAN$「의욕이 안 나…　」@n", "state": "needs_review"}
+{"id": "EVENT/t13h1a.mes/t13h1a_06", "sha1": "164910301950e60b8b973484ff23a727eafcae33", "ko": "$PAN$「음～，글쎄…　」@n", "state": "needs_review"}
+{"id": "EVENT/t13h1a.mes/t13h1a_07", "sha1": "a1e812a0697ac938c878b1d8aac2a2d7d9602cf4", "ko": "$PAN$「음～，나 좀@n\n　너무 튀나」@n", "state": "needs_review"}
+{"id": "EVENT/t13h1a.mes/t13h1a_08", "sha1": "04f3ff9e338db1d0abcc5beeec1688fc2bbf25a7", "ko": "$PAN$「나，매일 잘@n\n　다닐 수 있을까…　」@n", "state": "needs_review"}
+{"id": "EVENT/t13h1a.mes/t13h1a_09", "sha1": "5d42164fdb480e48fbc9c60280f02ea4014bdc81", "ko": "$PAN$「알 게 뭐야！」@n", "state": "needs_review"}
+{"id": "EVENT/t13h1a.mes/t13h1a_10", "sha1": "5dda3418f77ed5aa0a074a258ed57df7576b1d01", "ko": "$PAN$「헤헤，러브러브한 느낌」@n", "state": "needs_review"}
+{"id": "EVENT/t13h1a.mes/t13h1a_11", "sha1": "754e18439d08ea6199792a97960042034d270f33", "ko": "$PAN$「어떨까요？」@n", "state": "needs_review"}
+{"id": "EVENT/t13h1a.mes/t13h1a_12", "sha1": "324128050ee6cf77da50bdd14ce50fd1d614aba5", "ko": "$PAN$「빨리 공부하고 싶어」@n", "state": "needs_review"}
+{"id": "EVENT/t13n0a.mes/t13n0a_01", "sha1": "fdbba73549514729d3c6ee56436cb8d3ef434857", "ko": "『$PAN$이（가） 동아리 활동을@n\n　하고 싶어 하는 것 같습니다』@n", "state": "needs_review"}
+{"id": "EVENT/t13n0a.mes/t13n0a_02", "sha1": "43a3499e4f5fbfbfeaa38488a861c4b1f9cde3f9", "ko": "$OTO$「$PAN$이（가） 배구부에@n\n　들어갔다」@n", "state": "needs_review"}
+{"id": "EVENT/t13n0a.mes/t13n0a_03", "sha1": "2ff2a0fee7b0b43aa63387eb50ec517d43822ea3", "ko": "$OTO$「$PAN$이（가） 문예부에@n\n　들어갔다」@n", "state": "needs_review"}
+{"id": "EVENT/t13n0a.mes/t13n0a_04", "sha1": "4c476a7b7e0db55dbe01255fb64b67863a9d22ae", "ko": "『$PAN$은（는） 동아리 활동을@n\n　하지 않기로 했다』@n", "state": "needs_review"}
+{"id": "EVENT/t13n0b.mes/t13n0b_01", "sha1": "fdbba73549514729d3c6ee56436cb8d3ef434857", "ko": "『$PAN$이（가） 동아리 활동을@n\n　하고 싶어 하는 것 같습니다』@n", "state": "needs_review"}
+{"id": "EVENT/t13n0b.mes/t13n0b_02", "sha1": "aebaae4d9c3cb28be396876064049cebab290eac", "ko": "$OTO$「$PAN$이（가） 농구부에@n\n　들어갔다」@n", "state": "needs_review"}
+{"id": "EVENT/t13n0b.mes/t13n0b_03", "sha1": "411ff86964b466528a06dfeee208f7132dd6356f", "ko": "$OTO$「$PAN$이（가） 공예부에@n\n　들어갔다」@n", "state": "needs_review"}
+{"id": "EVENT/t13n0b.mes/t13n0b_04", "sha1": "4c476a7b7e0db55dbe01255fb64b67863a9d22ae", "ko": "『$PAN$은（는） 동아리 활동을@n\n　하지 않기로 했다』@n", "state": "needs_review"}
+{"id": "EVENT/t14a0a.mes/t14a0a_01", "sha1": "f096b1d2eec86658c8d552c5687187c95cda0663", "ko": "$OTO$「신문 배달 알바를 시작한@n\n　$PAN$은（는） 어떻게 됐을까？」@n", "state": "needs_review"}
+{"id": "EVENT/t14a0a.mes/t14a0a_02", "sha1": "f8803be6f6ce733af2e5ed4b07614a59b00d6615", "ko": "$PAN$「일하는 거 재밌네！@n\n　완전 활약 중！」@n", "state": "needs_review"}
+{"id": "EVENT/t14a0a.mes/t14a0a_03", "sha1": "19cb724a4861da09d90583e1fc990f756ebb303b", "ko": "$PAN$「일하는 거 힘드네@n\n　뭐，열심히 하고 있어」@n", "state": "needs_review"}
+{"id": "EVENT/t14a0b.mes/t14a0b_01", "sha1": "e325682e86493402c83aff521ac22ebf718d2c2e", "ko": "$OTO$「라멘집에서 설거지@n\n　알바를 시작한 $PAN$은（는）@n\n　어떻게 됐을까？」@n", "state": "needs_review"}
+{"id": "EVENT/t14a0b.mes/t14a0a_02", "sha1": "f8803be6f6ce733af2e5ed4b07614a59b00d6615", "ko": "$PAN$「일하는 거 재밌네！@n\n　완전 활약 중！」@n", "state": "needs_review"}
+{"id": "EVENT/t14a0b.mes/t14a0a_03", "sha1": "19cb724a4861da09d90583e1fc990f756ebb303b", "ko": "$PAN$「일하는 거 힘드네@n\n　뭐，열심히 하고 있어」@n", "state": "needs_review"}
+{"id": "EVENT/t14f0a.mes/t14f0a_01", "sha1": "23eaca35deefc52e2b6ddb79105db9a1fe5d2f69", "ko": "『일 년 뒤면 $PAN$은（는）@n\n　중학교를 졸업합니다』@n", "state": "needs_review"}
+{"id": "EVENT/t14f0a.mes/t14f0a_02", "sha1": "0b095f05dbc73c300488df45d7aed4bdbc612144", "ko": "$OKA$「$PAN$의 고등학교는@n\n　어떻게 할까？」@n", "state": "needs_review"}
+{"id": "EVENT/t14f0a.mes/t14f0a_03", "sha1": "fec7f60feb290a156ced6e71922c6e9cec34657b", "ko": "$PAN$「그럼 나 열심히 할게」@n", "state": "needs_review"}
+{"id": "EVENT/t14f0a.mes/t14f0a_04", "sha1": "6d58606db72faddbf8e3707dd73606c8f24ff5e9", "ko": "$PAN$「나，괜찮을까…　」@n", "state": "needs_review"}
+{"id": "EVENT/t14h0a.mes/t14h0a_01", "sha1": "d768c1bd113776b639858cddab1d0a662cc9798d", "ko": "$OKA$「$PAN$이（가） 꼭@n\n　휴대폰을 갖고 싶다고 해서@n\n,\n　거의 안 쓰던 내 걸@n\n　한동안 빌려주기로@n\n　했어요」@n", "state": "needs_review"}
+{"id": "EVENT/t14h0a.mes/t14h0a_02", "sha1": "1df07d532ee03e115701c9ad907d146f80575904", "ko": "$OKA$「흠흠，이게 이 녀석의@n\n　교우 관계란 말이지…　」@n", "state": "needs_review"}
+{"id": "EVENT/t14n0a.mes/t14n0a_01", "sha1": "c3b8f423cdcc52c79032526ef1db23fa39ece542", "ko": "$OTO$「배구부에 들어간@n\n　$PAN$은（는） 어떻게 됐을까？」@n", "state": "needs_review"}
+{"id": "EVENT/t14n0a.mes/t14n0a_02", "sha1": "7f4a7736e08682ea8685298d077a1dfb2c9d7486", "ko": "$PAN$「응？　그보다 동양의@n\n　마녀가 뭐야？」@n", "state": "needs_review"}
+{"id": "EVENT/t14n0b.mes/t14n0b_01", "sha1": "2ebceff349384062605329c542dcd47ddf30571e", "ko": "$OTO$「문예부에 들어간 $PAN$은（는）@n\n　어떻게 됐을까？」@n", "state": "needs_review"}
+{"id": "EVENT/t14n0b.mes/t14n0b_02", "sha1": "29ac941fff282f64f0d117996ea7372ddab0d48e", "ko": "$PAN$「도쿄 여름의 계절어로@n\n　중화냉면은 어떨까？@n\n,\n　아，근데 난 일 년 내내 먹나@n\n,\n　참고로 구운 중화냉면도@n\n　맛있어」@n", "state": "needs_review"}
+{"id": "EVENT/t14n0c.mes/t14n0c_01", "sha1": "098c9bd50c84ab6b7e28180929c1c8bd8958b1ec", "ko": "$OTO$「농구부에 들어간@n\n　$PAN$은（는） 어떻게 됐을까？」@n", "state": "needs_review"}
+{"id": "EVENT/t14n0c.mes/t14n0c_02", "sha1": "b62587087542913d59769927f31f7cb4ee6bbb5f", "ko": "$PAN$「이 큰 키를 살린 덩크슛이@n\n　특기야@n\n,\n　장거리 슛도 조금은 자신@n\n　있어@n\n,\n　쓰레기 버릴 때도 일부러@n\n　멀리 떨어진 데서 던져 넣게@n\n　되더라고…　」@n", "state": "needs_review"}
+{"id": "EVENT/t14n0d.mes/t14n0d_01", "sha1": "44052b054f6d811113f6dcbabad7bce32be7a976", "ko": "$OTO$「공예부에 들어간 $PAN$은（는）@n\n　어떻게 됐을까？」@n", "state": "needs_review"}
+{"id": "EVENT/t14n0d.mes/t14n0d_02", "sha1": "25b2a8ace2e0b4b622eeb98e2cdd0c90478de653", "ko": "$PAN$「칠보 공예로 끝내주게@n\n　멋진 액세서리를 만들었는데…@n\n,\n　근데 선물할 상대가@n\n　없어」@n", "state": "needs_review"}
+{"id": "EVENT/t15f0a.mes/t15f0a_01", "sha1": "25d775b669dce89a54f12e5499c5aac2f8c76571", "ko": "『$PAN$의 졸업 시즌이@n\n　다가왔습니다』@n", "state": "needs_review"}
+{"id": "EVENT/t15f0a.mes/t15f0a_02", "sha1": "1492019f086e896e2e7981fe1b44045e5e886c10", "ko": "$OTO$「자，$PAN$의 진로는」@n", "state": "needs_review"}
 {"id": "EVENT/t15f0a.mes/t15f0a_03", "sha1": "e461a16bedd6cad16c616c77adeea08c97fe4312", "ko": "$OKA$「어떻게 할래？」@n", "state": "needs_review"}
+{"id": "EVENT/t15n0a.mes/t03a0a_01", "sha1": "c9311662bdfe2bca4492a80ba3b75605933127ab", "ko": "$OKA$「$PAN$은（는） 정말 착한@n\n　아이예요　쑥쑥 곧게@n\n　자라고 있어요」@n", "state": "needs_review"}
+{"id": "EVENT/t15n0a.mes/t03a0a_02", "sha1": "c52b0cba30fdabc6781a5d27887224845d6cd7a2", "ko": "$OKA$「너무 곧아서 어디에@n\n　쿵 부딪치지 마」@n", "state": "needs_review"}
+{"id": "EVENT/t15n0b.mes/t03a0b_01", "sha1": "7b4d3b32cd9fad5e30a41251580af1c7cdbdb1fd", "ko": "$OKA$「$PAN$은（는） 요즘 감기에@n\n　걸렸어요」@n", "state": "needs_review"}
+{"id": "EVENT/t15n0b.mes/t03a0b_02", "sha1": "1b82fe88ba76bf61bd771e844b69c23743d953a3", "ko": "$OKA$「벗고 자기라도 한 걸까？」@n", "state": "needs_review"}
+{"id": "EVENT/t15n0c.mes/t03a0c_01", "sha1": "cff905e5b82e22c75e05dd144c257f2f839cec67", "ko": "$OKA$「개구쟁이 $PAN$이에요（예요）@n\n　기운이 펄펄 넘쳐요」@n", "state": "needs_review"}
+{"id": "EVENT/t15n0c.mes/t03a0c_02", "sha1": "e41ee7e64a3f60289e35187111e33f11a49ae590", "ko": "$OKA$「넌 막내라서@n\n　천방지축인 것도 어쩔 수 없나」@n", "state": "needs_review"}
+{"id": "EVENT/t15n0d.mes/t03a0d_01", "sha1": "d98f865a4b11c24ee3f6ff9812cf43beafbed95b", "ko": "$OKA$「$PAN$은（는） 요즘 무기력해요@n\n　판츠 주제에 무기력해요@n\n,\n　계단 중간에서 멍～하니@n\n　있을 때가 많은데@n\n,\n　대체 무슨 생각 하는 거니？@n\n　꼬맹아」@n", "state": "needs_review"}
+{"id": "EVENT/t15n0d.mes/t03a0d_02", "sha1": "6ab73a68ee2872674cb3cee27b5cc90112a19fa2", "ko": "$OKA$「거기서 너무 멍하니@n\n　있으면 저녁밥 먼저@n\n　먹어 버린다」@n", "state": "needs_review"}
 {"id": "EVENT/t15n0e.mes/t15n0e_01", "sha1": "c53ec77a3e00dd5203a6587aea7a4244e7d48e47", "ko": "『노력파는@n\n　결번입니다』@n", "state": "needs_review"}
+{"id": "EVENT/t15n0f.mes/t03a0f_01", "sha1": "6e81841fe36d930b0b261e2424d5f4f7b92abcd1", "ko": "$OKA$「$PAN$은（는） 역시@n\n　몽상가예요@n\n,\n　이 아이는 분명 엄청난 생각을@n\n　하고 있을 거야」@n", "state": "needs_review"}
+{"id": "EVENT/t15n0f.mes/t03a0f_02", "sha1": "3b5e0dcf4acdd6ad26ead1174a2a794e93b96f6e", "ko": "$OKA$「어？　무슨 생각 하는지@n\n　엄마한테 알려 준다고？@n\n,\n　아냐아냐 됐어，사양할게요～」@n", "state": "needs_review"}
+{"id": "EVENT/t15n0g.mes/t03a0g_01", "sha1": "beb7a27abf959fc5d748ec41da4489b2dad68893", "ko": "$OKA$「역시 튀고 싶어 하는@n\n　$PAN$이에요（예요）　보시는@n\n　그대로의 남자아이」@n", "state": "needs_review"}
+{"id": "EVENT/t15n0g.mes/t03a0g_02", "sha1": "339240d7133d283ddc9c0e404f12a0e0ff7c196a", "ko": "$OKA$「너는 정말이지 엉망진창@n\n　이라니까～　」@n", "state": "needs_review"}
+{"id": "EVENT/t15n0h.mes/t03a0h_01", "sha1": "09290cec122203cfd9094bee37967d9e08d3f6d3", "ko": "$OKA$「$PAN$은（는） 역시 알아주는@n\n　응석꾸러기」@n", "state": "needs_review"}
+{"id": "EVENT/t15n0h.mes/t03a0h_02", "sha1": "0917ae979cd23b8bbb4e343f23e7701537e7b495", "ko": "$OKA$「막내라서 이런 걸까？」@n", "state": "needs_review"}
 {"id": "EVENT/t15n0i.mes/t15n0i_01", "sha1": "8115edc6c51a26baceb15f85fa02f36dcb25d3c5", "ko": "『애늙은이는@n\n　결번입니다』@n", "state": "needs_review"}
+{"id": "EVENT/t15n0j.mes/t15n0j_01", "sha1": "5f8bd344d22aeb8df2de414cefc872017020c03d", "ko": "$OKA$「요즘 $PAN$은（는） 불량아예요@n\n　판츠 주제에 불량아예요」@n", "state": "needs_review"}
+{"id": "EVENT/t15n0j.mes/t15n0j_02", "sha1": "566f2341e6795c827076d010ad171ccbb6856a11", "ko": "$OKA$「어떻게 해야 좀 더@n\n　착실한 사람이 되어 줄까…　」@n", "state": "needs_review"}
+{"id": "EVENT/t15n0k.mes/t03a0k_01", "sha1": "c57cc8c1fa22daf106305b9063a1443dffe6aa7a", "ko": "$OKA$「$PAN$은（는） 요즘 러블리해요@n\n　판츠 주제에 러블리해요@n\n　대체 무슨 일이 있었을까」@n", "state": "needs_review"}
 {"id": "EVENT/t15n0l.mes/t15n0l_01", "sha1": "68b746ffb3729ec06b8eeaf738aa6ad5b51ac2fd", "ko": "『오타쿠는@n\n　결번입니다』@n", "state": "needs_review"}
 {"id": "EVENT/t15n0m.mes/t15n0m_01", "sha1": "e742a8dd39af65c092b94ca23e508ebf41b0eca0", "ko": "『공부벌레는@n\n　결번입니다』@n", "state": "needs_review"}
+{"id": "EVENT/t16a0a.mes/t16a0a_01", "sha1": "20ba29cbc3654311d93b69e788d1e8834555e017", "ko": "$PAN$「안녕하세요」@n", "state": "needs_review"}
+{"id": "EVENT/t16a0a.mes/t16a0a_02", "sha1": "df45d5c6e5a462b9344ac3949583d7928480b5a0", "ko": "$OTO$「아，왔다 왔다@n\n　고마워 $PAN$」@n", "state": "needs_review"}
+{"id": "EVENT/t16a0a.mes/t16a0a_03", "sha1": "571016dae53c198fce7864662830c8f5d3caecbd", "ko": "$PAN$「가져온 거 이거면@n\n　되는 건가」@n", "state": "needs_review"}
+{"id": "EVENT/t16a0a.mes/t16a0a_04", "sha1": "beb6bc742fea4b5c14357ef03018e8650067e6cc", "ko": "릴리「아드님이에요？」@n", "state": "needs_review"}
+{"id": "EVENT/t16a0a.mes/t16a0a_05", "sha1": "285777274a0c4fab4d7136f92877648d6da07af7", "ko": "$OTO$「응，이름은 $PAN$」@n", "state": "needs_review"}
+{"id": "EVENT/t16a0a.mes/t16a0a_06", "sha1": "dd8679591f5c1064e99dd9f6df6b1ba150ffa9e4", "ko": "릴리「전에 만났던 꼬마는@n\n　잘 지내요？@n\n,\n　주근깨 있는 귀여운 남자애」@n", "state": "needs_review"}
+{"id": "EVENT/t16a0a.mes/t16a0a_07", "sha1": "50f6488b04b9a7012dd4e92349a9803352a3aaa4", "ko": "$PAN$「…그거 나일지도？」@n", "state": "needs_review"}
+{"id": "EVENT/t16a0a.mes/t16a0a_08", "sha1": "081d32c8abce308a1679d7ac20ce56528696d778", "ko": "릴리「말도 안 돼！」@n", "state": "needs_review"}
+{"id": "EVENT/t16a0a.mes/t16a0a_09", "sha1": "e5c9d6161cbaeb5607b9554a3b5ef5d0d7adc5dc", "ko": "$OTO$「그때는 초등학생이었나」@n", "state": "needs_review"}
+{"id": "EVENT/t16a0a.mes/t16a0a_10", "sha1": "43f217fb8711ca004f4c1ec2848feb31b9ea0358", "ko": "$PAN$「지금 고등학생이야」@n", "state": "needs_review"}
+{"id": "EVENT/t16a0a.mes/t16a0a_11", "sha1": "2629825184a756e3af105b2ab12605d573fe5a5d", "ko": "$OTO$「누구 얘기일까？」@n", "state": "needs_review"}
+{"id": "EVENT/t16a0a.mes/t16a0a_12", "sha1": "4cd1f838b583ffb997a8022ac1d9d049470a8ea1", "ko": "$PAN$「누구지？」@n", "state": "needs_review"}
+{"id": "EVENT/t16f0a.mes/t16f0a_01", "sha1": "3f9f6068cf504f043255b406afd7779bfff91fbe", "ko": "『$PAN$이（가） 아르바이트를@n\n　하고 싶어 하는 것 같습니다』@n", "state": "needs_review"}
+{"id": "EVENT/t16f0a.mes/t13f0a_02", "sha1": "8320c4b76434e52696aaf667109846b477a15e12", "ko": "$OTO$「$PAN$은（는） 신문 배달을@n\n　시작하기로 했다」@n", "state": "needs_review"}
+{"id": "EVENT/t16f0a.mes/t13f0a_03", "sha1": "c8aed295f28fdfcd2e9892dd3c14d978e261fe14", "ko": "$OTO$「$PAN$은（는） 라멘집@n\n　설거지를 시작하기로 했다」@n", "state": "needs_review"}
+{"id": "EVENT/t16f0a.mes/t16f0a_02", "sha1": "c3d3c1e8e2bd937fa0330ff1e0125ab7695863df", "ko": "$OTO$「$PAN$은（는） 구제 옷가게@n\n　점원을 시작하기로 했다」@n", "state": "needs_review"}
+{"id": "EVENT/t16f0a.mes/t16f0a_03", "sha1": "92184c6977f7e4f013aece7c8a64097315e8b256", "ko": "$OTO$「$PAN$은（는） 빵집@n\n　아르바이트를 시작하기로 했다」@n", "state": "needs_review"}
+{"id": "EVENT/t16f0a.mes/t16f0a_04", "sha1": "23c730447ea4bb7336e190b7d116204e723137e0", "ko": "『$PAN$은（는） 아르바이트를@n\n　하지 않기로 했다』@n", "state": "needs_review"}
+{"id": "EVENT/t16h0a.mes/t16h0a_01", "sha1": "7b69b23f4bf8fadf674900b48baebce1afbdfe86", "ko": "$OKA$「오늘로 $PAN$도 무사히@n\n　고등학생이 됐어요，됐어요」@n", "state": "needs_review"}
+{"id": "EVENT/t16h0b.mes/t16h0b_01", "sha1": "10aeecd0319c4301808da782d54a08f5c42629f7", "ko": "$OKA$「오늘로 $PAN$도 고등학생@n\n,\n　에이스 학원 고등학교 학생이@n\n　됐어요」@n", "state": "needs_review"}
+{"id": "EVENT/t16h1a.mes/t16h1a_01", "sha1": "8eebaa3a877f1f69521365a29b43ecb67ac35665", "ko": "『고등학생이 된 $PAN$에게@n\n　읽히고 싶은 책을 골라 주세요』@n", "state": "needs_review"}
+{"id": "EVENT/t16h1a.mes/t16h1a_02", "sha1": "b7dd5a90b968267c63cb3bd272c704187250d1bf", "ko": "$PAN$「끝내주지！」@n", "state": "needs_review"}
+{"id": "EVENT/t16h1a.mes/t16h1a_03", "sha1": "6712a75ffef0824519e79b0ab09efe350b144843", "ko": "$PAN$「오늘…　몸이 안 좋아」@n", "state": "needs_review"}
+{"id": "EVENT/t16h1a.mes/t16h1a_04", "sha1": "2a26978ee17bbb5109722ac9fed33c9c41f6f64a", "ko": "$PAN$「기운이 펄펄 나！」@n", "state": "needs_review"}
+{"id": "EVENT/t16h1a.mes/t16h1a_05", "sha1": "bfece9c6cd7222de0da502bbd3fe67ee05fb2d1d", "ko": "$PAN$「의욕이 안 나…　」@n", "state": "needs_review"}
+{"id": "EVENT/t16h1a.mes/t16h1a_06", "sha1": "164910301950e60b8b973484ff23a727eafcae33", "ko": "$PAN$「음～，글쎄…　」@n", "state": "needs_review"}
+{"id": "EVENT/t16h1a.mes/t16h1a_07", "sha1": "a1e812a0697ac938c878b1d8aac2a2d7d9602cf4", "ko": "$PAN$「음～，나 좀@n\n　너무 튀나」@n", "state": "needs_review"}
+{"id": "EVENT/t16h1a.mes/t16h1a_08", "sha1": "04f3ff9e338db1d0abcc5beeec1688fc2bbf25a7", "ko": "$PAN$「나，매일 잘@n\n　다닐 수 있을까…　」@n", "state": "needs_review"}
+{"id": "EVENT/t16h1a.mes/t16h1a_09", "sha1": "5d42164fdb480e48fbc9c60280f02ea4014bdc81", "ko": "$PAN$「알 게 뭐야！」@n", "state": "needs_review"}
+{"id": "EVENT/t16h1a.mes/t16h1a_10", "sha1": "b64513fc81c81cc6814d7f79ed6469eb3a11c61e", "ko": "$PAN$「헤헤，러브러브！」@n", "state": "needs_review"}
+{"id": "EVENT/t16h1a.mes/t16h1a_11", "sha1": "754e18439d08ea6199792a97960042034d270f33", "ko": "$PAN$「어떨까요？」@n", "state": "needs_review"}
+{"id": "EVENT/t16h1a.mes/t16h1a_12", "sha1": "324128050ee6cf77da50bdd14ce50fd1d614aba5", "ko": "$PAN$「빨리 공부하고 싶어」@n", "state": "needs_review"}
+{"id": "EVENT/t16h1a.mes/t16h1a_13", "sha1": "e008af8f1ac38d11c577ac7ada6e9f54397605ac", "ko": "$PAN$「음～，멋있는 사람@n\n　있으려나～？」@n", "state": "needs_review"}
+{"id": "EVENT/t16n0a.mes/t16n0a_01", "sha1": "fdbba73549514729d3c6ee56436cb8d3ef434857", "ko": "『$PAN$이（가） 동아리 활동을@n\n　하고 싶어 하는 것 같습니다』@n", "state": "needs_review"}
+{"id": "EVENT/t16n0a.mes/t16n0a_02", "sha1": "b553b66520aae9f81dc89e6d1762e64dd2e819fb", "ko": "$OTO$「$PAN$이（가） 수영부에@n\n　들어갔다」@n", "state": "needs_review"}
+{"id": "EVENT/t16n0a.mes/t16n0a_03", "sha1": "a221d68ef8bf8f7b942dac0cbd185a1e9fd95601", "ko": "$OTO$「$PAN$이（가） 만화 연구부에@n\n　들어갔다」@n", "state": "needs_review"}
+{"id": "EVENT/t16n0a.mes/t16n0a_04", "sha1": "4c476a7b7e0db55dbe01255fb64b67863a9d22ae", "ko": "『$PAN$은（는） 동아리 활동을@n\n　하지 않기로 했다』@n", "state": "needs_review"}
+{"id": "EVENT/t16n0b.mes/t16n0b_01", "sha1": "fdbba73549514729d3c6ee56436cb8d3ef434857", "ko": "『$PAN$이（가） 동아리 활동을@n\n　하고 싶어 하는 것 같습니다』@n", "state": "needs_review"}
+{"id": "EVENT/t16n0b.mes/t16n0b_02", "sha1": "9d78a2c254aca4fec92da7abcd9b544de65c10e8", "ko": "$OTO$「$PAN$이（가） 축구부에@n\n　들어갔다」@n", "state": "needs_review"}
+{"id": "EVENT/t16n0b.mes/t16n0b_03", "sha1": "ab81f9c1083be01aa7c656dbeee1d9584f44f84e", "ko": "$OTO$「$PAN$이（가） 컴퓨터부에@n\n　들어갔다」@n", "state": "needs_review"}
+{"id": "EVENT/t16n0b.mes/t16n0b_04", "sha1": "4c476a7b7e0db55dbe01255fb64b67863a9d22ae", "ko": "『$PAN$은（는） 동아리 활동을@n\n　하지 않기로 했다』@n", "state": "needs_review"}
+{"id": "EVENT/t17a0a.mes/t14a0a_01", "sha1": "f096b1d2eec86658c8d552c5687187c95cda0663", "ko": "$OTO$「신문 배달 알바를 시작한@n\n　$PAN$은（는） 어떻게 됐을까？」@n", "state": "needs_review"}
+{"id": "EVENT/t17a0a.mes/t14a0a_02", "sha1": "f8803be6f6ce733af2e5ed4b07614a59b00d6615", "ko": "$PAN$「일하는 거 재밌네！@n\n　완전 활약 중！」@n", "state": "needs_review"}
+{"id": "EVENT/t17a0a.mes/t14a0a_03", "sha1": "19cb724a4861da09d90583e1fc990f756ebb303b", "ko": "$PAN$「일하는 거 힘드네@n\n　뭐，열심히 하고 있어」@n", "state": "needs_review"}
+{"id": "EVENT/t17a0b.mes/t14a0b_01", "sha1": "e325682e86493402c83aff521ac22ebf718d2c2e", "ko": "$OTO$「라멘집에서 설거지@n\n　알바를 시작한 $PAN$은（는）@n\n　어떻게 됐을까？」@n", "state": "needs_review"}
+{"id": "EVENT/t17a0b.mes/t14a0a_02", "sha1": "f8803be6f6ce733af2e5ed4b07614a59b00d6615", "ko": "$PAN$「일하는 거 재밌네！@n\n　완전 활약 중！」@n", "state": "needs_review"}
+{"id": "EVENT/t17a0b.mes/t14a0a_03", "sha1": "19cb724a4861da09d90583e1fc990f756ebb303b", "ko": "$PAN$「일하는 거 힘드네@n\n　뭐，열심히 하고 있어」@n", "state": "needs_review"}
+{"id": "EVENT/t17a0c.mes/t17a0c_01", "sha1": "763cb48d0745bf799e3c09c8b2261fbb484c05d1", "ko": "$OTO$「구제 옷가게 알바를 시작한@n\n　$PAN$은（는） 어떻게 됐을까？」@n", "state": "needs_review"}
+{"id": "EVENT/t17a0c.mes/t14a0a_02", "sha1": "f8803be6f6ce733af2e5ed4b07614a59b00d6615", "ko": "$PAN$「일하는 거 재밌네！@n\n　완전 활약 중！」@n", "state": "needs_review"}
+{"id": "EVENT/t17a0c.mes/t14a0a_03", "sha1": "19cb724a4861da09d90583e1fc990f756ebb303b", "ko": "$PAN$「일하는 거 힘드네@n\n　뭐，열심히 하고 있어」@n", "state": "needs_review"}
+{"id": "EVENT/t17a0d.mes/t17a0d_01", "sha1": "7faef7f5739523e4ab4bb44698222f13db965cc9", "ko": "$OTO$「빵집 알바를 시작한@n\n　$PAN$은（는） 어떻게 됐을까？」@n", "state": "needs_review"}
+{"id": "EVENT/t17a0d.mes/t14a0a_02", "sha1": "f8803be6f6ce733af2e5ed4b07614a59b00d6615", "ko": "$PAN$「일하는 거 재밌네！@n\n　완전 활약 중！」@n", "state": "needs_review"}
+{"id": "EVENT/t17a0d.mes/t14a0a_03", "sha1": "19cb724a4861da09d90583e1fc990f756ebb303b", "ko": "$PAN$「일하는 거 힘드네@n\n　뭐，열심히 하고 있어」@n", "state": "needs_review"}
+{"id": "EVENT/t17f0a.mes/t17f0a_01", "sha1": "bafb9539d91a8aaafa8246d62265d8acbe4e9b47", "ko": "『일 년 뒤면 $PAN$은（는）@n\n　고등학교를 졸업합니다』@n", "state": "needs_review"}
+{"id": "EVENT/t17f0a.mes/t17f0a_02", "sha1": "433e1faafba89276127d658ad4dd6ef5a7587727", "ko": "$OKA$「$PAN$의 대학은@n\n　어떻게 할까？」@n", "state": "needs_review"}
+{"id": "EVENT/t17f0a.mes/t17f0a_03", "sha1": "2233f2aa66dc258bc441f1978db1687665598478", "ko": "$PAN$「헤헤，어떻게 하지？」@n", "state": "needs_review"}
+{"id": "EVENT/t17f0a.mes/t17f0a_04", "sha1": "fec7f60feb290a156ced6e71922c6e9cec34657b", "ko": "$PAN$「그럼 나 열심히 할게」@n", "state": "needs_review"}
+{"id": "EVENT/t17f0a.mes/t17f0a_05", "sha1": "6d58606db72faddbf8e3707dd73606c8f24ff5e9", "ko": "$PAN$「나，괜찮을까…　」@n", "state": "needs_review"}
+{"id": "EVENT/t17h0a.mes/t17h0a_01", "sha1": "719c9ba492543915a50cd1a9f9d178796e2a28a0", "ko": "$JIJ$「$PAN$은（는） 맨날@n\n　휴대폰 쓰던데@n\n,\n　전화비 괜찮아？」@n", "state": "needs_review"}
+{"id": "EVENT/t17h0a.mes/t17h0a_02", "sha1": "6de8d62f9dd59936b2347114ebfcb3c4a22b563b", "ko": "$PAN$「응，아직 내가 건 적은@n\n　없거든」@n", "state": "needs_review"}
+{"id": "EVENT/t17h0a.mes/t17h0a_03", "sha1": "cfb68ce20a7e4e38324d57e7bf5d9df05cda068e", "ko": "$JIJ$「…뭐？」@n", "state": "needs_review"}
+{"id": "EVENT/t17n0a.mes/t17n0a_01", "sha1": "2836a4c76b8ae31ae5598e87c1d13fc1a899d13b", "ko": "$OTO$「수영부에 들어간 $PAN$은（는）@n\n　어떻게 됐을까？」@n", "state": "needs_review"}
+{"id": "EVENT/t17n0a.mes/t17n0a_02", "sha1": "9dadb5b2a13f94f5ccbaa4e470fe182e2b0c6dd6", "ko": "$PAN$「난 접영이랑 개인@n\n　혼영이 특기야@n\n,\n　개인 혼영은 네 가지 영법을@n\n　혼자서 다 하는 거야」@n", "state": "needs_review"}
+{"id": "EVENT/t17n0b.mes/t17n0b_01", "sha1": "6f062e39f4012c4a231db0fe3bf9f404f9c2ab87", "ko": "$OTO$「만화 연구부에 들어간@n\n　$PAN$은（는） 어떻게 됐을까？」@n", "state": "needs_review"}
+{"id": "EVENT/t17n0b.mes/t17n0b_02", "sha1": "eb3df743e31272987f6bce276f86f0839f39a816", "ko": "$PAN$「원래 만화는 읽는 것도@n\n　그리는 것도 좋아하니까@n\n,\n　열심히 활동하고 있어」@n", "state": "needs_review"}
+{"id": "EVENT/t17n0b.mes/t17n0b_03", "sha1": "0e11a229623f5cb67be65e6f94dc1558eeaafb9f", "ko": "$PAN$「밤새 원고 하다 보면@n\n　졸려서 말이야@n\n,\n　아침에 일어나면 그린 적 없는@n\n　게 그려져 있더라고@n\n,\n　그건 대체 뭘까」@n", "state": "needs_review"}
+{"id": "EVENT/t17n0c.mes/t17n0c_01", "sha1": "333af93d59296f6738f49561cb5910868c049e91", "ko": "$OTO$「축구부에 들어간@n\n　$PAN$은（는） 어떻게 됐을까？」@n", "state": "needs_review"}
+{"id": "EVENT/t17n0c.mes/t17n0c_02", "sha1": "7ceb69e9eac1cdb82a3317ff48e14f890dfa706e", "ko": "$PAN$「난 포워드@n\n,\n　대회가 연말연시에 있어서 강팀은@n\n　크리스마스도 설도 없지만@n\n,\n　우리는 그런 건 마이페이스라@n\n　다행이야@n\n,\n　뭐？　그냥 약한 거라고？@n\n　그건 금지어！」@n", "state": "needs_review"}
+{"id": "EVENT/t17n0d.mes/t17n0d_01", "sha1": "1de25a7b7f831a39bbcd8594032ce880471d0c90", "ko": "$OTO$「컴퓨터부에 들어간@n\n　$PAN$은（는） 어떻게 됐을까？」@n", "state": "needs_review"}
+{"id": "EVENT/t17n0d.mes/t17n0d_02", "sha1": "19a7c64d20e226b440fb6688a241aa4a7cba571b", "ko": "$PAN$「우리 부에서 만들고 싶은@n\n　ＲＰＧ가 있거든@n\n,\n　근데 계산해 보니 만드는 데@n\n　오십 년이나 걸리더라」@n", "state": "needs_review"}
+{"id": "EVENT/t17n0d.mes/t17n0d_03", "sha1": "552271482e7420f589901e7d4e8e2317fdce9caf", "ko": "$PAN$「참고로 오십 년 걸린다는@n\n　계산하는 데 이 년이나 걸렸어」@n", "state": "needs_review"}
+{"id": "EVENT/t18a0a.mes/t22h0a_01", "sha1": "c9311662bdfe2bca4492a80ba3b75605933127ab", "ko": "$OKA$「$PAN$은（는） 정말 착한@n\n　아이예요　쑥쑥 곧게@n\n　자라고 있어요」@n", "state": "needs_review"}
+{"id": "EVENT/t18a0a.mes/t22h0a_02", "sha1": "c52b0cba30fdabc6781a5d27887224845d6cd7a2", "ko": "$OKA$「너무 곧아서 어디에@n\n　쿵 부딪치지 마」@n", "state": "needs_review"}
+{"id": "EVENT/t18a0b.mes/t22h0b_01", "sha1": "7b4d3b32cd9fad5e30a41251580af1c7cdbdb1fd", "ko": "$OKA$「$PAN$은（는） 요즘 감기에@n\n　걸렸어요」@n", "state": "needs_review"}
+{"id": "EVENT/t18a0b.mes/t22h0b_02", "sha1": "1b82fe88ba76bf61bd771e844b69c23743d953a3", "ko": "$OKA$「벗고 자기라도 한 걸까？」@n", "state": "needs_review"}
+{"id": "EVENT/t18a0c.mes/t22h0c_01", "sha1": "cff905e5b82e22c75e05dd144c257f2f839cec67", "ko": "$OKA$「개구쟁이 $PAN$이에요（예요）@n\n　기운이 펄펄 넘쳐요」@n", "state": "needs_review"}
+{"id": "EVENT/t18a0c.mes/t22h0c_02", "sha1": "e41ee7e64a3f60289e35187111e33f11a49ae590", "ko": "$OKA$「넌 막내라서@n\n　천방지축인 것도 어쩔 수 없나」@n", "state": "needs_review"}
+{"id": "EVENT/t18a0d.mes/t22h0d_01", "sha1": "d98f865a4b11c24ee3f6ff9812cf43beafbed95b", "ko": "$OKA$「$PAN$은（는） 요즘 무기력해요@n\n　판츠 주제에 무기력해요@n\n,\n　계단 중간에서 멍～하니@n\n　있을 때가 많은데@n\n,\n　대체 무슨 생각 하는 거니？@n\n　꼬맹아」@n", "state": "needs_review"}
+{"id": "EVENT/t18a0d.mes/t22h0d_02", "sha1": "6ab73a68ee2872674cb3cee27b5cc90112a19fa2", "ko": "$OKA$「거기서 너무 멍하니@n\n　있으면 저녁밥 먼저@n\n　먹어 버린다」@n", "state": "needs_review"}
 {"id": "EVENT/t18a0e.mes/t18a0e_01", "sha1": "c53ec77a3e00dd5203a6587aea7a4244e7d48e47", "ko": "『노력파는@n\n　결번입니다』@n", "state": "needs_review"}
+{"id": "EVENT/t18a0f.mes/t22h0f_01", "sha1": "6e81841fe36d930b0b261e2424d5f4f7b92abcd1", "ko": "$OKA$「$PAN$은（는） 역시@n\n　몽상가예요@n\n,\n　이 아이는 분명 엄청난 생각을@n\n　하고 있을 거야」@n", "state": "needs_review"}
+{"id": "EVENT/t18a0f.mes/t22h0f_02", "sha1": "3b5e0dcf4acdd6ad26ead1174a2a794e93b96f6e", "ko": "$OKA$「어？　무슨 생각 하는지@n\n　엄마한테 알려 준다고？@n\n,\n　아냐아냐 됐어，사양할게요～」@n", "state": "needs_review"}
+{"id": "EVENT/t18a0g.mes/t22h0g_01", "sha1": "beb7a27abf959fc5d748ec41da4489b2dad68893", "ko": "$OKA$「역시 튀고 싶어 하는@n\n　$PAN$이에요（예요）　보시는@n\n　그대로의 남자아이」@n", "state": "needs_review"}
+{"id": "EVENT/t18a0g.mes/t22h0g_02", "sha1": "8611b61b60648bc246dee939d264ec8d5dbcd037", "ko": "$OKA$「너는 정말이지 엉망진창@n\n　이라니까～　」@n", "state": "needs_review"}
+{"id": "EVENT/t18a0h.mes/t03a0h_01", "sha1": "09290cec122203cfd9094bee37967d9e08d3f6d3", "ko": "$OKA$「$PAN$은（는） 역시 알아주는@n\n　응석꾸러기」@n", "state": "needs_review"}
+{"id": "EVENT/t18a0h.mes/t03a0h_02", "sha1": "0917ae979cd23b8bbb4e343f23e7701537e7b495", "ko": "$OKA$「막내라서 이런 걸까？」@n", "state": "needs_review"}
 {"id": "EVENT/t18a0i.mes/t18a0i_01", "sha1": "8115edc6c51a26baceb15f85fa02f36dcb25d3c5", "ko": "『애늙은이는@n\n　결번입니다』@n", "state": "needs_review"}
+{"id": "EVENT/t18a0j.mes/t15n0j_01", "sha1": "5f8bd344d22aeb8df2de414cefc872017020c03d", "ko": "$OKA$「요즘 $PAN$은（는） 불량아예요@n\n　판츠 주제에 불량아예요」@n", "state": "needs_review"}
+{"id": "EVENT/t18a0j.mes/t15n0j_02", "sha1": "566f2341e6795c827076d010ad171ccbb6856a11", "ko": "$OKA$「어떻게 해야 좀 더@n\n　착실한 사람이 되어 줄까…　」@n", "state": "needs_review"}
+{"id": "EVENT/t18a0k.mes/t22h0k_01", "sha1": "c57cc8c1fa22daf106305b9063a1443dffe6aa7a", "ko": "$OKA$「$PAN$은（는） 요즘 러블리해요@n\n　판츠 주제에 러블리해요@n\n　대체 무슨 일이 있었을까」@n", "state": "needs_review"}
 {"id": "EVENT/t18a0l.mes/t18a0l_01", "sha1": "68b746ffb3729ec06b8eeaf738aa6ad5b51ac2fd", "ko": "『오타쿠는@n\n　결번입니다』@n", "state": "needs_review"}
 {"id": "EVENT/t18a0m.mes/t18a0m_01", "sha1": "e742a8dd39af65c092b94ca23e508ebf41b0eca0", "ko": "『공부벌레는@n\n　결번입니다』@n", "state": "needs_review"}
+{"id": "EVENT/t18a0n.mes/t18a0n_01", "sha1": "96487ac782f99be1303c0af1c42d4d5c67f5122e", "ko": "$OKA$「요즘 $PAN$이（가） 멋쟁이예요@n\n　판츠 주제에 멋쟁이예요」@n", "state": "needs_review"}
+{"id": "EVENT/t18a0n.mes/t18a0n_02", "sha1": "306346af8c2fe3d96c805d2f0146e13da7b9c616", "ko": "$OKA$「슬림한 옷을 멋지게@n\n　잘 소화하는 멋쟁이」@n", "state": "needs_review"}
+{"id": "EVENT/t18f0a.mes/t18f0a_01", "sha1": "25d775b669dce89a54f12e5499c5aac2f8c76571", "ko": "『$PAN$의 졸업 시즌이@n\n　다가왔습니다』@n", "state": "needs_review"}
+{"id": "EVENT/t18f0a.mes/t18f0a_02", "sha1": "1492019f086e896e2e7981fe1b44045e5e886c10", "ko": "$OTO$「자，$PAN$의 진로는」@n", "state": "needs_review"}
 {"id": "EVENT/t18f0a.mes/t18f0a_03", "sha1": "e461a16bedd6cad16c616c77adeea08c97fe4312", "ko": "$OKA$「어떻게 할래？」@n", "state": "needs_review"}
+{"id": "EVENT/t19a0a.mes/t19a0a_01", "sha1": "3f9f6068cf504f043255b406afd7779bfff91fbe", "ko": "『$PAN$이（가） 아르바이트를@n\n　하고 싶어 하는 것 같습니다』@n", "state": "needs_review"}
+{"id": "EVENT/t19a0a.mes/t13f0a_02", "sha1": "8320c4b76434e52696aaf667109846b477a15e12", "ko": "$OTO$「$PAN$은（는） 신문 배달을@n\n　시작하기로 했다」@n", "state": "needs_review"}
+{"id": "EVENT/t19a0a.mes/t13f0a_03", "sha1": "c8aed295f28fdfcd2e9892dd3c14d978e261fe14", "ko": "$OTO$「$PAN$은（는） 라멘집@n\n　설거지를 시작하기로 했다」@n", "state": "needs_review"}
+{"id": "EVENT/t19a0a.mes/t16f0a_02", "sha1": "c3d3c1e8e2bd937fa0330ff1e0125ab7695863df", "ko": "$OTO$「$PAN$은（는） 구제 옷가게@n\n　점원을 시작하기로 했다」@n", "state": "needs_review"}
+{"id": "EVENT/t19a0a.mes/t16f0a_03", "sha1": "92184c6977f7e4f013aece7c8a64097315e8b256", "ko": "$OTO$「$PAN$은（는） 빵집@n\n　아르바이트를 시작하기로 했다」@n", "state": "needs_review"}
+{"id": "EVENT/t19a0a.mes/t19a0a_04", "sha1": "23c730447ea4bb7336e190b7d116204e723137e0", "ko": "『$PAN$은（는） 아르바이트를@n\n　하지 않기로 했다』@n", "state": "needs_review"}
+{"id": "EVENT/t19h0a.mes/t19h0a_01", "sha1": "10e0addcefc9faa7a3db052312c6d7509db62218", "ko": "$OTO$「$PAN$이（가） 테이토 대학@n\n　공학부에 합격했다」@n", "state": "needs_review"}
+{"id": "EVENT/t19h0a.mes/t19h0a_02", "sha1": "c007405e2b66a695bc5b00dfc2ac20487058bce5", "ko": "$OKA$「해냈구나 $PAN$」@n", "state": "needs_review"}
+{"id": "EVENT/t19h0b.mes/t19h0b_01", "sha1": "94f61492f1dfe7ac15e4aaa854d7ad832edbeab4", "ko": "$OTO$「오늘부터 $PAN$은（는）@n\n　도쿄 아트 스쿨에서@n\n,\n　그림과 디자인 공부를 하게@n\n　되었다」@n", "state": "needs_review"}
+{"id": "EVENT/t19h0b.mes/t19h0b_02", "sha1": "a3379b36b331f11d4ccddab9b6383fbee953078a", "ko": "$OKA$「대단하다，$PAN$」@n", "state": "needs_review"}
+{"id": "EVENT/t19h0c.mes/t19h0c_01", "sha1": "7fbeeeccc2491f127cf19484db6238e2c2ef9e9e", "ko": "$OTO$「오늘부터 $PAN$은（는）@n\n　테이토 병원 부속 간호학교에서@n\n　간호 공부를 하게 되었다」@n", "state": "needs_review"}
+{"id": "EVENT/t19h0c.mes/t19h0c_02", "sha1": "2ede434171ed06eb7bae0e9196cefbef437f3717", "ko": "$OKA$「힘내，$PAN$」@n", "state": "needs_review"}
+{"id": "EVENT/t19h0d.mes/t19h0d_01", "sha1": "3fa79c35bee181b1562553f7e0318864c8d5f655", "ko": "$OTO$「$PAN$은（는） 재수 학원에@n\n　다니게 되었다」@n", "state": "needs_review"}
+{"id": "EVENT/t19h1a.mes/t19h1a_01", "sha1": "dfcbfbe1173a0c87844d409b21c9dc276635676f", "ko": "『대학생이 된 $PAN$에게@n\n　읽히고 싶은 책을 골라 주세요』@n", "state": "needs_review"}
+{"id": "EVENT/t19h1a.mes/t19h1a_02", "sha1": "cc427c2affad25d6da9aac6dda9cfa7b6c198fea", "ko": "『전문학교생이 된 $PAN$에게@n\n　읽히고 싶은 책을 골라 주세요』@n", "state": "needs_review"}
+{"id": "EVENT/t19h1a.mes/t19h1a_03", "sha1": "c512d768b0fd0076db80c15620e59ef3f5c65ee8", "ko": "『간호학생이 된 $PAN$에게@n\n　읽히고 싶은 책을 골라 주세요』@n", "state": "needs_review"}
+{"id": "EVENT/t19h1a.mes/t19h1a_04", "sha1": "0ee1c5f07d6194eb089479009d77932068499313", "ko": "$PAN$「끝내줘！」@n", "state": "needs_review"}
+{"id": "EVENT/t19h1a.mes/t19h1a_05", "sha1": "6712a75ffef0824519e79b0ab09efe350b144843", "ko": "$PAN$「오늘…　몸이 안 좋아」@n", "state": "needs_review"}
+{"id": "EVENT/t19h1a.mes/t19h1a_06", "sha1": "2a26978ee17bbb5109722ac9fed33c9c41f6f64a", "ko": "$PAN$「기운이 펄펄 나！」@n", "state": "needs_review"}
+{"id": "EVENT/t19h1a.mes/t19h1a_07", "sha1": "bfece9c6cd7222de0da502bbd3fe67ee05fb2d1d", "ko": "$PAN$「의욕이 안 나…　」@n", "state": "needs_review"}
+{"id": "EVENT/t19h1a.mes/t19h1a_08", "sha1": "164910301950e60b8b973484ff23a727eafcae33", "ko": "$PAN$「음～，글쎄…　」@n", "state": "needs_review"}
+{"id": "EVENT/t19h1a.mes/t19h1a_09", "sha1": "a1e812a0697ac938c878b1d8aac2a2d7d9602cf4", "ko": "$PAN$「음～，나 좀@n\n　너무 튀나」@n", "state": "needs_review"}
+{"id": "EVENT/t19h1a.mes/t19h1a_10", "sha1": "04f3ff9e338db1d0abcc5beeec1688fc2bbf25a7", "ko": "$PAN$「나，매일 잘@n\n　다닐 수 있을까…　」@n", "state": "needs_review"}
+{"id": "EVENT/t19h1a.mes/t19h1a_11", "sha1": "5d42164fdb480e48fbc9c60280f02ea4014bdc81", "ko": "$PAN$「알 게 뭐야！」@n", "state": "needs_review"}
+{"id": "EVENT/t19h1a.mes/t19h1a_12", "sha1": "5dda3418f77ed5aa0a074a258ed57df7576b1d01", "ko": "$PAN$「헤헤，러브러브한 느낌」@n", "state": "needs_review"}
+{"id": "EVENT/t19h1a.mes/t19h1a_13", "sha1": "754e18439d08ea6199792a97960042034d270f33", "ko": "$PAN$「어떨까요？」@n", "state": "needs_review"}
+{"id": "EVENT/t19h1a.mes/t19h1a_14", "sha1": "714c221a980675f4fc10903b7e8438dd83215f82", "ko": "$PAN$「빨리 공부하고 싶은걸」@n", "state": "needs_review"}
+{"id": "EVENT/t19h1a.mes/t19h1a_15", "sha1": "e008af8f1ac38d11c577ac7ada6e9f54397605ac", "ko": "$PAN$「음～，멋있는 사람@n\n　있으려나～？」@n", "state": "needs_review"}
+{"id": "EVENT/t20f0a.mes/t14a0a_01", "sha1": "f096b1d2eec86658c8d552c5687187c95cda0663", "ko": "$OTO$「신문 배달 알바를 시작한@n\n　$PAN$은（는） 어떻게 됐을까？」@n", "state": "needs_review"}
+{"id": "EVENT/t20f0a.mes/t20f0a_01", "sha1": "e944fb7ea4b5feeee1a7fe9a057dc672c31c6f6a", "ko": "$PAN$「일하는 거 즐겁네！@n\n　완전 대활약이지」@n", "state": "needs_review"}
+{"id": "EVENT/t20f0a.mes/t20f0a_02", "sha1": "bedcdebefe4ff74d0889468f74ee0a1154fb2a4c", "ko": "$PAN$「일하는 거 힘드네@n\n　뭐，그럭저럭 하고 있어」@n", "state": "needs_review"}
+{"id": "EVENT/t20f0b.mes/t14a0b_01", "sha1": "e325682e86493402c83aff521ac22ebf718d2c2e", "ko": "$OTO$「라멘집에서 설거지@n\n　알바를 시작한 $PAN$은（는）@n\n　어떻게 됐을까？」@n", "state": "needs_review"}
+{"id": "EVENT/t20f0b.mes/t20f0a_01", "sha1": "e944fb7ea4b5feeee1a7fe9a057dc672c31c6f6a", "ko": "$PAN$「일하는 거 즐겁네！@n\n　완전 대활약이지」@n", "state": "needs_review"}
+{"id": "EVENT/t20f0b.mes/t20f0a_02", "sha1": "bedcdebefe4ff74d0889468f74ee0a1154fb2a4c", "ko": "$PAN$「일하는 거 힘드네@n\n　뭐，그럭저럭 하고 있어」@n", "state": "needs_review"}
+{"id": "EVENT/t20f0c.mes/t17a0c_01", "sha1": "763cb48d0745bf799e3c09c8b2261fbb484c05d1", "ko": "$OTO$「구제 옷가게 알바를 시작한@n\n　$PAN$은（는） 어떻게 됐을까？」@n", "state": "needs_review"}
+{"id": "EVENT/t20f0c.mes/t20f0a_01", "sha1": "e944fb7ea4b5feeee1a7fe9a057dc672c31c6f6a", "ko": "$PAN$「일하는 거 즐겁네！@n\n　완전 대활약이지」@n", "state": "needs_review"}
+{"id": "EVENT/t20f0c.mes/t20f0a_02", "sha1": "bedcdebefe4ff74d0889468f74ee0a1154fb2a4c", "ko": "$PAN$「일하는 거 힘드네@n\n　뭐，그럭저럭 하고 있어」@n", "state": "needs_review"}
+{"id": "EVENT/t20f0d.mes/t17a0d_01", "sha1": "7faef7f5739523e4ab4bb44698222f13db965cc9", "ko": "$OTO$「빵집 알바를 시작한@n\n　$PAN$은（는） 어떻게 됐을까？」@n", "state": "needs_review"}
+{"id": "EVENT/t20f0d.mes/t20f0a_01", "sha1": "e944fb7ea4b5feeee1a7fe9a057dc672c31c6f6a", "ko": "$PAN$「일하는 거 즐겁네！@n\n　완전 대활약이지」@n", "state": "needs_review"}
+{"id": "EVENT/t20f0d.mes/t20f0a_02", "sha1": "bedcdebefe4ff74d0889468f74ee0a1154fb2a4c", "ko": "$PAN$「일하는 거 힘드네@n\n　뭐，그럭저럭 하고 있어」@n", "state": "needs_review"}
+{"id": "EVENT/t20f1a.mes/t20f1a_01", "sha1": "5d84cd387cfd4a09ff52a851d446ae708b31070e", "ko": "$OTO$「태어나서 겨우 이십 년@n\n　$PAN$이（가） 성인식을 맞았다」@n", "state": "needs_review"}
+{"id": "EVENT/t20n0c.mes/t20n0c_01", "sha1": "a5d53fe8d2ee09494e33c0f2049adbe7f8fce10a", "ko": "$PAN$「있잖아，할머니@n\n　뭐 봐？」@n", "state": "needs_review"}
+{"id": "EVENT/t20n0c.mes/t20n0c_02", "sha1": "5f1b79e070b0398927e27cbee2534976f2912c6c", "ko": "할머니「영화란다」@n", "state": "needs_review"}
+{"id": "EVENT/t20n0c.mes/t20n0c_03", "sha1": "aab62c86b794f7c40c1cbab913413a95b232f2bc", "ko": "$PAN$「공포의 우웩 엽기 몬스터@n\n　참혹 좀비 편 파트 투야」@n", "state": "needs_review"}
 {"id": "EVENT/t20n0c.mes/t20n0c_04", "sha1": "a6dec79f5c046fe6a18371a0969e402ea0b1733c", "ko": "할머니「그렇단다」@n", "state": "needs_review"}
+{"id": "EVENT/t20n0d.mes/t20n0d_01", "sha1": "d700af689a55cd87d49455a0c8ebf482df70d19b", "ko": "$PAN$「왜 이 어둑한 밤의 계단에@n\n　다 같이 모이는 거야？」@n", "state": "needs_review"}
+{"id": "EVENT/t20n0d.mes/t20n0d_02", "sha1": "9bc2eb91996595985347fface81afb2dd8caa09e", "ko": "$GEN$「궁상맞아서 그런 거 아냐」@n", "state": "needs_review"}
+{"id": "EVENT/t20n0d.mes/t20n0d_03", "sha1": "39199835be24b4cce9de7ce41e9bf436b1d47160", "ko": "$JIJ$「빵이나 햄 끄트머리를@n\n　좋아하는 거랑 같은 거야」@n", "state": "needs_review"}
+{"id": "EVENT/t20n0d.mes/t20n0d_04", "sha1": "28fccc87302b909e2b2dccfe9fd13c89794a92a9", "ko": "$GEN$「달걀말이도 그렇지」@n", "state": "needs_review"}
+{"id": "EVENT/t20n0d.mes/t20n0d_05", "sha1": "d7f4ccd78a039ea0202704d41c5af59a898dd89e", "ko": "$JIJ$「김밥 끄트머리는？」@n", "state": "needs_review"}
+{"id": "EVENT/t20n0d.mes/t20n0d_06", "sha1": "15d5cf0abdd702455c0c71d2342486ebb02dbb81", "ko": "$GEN$「김 없는 주먹밥은@n\n　용서해도@n\n,\n　김 없는 김밥은 용서 못 해」@n", "state": "needs_review"}
+{"id": "EVENT/t21f0a.mes/t21f0a_01", "sha1": "f55db6f9b6eb403b4a310ed86246b9eb364f1496", "ko": "『일 년 뒤면 $PAN$은（는）@n\n　학교를 졸업합니다』@n", "state": "needs_review"}
+{"id": "EVENT/t21f0a.mes/t21f0a_02", "sha1": "41dd00948e71a47ce5f6a5c22ccc81a806368a3d", "ko": "$OKA$「$PAN$의 취직자리는@n\n　어떻게 할까？」@n", "state": "needs_review"}
+{"id": "EVENT/t21f0a.mes/t21f0a_03", "sha1": "bb1c66184aede961dee582b11fb31362cd03d3f6", "ko": "$PAN$「음～，어떡하지」@n", "state": "needs_review"}
+{"id": "EVENT/t21f0a.mes/t21f0a_04", "sha1": "fec7f60feb290a156ced6e71922c6e9cec34657b", "ko": "$PAN$「그럼 나 열심히 할게」@n", "state": "needs_review"}
+{"id": "EVENT/t21f0a.mes/t21f0a_05", "sha1": "6d58606db72faddbf8e3707dd73606c8f24ff5e9", "ko": "$PAN$「나，괜찮을까…　」@n", "state": "needs_review"}
+{"id": "EVENT/t22f0a.mes/t22f0a_01", "sha1": "25d775b669dce89a54f12e5499c5aac2f8c76571", "ko": "『$PAN$의 졸업 시즌이@n\n　다가왔습니다』@n", "state": "needs_review"}
+{"id": "EVENT/t22f0a.mes/t22f0a_02", "sha1": "1492019f086e896e2e7981fe1b44045e5e886c10", "ko": "$OTO$「자，$PAN$의 진로는」@n", "state": "needs_review"}
 {"id": "EVENT/t22f0a.mes/t22f0a_03", "sha1": "e461a16bedd6cad16c616c77adeea08c97fe4312", "ko": "$OKA$「어떻게 할래？」@n", "state": "needs_review"}
+{"id": "EVENT/t22f1a.mes/t22f1a_01", "sha1": "1994ab3e42158638ec150c8251cadcf80aa44931", "ko": "$OTO$「오늘은 $PAN$의 졸업식@n\n　이었다@n\n,\n　봄까지 너무 놀기만 하지 마라」@n", "state": "needs_review"}
+{"id": "EVENT/t22h0a.mes/t22h0a_01", "sha1": "c9311662bdfe2bca4492a80ba3b75605933127ab", "ko": "$OKA$「$PAN$은（는） 정말 착한@n\n　아이예요　쑥쑥 곧게@n\n　자라고 있어요」@n", "state": "needs_review"}
+{"id": "EVENT/t22h0a.mes/t22h0a_02", "sha1": "c52b0cba30fdabc6781a5d27887224845d6cd7a2", "ko": "$OKA$「너무 곧아서 어디에@n\n　쿵 부딪치지 마」@n", "state": "needs_review"}
+{"id": "EVENT/t22h0b.mes/t22h0b_01", "sha1": "7b4d3b32cd9fad5e30a41251580af1c7cdbdb1fd", "ko": "$OKA$「$PAN$은（는） 요즘 감기에@n\n　걸렸어요」@n", "state": "needs_review"}
+{"id": "EVENT/t22h0b.mes/t22h0b_02", "sha1": "1b82fe88ba76bf61bd771e844b69c23743d953a3", "ko": "$OKA$「벗고 자기라도 한 걸까？」@n", "state": "needs_review"}
+{"id": "EVENT/t22h0c.mes/t22h0c_01", "sha1": "cff905e5b82e22c75e05dd144c257f2f839cec67", "ko": "$OKA$「개구쟁이 $PAN$이에요（예요）@n\n　기운이 펄펄 넘쳐요」@n", "state": "needs_review"}
+{"id": "EVENT/t22h0c.mes/t22h0c_02", "sha1": "e41ee7e64a3f60289e35187111e33f11a49ae590", "ko": "$OKA$「넌 막내라서@n\n　천방지축인 것도 어쩔 수 없나」@n", "state": "needs_review"}
+{"id": "EVENT/t22h0d.mes/t22h0d_01", "sha1": "d98f865a4b11c24ee3f6ff9812cf43beafbed95b", "ko": "$OKA$「$PAN$은（는） 요즘 무기력해요@n\n　판츠 주제에 무기력해요@n\n,\n　계단 중간에서 멍～하니@n\n　있을 때가 많은데@n\n,\n　대체 무슨 생각 하는 거니？@n\n　꼬맹아」@n", "state": "needs_review"}
+{"id": "EVENT/t22h0d.mes/t22h0d_02", "sha1": "6ab73a68ee2872674cb3cee27b5cc90112a19fa2", "ko": "$OKA$「거기서 너무 멍하니@n\n　있으면 저녁밥 먼저@n\n　먹어 버린다」@n", "state": "needs_review"}
 {"id": "EVENT/t22h0e.mes/t22h0e_01", "sha1": "c53ec77a3e00dd5203a6587aea7a4244e7d48e47", "ko": "『노력파는@n\n　결번입니다』@n", "state": "needs_review"}
+{"id": "EVENT/t22h0f.mes/t22h0f_01", "sha1": "6e81841fe36d930b0b261e2424d5f4f7b92abcd1", "ko": "$OKA$「$PAN$은（는） 역시@n\n　몽상가예요@n\n,\n　이 아이는 분명 엄청난 생각을@n\n　하고 있을 거야」@n", "state": "needs_review"}
+{"id": "EVENT/t22h0f.mes/t22h0f_02", "sha1": "3b5e0dcf4acdd6ad26ead1174a2a794e93b96f6e", "ko": "$OKA$「어？　무슨 생각 하는지@n\n　엄마한테 알려 준다고？@n\n,\n　아냐아냐 됐어，사양할게요～」@n", "state": "needs_review"}
+{"id": "EVENT/t22h0g.mes/t22h0g_01", "sha1": "beb7a27abf959fc5d748ec41da4489b2dad68893", "ko": "$OKA$「역시 튀고 싶어 하는@n\n　$PAN$이에요（예요）　보시는@n\n　그대로의 남자아이」@n", "state": "needs_review"}
+{"id": "EVENT/t22h0g.mes/t22h0g_02", "sha1": "8611b61b60648bc246dee939d264ec8d5dbcd037", "ko": "$OKA$「너는 정말이지 엉망진창@n\n　이라니까～　」@n", "state": "needs_review"}
+{"id": "EVENT/t22h0h.mes/t22h0h_01", "sha1": "4b358250464ba0642593161c05af3b722947a5f9", "ko": "$OKA$「아직 젊은 $PAN$이에요（예요）@n\n　어른이 되고 싶지 않은 걸까@n\n,\n　마음속까지 젊은 건 좋은 일@n\n　일지도 모르지만」@n", "state": "needs_review"}
 {"id": "EVENT/t22h0i.mes/t22h0i_01", "sha1": "8115edc6c51a26baceb15f85fa02f36dcb25d3c5", "ko": "『애늙은이는@n\n　결번입니다』@n", "state": "needs_review"}
+{"id": "EVENT/t22h0j.mes/t15n0j_01", "sha1": "5f8bd344d22aeb8df2de414cefc872017020c03d", "ko": "$OKA$「요즘 $PAN$은（는） 불량아예요@n\n　판츠 주제에 불량아예요」@n", "state": "needs_review"}
+{"id": "EVENT/t22h0j.mes/t15n0j_02", "sha1": "566f2341e6795c827076d010ad171ccbb6856a11", "ko": "$OKA$「어떻게 해야 좀 더@n\n　착실한 사람이 되어 줄까…　」@n", "state": "needs_review"}
+{"id": "EVENT/t22h0k.mes/t22h0k_01", "sha1": "c57cc8c1fa22daf106305b9063a1443dffe6aa7a", "ko": "$OKA$「$PAN$은（는） 요즘 러블리해요@n\n　판츠 주제에 러블리해요@n\n　대체 무슨 일이 있었을까」@n", "state": "needs_review"}
 {"id": "EVENT/t22h0l.mes/t22h0l_01", "sha1": "68b746ffb3729ec06b8eeaf738aa6ad5b51ac2fd", "ko": "『오타쿠는@n\n　결번입니다』@n", "state": "needs_review"}
 {"id": "EVENT/t22h0m.mes/t22h0m_01", "sha1": "e742a8dd39af65c092b94ca23e508ebf41b0eca0", "ko": "『공부벌레는@n\n　결번입니다』@n", "state": "needs_review"}
+{"id": "EVENT/t22h0n.mes/t18a0n_01", "sha1": "96487ac782f99be1303c0af1c42d4d5c67f5122e", "ko": "$OKA$「요즘 $PAN$이（가） 멋쟁이예요@n\n　판츠 주제에 멋쟁이예요」@n", "state": "needs_review"}
+{"id": "EVENT/t22h0n.mes/t18a0n_02", "sha1": "306346af8c2fe3d96c805d2f0146e13da7b9c616", "ko": "$OKA$「슬림한 옷을 멋지게@n\n　잘 소화하는 멋쟁이」@n", "state": "needs_review"}
+{"id": "EVENT/t23a0a.mes/t23a0a_01", "sha1": "e2b013825e176022ac09258329eaf0e6309e8f87", "ko": "$PAN$「소금파 라멘이랑 깨 멸치@n\n　덮밥，만두 네 개요」@n", "state": "needs_review"}
+{"id": "EVENT/t23a0a.mes/t23a0a_02", "sha1": "b9f64690a5cd582554d4a588660562440470b8ca", "ko": "릴리「소금파 라멘이랑 깨 멸치@n\n　덮밥이랑…　만두 네 개요」@n", "state": "needs_review"}
+{"id": "EVENT/t23a0a.mes/t23a0a_03", "sha1": "b7f8efab2d41a8dbd74e21ac418db0084e978af7", "ko": "$PAN$「어라…　아빠@n\n　회사 사람이다…　」@n", "state": "needs_review"}
+{"id": "EVENT/t23a0a.mes/t23a0a_04", "sha1": "a8e51c741d01216043d4a533df553b16a28fd17c", "ko": "릴리「어머～？　아드님이네@n\n,\n　있잖아，전에 만났던 꼬마는@n\n　잘 지내？@n\n,\n　주근깨 있는 귀여운 남자애」@n", "state": "needs_review"}
+{"id": "EVENT/t23a0a.mes/t23a0a_05", "sha1": "8054558e89423b5d2884c23bf31e9de753424c60", "ko": "릴리「뭐？　네가 그 주근깨 애！@n\n,\n　…왠지 수수해졌네」@n", "state": "needs_review"}
+{"id": "EVENT/t23a0a.mes/t23a0a_06", "sha1": "cbb7e337660116f8334dd077dfcf9e0e8a74dbc4", "ko": "$PAN$「저기，제 만두 네 개@n\n　일곱 개로 해 주세요！」@n", "state": "needs_review"}
+{"id": "EVENT/t23a0a.mes/t23a0a_07", "sha1": "9a95087662ce4779805a1e9d948d8f422361acc1", "ko": "릴리「아，저도 일곱 개요！」@n", "state": "needs_review"}
+{"id": "EVENT/t23a0a.mes/t23a0a_08", "sha1": "6ce5ba1453ab10b58891d0c9eadf03f96938e75f", "ko": "$PAN$「엄청 먹는 여자다～　」@n", "state": "needs_review"}
+{"id": "EVENT/t23a0a.mes/t23a0a_09", "sha1": "7e34f3aa2245abf1b0854e4486e402f3dcba5cc8", "ko": "릴리「요즘 배가 고프단@n\n　말이야！@n\n,\n　어라？　너，어디선가@n\n　만났었지…@n\n,\n　…누구였더라？」@n", "state": "needs_review"}
+{"id": "EVENT/t23a0a.mes/t23a0a_10", "sha1": "8065252e017d6ac913eee37ff95e8a248fe1a87f", "ko": "릴리「아～아，그 젊던 아가씨도@n\n　벌써 서른셋이야～@n\n,\n　$PAN$ 씨는 지금 몇 살？」@n", "state": "needs_review"}
+{"id": "EVENT/t23a0a.mes/t23a0a_11", "sha1": "f29f655287fdef0b10036acf29b6e150705c782d", "ko": "$PAN$「…스물일곱」@n", "state": "needs_review"}
+{"id": "EVENT/t23a0a.mes/t23a0a_12", "sha1": "c40dc17d1bbf5c8862f34eab32fa800c41954f6c", "ko": "릴리「…계산이 안 맞는 것 같은데」@n", "state": "needs_review"}
+{"id": "EVENT/t23a0a.mes/t23a0a_13", "sha1": "81261cf76487bdf227fade920d38ab2150325d9b", "ko": "$PAN$「거짓말…　스물셋」@n", "state": "needs_review"}
+{"id": "EVENT/t23a0a.mes/t23a0a_14", "sha1": "dd4eca080e3194e904104d0c7b9fb4af07f18656", "ko": "릴리「판츠 씨가 진짜@n\n　이름이에요？」@n", "state": "needs_review"}
+{"id": "EVENT/t23a0a.mes/t23a0a_15", "sha1": "cfbe5841bd01106788df977b9bd560919f80fa7c", "ko": "$PAN$「말도 안 돼」@n", "state": "needs_review"}
+{"id": "EVENT/t23a0a.mes/t23a0a_16", "sha1": "3394faabdfaf449bf488f06508c32594a09d5c65", "ko": "릴리「판츠 씨는 삼각팬티파@n\n　아니죠？@n\n,\n　그거 싫어요 저，삼각팬티는@n\n　용서 못 해요」@n", "state": "needs_review"}
+{"id": "EVENT/t23f0a.mes/t23f0a_01", "sha1": "f783f81c39ff253e1fa0a8b8d9c5626e1ea0dde6", "ko": "$PAN$「제작에 오십 년 걸리는@n\n　ＲＰＧ는 역시 무리일까？@n\n,\n　플레이 시간은 이십 년 정도@n\n　인데…　」@n", "state": "needs_review"}
+{"id": "EVENT/t23f0a.mes/t23f0a_02", "sha1": "1dfce5ec9779769998012a4a10f79c40150b48d0", "ko": "$PAN$「제작에 오십 년 걸리는@n\n　ＲＰＧ는 역시 무리일까？@n\n,\n　어라？　왜 다들@n\n　말이 없어？」@n", "state": "needs_review"}
+{"id": "EVENT/t23f0b.mes/t23f0b_01", "sha1": "956a43369a5c6b0830e501e1ee69d5fbe1f57ff2", "ko": "$PAN$「난 힘쓰는 일이 많은 정형@n\n　외과에 먼저 배치됐어」@n", "state": "needs_review"}
+{"id": "EVENT/t23f0b.mes/t23f0b_02", "sha1": "9b0c8a571902681bf4da32cc062b8b3970d06cfe", "ko": "$PAN$「주간，야간，휴무 배정은@n\n　간호사장 재량인데@n\n,\n　뭐，난 원래 올빼미형이고@n\n　일이 힘들어도 오케이려나」@n", "state": "needs_review"}
+{"id": "EVENT/t23f0b.mes/t23f0b_03", "sha1": "0fa04f5eae3f977cd2918ea306ee5a1dfe227c79", "ko": "$PAN$「일은 꽤 힘들어@n\n　쉬고 싶은 날에 못 쉬고@n\n,\n　힘쓰는 일은 백 퍼센트@n\n　나한테 돌아오거든@n\n,\n　진짜，맥 빠져！」@n", "state": "needs_review"}
+{"id": "EVENT/t23f0c.mes/t23f0c_01", "sha1": "ad4749cf9d631d0e7a81380a68dba283cf9c3df0", "ko": "$PAN$「만화 연구부 경험으로는@n\n　아직 배울 게 산더미@n\n,\n　펜에는 익숙해서 간단한@n\n　배경 그리기부터 수련 중이에요@n\n,\n　겨우겨우 들어간 만화가@n\n　선생님 스튜디오에서@n\n,\n　조금은 즐거운 인생이 될@n\n　것 같아요」@n", "state": "needs_review"}
+{"id": "EVENT/t23f0c.mes/t23f0c_02", "sha1": "0ac7d421f65bc9a96411b748743424ab8db9bcf7", "ko": "$PAN$「난 만화 경험이@n\n　전혀 없어서 처음부터 수련이에요@n\n,\n　펜 터치는 어려워@n\n,\n　집중선 긋는 훈련을 매일매일@n\n　하고 있어요@n\n,\n　겨우겨우 들어간 만화가@n\n　선생님 스튜디오에서@n\n,\n　조금은 즐거운 인생이 될@n\n　것 같아요」@n", "state": "needs_review"}
+{"id": "EVENT/t23f0c.mes/t23f0c_03", "sha1": "295b7220c7324e0d454980bbd46f3403ead7f1f4", "ko": "$PAN$「만화 연구부 경험으론@n\n　신참이 못 하는 게 산더미@n\n,\n　예를 들면 스크린톤@n\n,\n　붙이는 건 시켜 주지만@n\n　깎는 건 아직 멀었어요@n\n,\n　겨우겨우 들어간 만화가@n\n　선생님 스튜디오에서@n\n,\n　뭐，힘든 인생이에요」@n", "state": "needs_review"}
+{"id": "EVENT/t23f0c.mes/t23f0c_04", "sha1": "5c9a2af58cbc65f739b8b288eb4f8851b91db932", "ko": "$PAN$「난 만화 경험이@n\n　전혀 없어서 처음부터 수련@n\n,\n　먹칠이나 지우개질은 그럭저럭@n\n　할 수 있지만@n\n,\n　언제쯤 한 사람 몫을@n\n　하게 될지@n\n,\n　겨우겨우 들어간 만화가@n\n　선생님 스튜디오에서@n\n,\n　조금 불안한 인생이에요」@n", "state": "needs_review"}
+{"id": "EVENT/t23f0d.mes/t23f0d_01", "sha1": "00f3c9c127852df5799463c24084c0d79439b836", "ko": "$PAN$「구제 옷가게에서 일하게 된@n\n　$PAN$이에요（예요）@n\n,\n　알바를 했으니 새내기는@n\n　아니지만요@n\n,\n　구월부터는 봄처럼 긴소매@n\n　티셔츠@n\n,\n　십일월부터 이월까지가 겨울옷@n\n,\n　삼월은 봄 시즌 시작이라 긴소매@n\n　셔츠，얇은 스윙톱 같은 거@n\n　려나@n\n,\n　이 장사의 인생은 분명 즐거운@n\n　인생이에요」@n", "state": "needs_review"}
+{"id": "EVENT/t23f0d.mes/t23f0d_02", "sha1": "850abe2c0fd9b4d9476db8efc218a97ca7167c62", "ko": "$PAN$「구제 옷가게에서 일하게 된@n\n　$PAN$이에요（예요）@n\n,\n　공부해야 할 게@n\n　넓고 깊어서 힘들어요@n\n,\n　단추만 해도 몇십 종류나@n\n　있으니까@n\n,\n　연대도 봐야 하고…　」@n", "state": "needs_review"}
+{"id": "EVENT/t23f0d.mes/t23f0d_03", "sha1": "975bdf8b107b838ea8ecbcef7ee5a022ad13032e", "ko": "$PAN$「이 단추는 어느@n\n　메이커 거지？」@n", "state": "needs_review"}
+{"id": "EVENT/t23f0d.mes/t23f0d_04", "sha1": "1ba2e90dd56b07a62af11442fe84e84fbda57add", "ko": "$PAN$「이 장사의 인생은 분명@n\n　즐거운 인생이에요」@n", "state": "needs_review"}
+{"id": "EVENT/t23f0d.mes/t23f0d_05", "sha1": "b68b39573c8aea7feb8ac1ed080a795bed8327f1", "ko": "『※게이지 빨강일 때 처리 불명※』", "state": "needs_review"}
+{"id": "EVENT/t23h0a.mes/t23h0a_01", "sha1": "524365e6281bde256f40fca17ee3aa69268a82eb", "ko": "$PAN$「$PAN$이에요（예요）　오늘부터@n\n　게임 회사예요@n\n,\n　어엿한 사회인이 됐어요@n\n,\n　내가 샐러리맨이라니@n\n　왠지 안 믿기지만요」@n", "state": "needs_review"}
+{"id": "EVENT/t23h0a.mes/t23h0a_02", "sha1": "536543490ea25f8a4608e21f54c01a1f3a8df35d", "ko": "$PAN$「$PAN$이에요（예요）　오늘부터@n\n　$JIJ$의 동료예요@n\n,\n　이렇게 훌륭한 데서 일하고@n\n　있었다니@n\n,\n　$JIJ$은（는） 꽤 치사해」@n", "state": "needs_review"}
+{"id": "EVENT/t23h0a.mes/t23h0a_03", "sha1": "80be1593ec3f97901b5287982e73582a8251204b", "ko": "$JIJ$「점심 벌써 먹었어？@n\n　…사 줄까」@n", "state": "needs_review"}
+{"id": "EVENT/t23h0a.mes/t23h0a_04", "sha1": "0c91e21e486ff60c7b620c62e2df2d0b33d4f972", "ko": "$PAN$「날 벌써 부하로@n\n　삼으려는 모양이야@n\n,\n　위험해 위험해」@n", "state": "needs_review"}
+{"id": "EVENT/t23h0a.mes/t23h0a_05", "sha1": "80c8cefd223f6fa55af883ab05021a09c12e90da", "ko": "$JIJ$「뭘 중얼중얼거려？」@n", "state": "needs_review"}
+{"id": "EVENT/t23h0a.mes/t23h0a_06", "sha1": "8e73007f6c5e38f4175ec3c3a2190aa7daf51b54", "ko": "$PAN$「오늘부터 사회인인@n\n　$PAN$이에요（예요）@n\n,\n　가족이 총출동，이 회사에는@n\n　네 명이나 있어요@n\n,\n　아～아，싫다 싫어」@n", "state": "needs_review"}
+{"id": "EVENT/t23h0a.mes/t23h0a_07", "sha1": "153d04e1988ea4fe13742a37cc4643726ff7604d", "ko": "$KYO$「난 비서라서 위층 중역실」@n", "state": "needs_review"}
+{"id": "EVENT/t23h0a.mes/t23h0a_08", "sha1": "168d1d49cbffac599f314c4826e31d34ed74aac7", "ko": "$KOK$「난 제작부 층에@n\n　있어@n\n,\n　게임 만들고 있어」@n", "state": "needs_review"}
+{"id": "EVENT/t23h0a.mes/t23h0a_09", "sha1": "6e08587e602c6fa7093d8f0bd7accf4f297123b4", "ko": "$JIJ$「난 개발부　하드웨어@n\n　설계를 하고 있어」@n", "state": "needs_review"}
+{"id": "EVENT/t23h0a.mes/t23h0a_10", "sha1": "ecfb47155e03b0f2a7565fac763d6ae2af12d03f", "ko": "$PAN$「나는？」@n", "state": "needs_review"}
+{"id": "EVENT/t23h0a.mes/t23h0a_11", "sha1": "91c8ba6a569ab70a0920e2ec89b9646615e97ece", "ko": "$KYO$「$PAN$은（는） 연수 끝나면@n\n　제작부일 테니까…　」@n", "state": "needs_review"}
+{"id": "EVENT/t23h0a.mes/t23h0a_12", "sha1": "ff094f6051f8ac2f8da38989e5097cdba02936b5", "ko": "$KOK$「나랑 같은 데　하지만@n\n　남인 척할 거야」@n", "state": "needs_review"}
+{"id": "EVENT/t23h0a.mes/t23h0a_13", "sha1": "8057b02e1b5c5d045cd2d043059d39ca66d90c53", "ko": "$PAN$「아～아，싫다 싫어」@n", "state": "needs_review"}
+{"id": "EVENT/t23h0b.mes/t23h0b_01", "sha1": "ca1e07e98d2d30ff0b9b06270f013cdf3ed03fdc", "ko": "$PAN$「오늘부터 간호사，남을 위해@n\n　땀 흘리며 일합니다@n\n,\n　근데 학교 실습이랑 뭐가@n\n　다른 걸까～@n\n,\n　…같은 생각을 좀 해 버려@n\n,\n　아직 코흘리개 꼬마인@n\n　$PAN$이에요（예요）」@n", "state": "needs_review"}
+{"id": "EVENT/t23h0c.mes/t23h0c_01", "sha1": "440a02d04310db03c95b8bbe62132c7ea1ffad44", "ko": "$PAN$「당당히 사회인이 된@n\n　$PAN$이에요（예요）@n\n,\n　오늘부터 보시는 스튜디오에서@n\n,\n　만화가 선생님의 어시스턴트로@n\n　밤낮으로 노력하겠습니다@n\n,\n　…나，제대로 쓸모가@n\n　있으려나～　」@n", "state": "needs_review"}
+{"id": "EVENT/t23h0d.mes/t23h0d_01", "sha1": "a91959f5fdfd676528f46cce743bd21c0bdf9250", "ko": "$PAN$「$PAN$이에요（예요）　오늘부터@n\n　구제 옷가게에서 일해요@n\n,\n　옷은 정말 좋아하지만@n\n,\n　좋아함과 싫어함은 종이 한 장@n\n　차이라 재주넘기처럼 헷갈려@n\n,\n　자，어떨까？」@n", "state": "needs_review"}
+{"id": "EVENT/t23h1a.mes/t23h1a_01", "sha1": "2dba287f90540422c6133e506dbec09801a1b139", "ko": "『……그래서 사회인이 된@n\n　$PAN$에게 읽히고 싶은@n\n　특별한 책을 골라 주세요』@n", "state": "needs_review"}
+{"id": "EVENT/t24a0a.mes/t24a0a_01", "sha1": "6f8771cf22c208aba9f7dd3516ccc977484c2c8a", "ko": "$OKA$「$PAN$은（는） 정말@n\n　착한 아이예요@n\n,\n　쑥쑥 자라서 훌륭한 어른이@n\n　됐어요」@n", "state": "needs_review"}
+{"id": "EVENT/t24a0b.mes/t22h0b_01", "sha1": "7b4d3b32cd9fad5e30a41251580af1c7cdbdb1fd", "ko": "$OKA$「$PAN$은（는） 요즘 감기에@n\n　걸렸어요」@n", "state": "needs_review"}
+{"id": "EVENT/t24a0b.mes/t22h0b_02", "sha1": "1b82fe88ba76bf61bd771e844b69c23743d953a3", "ko": "$OKA$「벗고 자기라도 한 걸까？」@n", "state": "needs_review"}
+{"id": "EVENT/t24a0c.mes/t22h0c_01", "sha1": "cff905e5b82e22c75e05dd144c257f2f839cec67", "ko": "$OKA$「개구쟁이 $PAN$이에요（예요）@n\n　기운이 펄펄 넘쳐요」@n", "state": "needs_review"}
+{"id": "EVENT/t24a0c.mes/t22h0c_02", "sha1": "e41ee7e64a3f60289e35187111e33f11a49ae590", "ko": "$OKA$「넌 막내라서@n\n　천방지축인 것도 어쩔 수 없나」@n", "state": "needs_review"}
+{"id": "EVENT/t24a0d.mes/t22h0d_01", "sha1": "d98f865a4b11c24ee3f6ff9812cf43beafbed95b", "ko": "$OKA$「$PAN$은（는） 요즘 무기력해요@n\n　판츠 주제에 무기력해요@n\n,\n　계단 중간에서 멍～하니@n\n　있을 때가 많은데@n\n,\n　대체 무슨 생각 하는 거니？@n\n　꼬맹아」@n", "state": "needs_review"}
+{"id": "EVENT/t24a0d.mes/t22h0d_02", "sha1": "6ab73a68ee2872674cb3cee27b5cc90112a19fa2", "ko": "$OKA$「거기서 너무 멍하니@n\n　있으면 저녁밥 먼저@n\n　먹어 버린다」@n", "state": "needs_review"}
 {"id": "EVENT/t24a0e.mes/t24a0e_01", "sha1": "c53ec77a3e00dd5203a6587aea7a4244e7d48e47", "ko": "『노력파는@n\n　결번입니다』@n", "state": "needs_review"}
+{"id": "EVENT/t24a0f.mes/t22h0f_01", "sha1": "6e81841fe36d930b0b261e2424d5f4f7b92abcd1", "ko": "$OKA$「$PAN$은（는） 역시@n\n　몽상가예요@n\n,\n　이 아이는 분명 엄청난 생각을@n\n　하고 있을 거야」@n", "state": "needs_review"}
+{"id": "EVENT/t24a0f.mes/t22h0f_02", "sha1": "3b5e0dcf4acdd6ad26ead1174a2a794e93b96f6e", "ko": "$OKA$「어？　무슨 생각 하는지@n\n　엄마한테 알려 준다고？@n\n,\n　아냐아냐 됐어，사양할게요～」@n", "state": "needs_review"}
+{"id": "EVENT/t24a0g.mes/t22h0g_01", "sha1": "beb7a27abf959fc5d748ec41da4489b2dad68893", "ko": "$OKA$「역시 튀고 싶어 하는@n\n　$PAN$이에요（예요）　보시는@n\n　그대로의 남자아이」@n", "state": "needs_review"}
+{"id": "EVENT/t24a0g.mes/t22h0g_02", "sha1": "8611b61b60648bc246dee939d264ec8d5dbcd037", "ko": "$OKA$「너는 정말이지 엉망진창@n\n　이라니까～　」@n", "state": "needs_review"}
+{"id": "EVENT/t24a0h.mes/t22h0h_01", "sha1": "4b358250464ba0642593161c05af3b722947a5f9", "ko": "$OKA$「아직 젊은 $PAN$이에요（예요）@n\n　어른이 되고 싶지 않은 걸까@n\n,\n　마음속까지 젊은 건 좋은 일@n\n　일지도 모르지만」@n", "state": "needs_review"}
 {"id": "EVENT/t24a0i.mes/t24a0i_01", "sha1": "8115edc6c51a26baceb15f85fa02f36dcb25d3c5", "ko": "『애늙은이는@n\n　결번입니다』@n", "state": "needs_review"}
+{"id": "EVENT/t24a0j.mes/t15n0j_01", "sha1": "5f8bd344d22aeb8df2de414cefc872017020c03d", "ko": "$OKA$「요즘 $PAN$은（는） 불량아예요@n\n　판츠 주제에 불량아예요」@n", "state": "needs_review"}
+{"id": "EVENT/t24a0j.mes/t15n0j_02", "sha1": "566f2341e6795c827076d010ad171ccbb6856a11", "ko": "$OKA$「어떻게 해야 좀 더@n\n　착실한 사람이 되어 줄까…　」@n", "state": "needs_review"}
+{"id": "EVENT/t24a0k.mes/t22h0k_01", "sha1": "c57cc8c1fa22daf106305b9063a1443dffe6aa7a", "ko": "$OKA$「$PAN$은（는） 요즘 러블리해요@n\n　판츠 주제에 러블리해요@n\n　대체 무슨 일이 있었을까」@n", "state": "needs_review"}
 {"id": "EVENT/t24a0l.mes/t24a0l_01", "sha1": "68b746ffb3729ec06b8eeaf738aa6ad5b51ac2fd", "ko": "『오타쿠는@n\n　결번입니다』@n", "state": "needs_review"}
 {"id": "EVENT/t24a0m.mes/t24a0m_01", "sha1": "e742a8dd39af65c092b94ca23e508ebf41b0eca0", "ko": "『공부벌레는@n\n　결번입니다』@n", "state": "needs_review"}
+{"id": "EVENT/t24a0n.mes/t18a0n_01", "sha1": "96487ac782f99be1303c0af1c42d4d5c67f5122e", "ko": "$OKA$「요즘 $PAN$이（가） 멋쟁이예요@n\n　판츠 주제에 멋쟁이예요」@n", "state": "needs_review"}
+{"id": "EVENT/t24a0n.mes/t18a0n_02", "sha1": "306346af8c2fe3d96c805d2f0146e13da7b9c616", "ko": "$OKA$「슬림한 옷을 멋지게@n\n　잘 소화하는 멋쟁이」@n", "state": "needs_review"}
+{"id": "EVENT/t24a1a.mes/t24a1a_01", "sha1": "611c214c157881e18502cea05aaea1c75918f846", "ko": "$PAN$「사회인이 된 지 어언 수년@n\n　이제 게임 프로그래머가@n\n　몸에 밴 $PAN$이에요（예요）」@n", "state": "needs_review"}
+{"id": "EVENT/t24a1a.mes/t24a1a_02", "sha1": "f1c066fdad2b901c0e42440659587bf774a2b2ea", "ko": "$PAN$「지금은 일 년 만에 끝나는@n\n　콤팩트한 기획을 구상 중이야@n\n,\n　스태프는 오천 명 정도려나？@n\n,\n　뭐？　콤팩트하지 않다고」@n", "state": "needs_review"}
+{"id": "EVENT/t24a1a.mes/t24a1a_03", "sha1": "cdf8b7068063cf0420de4fd886d318bd4317190c", "ko": "$PAN$「무리무리，그렇게@n\n　큰 기획을 세워 봤자@n\n,\n　완성될 리가 없잖아」@n", "state": "needs_review"}
+{"id": "EVENT/t24a1a.mes/t24a1a_04", "sha1": "44129155268c4b4b1d647864c7a0a93a897ac152", "ko": "$PAN$「…이러는 나도 어느새@n\n　완전히 둥글둥글해졌어요@n\n,\n　성격도 체형도요」@n", "state": "needs_review"}
+{"id": "EVENT/t24a1b.mes/t24a1b_01", "sha1": "f8e73f7e612f790ef03fcd67e2494141d469e0c9", "ko": "$PAN$「사회인이 된 지 어언 수년@n\n　이제 간호사 일이 몸에@n\n　밴 $PAN$이에요（예요）」@n", "state": "needs_review"}
+{"id": "EVENT/t24a1b.mes/t24a1b_02", "sha1": "0445dd9c42df9a250a78e7b9031c7c9f94682c8c", "ko": "$PAN$「역시 환자가 병이 나아서@n\n　건강하게 퇴원하는 모습을 보는 게@n\n　제일 즐거움이려나@n\n,\n　가끔 귀여운 애가 퇴원하면@n\n　이별이 조금 슬프지만」@n", "state": "needs_review"}
+{"id": "EVENT/t24a1b.mes/t24a1b_03", "sha1": "db7481b49276644ff1f6df18cabdd59644f871a7", "ko": "$PAN$「일은 보람 있지만@n\n　다들 요통에 엄청 불건강해@n\n,\n　불평하면 여자들한테@n\n　들볶인다니까@n\n,\n　진짜，맥 빠져」@n", "state": "needs_review"}
+{"id": "EVENT/t24a1c.mes/t24a1c_01", "sha1": "8c192c0400578a24194b85a500ed84c98b21280f", "ko": "$PAN$「사회인이 된 지 어언 수년@n\n　이제 만화가 어시스턴트가@n\n　몸에 밴 $PAN$이에요（예요）」@n", "state": "needs_review"}
+{"id": "EVENT/t24a1c.mes/t24a1c_02", "sha1": "0564025d28fa3f80f8d4f8de650626d3fc235cf3", "ko": "$PAN$「이 일，나한테@n\n　맞는 것 같아@n\n,\n　요즘은 가야 펜 터치까지@n\n　맡을 때도 있어@n\n,\n　참고로 가야라는 건@n\n　기타 인물을 말해요@n\n,\n　아직 신참인 주제에 벌써@n\n　신인 교육 담당도 하고 있고@n\n,\n　왠지 즐거운 나날이에요」@n", "state": "needs_review"}
+{"id": "EVENT/t24a1c.mes/t24a1c_03", "sha1": "49eb58d885baf4695a4dbce2b95fa6528e59cf4f", "ko": "$PAN$「얼마 전 내가 그린 원고가@n\n　만화 잡지에 실렸어요@n\n,\n　이걸로 무사히 데뷔할 수 있으면@n\n　좋겠지만，세상일이 그리@n\n　쉽지 않죠@n\n,\n　우선 당분간 어시스턴트@n\n　일을 계속하려고 해요@n\n,\n　아직 내 인생은 파란만장이@n\n　계속되네」@n", "state": "needs_review"}
+{"id": "EVENT/t24a1d.mes/t24a1d_01", "sha1": "ce3b6375b8c9b8a1da8f24a00a5d4709f8e8a491", "ko": "$PAN$「사회인이 된 지 어언 수년@n\n　이제 구제 옷가게 일이 몸에 밴@n\n　$PAN$이에요（예요）」@n", "state": "needs_review"}
+{"id": "EVENT/t24a1d.mes/t24a1d_02", "sha1": "5c689bf012b46c686afe53463cb3af2d4b97b6bf", "ko": "$PAN$「또 슬슬 미국으로@n\n　매입 여행 다녀올게요@n\n,\n　그쪽 업자들은 원래 마늘이@n\n　들어 있던 큰 용기를 쓰거든@n\n,\n　그래서 구제 옷에선 독특한 냄새가@n\n　나는 거지！@n\n,\n　그럼 월급이 조금 더@n\n　오르면 다들 선물 사@n\n　올게@n\n,\n　그러니까 아직은 안 사 와」@n", "state": "needs_review"}
+{"id": "EVENT/t24a1d.mes/t24a1d_03", "sha1": "42f09dea9eb23e3892e87aa464015bc7291d462f", "ko": "$PAN$「아，이거야 이거，이@n\n　스니커즈 무조건 뜬다@n\n　멋있잖아」@n", "state": "needs_review"}
+{"id": "EVENT/t24a1d.mes/t24a1d_04", "sha1": "d6992da53a13b9a7fd413c8597746695c2bd72c0", "ko": "$PAN$「그렇다고 천 켤레나@n\n　들여올 건 없었는데」@n", "state": "needs_review"}
+{"id": "EVENT/t24a1d.mes/t24a1d_05", "sha1": "846062280d9ad07b805c7da197b3f01c9a736cbc", "ko": "$PAN$「수입품을 다루는 입장에서@n\n　제일 무서운 건@n\n,\n　붐이 된 아이템과 그@n\n　후유증일지도 모릅니다」@n", "state": "needs_review"}
+{"id": "EVENT/t24h0a.mes/t24h0a_01", "sha1": "2588ea5aaeddf37be0c3df1fc1e3097dc7c1dba4", "ko": "$OTO$「사남 $PAN$의@n\n　결혼식이 열렸다@n\n,\n　신랑 $PAN$，스물네 살@n\n　신부 유리코，서른네 살…　」@n", "state": "needs_review"}
+{"id": "EVENT/t24h0a.mes/t24h0a_02", "sha1": "554a142c130d53b1f9d8eac97e66470bb8be3b95", "ko": "$PAN$「좋은 신부지！」@n", "state": "needs_review"}
+{"id": "EVENT/t24h0a.mes/t24h0a_03", "sha1": "feab2027bae3ec2fa1ba3d3727ba13095358dbd1", "ko": "릴리「동갑이야」@n", "state": "needs_review"}
+{"id": "EVENT/t24n0a.mes/t24n0a_01", "sha1": "1574b6ded54fac0bb08948b5188ba62bfa4c1e79", "ko": "$OKA$「네～…　아，지금@n\n　밥 먹고 있는데…　」@n", "state": "needs_review"}
+{"id": "EVENT/t24n0a.mes/t24n0a_02", "sha1": "ba01021dbd5f29176115a80ee300747c13aae25e", "ko": "$OTO$「뭐래？」@n", "state": "needs_review"}
+{"id": "EVENT/t24n0a.mes/t24n0a_03", "sha1": "6ed827711d87eb857c1796112fd975d1957fa7e5", "ko": "$OKA$「$PAN$이（가）…　화장실에@n\n　휴지 갖다 달래」@n", "state": "needs_review"}
+{"id": "EVENT/t25h0a.mes/t25h0a_01", "sha1": "c1af0162cd86c0b25abe97c7f76d047362b4a82c", "ko": "$OKA$「수고했어～！」@n", "state": "needs_review"}
+{"id": "EVENT/t25h0a.mes/t25h0a_02", "sha1": "2b4275dc288d9e9e750c1b709a9e5f59356f90d4", "ko": "$PAN$「봐 봐，내 애기@n\n　귀엽지～　」@n", "state": "needs_review"}
+{"id": "EVENT/t25h0a.mes/t25h0a_03", "sha1": "18175a37e7de5e267fd139bbe1a7fd139476e71f", "ko": "$GEN$「$PAN$도 이것저것@n\n　돕기도 하고，활약했어」@n", "state": "needs_review"}
+{"id": "EVENT/t25h0a.mes/t25h0a_04", "sha1": "31065ad98d80f5bdb4e05029f0035199d8a0dbeb", "ko": "릴리「아빠 좀@n\n　다시 봤어」@n", "state": "needs_review"}
+{"id": "EVENT/t25h0a.mes/t25h0a_05", "sha1": "c49a9b92bbde1fc583a695858ca0860d332d643b", "ko": "$GEN$「이 녀석 말이야@n\n　너무해@n\n,\n　양수 터질 즈음에 병원에서@n\n　도망쳤다니까！」@n", "state": "needs_review"}
+{"id": "EVENT/t25h0a.mes/t25h0a_06", "sha1": "127dac1b2af92ef57925559d21a267b9513a4acf", "ko": "$OKA$「뭐야，그게！」@n", "state": "needs_review"}
+{"id": "EVENT/t25h0a.mes/t25h0a_07", "sha1": "22e6392301d69f20eb9b2e5bf82d5297eee5eabe", "ko": "$PAN$「무서워져서，내가@n\n　아빠가 된다니…　」@n", "state": "needs_review"}
+{"id": "EVENT/t25h0a.mes/t25h0a_08", "sha1": "e812b35af7aabcfe5c2c68c29be6cb50c72f287f", "ko": "$OKA$「그래서 어떻게 됐어？」@n", "state": "needs_review"}
+{"id": "EVENT/t25h0a.mes/t25h0a_09", "sha1": "2bab52bd8c735770c172131f7e0c904b39644780", "ko": "릴리「돌아온 걸@n\n　한 대 갈겼어요」@n", "state": "needs_review"}
+{"id": "EVENT/t25h0a.mes/t25h0a_10", "sha1": "0c57707ffa2046b55d8fdff5f962a0bff87ae23d", "ko": "$OTO$「$PAN$의 집에@n\n　이천팔백 그램의 장남이 태어났다」@n", "state": "needs_review"}
