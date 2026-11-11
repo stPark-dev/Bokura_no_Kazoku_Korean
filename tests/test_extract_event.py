@@ -32,3 +32,17 @@ def test_baseline_matches_fresh_extraction():
     with open(BASELINE, encoding='utf-8') as f:
         committed = [json.loads(line) for line in f]
     assert committed == fresh
+
+
+def test_other_archive_prefix(tmp_path):
+    d = tmp_path / 'GAMEMES.XAP'
+    d.mkdir()
+    (d / 'gamemes.mes').write_bytes('reso_1_01\r\n\t『$MAIN$と@n\r\n'.encode('cp932'))
+    [e] = extract_event.extract(str(tmp_path), archive='GAMEMES.XAP', prefix='GAMEMES')
+    assert e['id'] == 'GAMEMES/gamemes.mes/reso_1_01'
+
+
+@pytest.mark.skipif(not os.path.isdir(UNPACKED), reason='work/unpacked not present')
+def test_gamemes_baseline_matches_fresh_extraction():
+    with open(os.path.join(ROOT, 'text', 'gamemes_src.jsonl'), encoding='utf-8') as f:
+        assert [json.loads(line) for line in f] == extract_event.extract(UNPACKED, 'GAMEMES.XAP', 'GAMEMES')

@@ -25,7 +25,16 @@ def main(src, dst):
                                  lambda s: hangul_map.encode(s, cmap))
     img = bytearray(open(dst, 'rb').read())
     replaced = {'DATA/EVENT.XAP': rebuild(ev, files=new)}
-    print('event files translated:', sorted(new))
+    print('event files translated:', len(new))
+
+    _, glba, gsize = iso9660.find(orig, 'DATA/GAMEMES.XAP')
+    gx = orig[glba * 2048:glba * 2048 + gsize]
+    gfiles = {e.name: read_file(gx, e) for e in read_entries(gx)}
+    gnew = apply_text.apply_event(gfiles, apply_text.load_jsonl(os.path.join(TEXT, 'gamemes_src.jsonl')),
+                                  apply_text.load_jsonl(os.path.join(TEXT, 'gamemes_ko.jsonl')),
+                                  lambda s: hangul_map.encode(s, cmap))
+    replaced['DATA/GAMEMES.XAP'] = rebuild(gx, files=gnew)
+    print('gamemes translated:', sorted(gnew))
 
     # system text: line units, applied to the archive as it is in the image built so far
     sys_src = apply_text.load_jsonl(os.path.join(TEXT, 'sys_src.jsonl'))
