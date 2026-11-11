@@ -298,6 +298,155 @@
 {"id": "MENURES.XAP/menumes.txt:381", "sha1": "ca629032a62e57e09980f827793c3983d4d52dc7", "ko": "메모리 카드 슬롯 １의 메모리 카드(PS2)에는@n", "state": "needs_review"}
 {"id": "MENURES.XAP/menumes.txt:382", "sha1": "996bc660aec9bbbdfc42d513f3e625eb5f6410ac", "ko": "「우리들의 가족」 클리어 데이터가 없습니다@n", "state": "needs_review"}
 {"id": "MENURES.XAP/menumes.txt:383", "sha1": "74658d35b66ae342453209334581fd66e82273b5", "ko": "로드를 중지하려면 @s20@r56@g71@b104×@s19@r115@g115@b115버튼을 눌러 주십시오", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:29", "sha1": "5527f885a73e2cfa1fd8122696940e8b68254e9d", "ko": "string, 320, 257, center, \"@r115@g112@b71@s18@0제%s화\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:30", "sha1": "a7f07ff201eda2e11fecf330a563ff4e7e5c1167", "ko": "string, 434, 261, right, \"@r115@g112@b71@s13@0%s％\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:45", "sha1": "56e11482ac4b50e7820ca524da2072da8c8cef58", "ko": "string, 161, 212, left, \"@r115@g108@b53%s@s4　@s20%s@r230@g230@b230@s19와@s20@r115@g108@b53%s\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:183", "sha1": "5643ada15442280cf85f69c69b69d894376f1334", "ko": "comment,  42,  55, left, \"@r115@g108@b53@s16@0가족의 기록 고르기\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:216", "sha1": "79a89dc5b74259d7fd548dc8814c5139591cdcbb", "ko": "string, 216,  56, left, \"@r115@g108@b53@s18@0２０%s／%s／%s\", -1,-1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:217", "sha1": "7b31e58c2bdb3d7cd60127974fcb8e4996ee1aa1", "ko": "string, 193,  79, left, \"@s19@0제%s화\", -1,-1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:219", "sha1": "3311269cffcbf4981918c097745a9f43a25d2955", "ko": "string, 554,  79, left, \"@s19@0%s살\", -1,-1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:220", "sha1": "82e3b1e59326a919b5b20b6b80000da170dedccd", "ko": "string, 404, 106, center, \"@s20@r119@g119@b96@o1@0%s@d9@0%s@d8＊@d8@0%s\", -1,-1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:221", "sha1": "b4fa84c6f0b2928fc56b16fe29748a0acfc85d77", "ko": "string, 189, 135, left, \"@o1@0１）%s\", -1,-1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:222", "sha1": "f0bb1a8945b78db3f7857792f207dcc6a4ffed85", "ko": "string, 189, 155, left, \"@o1@0２）%s\", -1,-1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:223", "sha1": "320f1c3cd6cd3731a4eb2b11617bd25d50b26af5", "ko": "string, 189, 175, left, \"@o1@0３）%s\", -1,-1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:224", "sha1": "a3966163d791f6aa992e90c40b346a772b761298", "ko": "string, 189, 195, left, \"@o1@0４）%s\", -1,-1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:225", "sha1": "38727bdbb09fa4fa47459bf8dfd31bc449f3ab35", "ko": "string, 189, 215, left, \"@o1@0５）%s\", -1,-1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:226", "sha1": "3d447038d5f06cd70aa9dff7ec01410cc61c6bb5", "ko": "string, 189, 235, left, \"@o1@0６）%s\", -1,-1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:227", "sha1": "52e5a4d167502bb2726123e75017a929e90a1d4a", "ko": "string, 308, 135, left, \"@o1@0%s살\", -1,-1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:228", "sha1": "b05278699355378778ef77363fe1584ac223aa43", "ko": "string, 308, 155, left, \"@o1@0%s살\", -1,-1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:229", "sha1": "8dad76fd67b3a23f4538841a2faf6e14ca503b08", "ko": "string, 308, 175, left, \"@o1@0%s살\", -1,-1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:230", "sha1": "5aeadb08796c6bbbb593c23c4525d3429467cc63", "ko": "string, 308, 195, left, \"@o1@0%s살\", -1,-1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:231", "sha1": "3c143d9aa0105098ac5bc4de6eff51429140157f", "ko": "string, 308, 215, left, \"@o1@0%s살\", -1,-1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:232", "sha1": "ef290e8a55ac67cc831440d6b141e2fa78fd81d3", "ko": "string, 308, 235, left, \"@o1@0%s살\", -1,-1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:247", "sha1": "0b3003e1140811d7864b854be6cf3e343d5694e5", "ko": "icon,   0,   0, \"남자아이\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:248", "sha1": "07f24ce5da240d20aec062f75df8ea3ab568f930", "ko": "icon,   0,   0, \"여자아이\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:249", "sha1": "dc63455e367353ac9d83f63e48544b0d6dca6529", "ko": "icon,   0,   0, \"영유아\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:250", "sha1": "0b8ecee91e45913c24fdb8bc367181ca81d80ca3", "ko": "icon,   0,   0, \"유아\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:251", "sha1": "9223e2cd76f425a13a2ff2f24712de78b7b968b3", "ko": "icon,   0,   0, \"%s년\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:264", "sha1": "9a3e5a07fa085482b286936ac1ad1d4db84ca1de", "ko": "string, 128, 153, left, \"@s19아기（%s%s）의@n@s4　@n@s20이름을 정해 주세요\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:279", "sha1": "dbc1c5e71d3017d63da0b0f1cf39c1e1ca186252", "ko": "string, 108,  86, left, \"@s18@0%s　%s　아기（%s%s）의 이름\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:312", "sha1": "9ecae8f371a06e9dd9a844b6b7c9c5465d018f62", "ko": "string, 169, 151, left, \"@s19@r115@g115@b115%s　%s　@n@s2　@n@s20%s@r115@g108@b53@0 %s@n@s2　@n@s19@r115@g115@b115이 이름으로 할까요？\", -1,-1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:324", "sha1": "a59334beb35275af7c5378bc28abeb95fe02258b", "ko": "comment, 172,  40, left, \"@s20@r92@g87@b42봄\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:325", "sha1": "71ed7d8a2f28d7bdea7e87e04af66e41bb149dcf", "ko": "comment, 262,  41, left, \"살\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:326", "sha1": "a0900f75d64cc771e3a0b85e6b05657a7c3ff9c2", "ko": "string, 189,  65, center, \"@r119@g119@b96%s@d11%s　%s\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:333", "sha1": "339c3f8326e3edd67f598bde8978b241f1d7a82c", "ko": "icon, 0, 0, \"　　첫\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:334", "sha1": "b1538b9120c1d965999b7614ff9987f8847a2911", "ko": "icon, 0, 0, \"　%s년째\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:335", "sha1": "5f4162efeda0e0b41c07a5d3cb84a5186e09a5b2", "ko": "icon, 0, 0, \"%s년째\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:336", "sha1": "ad86151c72822c8d485f6527dfd4051fc1b021db", "ko": "icon, 0, 0, \"　　마지막\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:345", "sha1": "28f84d6f8c2fb5579e03db2b97d9f35776b51e0e", "ko": "string, 219,  41, left, \"%s살\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:350", "sha1": "83b96dc8f993474cc99ed861d7895fab0224838d", "ko": "icon, 0, 0, \"봄\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:351", "sha1": "7b56fdf0f8b0e27d74c784939ff96588cdac25bd", "ko": "icon, 0, 0, \"여름\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:352", "sha1": "736e63edf1935d42f9cea3aa5e5cb655bc06b660", "ko": "icon, 0, 0, \"가을\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:353", "sha1": "22f4b834ea6aaab4e5de6a9ef98e07086ab33bfe", "ko": "icon, 0, 0, \"겨울\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:354", "sha1": "339c3f8326e3edd67f598bde8978b241f1d7a82c", "ko": "icon, 0, 0, \"　　첫\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:355", "sha1": "b1538b9120c1d965999b7614ff9987f8847a2911", "ko": "icon, 0, 0, \"　%s년째\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:356", "sha1": "5f4162efeda0e0b41c07a5d3cb84a5186e09a5b2", "ko": "icon, 0, 0, \"%s년째\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:357", "sha1": "ad86151c72822c8d485f6527dfd4051fc1b021db", "ko": "icon, 0, 0, \"　　마지막\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:388", "sha1": "a0075aacfbc30b2e0554e5fb00ded571232c49a8", "ko": "comment,  34, 369, left, \"아이들의 모습이나 사진 등을 본다\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:389", "sha1": "048e84d1223fcd84accac8d6c6a6b90972387a88", "ko": "comment,  34, 369, left, \"행동을 고르지 않고 다음으로\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:390", "sha1": "df5d2462d5a0eeb167fd3baec1077eb656e341ef", "ko": "comment,  34, 369, left, \"화면・소리・조작 설정 변경\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:429", "sha1": "6c0d9b595427150cdadb79689c7bcb501850aa60", "ko": "string,  37,  63, left, \"@s18@r119@g119@b96가족의 일기 보기\", 16, 63", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:430", "sha1": "04a13e351f356b472c8704d9ddaf0f1a15d5638c", "ko": "string,  37,  85, left, \"@s18@r119@g119@b96설@d6정\", 16, 83", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:431", "sha1": "6285c2cba3a8ed56a7a71ffd8de987cc437ac5f9", "ko": "string,  34, 107, left, \"@s22되는 대로\", 16, 109", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:494", "sha1": "10bf0d64328635c87e6adaeed5213b386332ca90", "ko": "string, 360, 325, center, \"　　첫 봄%s\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:495", "sha1": "53b13559eed3a0487fd90a8340e8dc16d243d0fa", "ko": "string, 360, 325, center, \"　　마지막 봄%s\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:496", "sha1": "2184c60c0a3c3f5b31d1673cf484b5e072338b3a", "ko": "string, 360, 325, center, \"%s년째%s%s\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:593", "sha1": "49b2312ca23803659713196f410cb03ae6cce245", "ko": "string, 451,  30, right, \"@r92@g87@b42@s20@0살\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:597", "sha1": "73214b42e9641442f62a0edc4279fab8de83fb3c", "ko": "string, 226,  78, left, \"%s＊%s\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:619", "sha1": "1284268dfb10ec2c575d0ae35fcc1054594bad57", "ko": "string, 598,  28, right, \"@r115@g108@b53@s20@0%s살\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:706", "sha1": "eacf21bd4568f22a4e168d3955d0a10274f62d6d", "ko": "string, 103,  51, left, \"@s18@0%s　%s　아기（%s%s）의 이름\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:765", "sha1": "04ca8f4f5acba2f5eec69ff9874b3379621ee703", "ko": "string, 320, 176, center, \"%s까지 받을 월급을@n　정하는 테스트입니다\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:788", "sha1": "e0d793a5156e4659d36a1f2def63f762c4ea4e8d", "ko": "string,  49, 164, left, \"@r115@g112@b71@s18이번은 %s 테스트\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:802", "sha1": "b7542c5ecda2d44088f1ba6b648ce5197d58dedc", "ko": "comment, 555, 145, center, \"@r104@g85@b45@s14＋\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:824", "sha1": "3b16cc6870f7e1a68f4be21157ee39f69909fb68", "ko": "string, 259, 208, left, \"@s18클리어율\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:830", "sha1": "b5acfff6c819a0d1e5e1d83115616d468a56c184", "ko": "string, 279, 206, left, \"@r104@g85@b45@s22실패\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:854", "sha1": "b22a999b41f3693187a9bd671dc5b28a1e70da94", "ko": "comment, 268, 130, left, \"@r115@g112@b71올해 입금\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:855", "sha1": "316f171bfa3ee717f9f6c3e5403c723bb954bb8c", "ko": "comment, 248, 161, left, \"능력급\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:856", "sha1": "2c196f4c6522b710086ce5e5a3700c3fabcba849", "ko": "comment, 248, 187, left, \"연령급\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:857", "sha1": "4a8cb3fa9bafe00a006e0812102ad07fe02695bd", "ko": "comment, 240, 214, left, \"아동 수당\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:858", "sha1": "e50877811bb3827d3444c9222427f265e0cc02c6", "ko": "comment, 258, 245, left, \"급여 합계\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:872", "sha1": "c38f821206844549673b1c8b2d29879d67a63b20", "ko": "comment, 242, 313, left, \"보유 금액 합계\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1089", "sha1": "270ac3294e43ba5851dd7bebbdfa1ab4f9437f2d", "ko": "string,  56,  79, left, \"%s이（가） 된 %s에게@n어떤 책을 줄까요？\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1090", "sha1": "55c432eb74fe0514d2794c0e2cf7b6edd69fd697", "ko": "string,  56,  79, left, \"%s을（를） 어느 %s에@n입학시킬까요？\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1091", "sha1": "a343ae9629f4b0b25ae98a0cc71a60de47c6685d", "ko": "string,  56,  79, left, \"%s을（를） 어디로@n진학시킬까요？\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1092", "sha1": "1677fd996b6284c1b497ccfc4c2ea8675e47342d", "ko": "string,  56,  79, left, \"%s의 %s에게@n어떤 동아리를 권할까요？\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1093", "sha1": "5194f0db9fdfb990692561fe7cd88e0481096506", "ko": "string,  56,  79, left, \"%s의 %s에게@n어떤 아르바이트를 권할까요？\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1094", "sha1": "35a063d31f3028b49fe7504aae0d7d616d006884", "ko": "string,  56,  79, left, \"%s에게 어떤 직업을@n권할까요？\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1095", "sha1": "abbbfcdbb16a3bf8f45f9900db4c549e5479e179", "ko": "string,  56,  79, left, \"１년 뒤 %s을（를） 어느 %s@n에 진학시킬까요？\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1096", "sha1": "8135213fd7439131acb0f81960a8f01c6b5ad34d", "ko": "string,  56,  79, left, \"１년 뒤 %s을（를） 어디로@n진학시킬까요？\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1097", "sha1": "9f1aee5a85b69f5cad6e81f1acd10bd9b1c64cf4", "ko": "string,  56,  79, left, \"１년 뒤 %s에게 어떤 직업을@n권할까요？\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1208", "sha1": "8d20ce6f8d3fc2e0a65bd111d02a6049701704ae", "ko": "comment, 472,  32, center, \"@s18@r92@g87@b42학교 안내\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1216", "sha1": "30b0cccd55c75360df7051aacb6a9a3dc1ca4aef", "ko": "string, 473, 388, left, \"@s18@0%s살\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1234", "sha1": "8ed033a8e738dbe4185ed5c7d3dd1917149646e3", "ko": "comment, 472,  32, center, \"@s18@r92@g87@b42동아리 소개\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1239", "sha1": "30b0cccd55c75360df7051aacb6a9a3dc1ca4aef", "ko": "string, 473, 388, left, \"@s18@0%s살\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1256", "sha1": "eb1b1fdcb9b582ced19c4c4e22918c3f33c08412", "ko": "comment, 472,  32, center, \"@s18@r92@g87@b42구인표\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1261", "sha1": "30b0cccd55c75360df7051aacb6a9a3dc1ca4aef", "ko": "string, 473, 388, left, \"@s18@0%s살\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1277", "sha1": "eb1b1fdcb9b582ced19c4c4e22918c3f33c08412", "ko": "comment, 472,  32, center, \"@s18@r92@g87@b42구인표\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1278", "sha1": "75832ecfc74cc301c1a9fd0ccf5883bcb79fb57e", "ko": "comment, 380, 291, left, \"@s16알바 수입\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1283", "sha1": "30b0cccd55c75360df7051aacb6a9a3dc1ca4aef", "ko": "string, 473, 388, left, \"@s18@0%s살\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1299", "sha1": "6e015f64658fd1d5d723a9b9bbee00641750164e", "ko": "comment, 472,  32, center, \"@s18@r92@g87@b42책 소개\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1307", "sha1": "30b0cccd55c75360df7051aacb6a9a3dc1ca4aef", "ko": "string, 473, 388, left, \"@s18@0%s살\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1311", "sha1": "8f31f94407005a4abf7b0e515b3db42d4fcda62c", "ko": "string, 472, 288, center, \"@s17@r115@g112@b71@0관심 %s→%s\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1323", "sha1": "6ff046b371dd81a353700dc1ac8f5315baba714f", "ko": "string,  55, 215, left, \"@s17입학금＋수업료 %s년간＝\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1340", "sha1": "1bcefa211b638c4c2321ca733897aa7884a70710", "ko": "string, 320, 183, center, \"@s18@0%s@r115@g115@b115은（는） 노비노비 학원 초등부에@n다니게 되었다\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1341", "sha1": "b0c876a314d7edca258d7f2765c3322c6fc7c55d", "ko": "string, 320, 183, center, \"@s18@0%s@r115@g115@b115은（는） 노비노비 학원 초등부에@n가지 못했다\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1414", "sha1": "4b6b9c82de150156f7400a92ae30ce714fde6836", "ko": "comment, 173, 206, left, \"@s16년간＝\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1510", "sha1": "e2a753b9b7b1628999da34a4e18e75074883f9af", "ko": "comment, 140, 172, center, \"@s17@r115@g108@b53@0문과\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1511", "sha1": "1a5d71b97fc391997797c0f7427b48bf41cdb7cf", "ko": "comment, 261, 172, center, \"@s17@r115@g108@b53@0이과\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1512", "sha1": "c58cda9e67fb96998fc15c85fd837b8b0d3efd66", "ko": "comment, 382, 172, center, \"@s17@r115@g108@b53@0미술\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1513", "sha1": "8c5adca5f4134c219a0790edb0f158975c6e3382", "ko": "comment, 508, 172, center, \"@s17@r115@g108@b53@0체육@s15@0(스포츠)\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1514", "sha1": "3d6ce07eaf0d1a61f119188c4ece3063e0ae408d", "ko": "comment, 320, 409, center, \"@s20방향키 좌우로 나이 변경　@s22@r56@g71@b104×@s2　@s20@r115@g115@b115돌아가기\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1560", "sha1": "b996ceb1ace6afdd930c6d870b033f54e9cf20bd", "ko": "comment, 195,  98, left, \"@s20@r115@g108@b53@0가계부\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1561", "sha1": "34cdfd9b82864d9af295e1de093b5b2c982ab725", "ko": "comment, 185, 152, left, \"@s17@r115@g112@b71@0올해\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1562", "sha1": "883036471a491f85f3faadda6ccc50ab717631e6", "ko": "comment, 201, 171, left, \"@s16급여 합계\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1563", "sha1": "690749d7c10b1569a39d6790a31c298f7aa0b402", "ko": "comment, 201, 189, left, \"@s16아르바이트\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1564", "sha1": "0eab814a17173df5ea33c55ccf615c49fd0c11c7", "ko": "comment, 201, 207, left, \"@s16기타 수입\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1565", "sha1": "b42c5f048a72e0fedaf2256bc1e4da3e2fbb01be", "ko": "comment, 216, 242, left, \"@s16수입 합계\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1566", "sha1": "8ca9996eda13a3d3dd2d489979184493a37d4056", "ko": "comment, 216, 260, left, \"@s16지출 합계\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1567", "sha1": "231f07044ee524d008df08362059f9e96605bf2c", "ko": "comment, 185, 291, left, \"@s17@r115@g112@b71@0작년 이월\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1568", "sha1": "9abf8d85a32f88900e7f3149a785e318838f297f", "ko": "comment, 385, 152, left, \"@s17@r115@g112@b71@0인생 경험률\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1569", "sha1": "867839ed5e035b61afe931a1fd7b125316ed8e3e", "ko": "comment, 385, 170, left, \"@s15Ａ）아이가 조금 많은 집\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1570", "sha1": "b0d1dd5fd1d804cdbd0376a360b337dd5f53e50f", "ko": "comment, 385, 222, left, \"@s15Ｂ）아이가 꽤 많은 집\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1571", "sha1": "1945418f7369be9b4889b29d82a5d5ac7f4e06eb", "ko": "comment, 385, 274, left, \"@s15Ｃ）아이가 아주 많은 집\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1572", "sha1": "4b87f6a0fc279167343f81275c4c708fde72e412", "ko": "string, 561,  99, right, \"@s18@r115@g108@b53@0%s　%s살\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1573", "sha1": "9dc6f9b8a6ca99a5bf9541bfb0ccdbe3a7319286", "ko": "string, 376, 123, center, \"@s19%s@d8%s@d8인@d8가@d8족\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1580", "sha1": "fd77b848a159424aedb65421d2effb673156dd7f", "ko": "string, 473, 187, center, \"@s16%s화／%s％\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1581", "sha1": "a909c2641527457801cc1afd318eab9cef83e821", "ko": "string, 473, 239, center, \"@s16%s화／%s％\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1582", "sha1": "ac3b760a1ece7b3144e46152475192a35ddf24e2", "ko": "string, 473, 292, center, \"@s16%s화／%s％\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1583", "sha1": "d7ab0cb1f4a4e51fb787d59833c7f4ca0209fd4c", "ko": "string, 473, 187, center, \"@s16０％\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1584", "sha1": "16182c62844f93cac8ed1160a8565c090cf413c8", "ko": "string, 473, 239, center, \"@s16０％\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1585", "sha1": "d71408f5b73fb69848ee19dd2ec770dbff680a48", "ko": "string, 473, 292, center, \"@s16０％\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1595", "sha1": "ab546b2cad046865dfeeb7b0097f301a8a79586b", "ko": "string, 376,  53, center, \"@s18제%s화　%s\", -1, -1", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1602", "sha1": "7b7d94acba13a5d3db7008beca2bb27749f4dba8", "ko": "comment, 182, 353, left, \"@r115@g112@b71@0보유 금액 합계\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1654", "sha1": "9df07e864a165e145ae58af6d7ad50986906b8ae", "ko": "comment, 324, 156, center, \"@s19@r115@g108@b53@0가족의 기록\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1655", "sha1": "7838f5e42fb21fe230168bbec246579b3259361f", "ko": "comment, 230, 186, left, \"@s18우리들의 가족의 성장과\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1656", "sha1": "4e1897e745cfa6347f0635eeeef4a5a247593744", "ko": "comment, 266, 208, left, \"@s18추억의 사진\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1677", "sha1": "067b6efda7c7936a886376c78d2fbd80414e65d1", "ko": "comment,  93,  80, left, \"@s19@r115@g119@b51설정\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1678", "sha1": "1400559b200240b804006855c7a1f1c93bc0c5ec", "ko": "comment,  93, 358, left, \"@s22@r56@g71@b104×@s2　@s20@r115@g115@b115돌아가기\"\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1679", "sha1": "9bd506a992a0f4ec520030e22b5070f0d8e3a1aa", "ko": "string,  97, 107, left, \"@s17@r115@g119@b51@0자막과 음성\",  77, 107", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1680", "sha1": "95430057b698a750b9b60e8c153149ab523d5b6e", "ko": "string,  97, 155, left, \"@s17@r115@g119@b51@0사운드\",  77, 155", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1681", "sha1": "c8ced8c6dadd88cd2462d5fe5b6b4c162346906b", "ko": "string,  97, 203, left, \"@s17@r115@g119@b51@0선택지 문자\",  77, 203", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1682", "sha1": "cb40cc7b6d2d8d3055c45e70774feb8b2fe31824", "ko": "string,  97, 251, left, \"@s17@r115@g119@b51@0계절이 끝날 때\",  77, 251", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1683", "sha1": "be443790c55b922945e6a8c3412ddc82bc4503f2", "ko": "string,  97, 299, left, \"@s17@r115@g119@b51@0이벤트가 없는 계절은\",  77, 299", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1684", "sha1": "6b0af468c183f4179cb0d9ab0b283d18a3b2fa05", "ko": "string, 212, 128, center, \"%s@0자막+음성\", 148, 127", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1685", "sha1": "67d82a16a5fa6cd174860f535db9ef8bc84882f8", "ko": "string, 319, 128, center, \"%s@0음성만\", 263, 127", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1686", "sha1": "b12150728849132d99b74b3e37fa6e907032180b", "ko": "string, 420, 128, center, \"%s@0자막만\", 363, 127", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1687", "sha1": "aaccd31d74c5fc969bf4eac35b96925f512c525f", "ko": "string, 234, 176, center, \"%s@0스테레오\", 177, 175", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1688", "sha1": "322cd4f8380a20e79a9266241a3be89a7c82b68d", "ko": "string, 392, 176, center, \"%s@0모노\", 335, 175", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1689", "sha1": "82b2b5fddd72d1091619dc10ee2fff3e44042de1", "ko": "string, 178, 224, center, \"%s@0효과１\", 131, 223", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1690", "sha1": "f94c13ecb7424c6e2561af27bcb7407001d85b1f", "ko": "string, 251, 224, center, \"%s@0효과２\", 204, 223", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1691", "sha1": "e8a6ca2c1a58d7cb682dc74f2f470f971c4a632a", "ko": "string, 324, 224, center, \"%s@0효과３\", 277, 223", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1692", "sha1": "5dc49528c1f346d7383899a92382930fe6a096f5", "ko": "string, 397, 224, center, \"%s@0효과４\", 350, 223", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1693", "sha1": "3b8fbcab5de37563f6e85a40fffd68072b2181db", "ko": "string, 470, 224, center, \"%s@0효과５\", 423, 223", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1694", "sha1": "1f2a71c737ca09e18ba60612901bd90f1e664a48", "ko": "string, 211, 272, center, \"%s@0자동으로 다음 해로\", 91, 271", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1695", "sha1": "dab6aebb93d24a76f9e8f328356c81ddeae7379b", "ko": "string, 433, 272, center, \"%s@0입력을 기다려 다음 해로\", 300, 271", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1696", "sha1": "fcc05f1c118dad3415d5c17b02314fc88575b6c6", "ko": "string, 230, 320, center, \"%s@0건너뛰지 않음\", 151, 319", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1697", "sha1": "e26c4ca665725457a48f2467033c883196d0064c", "ko": "string, 404, 320, center, \"%s@0건너뛰기\", 329, 319", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1706", "sha1": "f293acf2b9a3e681e3777e0822e705e64ad6841a", "ko": "string, 214, 357, left, \"@e%d@s20가나다라마바사아자차카타파하거\", 0, 0", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1717", "sha1": "f437be2aeb176d1c003586f5466f910e188aa3d4", "ko": "comment, 320, 128, center, \"@r115@g112@b71입금\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1718", "sha1": "2e5ecb76ccb90b296a3560fb4fb26176967a60f7", "ko": "comment, 240, 161, left, \"입금액\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1719", "sha1": "c354fff420a60d9ae8a188676d1ca68ae5720fc6", "ko": "comment, 240, 198, left, \"보유 금액 합계\"", "state": "needs_review"}
+{"id": "MENURES.XAP/window.txt:1732", "sha1": "449605568f4658adb0777742b1159a20b8256d5d", "ko": "comment, 320, 304, center, \"@r115@g108@b53@s20가@s4　@s20족@s4　@s20뉴스\"", "state": "needs_review"}
 {"id": "NAMEDB.XAP/namedb.txt:3", "sha1": "88a3842dff5bcde14f0259a5caa55db698d71bf7", "ko": "사쿠라다, 사쿠타로", "state": "needs_review"}
 {"id": "NAMEDB.XAP/namedb.txt:6", "sha1": "1d094917d95a681f339ff2a68c59b8279d503f54", "ko": "토모코", "state": "needs_review"}
 {"id": "NAMEDB.XAP/namedb.txt:9", "sha1": "e51500e4b3b0909fda6e69314b59391383d4f2cd", "ko": "타쿠야", "state": "needs_review"}
