@@ -35,15 +35,30 @@ def apply_event(files, src, ko, encode, body_max=mes.BODY_MAX):
 
 
 def apply_sys(files, src, ko, encode):
-    """Line units of system text files; files keyed by path relative to work/unpacked."""
+    """Line units of system text files; files keyed by path relative to work/unpacked.
+    encode: an encoder or a preference-ordered list (first passing linetext.check per line)."""
+    encoders = encode if isinstance(encode, list) else [encode]
+    chosen = {}
+    base = {e['id']: e['src'] for e in src}
+
+    def check(s, text, _enc):
+        for e in encoders:
+            errs = linetext.check(s, text, e)
+            if not errs:
+                chosen[(s, text)] = e
+                return []
+        return errs
+
     def render(data, texts, name):
         current = {r['id']: r['src'] for r in linetext.extract(data, name)}
-        base = {e['id']: e['src'] for e in src}
         bad = [i for i in texts if current.get(i) != base[i]]
         if bad:
             raise ValueError(f'{name}: source mismatch at {bad}')
-        return linetext.render(data, texts, name, encode)
-    return _apply(files, src, ko, encode, linetext.check, lambda b: b['id'], render)
+        out = data
+        for i, t in texts.items():
+            out = linetext.render(out, {i: t}, name, chosen[(base[i], t)])
+        return out
+    return _apply(files, src, ko, encoders[-1], check, lambda b: b['id'], render)
 
 
 def _apply(files, src, ko, encode, check, key, render):

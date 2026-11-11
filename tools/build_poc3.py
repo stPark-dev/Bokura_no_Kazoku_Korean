@@ -8,6 +8,7 @@ import apply_text  # noqa: E402
 import build_poc2  # noqa: E402
 import hangul_map  # noqa: E402
 import iso9660  # noqa: E402
+import linetext  # noqa: E402
 import mes  # noqa: E402
 from xap import read_entries, read_file, rebuild  # noqa: E402
 
@@ -52,7 +53,7 @@ def main(src, dst):
         # a file with system-text translations is rebuilt from its original bytes (supersedes PoC1 edits)
         files = {f'{arc}/{e.name}': read_file(ox, e) for e in read_entries(ox)}
         ko = [k for k in sys_ko if k['id'].startswith(arc + '/')]
-        out = apply_text.apply_sys(files, sys_src, ko, lambda s: hangul_map.encode(s, cmap))
+        out = apply_text.apply_sys(files, sys_src, ko, [linetext.horizontal_encoder(plain), plain])
         replaced['DATA/' + arc] = rebuild(x, files={n.rsplit('/', 1)[1]: b for n, b in out.items()})
         print('system text translated:', sorted(out))
     iso9660.replace_all(img, replaced)

@@ -83,3 +83,12 @@ def test_apply_event_falls_back_to_plain_spaces_when_expanded_block_is_too_long(
     out = apply_text.apply_event({'a.mes': data}, src, ko, [vert, enc], body_max=100)['a.mes']
     assert b'@s10 @s20' in out.split(b'x_02')[0]          # short block: half spaces
     assert b'@s10' not in out.split(b'x_02')[1]           # long block: plain spaces
+
+
+def test_apply_sys_uses_first_passing_encoder():
+    import linetext
+    data = '000\t@s18新規\r\n'.encode('cp932')
+    src = [{'id': 'M.XAP/m.txt:1', 'file': 'M.XAP/m.txt', 'src': '000\t@s18新規', 'sha1': 'S'}]
+    ko = [{'id': 'M.XAP/m.txt:1', 'sha1': 'S', 'ko': '000\t@s18새 게임'}]
+    out = apply_text.apply_sys({'M.XAP/m.txt': data}, src, ko, [linetext.horizontal_encoder(enc), enc])
+    assert out['M.XAP/m.txt'] == b'000\t@s18' + enc('새') + b'@s9 @s18' + enc('게임') + b'\r\n'

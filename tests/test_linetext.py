@@ -69,3 +69,14 @@ def test_round_trip_all_txt_files():
 ])
 def test_spacing_tokens_are_movable(src, ko, ok):
     assert (linetext.check(src, ko, encode=str.encode) == []) is ok
+
+
+@pytest.mark.parametrize('src,out', [
+    ('009\t@s18@r1@g1@b1새 게임', '009\t@s18@r1@g1@b1새@s9 @s18게임'),          # after an explicit size
+    ('028\t이 이름으로', '028\t이 이름으로'),                                    # no size known: unchanged
+    ('string, 37, 63, left, "@s18가족의 일기", 16, 63', 'string, 37, 63, left, "@s18가족의@s9 @s18일기", 16, 63'),
+    ('comment,  34, 369, left, "행동을 고르지"', 'comment,  34, 369, left, "행동을 고르지"'),
+    ('x\t@s22가 @s20나 다', 'x\t@s22가@s11 @s22@s20나@s10 @s20다'),
+])
+def test_halve_spaces(src, out):
+    assert linetext.halve_spaces(src) == out

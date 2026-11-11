@@ -68,3 +68,34 @@ def check(src, text, encode=_cp932):
     except (UnicodeError, ValueError, KeyError) as e:
         errs.append(f'encode: {e}')
     return errs
+
+
+SIZE = re.compile(r'@s(\d+)')
+
+
+def _halve(seg):
+    out, size, last = [], None, 0
+    for m in re.finditer(r'@s(\d+)| ', seg):
+        out.append(seg[last:m.start()])
+        if m.group(1):
+            size = int(m.group(1))
+            out.append(m.group(0))
+        elif size:
+            out.append(f'@s{size // 2} @s{size}')
+        else:
+            out.append(' ')
+        last = m.end()
+    out.append(seg[last:])
+    return ''.join(out)
+
+
+def halve_spaces(text):
+    """@sNN is the glyph size; a space drawn at half size takes half the width. Only spaces after an
+    explicit @sNN are changed (window defaults differ); in lines with quoted strings, only inside quotes."""
+    if '"' in text:
+        return re.sub(r'"[^"]*"', lambda m: _halve(m.group(0)), text)
+    return _halve(text)
+
+
+def horizontal_encoder(encode):
+    return lambda s: encode(halve_spaces(s))
