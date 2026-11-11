@@ -54,6 +54,8 @@ ASM = r'''
     nop
     j     backspace
     nop
+    j     particle
+    nop
 
 # ---------------- helpers ----------------
 # h_lin: a1 = SJIS code -> v0 = linear index - LIN0
@@ -510,6 +512,172 @@ b_ret:
     lw    $ra, 0($sp)
     jr    $ra
     addiu $sp, $sp, 16
+
+# ---------------- particle(out=a0, src=a1) -> v0 = strlen(out) after append, v1 = new src ----------
+# out holds the expanded name (NUL-terminated). If src starts with X(Y) in full-width parens (0x8169/0x816A,
+# 1-3 / 0-3 double-byte chars) and the last double-byte char of out (ASCII colour codes may follow the
+# name) is a KS X 1001 syllable: append X (final consonant) or
+# Y (no final, or final rieul and X == EU + Y, as in euro/ro). State: t0 out, t1 src/X start, t2 out end,
+# t3 open paren, t4 len(X), t5 Y start, t6 close paren, t7 len(Y).
+particle:
+    addiu $sp, $sp, -16
+    sw    $ra, 0($sp)
+    addu  $t0, $a0, $zero
+    addu  $t1, $a1, $zero
+    addu  $t2, $a0, $zero
+P_len:
+    lb    $v0, 0($t2)
+    beq   $v0, $zero, P_lend
+    nop
+    nop
+    nop
+    nop
+    b     P_len
+    addiu $t2, $t2, 1
+P_lend:
+    addu  $t3, $t1, $zero
+    addu  $t4, $zero, $zero
+P_x:
+    bal   P_char
+    addu  $a1, $t3, $zero
+    bltz  $v0, P_fail
+    addiu $v1, $zero, 0x69
+    beq   $v0, $v1, P_xend
+    addiu $v1, $zero, 0x6a
+    beq   $v0, $v1, P_fail
+    addiu $t3, $t3, 2
+    addiu $t4, $t4, 1
+    sltiu $a2, $t4, 4
+    beq   $a2, $zero, P_fail
+    nop
+    b     P_x
+    nop
+P_xend:
+    beq   $t4, $zero, P_fail
+    addiu $t5, $t3, 2
+    addu  $t6, $t5, $zero
+    addu  $t7, $zero, $zero
+P_y:
+    bal   P_char
+    addu  $a1, $t6, $zero
+    bltz  $v0, P_fail
+    addiu $v1, $zero, 0x6a
+    beq   $v0, $v1, P_yend
+    addiu $v1, $zero, 0x69
+    beq   $v0, $v1, P_fail
+    addiu $t6, $t6, 2
+    addiu $t7, $t7, 1
+    sltiu $a2, $t7, 4
+    beq   $a2, $zero, P_fail
+    nop
+    b     P_y
+    nop
+P_yend:
+    addu  $a1, $t0, $zero
+    addiu $a3, $zero, -1
+P_scan:
+    beq   $a1, $t2, P_sdone
+    lbu   $v0, 0($a1)
+    sltiu $a2, $v0, 0x81
+    bne   $a2, $zero, P_s1
+    addiu $a2, $v0, -0xa0
+    sltiu $a2, $a2, 0x40
+    bne   $a2, $zero, P_s1
+    lbu   $v1, 1($a1)
+    sll   $v0, $v0, 8
+    or    $a3, $v0, $v1
+    b     P_scan
+    addiu $a1, $a1, 2
+P_s1:
+    nop
+    b     P_scan
+    addiu $a1, $a1, 1
+P_sdone:
+    bltz  $a3, P_fail
+    nop
+    bal   h_lin
+    addu  $a1, $a3, $zero
+    sltiu $a2, $v0, {N_SYL}
+    beq   $a2, $zero, P_fail
+    sll   $v0, $v0, 1
+    lui   $v1, %hi(UNI)
+    addiu $v1, $v1, %lo(UNI)
+    addu  $v1, $v1, $v0
+    lhu   $v0, 0($v1)
+    addiu $v1, $zero, 28
+    divu  $zero, $v0, $v1
+    mfhi  $v0
+    beq   $v0, $zero, P_pickY
+    addiu $v1, $zero, 8
+    bne   $v0, $v1, P_pickX
+    addiu $v1, $t7, 1
+    bne   $v1, $t4, P_pickX
+    lbu   $v0, 0($t1)
+    xori  $v0, $v0, {EU_HI}
+    bne   $v0, $zero, P_pickX
+    lbu   $v0, 1($t1)
+    xori  $v0, $v0, {EU_LO}
+    bne   $v0, $zero, P_pickX
+    addiu $a1, $t1, 2
+    addu  $a2, $t5, $zero
+P_cmp:
+    beq   $a2, $t6, P_pickY
+    lbu   $v0, 0($a1)
+    lbu   $v1, 0($a2)
+    addiu $a1, $a1, 1
+    addiu $a2, $a2, 1
+    nop
+    beq   $v0, $v1, P_cmp
+    nop
+P_pickX:
+    addu  $a1, $t1, $zero
+    b     P_copy
+    addu  $a2, $t3, $zero
+P_pickY:
+    addu  $a1, $t5, $zero
+    addu  $a2, $t6, $zero
+P_copy:
+    beq   $a1, $a2, P_done
+    lbu   $v0, 0($a1)
+    sb    $v0, 0($t2)
+    addiu $a1, $a1, 1
+    addiu $t2, $t2, 1
+    nop
+    b     P_copy
+    nop
+P_done:
+    sb    $zero, 0($t2)
+    subu  $v0, $t2, $t0
+    b     P_ret
+    addiu $v1, $t6, 2
+P_fail:
+    subu  $v0, $t2, $t0
+    addu  $v1, $t1, $zero
+P_ret:
+    lw    $ra, 0($sp)
+    jr    $ra
+    addiu $sp, $sp, 16
+
+# P_char: a1 -> v0 = -1 if not a double-byte char, the trail byte when the lead is 0x81, else 0 (leaf)
+P_char:
+    lbu   $v0, 0($a1)
+    lbu   $v1, 1($a1)
+    sltiu $a2, $v0, 0x81
+    bne   $a2, $zero, P_cbad
+    addiu $a2, $v0, -0xa0
+    sltiu $a2, $a2, 0x40
+    bne   $a2, $zero, P_cbad
+    addiu $a2, $v0, -0x81
+    bne   $a2, $zero, P_cok
+    nop
+    jr    $ra
+    addu  $v0, $v1, $zero
+P_cok:
+    jr    $ra
+    addu  $v0, $zero, $zero
+P_cbad:
+    jr    $ra
+    addiu $v0, $zero, -1
 '''
 
 
@@ -517,7 +685,9 @@ def build(base):
     """Assemble code + tables at `base`. Returns (bytes, {symbol: address})."""
     tabs, n_pairs = _tables()
     # lay out tables after the code; assemble twice (first pass to learn code size)
-    src = ASM.format(LIN0=LIN0, N_SYL=N_SYL, N_JAMO=N_JAMO, NONE=NONE, N_PAIRS=n_pairs)
+    eu = hangul_map.build()['으']
+    src = ASM.format(LIN0=LIN0, N_SYL=N_SYL, N_JAMO=N_JAMO, NONE=NONE, N_PAIRS=n_pairs,
+                     EU_HI=eu >> 8, EU_LO=eu & 0xFF)
     ks = keystone.Ks(keystone.KS_ARCH_MIPS, keystone.KS_MODE_MIPS32 + keystone.KS_MODE_LITTLE_ENDIAN)
 
     # keystone lacks %hi/%lo on symbols, so resolve them textually.
@@ -550,4 +720,5 @@ def build(base):
     syms = dict(tab_addr)
     syms['commit'] = base
     syms['backspace'] = base + 8
+    syms['particle'] = base + 16
     return bytes(blob), syms

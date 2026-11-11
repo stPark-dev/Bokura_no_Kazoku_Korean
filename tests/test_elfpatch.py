@@ -63,3 +63,33 @@ def test_name_entry_patch_installs_hooks_and_moves_heap():
         assert ee.word(site + 4) == 0
     # bss clear range is untouched (still ends at the original _end)
     assert ee.word(0x100128) == 0x246354AC
+
+
+@need
+def test_particle_hook_replaces_strlen_call_and_updates_source_pointer():
+    unicorn = pytest.importorskip('unicorn')
+    from unicorn.mips_const import (UC_MIPS_REG_A0, UC_MIPS_REG_PC, UC_MIPS_REG_RA, UC_MIPS_REG_S0,
+                                    UC_MIPS_REG_SP, UC_MIPS_REG_V0)
+    import hangul_map
+    out, info = elfpatch.name_entry_patch(_orig())
+    w = struct.unpack_from('<I', out, elfpatch._off(bytearray(out), elfpatch.PARTICLE_SITE))[0]
+    assert w >> 26 == 3 and (w & 0x3FFFFFF) << 2 == info['t_part']
+    assert struct.unpack_from('<I', out, elfpatch._off(bytearray(out), elfpatch.PARTICLE_SITE + 4))[0] == 0x0220202D  # move a0,s1 kept
+
+    off = elfpatch._off(bytearray(out), info['base'])
+    uc = unicorn.Uc(unicorn.UC_ARCH_MIPS, unicorn.UC_MODE_MIPS32 + unicorn.UC_MODE_LITTLE_ENDIAN)
+    uc.mem_map(0x400000, 0x300000)
+    uc.mem_write(info['base'], out[off:off + info['size']])
+    cmap = hangul_map.build()
+    uc.mem_write(0x500000, hangul_map.encode('치코', cmap) + b'\0')
+    src = hangul_map.encode('은（는）「', cmap)
+    uc.mem_write(0x501000, src + b'\0')
+    uc.reg_write(UC_MIPS_REG_A0, 0x500000)
+    uc.reg_write(UC_MIPS_REG_S0, 0x501000)
+    uc.reg_write(UC_MIPS_REG_SP, 0x5F0000)
+    uc.reg_write(UC_MIPS_REG_RA, 0x600000)
+    uc.emu_start(info['t_part'], 0x600000, count=5000)
+    assert uc.reg_read(UC_MIPS_REG_PC) == 0x600000 and uc.reg_read(UC_MIPS_REG_SP) == 0x5F0000
+    assert uc.reg_read(UC_MIPS_REG_V0) == 6
+    assert bytes(uc.mem_read(0x500000, 7)) == hangul_map.encode('치코는', cmap) + b'\0'
+    assert uc.reg_read(UC_MIPS_REG_S0) == 0x501000 + len(src) - 2

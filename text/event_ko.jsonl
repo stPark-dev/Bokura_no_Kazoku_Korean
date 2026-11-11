@@ -15,3 +15,6 @@
 {"id": "EVENT/000h1a.mes/000h1a_05", "sha1": "5adb8d6ac95ed486b5aabdc7abb2698e42e69568", "ko": "치코「게으른 사람용이래@n\n　계절마다 쓰는 거래@n\n,\n　당신이 예순 살이 되면 완성」@n", "state": "needs_review"}
 {"id": "EVENT/000h1a.mes/000h1a_06", "sha1": "03b2d67a134c880a0e7362ba5ed2468f02241082", "ko": "$OTO$「예순…　먼 미래네@n\n,\n　…정년 나이인가」@n", "state": "needs_review"}
 {"id": "EVENT/000h1a.mes/000h1a_07", "sha1": "07ac9419663e1ce487c9776367b16b0a8706ef27", "ko": "치코「응，그때쯤엔 분명@n\n　애들도 다 키웠겠지」@n", "state": "needs_review"}
+{"id": "EVENT/m00h0a.mes/m00h0a_01", "sha1": "7135941c7154c256b4bff2421f22c33f34c68ad4", "ko": "$OTO$「첫째 아이，장남@n\n　이천구백 그램으로 태어났다」@n", "state": "needs_review"}
+{"id": "EVENT/m00h0a.mes/m00h0a_02", "sha1": "0254e25014af2ffdee05486ed92df360eda94469", "ko": "$OTO$「아이 이름은@n\n　$MOK$으로（로） 정했다」@n", "state": "needs_review"}
+{"id": "EVENT/m00h0a.mes/m00h0a_03", "sha1": "2ac9f2232b3179f7d39a64ae371e27105e676be3", "ko": "$OKA$「어머，코가 오뚝한 게@n\n　참 잘생겼네@n\n,\n　네 별명은@n\n　모크야」@n", "state": "needs_review"}

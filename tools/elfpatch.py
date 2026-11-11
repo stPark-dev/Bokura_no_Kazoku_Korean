@@ -24,6 +24,8 @@ RIGHT_CANCEL_SITE = 0x1A54C0  # b 0x1a55e8; sw zero,0x70(s1) — × in the candi
 RIGHT_CANCEL_ORIG = (0x10000049, 0xAE200070)
 BS_RESUME = 0x1A56A0
 BS_EMPTY = 0x1A62F0
+PARTICLE_SITE = 0x13E4C8    # jal strlen(s1) right after a $VAR$ name was expanded (loop at 0x13E3D0)
+PARTICLE_ORIG = 0x0C0A2CFA  # jal 0x28b3e8; delay slot 'move a0,s1' kept; s0 = source after the closing '$'
 
 
 def _segments(d):
@@ -73,7 +75,7 @@ def _hi_lo(v):
     return ((v + 0x8000) >> 16) & 0xFFFF, lo
 
 
-def _trampolines(base, commit, backspace):
+def _trampolines(base, commit, backspace, particle):
     """t_commit replaces the game's "write char, pos++, return to index panel" with:
     composition hook; pos++ only when a new slot was used; full field -> original confirm state;
     otherwise stay in the candidate panel (state -0x4ca) so jamo can be typed in a row."""
@@ -142,13 +144,24 @@ t_rstay:
 t_rleft:
     j     {GAME_CONTINUE:#x}
     sw    $zero, 0x70($s1)
+t_part:
+    addiu $sp, $sp, -16
+    sw    $ra, 0($sp)
+    jal   {particle:#x}
+    addu  $a1, $s0, $zero
+    addu  $s0, $v1, $zero
+    lw    $ra, 0($sp)
+    jr    $ra
+    addiu $sp, $sp, 16
 '''
     ks = keystone.Ks(keystone.KS_ARCH_MIPS, keystone.KS_MODE_MIPS32 + keystone.KS_MODE_LITTLE_ENDIAN)
     enc, _ = ks.asm(src, base)
     code = bytes(enc)
     head, _ = ks.asm(src.split('t_bs:')[0], base)
     head2, _ = ks.asm(src.split('t_rbs:')[0], base)
-    return code, {'t_commit': base, 't_bs': base + len(head), 't_rbs': base + len(head2)}
+    head3, _ = ks.asm(src.split('t_part:')[0], base)
+    return code, {'t_commit': base, 't_bs': base + len(head), 't_rbs': base + len(head2),
+                  't_part': base + len(head3)}
 
 
 def _j(target):
@@ -158,10 +171,10 @@ def _j(target):
 def name_entry_patch(elf):
     """Return (patched_elf_bytes, info)."""
     tramp_base = HOOK_BASE
-    tramp_len = len(_trampolines(tramp_base, 0x100000, 0x100000)[0])
+    tramp_len = len(_trampolines(tramp_base, 0x100000, 0x100000, 0x100000)[0])
     ime_base = (tramp_base + tramp_len + 15) & ~15
     ime_blob, ime_syms = ime_asm.build(ime_base)
-    tramp, tsyms = _trampolines(tramp_base, ime_syms['commit'], ime_syms['backspace'])
+    tramp, tsyms = _trampolines(tramp_base, ime_syms['commit'], ime_syms['backspace'], ime_syms['particle'])
     assert len(tramp) == tramp_len
     blob = tramp + b'\0' * (ime_base - tramp_base - len(tramp)) + ime_blob
     end = (HOOK_BASE + len(blob) + 15) & ~15
@@ -179,5 +192,6 @@ def name_entry_patch(elf):
     table[BS_SITE + 4] = (BS_ORIG[1], 0)
     table[RIGHT_CANCEL_SITE] = (RIGHT_CANCEL_ORIG[0], _j(tsyms['t_rbs']))
     table[RIGHT_CANCEL_SITE + 4] = (RIGHT_CANCEL_ORIG[1], 0)
+    table[PARTICLE_SITE] = (PARTICLE_ORIG, (3 << 26) | (tsyms['t_part'] >> 2))
     patch_words(d, table)
     return bytes(d), {'base': HOOK_BASE, 'size': len(blob), 'end': end, **tsyms, **ime_syms}
