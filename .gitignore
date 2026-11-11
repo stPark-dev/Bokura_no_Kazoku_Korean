@@ -1,0 +1,9 @@
+# 원본 이미지·추출물·빌드 산출물은 커밋하지 않음
+*.zip
+*.iso
+orig/
+work/
+build/
+.venv/
+__pycache__/
+.pytest_cache/
