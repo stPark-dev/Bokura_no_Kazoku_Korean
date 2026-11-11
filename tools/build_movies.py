@@ -3,6 +3,8 @@ cached in work/movie_ko/; the ISO build picks them up.
 
 usage: build_movies.py ORIG_ISO OUT_DIR
 """
+import hashlib
+import json
 import mmap
 import os
 import sys
@@ -31,6 +33,13 @@ def main(iso, out_dir):
     data = m[lba * 2048:lba * 2048 + size]
     open(os.path.join(out_dir, 'OPENING.PSS'), 'wb').write(movie_title.opening(data))
     print('OPENING')
+    src = hashlib.sha1()
+    for k in range(0, len(m), 1 << 24):
+        src.update(m[k:k + (1 << 24)])
+    names = sorted(n for n in os.listdir(out_dir) if n.endswith('.PSS'))
+    json.dump({'source_sha1': src.hexdigest(),
+               'files': {n: hashlib.sha1(open(os.path.join(out_dir, n), 'rb').read()).hexdigest() for n in names}},
+              open(os.path.join(out_dir, 'manifest.json'), 'w'), indent=1)
 
 
 if __name__ == '__main__':
