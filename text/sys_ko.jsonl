@@ -1976,6 +1976,295 @@
 {"id": "MINIG/MINIG5.XAP/layout.txt:83", "sha1": "476af0044547c5d362921e39f2bc918bcdd74a96", "ko": "quest,\ttext:문제:@s18@r115@g108@b71@-,\t\txy:17:61", "state": "needs_review"}
 {"id": "MINIG/MINIG5.XAP/layout.txt:84", "sha1": "cfe36bcb3b018f2269235529b26ba5baecfc6072", "ko": "ans0,\ttext:답１:@s18,\t\t\t\t\txy:7:83", "state": "needs_review"}
 {"id": "MINIG/MINIG5.XAP/layout.txt:85", "sha1": "10272978081337a31c6178fb9e939245b32f2ec7", "ko": "ans1,\ttext:답２:@s18,\t\t\t\t\txy:7:106", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:9", "sha1": "4809e6014a3c91118d8fd48cdaeecc7f823d0255", "ko": "C, 몇 번인지의 수, １）회수, ２）횟수, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:10", "sha1": "634957f8d569c0418f64589ac93133b4e0cfa6e0", "ko": "C, 수컷 꿩, １）수꿩, ２）숫꿩, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:11", "sha1": "335ce398b92f8c20fe0b042599913f02a040f96d", "ko": "C, 수컷 양, １）수양, ２）숫양, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:12", "sha1": "8c0d714d1f85af605ae3de6aa309e7aa415ec3df", "ko": "C, 수컷 개, １）수캐, ２）숫개, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:13", "sha1": "104ef670eb101b308f8fbd43739599247f953d9a", "ko": "C, 나이 많은 어른, １）웃어른, ２）윗어른, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:14", "sha1": "9c063b0438de76a653903218ac55bb8fa34f7390", "ko": "C, 다달이 내는 집세, １）사글세, ２）삭월세, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:15", "sha1": "39e62e4d2616c3ffd14d1fdc31ad11d5b50331a7", "ko": "C, 벽 바르는 기술자, １）미장이, ２）미쟁이, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:16", "sha1": "b598050a35f5793ee8a4d739073aa2109785b1fe", "ko": "C, 복잡하게 엉킨, １）얼키고설킨, ２）얽히고설킨, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:17", "sha1": "82f2c1f1951a0f82c0e9fedfc1ee09bec0c0c911", "ko": "B, 매운 소고기 국, １）육개장, ２）육계장, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:18", "sha1": "7a923d260d6a38cb75038da8bd47aa222f62de49", "ko": "C, 몹시 몰아세움, １）닥달, ２）닦달, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:19", "sha1": "e52d73aad1d969547575de8f06982b3e3d96d3c7", "ko": "B, 보글보글 국물 요리, １）찌개, ２）찌게, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:20", "sha1": "dbeb9c2369e67b8b266f42404b273312f5c0e95d", "ko": "C, 넓은 나무판, １）널판지, ２）널빤지, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:21", "sha1": "be0878f806cb8aaf4aa7c65692d9e63f67fb4c0e", "ko": "C, 이어 붙여 만듦, １）짜집기, ２）짜깁기, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:22", "sha1": "02b74cad852afc06a1779b7c6b17c82a0f9d4533", "ko": "A, 그릇 씻기, １）설거지, ２）설겆이, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:23", "sha1": "c3a385e1145a1e6fd0fd874231a92de19a6e052c", "ko": "C, 한 줌, １）움큼, ２）웅큼, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:24", "sha1": "08f838dc9235bc80a7fc059e53276e447e152e68", "ko": "B, 잘 때 베는 것, １）벼개, ２）베개, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:25", "sha1": "c45af00cec91cb312881c9fb77b5799b17ec609b", "ko": "B, 작은 돌, １）돌멩이, ２）돌맹이, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:26", "sha1": "d840fa79298e5337680d44e82c40e894d820861f", "ko": "A, 몇 날, １）며칠, ２）몇일, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:27", "sha1": "fefce924b94ddbe81f6f30dcb1a6de308e00c4e9", "ko": "A, 어쩐지, １）웬지, ２）왠지, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:28", "sha1": "b7f6110dac6d49b68a9bf7a428eca1544af0dc2c", "ko": "B, 구태여, １）굳이, ２）구지, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:29", "sha1": "c529db9403cb834372c32c231c764c2ebe835ae9", "ko": "A, 곧바로, １）금새, ２）금세, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:30", "sha1": "66bcf1cc214049ece68dbf94a3b2f31ccb2b0165", "ko": "B, 어찌 된 일, １）왠일, ２）웬일, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:31", "sha1": "4a63606a85de134f26589b01f90f34fd0abb6b35", "ko": "B, 눈에 낀 것, １）눈꼽, ２）눈곱, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:32", "sha1": "0ebcc61e61e5cb50828faaf5c4bc4aa53b152ddf", "ko": "A, 말끔하게, １）깨끗이, ２）깨끗히, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:33", "sha1": "d6fb0f3bba06efb82e28ffd773b4934923b8a62e", "ko": "B, 두 배 양, １）곱배기, ２）곱빼기, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:34", "sha1": "838fedc12f3761fc83204a876d18e40d9570c206", "ko": "B, 질그릇 냄비, １）뚝배기, ２）뚝빼기, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:35", "sha1": "7c0a81e9bfe13290bc009744e0f72123f186a38a", "ko": "C, 기쁨과 노여움, １）희노애락, ２）희로애락, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:36", "sha1": "9671b628eeb2cc19233252d10c6db41569dfbdd5", "ko": "C, 손꼽히는, １）내로라하는, ２）내노라하는, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:37", "sha1": "b9d308725d4f4e7b73393ffc47cddff8be266e8c", "ko": "C, 간소하고 홀가분함, １）단출하다, ２）단촐하다, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:38", "sha1": "00d167bcd04a3b2dcc5fa2e49769940fcebe8070", "ko": "C, 늘 그렇듯, １）으레, ２）으레히, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:39", "sha1": "bac07601fa5528030d060d1b665576a6af1ef5e4", "ko": "B, 벌떡 서는 인형, １）오뚜기, ２）오뚝이, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:40", "sha1": "0753e90ff6b71eaa92071ce0897872f1a189d3ec", "ko": "C, 성격이 까다로움, １）괴팍하다, ２）괴퍅하다, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:41", "sha1": "e43b6af646a968665cbb819e63e4e3a83943f5b5", "ko": "C, 망설임 없이, １）서슴치 않고, ２）서슴지 않고, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:42", "sha1": "99fb595a714c6528f749abfc85228a0911bc03e8", "ko": "B, 봄날 아른거림, １）아지랭이, ２）아지랑이, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:43", "sha1": "d4d80837f011d801bed4923ec5632ed9576025b9", "ko": "A, 오래간만, １）오랫만, ２）오랜만, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:44", "sha1": "2ee4ab39348f69c64d659f87d4abd6a5b72ac21b", "ko": "B, 끓이는 그릇, １）냄비, ２）남비, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:45", "sha1": "d7a2f4273872c2e3f0c8da82f7a4393b9c26aca2", "ko": "B, 쌈 채소, １）상치, ２）상추, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:46", "sha1": "d2052a22627569b715986b91d06ee7037435e282", "ko": "A, 큰일 났을 때, １）어떡해, ２）어떻해, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:47", "sha1": "4a134af09fe825927a41bc64e768c3e5c79aec0a", "ko": "C, 하지 말아 달라, １）삼가해 주세요, ２）삼가 주세요, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:48", "sha1": "527854906c86d04200cb1fe9724dbac0733d18cf", "ko": "A, 하겠다는 약속, １）할게요, ２）할께요, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:49", "sha1": "9ced4474b225d8a9e305a36e9e0b584aae4ba630", "ko": "A, 공부를 알려 줌, １）가르치다, ２）가리키다, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:50", "sha1": "0436e614c9866d3d537beb81f5a9a47cfdb96855", "ko": "B, 밥에 넣는 콩, １）강남콩, ２）강낭콩, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:51", "sha1": "0e3a3cce04e03da23360a0caeb6b905f19749b77", "ko": "B, 토끼 뛰는 모양, １）깡총깡총, ２）깡충깡충, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:52", "sha1": "cf5e0f04085ab3d7fa381b3ada6ff99e4d2371c3", "ko": "C, 남을 해침, １）해코지, ２）해꼬지, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:53", "sha1": "aaccbff0ad171a8d1b0d5174123f0f3bfe7ea4c4", "ko": "C, 귀밑 수염, １）구렛나루, ２）구레나룻, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:54", "sha1": "4faa45c83f8e43666ad07d69c4321a8f0e2cd0fa", "ko": "A, 틀림없이 꼭, １）반드시, ２）반듯이, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:55", "sha1": "00aa121c18079393c0a1542f48acef32f85a4059", "ko": "C, 천둥, １）우뢰, ２）우레, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:56", "sha1": "5b579e8e505d66f910b5c57d2b3eb341254d1d3f", "ko": "A, 방향을 잃음, １）헤매다, ２）헤메다, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:57", "sha1": "8cef2664acc903efbda4841d9cdba5433a0decc2", "ko": "A, 매콤한 떡 요리, １）떡볶이, ２）떡볶기, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:58", "sha1": "5bb8788e8486711a0aa468c336a16015c7df1f32", "ko": "B, 나무하는 사람, １）나뭇군, ２）나무꾼, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:59", "sha1": "a51118932262c153fe0223b73168712b67e13545", "ko": "B, 슬쩍 알려 줌, １）귀뜸, ２）귀띔, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:60", "sha1": "f281de6a580393285c07a16f45be79e36c5a5776", "ko": "B, 통으로 전부, １）통째로, ２）통채로, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:61", "sha1": "ea472d34165c595e5736210039576e5c8f8d2e48", "ko": "A, 무로 담근 김치, １）깍뚜기, ２）깍두기, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:62", "sha1": "b0aad976f002e5fec5decfbaafa3bf6a270da750", "ko": "A, 밥 뜨는 도구, １）숟가락, ２）숫가락, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:63", "sha1": "1d6ce7191010b448213b01d6bac4928cbf8efabd", "ko": "A, 한날 태어난 형제, １）쌍동이, ２）쌍둥이, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:64", "sha1": "15d4a05d952f074a72580f6dabbbdd8babef9901", "ko": "C, 헝클어진 머리, １）부스스, ２）부시시, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:65", "sha1": "a0199a189631e58a8efbb94ff3c37a1fa05c8715", "ko": "C, 오싹한 느낌, １）으시시, ２）으스스, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:66", "sha1": "d1eced5dc5bc9846188dd11ff107664369227874", "ko": "A, 장난꾸러기, １）개구쟁이, ２）개구장이, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:67", "sha1": "2c2c7b4621ca01047bffb078f0a0f63843386752", "ko": "B, 국수 곡식, １）모밀, ２）메밀, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:68", "sha1": "01b7dae81972c56792afc273a272f4b1a411da05", "ko": "A, 쉬는 방, １）휴계실, ２）휴게실, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:69", "sha1": "5e63a93bdfa9be5effc1dacb81d11995605af655", "ko": "B, 카드로 값 치름, １）결재, ２）결제, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:70", "sha1": "e4da54f82feddf93eb21a188f1bb584b9043394a", "ko": "A, 알림판, １）게시판, ２）계시판, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:71", "sha1": "f9c6708550836208033307c86081842426ec6c41", "ko": "B, 잠깐 방문함, １）들렸다, ２）들렀다, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:72", "sha1": "8ad4fabe68b450b6db8bd62250cafc61278da544", "ko": "B, 병이 다 나음, １）나았다, ２）낳았다, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:73", "sha1": "968f50e1979c4ab417ef16166b7c7b7d29c714a3", "ko": "B, 조금 뒤에, １）있다가, ２）이따가, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:74", "sha1": "1087c65720c073965e7749085a60f35ff8bea65f", "ko": "B, 작은 문어, １）쭈꾸미, ２）주꾸미, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:75", "sha1": "be6cdff8956ef84d399c3cdf6378ab9d495ccfb3", "ko": "C, 같잖고 서투름, １）어쭙잖다, ２）어줍잖다, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:76", "sha1": "e288ea9449a5c863a072826c79bc0003929524ee", "ko": "C, 아주 망가짐, １）결단나다, ２）결딴나다, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:77", "sha1": "d3c414074845e2c7e0a57939d5ba55500faf474b", "ko": "A, 낱개의 수, １）개수, ２）갯수, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:78", "sha1": "a1a530d354d4dd22a1014d98e3e9b8f49f73af3f", "ko": "A, 마당 쓰는 도구, １）비짜루, ２）빗자루, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:79", "sha1": "4576cccc2cff92d3339f17480ffe08644aa48811", "ko": "A, 골라 먹는 식당, １）뷔페, ２）부페, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:80", "sha1": "72cebc17369d247aca445943b0d3a1f94db97558", "ko": "A, 고기 가공 식품, １）소시지, ２）소세지, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:81", "sha1": "0beee066bd177f835a7f87f0bacebb7477fcb5e8", "ko": "B, 숯불 고기 파티, １）바베큐, ２）바비큐, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:82", "sha1": "8559fb00ff118eabdc21d4cd7126d33e288a0be4", "ko": "B, 길거리 현수막, １）플랭카드, ２）플래카드, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:83", "sha1": "6311570ce5b2d48e0cd05372b475370da1371f46", "ko": "A, 달콤한 갈색 과자, １）초콜릿, ２）초콜렛, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:84", "sha1": "3088c76fa3673fa1af77dfe983e5bcce88157988", "ko": "B, 장신구, １）악세사리, ２）액세서리, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:85", "sha1": "78eeda5ab8ca9928453ed1a2dc5479d87f437478", "ko": "A, 과일 음료, １）주스, ２）쥬스, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:86", "sha1": "c413191b631576c28ffc6d2807e44f8a5e88e022", "ko": "B, 이끄는 능력, １）리더쉽, ２）리더십, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:87", "sha1": "f53a7c454295e22802e44963579dcb520a0e412b", "ko": "A, 영상 보는 가전, １）텔레비젼, ２）텔레비전, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:88", "sha1": "a84bcd7300e246a2ecaaf8f7cc6e1fb521fede73", "ko": "A, 창문 가리개, １）커튼, ２）커텐, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:89", "sha1": "f2c1240f798cd30e5f79e9bd45c2a4e03dfe10b4", "ko": "B, 짧은 겉옷, １）자켓, ２）재킷, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:90", "sha1": "2fbf60efa15a36376c95b535102cfed30023fcf3", "ko": "A, 전하는 말, １）메세지, ２）메시지, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:91", "sha1": "08b092e7c25a3712e4dbed3763498c4ae80395b5", "ko": "C, 몹시 안타까움, １）애달프다, ２）애닯다, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:92", "sha1": "7f983d957b80769c41a6f0eb43cdda0c211820d1", "ko": "B, 몹시 신기함, １）희안하다, ２）희한하다, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:93", "sha1": "e91f6289ecdb2c7f635155af2f8f83b55267975c", "ko": "B, 맡은 일, １）역할, ２）역활, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:94", "sha1": "48bb63aab9bab905a95e86930a03f0fa98e23248", "ko": "C, 떼려고 해도, １）뗄래야, ２）떼려야, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:95", "sha1": "0e7e4a96db8050801d28e33b51822c15c5e91ad7", "ko": "A, 생일 빵, １）케이크, ２）케익, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:96", "sha1": "10c39629325d75c4d0d2def9b56765dc24154f17", "ko": "A, 숨김없이, １）솔직이, ２）솔직히, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:97", "sha1": "c11e3c7d812b7084b392e2aa7be1c606445f8322", "ko": "A, 원하는 것, １）바람, ２）바램, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:98", "sha1": "eaf8876cd5cdfc7575e71e4aa9f89e976c5b8b7a", "ko": "A, 기가 막힘, １）어의없다, ２）어이없다, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:99", "sha1": "8ae196e9151b2f2db7c59c81bc2c9236c95cd1e9", "ko": "C, 정답을 골라냄, １）맞췄다, ２）맞혔다, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:100", "sha1": "b97c7adae545bf19d377ac5e2b46320b18929f33", "ko": "B, 김치를 만듦, １）담갔다, ２）담궜다, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:101", "sha1": "b4daecebda2ae63dd621d4c72abddce3eebd3091", "ko": "C, 학교 가는 길, １）등굣길, ２）등교길, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:102", "sha1": "5945797d824e6b2eb8220b69da6ba3aa6124bd17", "ko": "A, 글에 다는 답, １）대글, ２）댓글, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:107", "sha1": "521bc6bad164ab82758fc675e7bdee651e5f23ee", "ko": "A, 발이 넓다, １）아는 사람이 많다, ２）신발 치수가 남보다 크다, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:108", "sha1": "1dcff31edd04d2f2f2eb419e730a6f67195aea62", "ko": "C, 칠칠맞다, １）하는 짓이 허술하고 야무지지 못하다, ２）일 처리가 깔끔하고 야무지다, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:109", "sha1": "b8e43fae101a830415b783e387fe084baa728405", "ko": "C, 사족을 못 쓰다, １）쓸데없는 군더더기를 덧붙이다, ２）무엇에 반해 꼼짝을 못 하다, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:110", "sha1": "13699fa76e86b13cc082eff4c542f388ff686ff6", "ko": "C, 하릴없다, １）달리 어떻게 할 도리가 없다, ２）할 일이 없어 한가하다, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:111", "sha1": "901c36995bf9c24bb1e815e9210d34f12758909b", "ko": "C, 금도, １）넘어서는 안 되는 선, ２）남을 너그럽게 품는 도량, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:112", "sha1": "35471ed1ecd8c067367c70268217b1f933d208c1", "ko": "C, 곰살맞다, １）몹시 부드럽고 친절하다, ２）곰처럼 둔하고 무뚝뚝하다, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:113", "sha1": "b8f2a1060a88fde3473af4ec7ae8e7392b122ad7", "ko": "A, 귀가 얇다, １）작은 소리를 잘 못 듣다, ２）남의 말을 쉽게 믿다, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:114", "sha1": "6840c375a002ead1b8cb1c1cd374c6ec37684207", "ko": "C, 고명딸, １）아들 많은 집의 외딸, ２）음식에 고명을 잘 얹는 딸, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:115", "sha1": "e8aab19addcadbf56b5b7c7d553913a7ad809ef4", "ko": "B, 미리내, １）세금을 미리 내는 일, ２）은하수를 이르는 제주 방언, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:116", "sha1": "653c403ed20ea25f908654a8ec7683b613d92d7d", "ko": "C, 애먼, １）일과 아무 상관없이 억울한, ２）애가 타서 먼 산만 보는, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:117", "sha1": "828de2f075f092ca542658d4d41b35df090e0c35", "ko": "C, 숫제, １）숫자로 셈하는 일, ２）처음부터 차라리，아예, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:118", "sha1": "5bbb003cf386e37d840eecad500429949edb5ba6", "ko": "C, 짐짓, １）마음과 달리 일부러 그렇게, ２）무거운 짐을 진 모양, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:119", "sha1": "9fc342050f2feed24b59dc2578e3fc2ad8aa3291", "ko": "B, 너나들이, １）서로 허물없이 터놓고 지냄, ２）너도나도 드나드는 가게, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:120", "sha1": "187c01d74e81eaf358c75010d923ea553797b933", "ko": "C, 자못, １）잘못을 이르는 옛말, ２）생각보다 꽤，매우, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:121", "sha1": "6a13baa3aaa226ca967f87bedf736f738b78571d", "ko": "C, 무람없다, １）남을 함부로 잘 믿다, ２）예의를 지키지 않고 버릇없다, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:122", "sha1": "a0306109d176162350cfdba38a8462dfb958dff9", "ko": "B, 윤슬, １）윤이 나게 닦은 놋그릇, ２）햇빛이나 달빛에 반짝이는 잔물결, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:123", "sha1": "bb3b30745f72ed01d0762e88127f4b39573ef083", "ko": "A, 손이 크다, １）장갑을 큰 것만 고른다, ２）씀씀이가 넉넉하다, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:124", "sha1": "7b97d1af76034f75258c98b93959042062639c6e", "ko": "C, 객쩍다, １）찾아오는 손님이 매우 적다, ２）말이나 행동이 쓸데없고 싱겁다, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:125", "sha1": "de2021008cd837f9aa9d7289c192bd0cff154711", "ko": "C, 해찰, １）일에 마음 두지 않고 딴짓을 함, ２）해마다 지내는 집안 제사, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:126", "sha1": "05975a8492187aa170293241876d12a28f06743f", "ko": "B, 마중물, １）손님을 맞을 때 내는 차, ２）펌프로 물을 길으려 먼저 붓는 물, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:127", "sha1": "834a4f86e24e9930a3581f323841d6acf078b562", "ko": "B, 해거름, １）한 해를 거르고 쉬는 일, ２）해가 질 무렵, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:128", "sha1": "a07074a85be546355b7ef3f7d5c5e04e543d5402", "ko": "B, 여우비, １）여우가 우는 밤에 오는 비, ２）볕이 난 날 잠깐 뿌리는 비, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:129", "sha1": "954ecc9f873b73966bd5a334a2743c79b089799d", "ko": "C, 득달같이, １）잠시도 늦추지 않고 곧장, ２）달이 뜨자마자 서둘러, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:130", "sha1": "d351ab418b5534f8b2cceb19e7436a340c6f32b5", "ko": "A, 눈코 뜰 새 없다, １）꽃가루 때문에 눈코가 붓다, ２）정신없이 몹시 바쁘다, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:131", "sha1": "1b9878d65e3899fee7356dcefdad1cdb0b0d606d", "ko": "C, 가납사니, １）가난하지만 꼿꼿한 선비, ２）쓸데없는 말을 잘하는 사람, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:132", "sha1": "ab62bcef903c84b52a08d3fd5071d200ddc43871", "ko": "A, 바가지를 쓰다, １）제값보다 비싸게 치르다, ２）우산 대신 바가지를 쓰다, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:133", "sha1": "0f0ab9df3fee7ea6748a18537809bff8595710c6", "ko": "C, 곰비임비, １）물건이 거듭 쌓이거나 일이 잇달음, ２）곰이 비를 피해 숨는 모양, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:134", "sha1": "4a80fa87c490f8f0908b6af6ae0d7693c1bacd15", "ko": "B, 도긴개긴, １）윷놀이에서 이기는 비법, ２）조금 낫고 못할 뿐 거기서 거기, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:135", "sha1": "cb4df6c9665fa5e59b9bdb1d9d3a8cac03db8b8c", "ko": "B, 감쪽같다, １）고친 티가 전혀 나지 않다, ２）곶감처럼 달콤하다, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:136", "sha1": "6ae38cbe9b6c34a0dda0413cfe464c1c776e48b8", "ko": "B, 안성맞춤, １）조건이나 상황에 딱 맞음, ２）안성 지방의 전통 혼례, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:137", "sha1": "608bbdd99796443110e20088bced04ea303b4a53", "ko": "C, 시나브로, １）시나위 가락의 한 장단, ２）모르는 사이에 조금씩 조금씩, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:138", "sha1": "058a9734b50531ed832f312fae1a4aa6f36da2ce", "ko": "B, 함흥차사, １）심부름 간 사람이 소식이 없음, ２）함흥 지방의 냉면 장수, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:139", "sha1": "7874b1d8002dca536a44375ba00519258856b1e8", "ko": "B, 바늘방석, １）재봉틀 앞에 놓는 의자, ２）몹시 불안하고 거북한 자리, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:140", "sha1": "e84c05d6efc7b330a2934c99b56dc87cc4cec6fc", "ko": "C, 결자해지, １）매듭을 묶고 푸는 기술, ２）일을 저지른 사람이 풀어야 함, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:141", "sha1": "38ac992fa0ef00bbd524b1bcc3063e5f1199ec97", "ko": "C, 타산지석, １）남의 하찮은 언행도 교훈이 됨, ２）남의 산에서 돌을 캐 옴, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:142", "sha1": "c551a37f257a234e4f5a2fc082e9e5eb51c14490", "ko": "C, 괄목상대, １）학식이나 재주가 몰라보게 늚, ２）눈을 비비며 졸음을 참음, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:143", "sha1": "f5ea292a0c8f62331c8e8e24ec77f52f4d6778ad", "ko": "A, 산통을 깨다, １）잘되어 가던 일을 그르치다, ２）배가 아파 병원에 실려 가다, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:144", "sha1": "251a1d3993c88a0043ecd2ea173ec9a029495a3a", "ko": "C, 춘부장, １）봄에 새로 부임한 이장, ２）남의 아버지를 높여 이르는 말, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:145", "sha1": "99522ed4c49a651238d1b96a73ae0df1c7d14c16", "ko": "B, 터무니없다, １）집터가 쓸데없이 너무 넓다, ２）허황하여 전혀 근거가 없다, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:146", "sha1": "9b1d97fc7f5555d03403c6a87c5a55dafb2ff753", "ko": "A, 김칫국부터 마시다, １）일이 되기도 전에 미리 기대하다, ２）밥보다 국물을 먼저 먹다, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:147", "sha1": "e7505f6e4db571eaaab6f227648d12410f5c41df", "ko": "B, 데면데면하다, １）수줍어서 얼굴이 붉어지다, ２）친밀감 없이 무심하고 덤덤하다, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:148", "sha1": "b77200fbcda18646c0f51a6cdb9452b24e145caf", "ko": "B, 얼추, １）어지간히 가깝게，대강, ２）얼음 위에서 추는 춤, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:149", "sha1": "013cdaf7446906969279c6ecae462dcb18196d2f", "ko": "A, 식은 죽 먹기, １）입맛이 없어 대충 때우는 끼니, ２）아주 하기 쉬운 일, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:150", "sha1": "c85090353eff0df861a40fe924c271a4146a94ac", "ko": "A, 그림의 떡, １）잔칫날 벽에 걸어 두는 떡 그림, ２）보기만 하고 가질 수 없는 것, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:151", "sha1": "46dba3cf977b355e321a2a2ed51c13b6151db6c8", "ko": "A, 우물 안 개구리, １）넓은 세상 물정을 모르는 사람, ２）집 밖에 나가기 싫어하는 사람, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:152", "sha1": "9a90b11b99d1f6ae75a35c68943d16b756355c2d", "ko": "B, 갈무리, １）물건을 잘 정리하여 간수함, ２）갈매기가 무리 지어 나는 모양, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:153", "sha1": "71c62c9598f814afb772f0f89ebc683699ea3341", "ko": "B, 부아, １）부엉이를 이르는 사투리, ２）노엽거나 분한 마음, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:154", "sha1": "2ccd69e27d12d201da881ee2a5f1554036632275", "ko": "C, 을씨년스럽다, １）한 해가 눈 깜짝할 새 지나가다, ２）날씨나 분위기가 스산하고 쓸쓸하다, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:155", "sha1": "43bf09b5e2f9a85df5ea0dd626ca23616c627a43", "ko": "A, 시치미를 떼다, １）시금치를 다듬다, ２）알고도 모르는 척하다, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:156", "sha1": "d4da563056b14ed733e058c1ee028e516b0c85b6", "ko": "B, 우수리, １）값을 치르고 거슬러 받는 잔돈, ２）남을 웃기려고 하는 소리, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:157", "sha1": "7f46c668c641c53a6aea4a5b58ff2b4299b261b1", "ko": "C, 대중없다, １）모인 사람이 별로 없다, ２）어림을 잡을 수 없이 들쭉날쭉하다, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:158", "sha1": "8885c609c9d104f56ad0dc3c4c10318acd58cda6", "ko": "C, 미쁘다, １）밉살스럽고 얄밉다, ２）믿음성이 있다, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:159", "sha1": "5af557be404366a1a441b0a6b21af947ef1d4109", "ko": "B, 오롯이, １）모자람 없이 온전하게, ２）혼자서 쓸쓸하고 외롭게, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:160", "sha1": "4e5400ad3a547b87c36c95454307c8f17d66f2df", "ko": "B, 살갑다, １）살결이 곱고 희다, ２）마음씨가 부드럽고 상냥하다, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:161", "sha1": "2cf374d70b98e4ff143c291186f11d40f639d907", "ko": "C, 함초롬하다, １）젖거나 서려서 차분하고 가지런하다, ２）여럿이 모여 오순도순하다, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:162", "sha1": "df8750a58882859dfa1fd3d1d808cd141a1f04d4", "ko": "A, 꿩 먹고 알 먹기, １）아침을 든든하게 챙겨 먹음, ２）한 번에 두 가지 이득을 봄, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:163", "sha1": "77851fc73270d16d28b1b02db4d283b0ffe0cdc9", "ko": "A, 가는 날이 장날, １）장 보러 가기 딱 좋은 날, ２）뜻밖의 일을 공교롭게 만남, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:164", "sha1": "39ad710ac13f639270d4881c723b5fecbf51cdd4", "ko": "A, 파김치가 되다, １）매운 것을 먹고 눈물을 흘리다, ２）몹시 지쳐서 축 늘어지다, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:165", "sha1": "48991aaa25b641f33be7058d48fc9d1509977e02", "ko": "C, 바투, １）시간을 넉넉히 두고 느긋하게, ２）두 대상 사이가 썩 가깝게, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:166", "sha1": "d7f32d8971175ca44065687a9a2d1f7177e44c23", "ko": "C, 가시버시, １）부부를 낮추어 이르는 말, ２）가시가 박힌 버선, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:167", "sha1": "cbb2c8760a3d63fc05c934cb6fa8854aecd18aec", "ko": "B, 에누리, １）값을 깎는 일, ２）노래의 후렴 부분, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:168", "sha1": "7c90197e15c5da26eede9fee5f465f8c369f2c8e", "ko": "C, 마파람, １）산마루에서 내리부는 바람, ２）남쪽에서 불어오는 바람, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:169", "sha1": "70b689a070e322f67128fd8eece44f1c3ea3b7cd", "ko": "C, 깜냥, １）털이 까만 고양이, ２）스스로 일을 헤아리는 능력, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:170", "sha1": "0ce467a6ad5f32e70c06729d35408fd344a57722", "ko": "B, 너스레, １）수다스럽게 늘어놓는 말, ２）너구리가 사는 굴, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:171", "sha1": "079daa137292093d8c065c23b99d317cafcad1d4", "ko": "B, 이골이 나다, １）아주 길이 들어 익숙해지다, ２）이가 아파 머리까지 울리다, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:172", "sha1": "9c3fea5cc102afb3b430776275482f69411702f2", "ko": "B, 터울, １）집터를 두른 울타리, ２）한 어머니 자식들의 나이 차, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:173", "sha1": "9fefcfdc294258a258565247d2d2484628ced46a", "ko": "B, 치사랑, １）이를 치료해 주는 사랑, ２）아랫사람이 윗사람을 사랑함, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:174", "sha1": "6ec2bc5ff3c1ccfbfd15127d960b455dbec72787", "ko": "C, 어리보기, １）말이나 행동이 어수룩한 사람, ２）어린아이를 돌보는 일, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:175", "sha1": "5c188b18b1d8bbd7e07f62e55c98171e4fc54750", "ko": "A, 깨가 쏟아지다, １）참깨 농사가 풍년이 들다, ２）오붓하고 아기자기하게 재미나다, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:176", "sha1": "8fa681e84132c1178b4127008a5c0f5aedde2f53", "ko": "B, 일가견, １）한 집안에서 기르는 개, ２）어떤 분야에 대한 전문적 식견, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:177", "sha1": "35d98c42629358ac1c522417957edbc16f1ee196", "ko": "B, 철옹성, １）아주 튼튼하게 둘러싼 성, ２）철새들이 모여 사는 섬, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:178", "sha1": "c9c81d3f3d44a056113efd6025426714d799afef", "ko": "A, 오리발을 내밀다, １）엉뚱하게 딴전을 부리다, ２）물갈퀴로 헤엄을 잘 치다, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:179", "sha1": "3dad57ee13a30b06e3c83536249a130646f9d2e7", "ko": "C, 몽니, １）꿈속에서 본 사람, ２）대우를 못 받아 부리는 심술, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:180", "sha1": "bdb0de1b3d99585dcb6e72b0c4eda72f3ad41d10", "ko": "A, 한턱내다, １）남에게 음식을 푸짐하게 대접하다, ２）턱을 앞으로 쑥 내밀다, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:181", "sha1": "e8304be2d3be79e8e6710ee036195e57760747f5", "ko": "A, 가랑비, １）가랑이까지 흠뻑 젖는 비, ２）가늘게 조금씩 내리는 비, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:182", "sha1": "af723adf62976e0f808996667cf61282f3fe60f8", "ko": "A, 함박눈, １）굵고 탐스럽게 내리는 눈, ２）웃을 때 가늘어지는 눈, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:183", "sha1": "c60383f8d04ee739da1bc264614d914aa25ca673", "ko": "A, 까치발, １）까치가 앉아 쉬는 발판, ２）발뒤꿈치를 든 발, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:184", "sha1": "e84a9ac90ff0232b64bd789f019972048ea32d1a", "ko": "B, 회자되다, １）사람들 입에 자주 오르내리다, ２）회를 자주 사 먹다, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:185", "sha1": "1c935718818e3f9df2c20a2014d849e9940052d9", "ko": "A, 자린고비, １）몹시 인색한 사람, ２）굴비를 파는 장수, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:186", "sha1": "faac76d3d2f8bb7cfb1daf5ea72b7325250102bb", "ko": "B, 안하무인, １）집 안에 아무도 없음, ２）눈에 뵈는 것 없이 방자함, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:187", "sha1": "fd56ca73a386ddb714327a8fd40acf2944068d52", "ko": "A, 막둥이, １）막내를 귀엽게 이르는 말, ２）마구 뛰어노는 아이, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:188", "sha1": "60b8926ee951d142978c02bbb9eb4fcfab7e1e90", "ko": "A, 늦둥이, １）나이 들어 늦게 낳은 자식, ２）늦잠을 잘 자는 아이, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:189", "sha1": "e2a026b1d4e33a895a8b82471bec5960b22af22e", "ko": "A, 내리사랑, １）비 내리는 날 싹트는 사랑, ２）윗사람이 아랫사람을 사랑함, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:190", "sha1": "bb1bb197a65dc5986db586f4ceb286b1c6eb0399", "ko": "A, 품앗이, １）품속에 아기를 안아 재움, ２）힘든 일을 서로 거들며 품을 갚음, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:191", "sha1": "e0cf93dedf8a922022a42d5fe5a24c9f680154b1", "ko": "A, 오누이, １）오빠와 누이, ２）다섯 명의 누이, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:192", "sha1": "062f2522ceefb52bfb0103df205242b1275070a3", "ko": "A, 피로연, １）피로를 풀어 주는 안마, ２）기쁜 일을 알리려 베푸는 잔치, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:193", "sha1": "dec7f37792bdde8076d2c7d20f8b86346fd29f00", "ko": "A, 문외한, １）그 일에 전문 지식이 없는 사람, ２）문밖에서 기다리는 사람, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:194", "sha1": "613192fe4bbe612e385d6ab833f494821a313ad9", "ko": "A, 홍일점, １）많은 남자 가운데 한 여자, ２）과녁 한가운데 찍힌 빨간 점, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:195", "sha1": "c8452fde21baf4d37e8c4e6b2a427487375fed84", "ko": "C, 와신상담, １）장작 위에서 쓸개를 말림, ２）원수를 갚으려 온갖 고난을 참음, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:196", "sha1": "02f346947351ece1d90aef94f2ae4d0b82bc453b", "ko": "C, 반추, １）지난 일을 되풀이해 생각함, ２）반쯤 쌀쌀한 날씨, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:197", "sha1": "ebe9e68348752d5cbb8f8a793b2734fdb28cf23e", "ko": "B, 청출어람, １）푸른 물감이 바래는 일, ２）제자가 스승보다 나음, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:198", "sha1": "b996cbdea3ceb6917d0c2b2cd2f6ac453c9046e3", "ko": "A, 비몽사몽, １）비 오는 날 꾸는 꿈, ２）꿈인지 생시인지 어렴풋한 상태, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:199", "sha1": "1eaff9c9225f79342ff760346e971bffbc479cc3", "ko": "B, 언감생심, １）감을 날로 먹고 싶은 마음, ２）감히 바랄 수도 없음, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:200", "sha1": "bc673f9003e0f81583c502981f7389d4ac2109ae", "ko": "A, 작심삼일, １）결심이 사흘을 못 감, ２）사흘 동안 깊이 생각함, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:201", "sha1": "fbaa29257bc517658e8e8146ea3a5e8a036fffe7", "ko": "A, 유비무환, １）비가 오면 우산이 필요함, ２）미리 대비하면 걱정이 없음, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:202", "sha1": "b298f8ab7ad29601d8ce90b8ff96349b84ec560d", "ko": "A, 개과천선, １）잘못을 고쳐 착하게 됨, ２）개가 하늘로 올라감, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:203", "sha1": "14baf8f78d6fff34de16e2b324a6f6f5ec0c0e42", "ko": "C, 영락없다, １）조금도 틀림없이 꼭 들어맞다, ２）떨어지거나 빠진 곳이 없다, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:208", "sha1": "25cd1670b4fc9b4a390b13374dc537c8177edd03", "ko": "A, 기아나, １）남쪽으로 아마존 저지가 펼쳐진 고지, ２）무환자나무과 덩굴나무의 열매, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:209", "sha1": "7d386e24ccde528d2cc39047c02c976a911a9ed8", "ko": "A, 엔젤 폭포, １）소프트볼에서 자주 쓰는 변화구, ２）남미 기아나 고지의 세계 최고 폭포, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:210", "sha1": "6c49db110e0a2737743c4fef3cf603731bdd1a89", "ko": "B, 개복치, １）아라비아고무 무역으로 번성한 항구, ２）몸이 둥글넓적한 커다란 바닷물고기, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:211", "sha1": "d79b15877552da3cd629b3e907f1b863e27a0dc6", "ko": "C, 망종, １）보리를 베고 모를 심기 좋은 절기, ２）한 해의 맨 마지막 절기, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:212", "sha1": "af7ee66bca7c98655e63d15ab3c3e98d8d44c7a9", "ko": "B, 황도, １）실크로드의 남쪽 길, ２）하늘에서 태양이 지나가는 길, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:213", "sha1": "02053a0a5846f6c3c39275ee8e7ec1ae5ce46164", "ko": "A, 외골수, １）나무 한 그루에서 하나만 열리는 열매, ２）한 가지 일에만 매달리는 사람, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:214", "sha1": "f6d7881f048cbd5a25fed704ca0f5830f7007c6e", "ko": "B, 북회귀선, １）하지 정오에 해가 머리 위에 오는 선, ２）철새가 날아가는 북쪽 한계선, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:215", "sha1": "ab72560bccfea9cec28df4758acc443948294a89", "ko": "B, 토끼풀, １）토끼가 사는 곳에만 자라는 풀, ２）클로버라고도 부르는 콩과 식물, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:216", "sha1": "c71dbf46dbf7b4860e81f3dd46174584cf4f68a2", "ko": "A, 군소, １）장마철에 피는 백합과의 꽃, ２）바다에 사는 연체동물의 일종, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:217", "sha1": "8748767d081ba0c6eecbe20cfe45574ae96a3ed1", "ko": "A, 뉴트리노, １）원자보다 작고 지구도 뚫고 가는 입자, ２）한 박사가 발견한 심해의 새 세균, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:218", "sha1": "24e5e92d5c49d98ac583015efc27ca20ad3dae9e", "ko": "A, 잔꾀, １）원숭이도 무리 지으면 짜내는 지혜, ２）얕은 속셈으로 부리는 꾀, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:219", "sha1": "879fc55154bab2b37c4095057cbb9f15408fdd24", "ko": "A, 광년, １）빛이 한 해 동안 나아가는 거리, ２）중국 고사에서 왕이 태어난 해, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:220", "sha1": "cff88a9d3f81ab4c56019f7272082082202ec64a", "ko": "A, 마천루, １）광둥어로 여관이나 호텔이라는 뜻, ２）하늘에 닿을 듯 높은 건물, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:221", "sha1": "ec65a8b8a20ad5b5c83d78a5d70e40746c0eaebd", "ko": "C, 비트, １）설탕을 얻는 뿌리채소의 일종, ２）중남미에서 쓰는 식용유의 총칭, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:222", "sha1": "d3b30fdf8b3693b89612724f5e109f11c43a5d29", "ko": "A, 엘니뇨, １）페루 앞바다 수온이 오르는 현상, ２）토마토 많이 먹기를 겨루는 축제, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:223", "sha1": "b31e8daf4963517a55d7f67d5de698241556f343", "ko": "A, 방울뱀, １）빨갛고 검은 무늬의 독사, ２）꼬리를 흔들어 소리를 내는 뱀, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:224", "sha1": "08c0e3de7b4d78453e77afdf2e26fba4cef2368a", "ko": "A, 사탕수수, １）달콤한 옥수수 같은 열매가 열린다, ２）대나무 같은 줄기를 씹으면 달다, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:225", "sha1": "2adae15d2d32474dfeb4b986bc833b21d324dd63", "ko": "B, 대모, １）등딱지가 공예 재료인 바다거북, ２）마다가스카르섬 고유의 물고기, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:226", "sha1": "5ad17ae3d1ef6c38294daaa05e70e63f03759810", "ko": "A, 툰드라, １）설원에 사는 흑표범의 아종, ２）한 해 대부분 얼어 있는 동토 지대, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:227", "sha1": "e5069df8808674a2ffc142de1ee7fe7c9501ea5f", "ko": "A, 코크스, １）영국 남부의 대지, ２）석탄을 쪄서 가공한 연료, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:228", "sha1": "0e47d4e5ee99a5b31573498ba7b8b8c28a3a4884", "ko": "A, 이스터섬, １）모아이 석상이 있는 남태평양 섬, ２）이스트균이 발견된 팔라우 앞바다 섬, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:229", "sha1": "301053302daf7a091e4d432cd6f9cfcda4aa4cf8", "ko": "C, 셰리, １）안달루시아 지방의 화이트 와인, ２）노르망디 지방 잼에 쓰는 나무 열매, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:230", "sha1": "b9ccf1420e51fcbdd7b5142ffa590ba3d5f7b22d", "ko": "A, 마고할미, １）남송 시대의 이름난 고승, ２）설화에 나오는 거인 할머니, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:231", "sha1": "bfc39c251cdc7b5622b227fff2b43a11fe26f72b", "ko": "B, 지게, １）알프스에 피는 고산 식물, ２）짐을 얹어 등에 지는 운반 기구, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:232", "sha1": "2fbf3bdb6f4760d1cd9db83799e610643f0790cb", "ko": "A, 도루묵, １）동해에서 잡히는 바닷물고기, ２）축제 장식을 이르는 속칭, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:233", "sha1": "54f40ee810fe8367072a424b20dfa0a94694f721", "ko": "A, 터보, １）북유럽 신화의 대지의 신, ２）배기가스로 엔진 힘을 높이는 장치, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:234", "sha1": "c472b8169498228c60c0c7087d375ecb4e2ab734", "ko": "C, 연가시, １）쇠붙이의 녹에 사는 희귀한 벌레, ２）사마귀 몸속에 기생하는 벌레, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:235", "sha1": "61749e3b314852694f32d42ab5977b78badbd7ff", "ko": "B, 알파카, １）남아메리카의 낙타과 동물, ２）멕시코산 소시지, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:236", "sha1": "eacd2890848b2f9969a8357e29e3d042f7affcc4", "ko": "C, 바하, １）감자로 만든 인디오의 빵, ２）캘리포니아주와 맞닿은 멕시코 지명, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:237", "sha1": "bfc62051a5badc3cf07b93f4ee0e6a6c246d16e0", "ko": "C, 카나트, １）이누이트의 얼음집, ２）서아시아의 지하 수로, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:238", "sha1": "181dd06f7af2ee8faa0ccc150ab00a14f7ec8888", "ko": "B, 한라산, １）정상에 백록담이 있는 산, ２）우리나라 가장 북쪽에 있는 산, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:239", "sha1": "aab590cff61949564daebcd0b896250a641e81ee", "ko": "C, 간절곶, １）상록수 원시림을 이르는 말, ２）울산에 있는 해맞이 명소, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:240", "sha1": "c865c153091574d8bef731a27fdccf24af7a52d4", "ko": "C, 와디, １）사막을 오가는 상인의 행렬, ２）우기 말고는 물이 없는 마른 강, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:241", "sha1": "e1d2b7061b8528aabe4aef55824d86d60f4f3b69", "ko": "B, 사이펀, １）기압차를 이용한 유리 커피 기구, ２）고대 마케도니아의 상상 속 말, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:242", "sha1": "33c52349cee146a7c28afa57076571fd453fe70b", "ko": "B, 뢴트겐, １）첫 노벨 물리학상 수상자, ２）의료용 특수 필름 회사, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:243", "sha1": "6c7eb8c586e48b280e8d26983fb981f40a8d1009", "ko": "A, 히에로글리프, １）고대 그리스의 영웅 전기, ２）고대 이집트의 상형 문자, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:244", "sha1": "b674675c8ffbcd925ba245eb84dcf50ecc2a20b3", "ko": "B, 콘드로이틴, １）태즈메이니아산 벌레 쫓는 수액, ２）연골 등에 있는 보습력 있는 물질, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:245", "sha1": "9c1375a6ea178072b1faafcd0c82ae90f766e6d9", "ko": "A, 아프리칸 파덕, １）뉴욕 명물 패스트푸드, ２）실로폰 등에 쓰이는 붉은 나무, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:246", "sha1": "53306623a057370346259a76cef73779aff3e6ae", "ko": "B, 카이만, １）중남미에 사는 악어, ２）중남미에 사는 성게, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:247", "sha1": "fd7f66b222c6623a5bea99b864f857120a2b2d78", "ko": "C, 원더넷, １）기린의 뇌와 목 사이의 혈관망, ２）초창기 인터넷을 부르던 말, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:248", "sha1": "a30e5a88ff9cc1cf05143f71415b64b31d2de478", "ko": "B, 부탄, １）베트남의 고대 도시, ２）천연가스의 성분, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:249", "sha1": "9d0393b5b838e5275327150dd750b8bd7a72846a", "ko": "C, 아호, １）마늘을 뜻하는 스페인어, ２）아프리카의 식용 감자, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:250", "sha1": "27a07ca711c2adf7e9a6af2a89567ff47e5d123c", "ko": "C, 아이콘, １）러시아어로 구름이라는 뜻, ２）그리스어로 형상이라는 뜻에서 유래, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:251", "sha1": "50fce853ae9a37cf5625f50e658d582fe4cb5956", "ko": "A, 데스마스크, １）죽은 사람 얼굴을 본떠 만든 탈, ２）악마의 저주를 뜻하는 반점, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:252", "sha1": "44a100fe78a21ef7402f2458e383a7bb86a6dfab", "ko": "C, 쿠라레, １）포르투갈의 전통 과자, ２）남미 덩굴식물에서 얻는 독, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:253", "sha1": "84b18c614b4d39b6c2f934a49c0858d0d7432658", "ko": "C, 푸르가토리우스, １）인류의 먼 조상뻘인 초기 포유류, ２）동유럽에서 만든 유산균의 일종, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:254", "sha1": "46caf4e1d291f96eb6912077d181cd2e13771fe4", "ko": "C, 메가라니카, １）프랑스의 백과사전, ２）대항해 시대의 가상의 대륙, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:255", "sha1": "c526accd2f936107a39581912d2c61a219865e93", "ko": "B, 보노보, １）유럽의 자동차 회사, ２）다툼을 싫어하는 유인원, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:256", "sha1": "8bd16132be9487a20f164d3a720e4cad9f484887", "ko": "B, 시안, １）인쇄 삼원색 중 하나인 청록색, ２）해 질 녘 하늘의 색, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:257", "sha1": "c4f6d4517d07c52198a0e72d93b5a59e666b4374", "ko": "C, 투르비용, １）남프랑스 프로방스의 돌다리, ２）기계식 시계의 오차를 줄이는 장치, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:258", "sha1": "cea1691751738e7496a094d09a986385d34772f7", "ko": "C, 레알, １）브라질의 화폐 단위, ２）스페인의 수도, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:259", "sha1": "d1265599f2c45b952b451f841a8dada98246b29a", "ko": "B, 정구지, １）아주 먼 옛날에 살던 생물, ２）부추를 이르는 경상도 사투리, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:260", "sha1": "b01ab0bef5f2c86171306f7df6f21dc9d3981081", "ko": "B, 빈대떡, １）녹두를 갈아 부친 전, ２）빈대를 쫓는 데 쓰던 떡, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:261", "sha1": "4f0923b00b37b5ecd13c4b38b7ca24505966cb6a", "ko": "B, 보스포루스, １）이름 뜻은 용의 잠자리, ２）이름 뜻은 암소의 나루, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:262", "sha1": "ef3e90028199691f951beb5c5d62947ab8426536", "ko": "A, 쿠로시오, １）북태평양 서쪽을 흐르는 난류, ２）플랑크톤 똥으로 검어진 바다, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:263", "sha1": "21309ab6b9f49a72121e435b596fc3d50d2beade", "ko": "B, 포로로카, １）아마존강을 거슬러 오르는 큰 물결, ２）조지아의 민속춤, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:264", "sha1": "3c4ec39961f074fcebe9e5700cdda61bece235f3", "ko": "B, 에니악, １）중세 유럽 회화의 한 유파, ２）초창기의 거대한 전자계산기, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:265", "sha1": "f9e2936c25e6c1c8b3e081111669d1f8fd5d4c4e", "ko": "C, 딩고, １）오스트레일리아에서 야생화한 개, ２）마오리족의 민속 악기, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:266", "sha1": "e5a6d58f6740e0228fc8dd44cfd47cd3b17c4b49", "ko": "C, 에트랑제, １）낯선 사람，이방인, ２）상냥한 여성, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:267", "sha1": "abe088a0d7a60d2d979d525830ffb37645fdcf52", "ko": "C, 벵갈라, １）말레이반도 동부의 살쾡이, ２）벵골에서 나던 붉은 안료, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:268", "sha1": "de4c8e5fb18c677ae9414fcdd422bdda6f0adbb5", "ko": "A, 글리코겐, １）동물의 에너지원인 당의 일종, ２）첫 올림픽 백 미터 달리기 우승자, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:269", "sha1": "d9c0a6fd293adee0c4323cf1684c6d5d73b06848", "ko": "B, 솔레노돈, １）심해에 사는 거대 오징어, ２）살아 있는 화석인 원시 포유류, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:270", "sha1": "3e3a8573c3f80002442578a6adedce3e8364269c", "ko": "C, 팔롤로, １）남태평양의 캐비아라는 갯지렁이, ２）에콰도르의 민속 모자, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:271", "sha1": "4adc2167415d271c6fc75f958560bfcf2a7219e6", "ko": "B, 템페, １）네덜란드의 식용유, ２）인도네시아의 콩 발효 식품, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:272", "sha1": "23df593bb5ef17c1fc2652b1d184169706259354", "ko": "C, 해썹, １）인공위성 감시 시스템, ２）우주식에서 비롯된 식품 위생 관리, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:273", "sha1": "fc40ec24e1ec61481c3903ab7946c87ac93ae782", "ko": "C, 에보나이트, １）화석을 품은 광석, ２）생고무로 만든 단단한 재료, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:274", "sha1": "ed52f4c983f3ccd9456cc1242cc25ce34a6f0a9f", "ko": "A, 칼데라, １）화산 분화로 생긴 움푹한 분지, ２）북아프리카의 구운 과자, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:275", "sha1": "1e19d5fbb58c09d936a156b7ea7d46d3d9fceae3", "ko": "C, 코르크, １）코르크참나무 껍질의 조직, ２）나무 열매를 압축 가공한 것, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:276", "sha1": "a6a75a07913c0770634e2620560b4d4fb56f0ce8", "ko": "C, 모주, １）술지게미로 빚은 탁한 술, ２）국에 뜬 거품을 걷는 도구, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:277", "sha1": "6fb39a143865344a6394bbf3882d93f9705e4b71", "ko": "B, 스페이스 데브리, １）우주를 떠도는 쓰레기, ２）공간과 공간 사이의 틈, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:278", "sha1": "e59cd00425c1f9d6d6a57c525e79f4abf8b60c8f", "ko": "C, 섶다리, １）섶에 누워 다리를 쉬는 일, ２）나무와 솔가지로 놓은 임시 다리, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:279", "sha1": "022cc6f979e8c78356989821b5be1ccf05d614a0", "ko": "A, 카피바라, １）가장 큰 쥐 무리 동물, ２）아스파라거스의 원종, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:280", "sha1": "6bc689d6eeae4f7a262d048321bdc0898a6a6af4", "ko": "B, 아귀, １）소금에 절여 두는 산나물, ２）입이 크고 찜으로 유명한 바닷물고기, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:281", "sha1": "4e8a9296e98d22424a0af19ee1002a566510bd7d", "ko": "C, 천산갑, １）타이완의 영험한 성지, ２）온몸이 비늘로 덮인 포유류, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:282", "sha1": "d68c230a412d7c414429380fc264ffec19ad3e38", "ko": "C, 캘러스, １）남이탈리아의 석회암 요새, ２）인공 배양한 식물 세포 덩어리, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:283", "sha1": "81b2bdadc09c0a1faecf3e34d1ac73ba36bb22a2", "ko": "B, 스트로마톨라이트, １）남세균이 만든 층 모양의 암석, ２）관 모양 결정의 값비싼 보석, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:284", "sha1": "70b0c1dadf59d8223aedf72f9475dde91bd86dec", "ko": "A, 티눈, １）발바닥 등에 생기는 굳은살, ２）눈에 티가 들어간 상태, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:285", "sha1": "26815ed49692f591617f2a84fc70bcf732cec67c", "ko": "B, 게르, １）쓰촨성에 사는 코끼리의 속칭, ２）몽골 유목민의 조립식 천막 집, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:286", "sha1": "1f426abace3ed30a722036764790b6b88b37d3a4", "ko": "C, 베르베르인, １）베르베르어를 쓰는 북아프리카 민족, ２）카자흐스탄의 유목민, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:287", "sha1": "f5fd94e09f70996d29ffc53e4dd8ae4eaa7b7f38", "ko": "A, 주마등, １）경마장의 조명, ２）불빛으로 그림이 돌아가는 등, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:288", "sha1": "187bf917d6bff57d01f2f00c6ebd21e885a0bc5b", "ko": "C, 피토관, １）흐름의 속도를 재는 장치, ２）조개가 숨을 쉬는 기관, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:289", "sha1": "f0e0bf628d0eeeaf617922a0b035046b7c660edf", "ko": "C, 히포포타무스, １）고대 이집트의 신, ２）영어로 하마를 뜻하는 말, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:290", "sha1": "26cf5bb0e0f8c3d610cf2c742a1a3c10c9b5b2f7", "ko": "A, 하누만, １）인도네시아의 민속 의상, ２）힌두교에 나오는 원숭이 신, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:291", "sha1": "6f1da8ccda0f033f847f0637183a39bb3be1e849", "ko": "B, 청자고둥, １）강한 독으로 먹이를 잡는 고둥, ２）공 모양 껍데기를 가진 바닷말, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:292", "sha1": "19e743eae0bdc1790252a182bd6691012eba4ac0", "ko": "C, 바람자루, １）바람 방향을 알리는 자루 모양 깃발, ２）염색 기법의 하나, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:293", "sha1": "54e4db54a57ee2fbe4532fd393ef95f949700d61", "ko": "B, 박차, １）음악의 박자를 맞추는 도구, ２）승마용 구두 뒤축에 다는 쇠, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:294", "sha1": "114ad6628d67cb6d0e0187f5441ca6b8d5f910fb", "ko": "A, 피오르, １）순록이 끄는 큰 썰매, ２）빙하가 깎아 만든 좁고 깊은 만, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:295", "sha1": "d9a388116a5cad3f1782a19d787dd44aeb3b317c", "ko": "A, 흑점, １）태양 표면에서 온도가 낮은 곳, ２）바둑에서 흑돌이 놓인 자리, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:296", "sha1": "17691ed02675cf46795d2a00e5f164496b2ec9b8", "ko": "B, 논병아리, １）물에 잘 잠수하는 물새, ２）논에서 기르는 병아리, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:297", "sha1": "1b8286d7e89ed3056193de00c0724800ecaf89ca", "ko": "A, 장도리, １）옛 궁중에서 추던 춤, ２）못을 박거나 뽑는 쇠망치, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:298", "sha1": "db8a02601640717398b2bb4b0d4ce8f6b294b88e", "ko": "B, 백미, １）여럿 가운데 가장 뛰어난 것, ２）나라를 기울게 한 악녀, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:299", "sha1": "a2378bf882d0e1aaa81e6f69ae5714875dd77c11", "ko": "B, 쿼츠, １）십구 세기 말의 물리학자, ２）수정，또는 석영, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:300", "sha1": "8fb47ee68ad812fd9cbe18cc405b4ae51048bee2", "ko": "A, 아크등, １）초기 가로등에 쓰인 전등, ２）모닥불로 불을 밝힌 등대, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:301", "sha1": "349182d358e5cccdfdf2fed224581175b3d0dd7c", "ko": "A, 오존, １）산소 원자 세 개로 된 분자, ２）화산 가스의 일종, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:302", "sha1": "9b509d0e04c5129e7c62e64f2d88ae9474f65b84", "ko": "C, 솜브레로, １）이상 기상 때 생기는 구름, ２）스페인이나 멕시코의 챙 넓은 모자, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:303", "sha1": "8abb102c2df0d68a5912216c075cb6260cf6ed29", "ko": "A, 에튀드, １）악기 연주를 익히기 위한 연습곡, ２）발레 안무의 한 동작, 1", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:304", "sha1": "15463b3aba82d43694872473131da5fc7a8ed9df", "ko": "B, 동충하초, １）살기 좋은 땅을 이르는 말, ２）벌레에 기생하는 약재용 버섯, 0", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/quest.txt:305", "sha1": "99c1a934c563296300e077a2ea7b8dc44b446d96", "ko": "B, 마린 스노, １）바다 위에 내리는 눈, ２）바닷속에 내리는 플랑크톤 사체, 0", "state": "needs_review"}
 {"id": "NAMEDB.XAP/namedb.txt:3", "sha1": "88a3842dff5bcde14f0259a5caa55db698d71bf7", "ko": "사쿠라다, 사쿠타로", "state": "needs_review"}
 {"id": "NAMEDB.XAP/namedb.txt:6", "sha1": "1d094917d95a681f339ff2a68c59b8279d503f54", "ko": "토모코", "state": "needs_review"}
 {"id": "NAMEDB.XAP/namedb.txt:9", "sha1": "e51500e4b3b0909fda6e69314b59391383d4f2cd", "ko": "타쿠야", "state": "needs_review"}

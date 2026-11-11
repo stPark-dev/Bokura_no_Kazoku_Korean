@@ -4,7 +4,7 @@
 |---|---|---:|---:|---|
 | 대사 `EVENT.XAP/*.mes` (1,517파일) | `text/event_src.jsonl` | 4,478블록 | 4,478 | 초벌(needs_review) |
 | 시스템 메시지 `GAMEMES.XAP/gamemes.mes` | `text/gamemes_src.jsonl` | 60블록 | 60 | 초벌 |
-| 줄 단위 시스템 텍스트 `*/*.txt`, `*/*/*.txt` | `text/sys_src.jsonl` | 2,461줄 | 2,172 | 초벌, 퀴즈 289줄(D8 새 출제) 진행 중 |
+| 줄 단위 시스템 텍스트 `*/*.txt`, `*/*/*.txt` | `text/sys_src.jsonl` | 2,461줄 | 2,461 | 초벌 (퀴즈 289줄은 D8 새 출제) |
 
 ## 제외 (근거)
 - `FONT.XAP/vcode.txt`: 세로쓰기 문장부호 치환표, 표시 텍스트 아님(D5).
