@@ -127,7 +127,17 @@ def check(src, text, encode=_cp932, body_max=BODY_MAX):
         total += len(b)
     if total > body_max:
         errs.append(f'body bytes {total} > {body_max}')
-    return errs + _layout(text)
+    return errs + _layout(text) + _particles(text)
+
+
+# After a name variable, a particle whose form depends on the final consonant must be a pair X（Y） so the
+# hook at 0x13E4C8 can choose (it only looks right after the name, not across a line break).
+UNPAIRED = re.compile(r'\$[A-Z]+\$((?:@n\n　)?)(은|는|이|가|을|를|과|와|으로|로|아|야|랑|라|란|였|랍)(?![^（\n]{0,3}（)')
+
+
+def _particles(text):
+    return [f'unpaired particle after name: {m.group(0)!r} (use X（Y） right after the name)'
+            for m in UNPAIRED.finditer(text)]
 
 
 def _layout(text):

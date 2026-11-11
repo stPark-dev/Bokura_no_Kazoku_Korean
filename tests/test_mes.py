@@ -124,3 +124,18 @@ def test_vertical_encoder_halves_spaces_and_limits_count_expanded_bytes():
     long = '「' + ' '.join(['ab'] * 40) + '@n'          # 39 spaces -> +312 bytes after expansion
     assert any('line bytes' in e for e in mes.check(src, long, enc))
     assert not any('line bytes' in e for e in mes.check(src, long, lambda s: s.encode('cp932')))
+
+
+@pytest.mark.parametrize('ko,bad', [
+    ('$OKA$「$OKA$는 좋아@n', True),
+    ('$OKA$「$OKA$이었습니다@n', True),
+    ('$OKA$「$OKA$@n\n　랍니다@n', True),
+    ('$OKA$「$OKA$이었（였）습니다@n', False),
+    ('$OKA$「$OKA$은（는） 좋아@n', False),
+    ('$OKA$「$OKA$입니다@n', False),
+    ('$OKA$「$OKA$의 책@n', False),
+    ('$OKA$「$OKA$에게 줘@n', False),
+])
+def test_check_unpaired_particle_after_name(ko, bad):
+    errs = mes.check('$OKA$「x$OKA$y@n', ko, encode=str.encode)
+    assert any('particle' in e for e in errs) is bad, errs
