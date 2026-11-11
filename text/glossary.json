@@ -164,11 +164,11 @@
     },
     {
       "id": "T-school-clever",
-      "src": "クレバー学園",
-      "ko": "클레버 학원",
+      "src": "クレバー学園（中）／クレバー中",
+      "ko": "클레버 학원 중학교 (줄여 클레버중)",
       "state": "approved",
       "basis": "KYO 배치(에이전트) 검토",
-      "note": ""
+      "note": "배치마다 클레버 학원/클레버 중학교로 갈림 → 통일"
     },
     {
       "id": "T-school-seisei",
@@ -296,6 +296,190 @@
       "ko": "결번",
       "state": "approved",
       "basis": "KYO 배치(에이전트) 검토",
+      "note": ""
+    },
+    {
+      "id": "T-univ-seisei",
+      "src": "清星女子大",
+      "ko": "세이세이 여대",
+      "state": "approved",
+      "basis": "검수 통일(배치 간 비교)",
+      "note": ""
+    },
+    {
+      "id": "T-ramen",
+      "src": "ラーメン屋",
+      "ko": "라멘집",
+      "state": "approved",
+      "basis": "검수 통일(배치 간 비교)",
+      "note": ""
+    },
+    {
+      "id": "T-furugi",
+      "src": "古着屋",
+      "ko": "구제 옷 가게",
+      "state": "approved",
+      "basis": "검수 통일(배치 간 비교)",
+      "note": ""
+    },
+    {
+      "id": "T-manken",
+      "src": "漫画研究部／漫研",
+      "ko": "만화 연구부",
+      "state": "approved",
+      "basis": "검수 통일(배치 간 비교)",
+      "note": ""
+    },
+    {
+      "id": "T-batchiri",
+      "src": "ばっちり！(아이 기분 대답)",
+      "ko": "끝내줘！",
+      "state": "approved",
+      "basis": "검수 통일(배치 간 비교)",
+      "note": "m 시범분 최고→끝내줘"
+    },
+    {
+      "id": "T-ctype-names",
+      "src": "キャラタイプ名",
+      "ko": "무럭무럭／잘 아파요／개구쟁이 꼬맹이／무기력／노력파／공상가／튀고 싶어 하는／응석꾸러기／애늙은이／난폭자／러블리／오타쿠／공부벌레／어린애／불량아／멋 내기／아직도 젊어요",
+      "state": "approved",
+      "basis": "검수 통일(배치 간 비교)",
+      "note": "menumes 200–216과 같게. 문장 속에서는 활용 허용(난폭해서 등)"
+    },
+    {
+      "id": "N-yoshiko",
+      "src": "良子／祐天寺良子",
+      "ko": "요시코／유텐지 요시코",
+      "state": "approved",
+      "basis": "검수 통일(배치 간 비교)",
+      "note": ""
+    },
+    {
+      "id": "N-yu",
+      "src": "明日葉優",
+      "ko": "아시타바 유",
+      "state": "approved",
+      "basis": "검수 통일(배치 간 비교)",
+      "note": ""
+    },
+    {
+      "id": "N-michiru",
+      "src": "みちる嬢／今野みちる",
+      "ko": "미치루 양／콘노 미치루",
+      "state": "approved",
+      "basis": "검수 통일(배치 간 비교)",
+      "note": ""
+    },
+    {
+      "id": "N-lily",
+      "src": "リリー／諫早百合子",
+      "ko": "릴리／이사하야 유리코",
+      "state": "approved",
+      "basis": "검수 통일(배치 간 비교)",
+      "note": ""
+    },
+    {
+      "id": "N-sachi",
+      "src": "永井幸",
+      "ko": "나가이 사치",
+      "state": "approved",
+      "basis": "검수 통일(배치 간 비교)",
+      "note": ""
+    },
+    {
+      "id": "N-jun",
+      "src": "長崎ジュン",
+      "ko": "나가사키 준",
+      "state": "approved",
+      "basis": "검수 통일(배치 간 비교)",
+      "note": ""
+    },
+    {
+      "id": "N-ken",
+      "src": "健ちゃん／山吹健太",
+      "ko": "켄짱／야마부키 켄타",
+      "state": "approved",
+      "basis": "검수 통일(배치 간 비교)",
+      "note": ""
+    },
+    {
+      "id": "N-yoshimoto",
+      "src": "吉本くん",
+      "ko": "요시모토 군",
+      "state": "approved",
+      "basis": "검수 통일(배치 간 비교)",
+      "note": ""
+    },
+    {
+      "id": "N-sagara",
+      "src": "相楽先生",
+      "ko": "사가라 선생님",
+      "state": "approved",
+      "basis": "검수 통일(배치 간 비교)",
+      "note": ""
+    },
+    {
+      "id": "N-kiriko",
+      "src": "二条院桐子",
+      "ko": "니조인 키리코",
+      "state": "approved",
+      "basis": "검수 통일(배치 간 비교)",
+      "note": ""
+    },
+    {
+      "id": "N-bon",
+      "src": "盆ちゃん／古井盆栽",
+      "ko": "본짱／후루이 본사이",
+      "state": "approved",
+      "basis": "검수 통일(배치 간 비교)",
+      "note": ""
+    },
+    {
+      "id": "N-nakata",
+      "src": "中田",
+      "ko": "나카타",
+      "state": "approved",
+      "basis": "검수 통일(배치 간 비교)",
+      "note": ""
+    },
+    {
+      "id": "N-arakawa",
+      "src": "荒川先生",
+      "ko": "아라카와 선생님",
+      "state": "approved",
+      "basis": "검수 통일(배치 간 비교)",
+      "note": ""
+    },
+    {
+      "id": "N-takasago",
+      "src": "高砂さん",
+      "ko": "타카사고 씨",
+      "state": "approved",
+      "basis": "검수 통일(배치 간 비교)",
+      "note": ""
+    },
+    {
+      "id": "N-chinatsu",
+      "src": "ちなつ",
+      "ko": "치나츠",
+      "state": "approved",
+      "basis": "검수 통일(배치 간 비교)",
+      "note": ""
+    },
+    {
+      "id": "T-newspaper",
+      "src": "千代田新聞",
+      "ko": "치요다 신문",
+      "state": "approved",
+      "basis": "검수 통일(배치 간 비교)",
+      "note": ""
+    },
+    {
+      "id": "T-eurasia",
+      "src": "ユーラシア大",
+      "ko": "유라시아 대학",
+      "state": "approved",
+      "basis": "검수 통일(배치 간 비교)",
       "note": ""
     }
   ]

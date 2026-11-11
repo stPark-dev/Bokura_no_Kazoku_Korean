@@ -5,7 +5,8 @@
   `tests/test_extract_event.py`가 커밋본과 새 추출이 같은지 확인한다.
 - `text/event_ko.jsonl` — `{id, sha1, ko, state}`. `sha1`은 번역 당시 원문 기준값, 다르면 빌드 실패.
   배치는 `tools/ko_merge.py SRC KO BATCH.json [--replace]`로 넣는다(덮어쓰기는 `--replace`일 때만).
-- 상태: `in_progress` → `needs_review`(초벌 완료) → `distribution_eligible`(검수 완료) / `needs_human_review`.
+- 상태: `in_progress` → `needs_review`(초벌 완료) → `reviewed`(독립 검수 에이전트 대조 완료, D1) → `distribution_eligible`(게임 화면 QA까지 통과) / `needs_human_review`.
+  검수 결과는 `tools/review_merge.py`로 넣는다(같은 원문·같은 번역의 반복 블록에 전파).
 
 ## 소비자 제약 (검사 `tools/mes.py check`)
 | 규칙 | 근거 |
