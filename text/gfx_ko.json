@@ -1590,5 +1590,12435 @@
   "generator": "title_logo",
   "src": "ぼくらのかぞく",
   "text": "우리들의 가족"
- }
+ },
+ "MENU.XAP/gen0_04.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    93,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ゲンコツ　0歳",
+   "text": "겐코츠　0살",
+   "rect": [
+    9,
+    138,
+    89,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    76,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "無気力かも",
+   "text": "무기력",
+   "rect": [
+    9,
+    157,
+    72,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/gen0_11.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    93,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ゲンコツ　0歳",
+   "text": "겐코츠　0살",
+   "rect": [
+    9,
+    138,
+    89,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    61,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ラブリー",
+   "text": "러블리",
+   "rect": [
+    9,
+    157,
+    57,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/gen1_04.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    134,
+    104,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "モック　01歳～",
+   "text": "모크　01살～",
+   "rect": [
+    9,
+    135,
+    100,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    153,
+    76,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "無気力かも",
+   "text": "무기력",
+   "rect": [
+    9,
+    154,
+    72,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/gen1_11.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    119,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ゲンコツ　01歳～",
+   "text": "겐코츠　01살～",
+   "rect": [
+    9,
+    138,
+    115,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    61,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ラブリー",
+   "text": "러블리",
+   "rect": [
+    9,
+    157,
+    57,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/gen2_04.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    114,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ゲンコツ　07歳～",
+   "text": "겐코츠　07살～",
+   "rect": [
+    9,
+    138,
+    110,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    49,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "無気力",
+   "text": "무기력",
+   "rect": [
+    9,
+    157,
+    45,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/gen2_11.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    114,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ゲンコツ　07歳～",
+   "text": "겐코츠　07살～",
+   "rect": [
+    9,
+    138,
+    110,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    61,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ラブリー",
+   "text": "러블리",
+   "rect": [
+    9,
+    157,
+    57,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/gen3_04.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    114,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ゲンコツ　13歳～",
+   "text": "겐코츠　13살～",
+   "rect": [
+    9,
+    138,
+    110,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    49,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "無気力",
+   "text": "무기력",
+   "rect": [
+    9,
+    157,
+    45,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/gen3_11.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    114,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ゲンコツ　13歳～",
+   "text": "겐코츠　13살～",
+   "rect": [
+    9,
+    138,
+    110,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    61,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ラブリー",
+   "text": "러블리",
+   "rect": [
+    9,
+    157,
+    57,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/gen4_04.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    114,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ゲンコツ　16歳～",
+   "text": "겐코츠　16살～",
+   "rect": [
+    9,
+    138,
+    110,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    49,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "無気力",
+   "text": "무기력",
+   "rect": [
+    9,
+    157,
+    45,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/gen4_11.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    114,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ゲンコツ　16歳～",
+   "text": "겐코츠　16살～",
+   "rect": [
+    9,
+    138,
+    110,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    61,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ラブリー",
+   "text": "러블리",
+   "rect": [
+    9,
+    157,
+    57,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/gen5_04.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    114,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ゲンコツ　19歳～",
+   "text": "겐코츠　19살～",
+   "rect": [
+    9,
+    138,
+    110,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    49,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "無気力",
+   "text": "무기력",
+   "rect": [
+    9,
+    157,
+    45,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/gen5_11.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    114,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ゲンコツ　19歳～",
+   "text": "겐코츠　19살～",
+   "rect": [
+    9,
+    138,
+    110,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    61,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ラブリー",
+   "text": "러블리",
+   "rect": [
+    9,
+    157,
+    57,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/gen6_04.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    136,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ゲンコツ　就職・独身",
+   "text": "겐코츠　취직・독신",
+   "rect": [
+    9,
+    138,
+    132,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    49,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "無気力",
+   "text": "무기력",
+   "rect": [
+    9,
+    157,
+    45,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/gen6_11.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    136,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ゲンコツ　就職・独身",
+   "text": "겐코츠　취직・독신",
+   "rect": [
+    9,
+    138,
+    132,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    61,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ラブリー",
+   "text": "러블리",
+   "rect": [
+    9,
+    157,
+    57,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/jij0_03.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    69,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ジジ　0歳",
+   "text": "지지　0살",
+   "rect": [
+    9,
+    138,
+    65,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    127,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "わんぱくガキんちょ",
+   "text": "개구쟁이 꼬맹이",
+   "rect": [
+    9,
+    157,
+    123,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/jij0_10.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    69,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ジジ　0歳",
+   "text": "지지　0살",
+   "rect": [
+    9,
+    138,
+    65,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    64,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "暴れん坊",
+   "text": "난폭자",
+   "rect": [
+    9,
+    157,
+    60,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/jij1_03.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    94,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ジジ　01歳～",
+   "text": "지지　01살～",
+   "rect": [
+    9,
+    138,
+    90,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    127,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "わんぱくガキんちょ",
+   "text": "개구쟁이 꼬맹이",
+   "rect": [
+    9,
+    157,
+    123,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/jij1_10.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    94,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ジジ　01歳～",
+   "text": "지지　01살～",
+   "rect": [
+    9,
+    138,
+    90,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    64,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "暴れん坊",
+   "text": "난폭자",
+   "rect": [
+    9,
+    157,
+    60,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/jij2_03.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    90,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ジジ　07歳～",
+   "text": "지지　07살～",
+   "rect": [
+    9,
+    138,
+    86,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    127,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "わんぱくガキんちょ",
+   "text": "개구쟁이 꼬맹이",
+   "rect": [
+    9,
+    157,
+    123,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/jij2_10.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    90,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ジジ　07歳～",
+   "text": "지지　07살～",
+   "rect": [
+    9,
+    138,
+    86,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    64,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "暴れん坊",
+   "text": "난폭자",
+   "rect": [
+    9,
+    157,
+    60,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/jij3_03.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    90,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ジジ　13歳～",
+   "text": "지지　13살～",
+   "rect": [
+    9,
+    138,
+    86,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    127,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "わんぱくガキんちょ",
+   "text": "개구쟁이 꼬맹이",
+   "rect": [
+    9,
+    157,
+    123,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/jij3_10.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    90,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ジジ　13歳～",
+   "text": "지지　13살～",
+   "rect": [
+    9,
+    138,
+    86,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    69,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "不良だぜ",
+   "text": "불량아",
+   "rect": [
+    9,
+    157,
+    65,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/jij4_03.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    90,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ジジ　16歳～",
+   "text": "지지　16살～",
+   "rect": [
+    9,
+    138,
+    86,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    127,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "わんぱくガキんちょ",
+   "text": "개구쟁이 꼬맹이",
+   "rect": [
+    9,
+    157,
+    123,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/jij4_10.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    90,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ジジ　16歳～",
+   "text": "지지　16살～",
+   "rect": [
+    9,
+    138,
+    86,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    69,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "不良だぜ",
+   "text": "불량아",
+   "rect": [
+    9,
+    157,
+    65,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/jij5_03.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    95,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ジジ　19歳～",
+   "text": "지지　19살～",
+   "rect": [
+    9,
+    138,
+    91,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    127,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "わんぱくガキんちょ",
+   "text": "개구쟁이 꼬맹이",
+   "rect": [
+    9,
+    157,
+    123,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/jij5_10.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    95,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ジジ　19歳～",
+   "text": "지지　19살～",
+   "rect": [
+    9,
+    138,
+    91,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    69,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "不良だぜ",
+   "text": "불량아",
+   "rect": [
+    9,
+    157,
+    65,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/jij6_03.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    114,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ジジ　就職・独身",
+   "text": "지지　취직・독신",
+   "rect": [
+    9,
+    138,
+    110,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    127,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "わんぱくガキんちょ",
+   "text": "개구쟁이 꼬맹이",
+   "rect": [
+    9,
+    157,
+    123,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/jij6_10.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    114,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ジジ　就職・独身",
+   "text": "지지　취직・독신",
+   "rect": [
+    9,
+    138,
+    110,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    69,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "不良だぜ",
+   "text": "불량아",
+   "rect": [
+    9,
+    157,
+    65,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/kok0_04.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    81,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "コッコ　0歳",
+   "text": "콧코　0살",
+   "rect": [
+    9,
+    138,
+    77,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    76,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "無気力かも",
+   "text": "무기력",
+   "rect": [
+    9,
+    157,
+    72,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/kok0_10.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    81,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "コッコ　0歳",
+   "text": "콧코　0살",
+   "rect": [
+    9,
+    138,
+    77,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    64,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "暴れん坊",
+   "text": "난폭자",
+   "rect": [
+    9,
+    157,
+    60,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/kok1_04.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    100,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "コッコ　01歳～",
+   "text": "콧코　01살～",
+   "rect": [
+    9,
+    138,
+    96,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    49,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "無気力",
+   "text": "무기력",
+   "rect": [
+    9,
+    157,
+    45,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/kok1_10.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    100,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "コッコ　01歳～",
+   "text": "콧코　01살～",
+   "rect": [
+    9,
+    138,
+    96,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    64,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "暴れん坊",
+   "text": "난폭자",
+   "rect": [
+    9,
+    157,
+    60,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/kok2_04.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    102,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "コッコ　07歳～",
+   "text": "콧코　07살～",
+   "rect": [
+    9,
+    138,
+    98,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    49,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "無気力",
+   "text": "무기력",
+   "rect": [
+    9,
+    157,
+    45,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/kok2_10.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    102,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "コッコ　07歳～",
+   "text": "콧코　07살～",
+   "rect": [
+    9,
+    138,
+    98,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    64,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "暴れん坊",
+   "text": "난폭자",
+   "rect": [
+    9,
+    157,
+    60,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/kok3_04.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    98,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "コッコ　13歳～",
+   "text": "콧코　13살～",
+   "rect": [
+    9,
+    138,
+    94,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    49,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "無気力",
+   "text": "무기력",
+   "rect": [
+    9,
+    157,
+    45,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/kok3_10.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    98,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "コッコ　13歳～",
+   "text": "콧코　13살～",
+   "rect": [
+    9,
+    138,
+    94,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    69,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "不良だぜ",
+   "text": "불량아",
+   "rect": [
+    9,
+    157,
+    65,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/kok4_04.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    98,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "コッコ　16歳～",
+   "text": "콧코　16살～",
+   "rect": [
+    9,
+    138,
+    94,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    49,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "無気力",
+   "text": "무기력",
+   "rect": [
+    9,
+    157,
+    45,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/kok4_10.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    98,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "コッコ　16歳～",
+   "text": "콧코　16살～",
+   "rect": [
+    9,
+    138,
+    94,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    69,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "不良だぜ",
+   "text": "불량아",
+   "rect": [
+    9,
+    157,
+    65,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/kok5_04.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    103,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "コッコ　19歳～",
+   "text": "콧코　19살～",
+   "rect": [
+    9,
+    138,
+    99,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    49,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "無気力",
+   "text": "무기력",
+   "rect": [
+    9,
+    157,
+    45,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/kok5_10.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    103,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "コッコ　19歳～",
+   "text": "콧코　19살～",
+   "rect": [
+    9,
+    138,
+    99,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    69,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "不良だぜ",
+   "text": "불량아",
+   "rect": [
+    9,
+    157,
+    65,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/kok6_04.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    125,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "コッコ　就職・独身",
+   "text": "콧코　취직・독신",
+   "rect": [
+    9,
+    138,
+    121,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    49,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "無気力",
+   "text": "무기력",
+   "rect": [
+    9,
+    157,
+    45,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/kok6_10.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    125,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "コッコ　就職・独身",
+   "text": "콧코　취직・독신",
+   "rect": [
+    9,
+    138,
+    121,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    69,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "不良だぜ",
+   "text": "불량아",
+   "rect": [
+    9,
+    157,
+    65,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/kok8_05.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    103,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "コッコ　19歳～",
+   "text": "콧코　19살～",
+   "rect": [
+    9,
+    138,
+    99,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    135,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "すくすく・孫7-12歳",
+   "text": "무럭무럭・손주7-12살",
+   "rect": [
+    9,
+    157,
+    131,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/kyo0_06.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    78,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "キョロ　0歳",
+   "text": "쿄로　0살",
+   "rect": [
+    9,
+    138,
+    74,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    81,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "夢想家です",
+   "text": "공상가",
+   "rect": [
+    9,
+    157,
+    77,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/kyo0_10.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    78,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "キョロ　0歳",
+   "text": "쿄로　0살",
+   "rect": [
+    9,
+    138,
+    74,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    64,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "暴れん坊",
+   "text": "난폭자",
+   "rect": [
+    9,
+    157,
+    60,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/kyo1_06.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    104,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "キョロ　01歳～",
+   "text": "쿄로　01살～",
+   "rect": [
+    9,
+    138,
+    100,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    81,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "夢想家です",
+   "text": "공상가",
+   "rect": [
+    9,
+    157,
+    77,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/kyo1_10.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    104,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "キョロ　01歳～",
+   "text": "쿄로　01살～",
+   "rect": [
+    9,
+    138,
+    100,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    64,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "暴れん坊",
+   "text": "난폭자",
+   "rect": [
+    9,
+    157,
+    60,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/kyo2_06.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    104,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "キョロ　07歳～",
+   "text": "쿄로　07살～",
+   "rect": [
+    9,
+    138,
+    100,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    81,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "夢想家です",
+   "text": "공상가",
+   "rect": [
+    9,
+    157,
+    77,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/kyo2_10.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    104,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "キョロ　07歳～",
+   "text": "쿄로　07살～",
+   "rect": [
+    9,
+    138,
+    100,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    64,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "暴れん坊",
+   "text": "난폭자",
+   "rect": [
+    9,
+    157,
+    60,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/kyo3_06.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    99,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "キョロ　13歳～",
+   "text": "쿄로　13살～",
+   "rect": [
+    9,
+    138,
+    95,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    81,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "夢想家です",
+   "text": "공상가",
+   "rect": [
+    9,
+    157,
+    77,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/kyo3_10.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    99,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "キョロ　13歳～",
+   "text": "쿄로　13살～",
+   "rect": [
+    9,
+    138,
+    95,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    69,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "不良だぜ",
+   "text": "불량아",
+   "rect": [
+    9,
+    157,
+    65,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/kyo4_06.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    99,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "キョロ　16歳～",
+   "text": "쿄로　16살～",
+   "rect": [
+    9,
+    138,
+    95,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    81,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "夢想家です",
+   "text": "공상가",
+   "rect": [
+    9,
+    157,
+    77,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/kyo4_10.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    99,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "キョロ　16歳～",
+   "text": "쿄로　16살～",
+   "rect": [
+    9,
+    138,
+    95,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    69,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "不良だぜ",
+   "text": "불량아",
+   "rect": [
+    9,
+    157,
+    65,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/kyo5_06.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    104,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "キョロ　19歳～",
+   "text": "쿄로　19살～",
+   "rect": [
+    9,
+    138,
+    100,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    81,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "夢想家です",
+   "text": "공상가",
+   "rect": [
+    9,
+    157,
+    77,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/kyo5_10.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    104,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "キョロ　19歳～",
+   "text": "쿄로　19살～",
+   "rect": [
+    9,
+    138,
+    100,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    69,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "不良だぜ",
+   "text": "불량아",
+   "rect": [
+    9,
+    157,
+    65,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/kyo6_06.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    126,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "キョロ　就職・独身",
+   "text": "쿄로　취직・독신",
+   "rect": [
+    9,
+    138,
+    122,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    81,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "夢想家です",
+   "text": "공상가",
+   "rect": [
+    9,
+    157,
+    77,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/kyo6_10.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    126,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "キョロ　就職・独身",
+   "text": "쿄로　취직・독신",
+   "rect": [
+    9,
+    138,
+    122,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    69,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "不良だぜ",
+   "text": "불량아",
+   "rect": [
+    9,
+    157,
+    65,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/mok0_08.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    78,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "モック　0歳",
+   "text": "모크　0살",
+   "rect": [
+    9,
+    138,
+    74,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    70,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "甘えん坊",
+   "text": "응석꾸러기",
+   "rect": [
+    9,
+    157,
+    66,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/mok0_10.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    78,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "モック　0歳",
+   "text": "모크　0살",
+   "rect": [
+    9,
+    138,
+    74,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    64,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "暴れん坊",
+   "text": "난폭자",
+   "rect": [
+    9,
+    157,
+    60,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/mok1_08.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    134,
+    104,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "モック　01歳～",
+   "text": "모크　01살～",
+   "rect": [
+    9,
+    135,
+    100,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    153,
+    70,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "甘えん坊",
+   "text": "응석꾸러기",
+   "rect": [
+    9,
+    154,
+    66,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/mok1_10.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    134,
+    104,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "モック　01歳～",
+   "text": "모크　01살～",
+   "rect": [
+    9,
+    135,
+    100,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    153,
+    64,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "暴れん坊",
+   "text": "난폭자",
+   "rect": [
+    9,
+    154,
+    60,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/mok2_08.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    103,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "モック　07歳～",
+   "text": "모크　07살～",
+   "rect": [
+    9,
+    138,
+    99,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    70,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "甘えん坊",
+   "text": "응석꾸러기",
+   "rect": [
+    9,
+    157,
+    66,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/mok2_10.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    103,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "モック　07歳～",
+   "text": "모크　07살～",
+   "rect": [
+    9,
+    138,
+    99,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    64,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "暴れん坊",
+   "text": "난폭자",
+   "rect": [
+    9,
+    157,
+    60,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/mok3_08.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    99,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "モック　13歳～",
+   "text": "모크　13살～",
+   "rect": [
+    9,
+    138,
+    95,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    72,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "お子ちゃま",
+   "text": "어린애",
+   "rect": [
+    9,
+    157,
+    68,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/mok3_10.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    99,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "モック　13歳～",
+   "text": "모크　13살～",
+   "rect": [
+    9,
+    138,
+    95,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    69,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "不良だぜ",
+   "text": "불량아",
+   "rect": [
+    9,
+    157,
+    65,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/mok4_08.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    104,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "モック　16歳～",
+   "text": "모크　16살～",
+   "rect": [
+    9,
+    138,
+    100,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    72,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "お子ちゃま",
+   "text": "어린애",
+   "rect": [
+    9,
+    157,
+    68,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/mok4_10.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    104,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "モック　16歳～",
+   "text": "모크　16살～",
+   "rect": [
+    9,
+    138,
+    100,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    69,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "不良だぜ",
+   "text": "불량아",
+   "rect": [
+    9,
+    157,
+    65,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/mok5_08.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    99,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "モック　19歳～",
+   "text": "모크　19살～",
+   "rect": [
+    9,
+    138,
+    95,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    72,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "お子ちゃま",
+   "text": "어린애",
+   "rect": [
+    9,
+    157,
+    68,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/mok5_10.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    99,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "モック　19歳～",
+   "text": "모크　19살～",
+   "rect": [
+    9,
+    138,
+    95,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    69,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "不良だぜ",
+   "text": "불량아",
+   "rect": [
+    9,
+    157,
+    65,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/mok6_08.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    124,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "モック　就職・独身",
+   "text": "모크　취직・독신",
+   "rect": [
+    9,
+    138,
+    120,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    72,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "お子ちゃま",
+   "text": "어린애",
+   "rect": [
+    9,
+    157,
+    68,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/mok6_10.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    124,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "モック　就職・独身",
+   "text": "모크　취직・독신",
+   "rect": [
+    9,
+    138,
+    120,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    69,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "不良だぜ",
+   "text": "불량아",
+   "rect": [
+    9,
+    157,
+    65,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/niy0_05.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    75,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ニヤ　0歳",
+   "text": "니야　0살",
+   "rect": [
+    9,
+    138,
+    71,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    105,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "がんばり屋さん",
+   "text": "노력파",
+   "rect": [
+    9,
+    157,
+    101,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/niy0_09.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    75,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ニヤ　0歳",
+   "text": "니야　0살",
+   "rect": [
+    9,
+    138,
+    71,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    67,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "じじくさい",
+   "text": "애늙은이",
+   "rect": [
+    9,
+    157,
+    63,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/niy1_05.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    95,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ニヤ　01歳～",
+   "text": "니야　01살～",
+   "rect": [
+    9,
+    138,
+    91,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    105,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "がんばり屋さん",
+   "text": "노력파",
+   "rect": [
+    9,
+    157,
+    101,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/niy1_09.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    95,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ニヤ　01歳～",
+   "text": "니야　01살～",
+   "rect": [
+    9,
+    138,
+    91,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    67,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "じじくさい",
+   "text": "애늙은이",
+   "rect": [
+    9,
+    157,
+    63,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/niy2_05.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    95,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ニヤ　07歳～",
+   "text": "니야　07살～",
+   "rect": [
+    9,
+    138,
+    91,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    105,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "がんばり屋さん",
+   "text": "노력파",
+   "rect": [
+    9,
+    157,
+    101,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/niy2_09.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    95,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ニヤ　07歳～",
+   "text": "니야　07살～",
+   "rect": [
+    9,
+    138,
+    91,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    67,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "じじくさい",
+   "text": "애늙은이",
+   "rect": [
+    9,
+    157,
+    63,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/niy3_05.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    95,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ニヤ　13歳～",
+   "text": "니야　13살～",
+   "rect": [
+    9,
+    138,
+    91,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    105,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "がんばり屋さん",
+   "text": "노력파",
+   "rect": [
+    9,
+    157,
+    101,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/niy3_09.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    95,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ニヤ　13歳～",
+   "text": "니야　13살～",
+   "rect": [
+    9,
+    138,
+    91,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    67,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "じじくさい",
+   "text": "애늙은이",
+   "rect": [
+    9,
+    157,
+    63,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/niy4_05.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    91,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ニヤ　16歳～",
+   "text": "니야　16살～",
+   "rect": [
+    9,
+    138,
+    87,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    105,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "がんばり屋さん",
+   "text": "노력파",
+   "rect": [
+    9,
+    157,
+    101,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/niy4_09.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    91,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ニヤ　16歳～",
+   "text": "니야　16살～",
+   "rect": [
+    9,
+    138,
+    87,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    67,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "じじくさい",
+   "text": "애늙은이",
+   "rect": [
+    9,
+    157,
+    63,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/niy5_05.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    96,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ニヤ　19歳～",
+   "text": "니야　19살～",
+   "rect": [
+    9,
+    138,
+    92,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    105,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "がんばり屋さん",
+   "text": "노력파",
+   "rect": [
+    9,
+    157,
+    101,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/niy5_09.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    96,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ニヤ　19歳～",
+   "text": "니야　19살～",
+   "rect": [
+    9,
+    138,
+    92,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    67,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "じじくさい",
+   "text": "애늙은이",
+   "rect": [
+    9,
+    157,
+    63,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/niy6_05.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    118,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ニヤ　就職・独身",
+   "text": "니야　취직・독신",
+   "rect": [
+    9,
+    138,
+    114,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    105,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "がんばり屋さん",
+   "text": "노력파",
+   "rect": [
+    9,
+    157,
+    101,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/niy6_09.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    118,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ニヤ　就職・独身",
+   "text": "니야　취직・독신",
+   "rect": [
+    9,
+    138,
+    114,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    67,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "じじくさい",
+   "text": "애늙은이",
+   "rect": [
+    9,
+    157,
+    63,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/pan0_05.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    87,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "パンツ　0歳",
+   "text": "판츠　0살",
+   "rect": [
+    9,
+    138,
+    83,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    105,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "がんばり屋さん",
+   "text": "노력파",
+   "rect": [
+    9,
+    157,
+    101,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/pan0_09.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    87,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "パンツ　0歳",
+   "text": "판츠　0살",
+   "rect": [
+    9,
+    138,
+    83,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    67,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "じじくさい",
+   "text": "애늙은이",
+   "rect": [
+    9,
+    157,
+    63,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/pan1_05.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    103,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "パンツ　01歳～",
+   "text": "판츠　01살～",
+   "rect": [
+    9,
+    138,
+    99,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    105,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "がんばり屋さん",
+   "text": "노력파",
+   "rect": [
+    9,
+    157,
+    101,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/pan1_09.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    103,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "パンツ　01歳～",
+   "text": "판츠　01살～",
+   "rect": [
+    9,
+    138,
+    99,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    67,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "じじくさい",
+   "text": "애늙은이",
+   "rect": [
+    9,
+    157,
+    63,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/pan2_05.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    108,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "パンツ　07歳～",
+   "text": "판츠　07살～",
+   "rect": [
+    9,
+    138,
+    104,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    105,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "がんばり屋さん",
+   "text": "노력파",
+   "rect": [
+    9,
+    157,
+    101,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/pan2_09.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    108,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "パンツ　07歳～",
+   "text": "판츠　07살～",
+   "rect": [
+    9,
+    138,
+    104,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    67,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "じじくさい",
+   "text": "애늙은이",
+   "rect": [
+    9,
+    157,
+    63,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/pan3_05.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    103,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "パンツ　13歳～",
+   "text": "판츠　13살～",
+   "rect": [
+    9,
+    138,
+    99,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    105,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "がんばり屋さん",
+   "text": "노력파",
+   "rect": [
+    9,
+    157,
+    101,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/pan3_09.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    103,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "パンツ　13歳～",
+   "text": "판츠　13살～",
+   "rect": [
+    9,
+    138,
+    99,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    67,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "じじくさい",
+   "text": "애늙은이",
+   "rect": [
+    9,
+    157,
+    63,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/pan4_05.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    108,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "パンツ　16歳～",
+   "text": "판츠　16살～",
+   "rect": [
+    9,
+    138,
+    104,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    105,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "がんばり屋さん",
+   "text": "노력파",
+   "rect": [
+    9,
+    157,
+    101,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/pan4_09.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    108,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "パンツ　16歳～",
+   "text": "판츠　16살～",
+   "rect": [
+    9,
+    138,
+    104,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    67,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "じじくさい",
+   "text": "애늙은이",
+   "rect": [
+    9,
+    157,
+    63,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/pan5_05.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    103,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "パンツ　19歳～",
+   "text": "판츠　19살～",
+   "rect": [
+    9,
+    138,
+    99,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    105,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "がんばり屋さん",
+   "text": "노력파",
+   "rect": [
+    9,
+    157,
+    101,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/pan5_09.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    103,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "パンツ　19歳～",
+   "text": "판츠　19살～",
+   "rect": [
+    9,
+    138,
+    99,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    67,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "じじくさい",
+   "text": "애늙은이",
+   "rect": [
+    9,
+    157,
+    63,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/pan6_05.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    125,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "パンツ　就職・独身",
+   "text": "판츠　취직・독신",
+   "rect": [
+    9,
+    138,
+    121,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    105,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "がんばり屋さん",
+   "text": "노력파",
+   "rect": [
+    9,
+    157,
+    101,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/pan6_09.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    125,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "パンツ　就職・独身",
+   "text": "판츠　취직・독신",
+   "rect": [
+    9,
+    138,
+    121,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    67,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "じじくさい",
+   "text": "애늙은이",
+   "rect": [
+    9,
+    157,
+    63,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/poo0_03.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    70,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "プー　0歳",
+   "text": "푸　0살",
+   "rect": [
+    9,
+    138,
+    66,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    127,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "わんぱくガキんちょ",
+   "text": "개구쟁이 꼬맹이",
+   "rect": [
+    9,
+    157,
+    123,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/poo0_07.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    70,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "プー　0歳",
+   "text": "푸　0살",
+   "rect": [
+    9,
+    138,
+    66,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    92,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "目立ちたがり",
+   "text": "튀고 싶어 하는",
+   "rect": [
+    9,
+    157,
+    88,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/poo1_03.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    95,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "プー　01歳～",
+   "text": "푸　01살～",
+   "rect": [
+    9,
+    138,
+    91,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    127,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "わんぱくガキんちょ",
+   "text": "개구쟁이 꼬맹이",
+   "rect": [
+    9,
+    157,
+    123,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/poo1_07.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    95,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "プー　01歳～",
+   "text": "푸　01살～",
+   "rect": [
+    9,
+    138,
+    91,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    92,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "目立ちたがり",
+   "text": "튀고 싶어 하는",
+   "rect": [
+    9,
+    157,
+    88,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/poo2_03.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    95,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "プー　07歳～",
+   "text": "푸　07살～",
+   "rect": [
+    9,
+    138,
+    91,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    127,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "わんぱくガキんちょ",
+   "text": "개구쟁이 꼬맹이",
+   "rect": [
+    9,
+    157,
+    123,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/poo2_07.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    95,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "プー　07歳～",
+   "text": "푸　07살～",
+   "rect": [
+    9,
+    138,
+    91,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    92,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "目立ちたがり",
+   "text": "튀고 싶어 하는",
+   "rect": [
+    9,
+    157,
+    88,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/poo3_03.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    90,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "プー　13歳～",
+   "text": "푸　13살～",
+   "rect": [
+    9,
+    138,
+    86,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    127,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "わんぱくガキんちょ",
+   "text": "개구쟁이 꼬맹이",
+   "rect": [
+    9,
+    157,
+    123,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/poo3_07.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    90,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "プー　13歳～",
+   "text": "푸　13살～",
+   "rect": [
+    9,
+    138,
+    86,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    92,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "目立ちたがり",
+   "text": "튀고 싶어 하는",
+   "rect": [
+    9,
+    157,
+    88,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/poo4_03.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    90,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "プー　16歳～",
+   "text": "푸　16살～",
+   "rect": [
+    9,
+    138,
+    86,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    127,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "わんぱくガキんちょ",
+   "text": "개구쟁이 꼬맹이",
+   "rect": [
+    9,
+    157,
+    123,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/poo4_07.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    90,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "プー　16歳～",
+   "text": "푸　16살～",
+   "rect": [
+    9,
+    138,
+    86,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    92,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "目立ちたがり",
+   "text": "튀고 싶어 하는",
+   "rect": [
+    9,
+    157,
+    88,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/poo5_03.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    95,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "プー　19歳～",
+   "text": "푸　19살～",
+   "rect": [
+    9,
+    138,
+    91,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    127,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "わんぱくガキんちょ",
+   "text": "개구쟁이 꼬맹이",
+   "rect": [
+    9,
+    157,
+    123,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/poo5_07.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    95,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "プー　19歳～",
+   "text": "푸　19살～",
+   "rect": [
+    9,
+    138,
+    91,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    92,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "目立ちたがり",
+   "text": "튀고 싶어 하는",
+   "rect": [
+    9,
+    157,
+    88,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/poo6_03.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    118,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "プー　就職・独身",
+   "text": "푸　취직・독신",
+   "rect": [
+    9,
+    138,
+    114,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    127,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "わんぱくガキんちょ",
+   "text": "개구쟁이 꼬맹이",
+   "rect": [
+    9,
+    157,
+    123,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ],
+ "MENU.XAP/poo6_07.tm2": [
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    137,
+    118,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "プー　就職・独身",
+   "text": "푸　취직・독신",
+   "rect": [
+    9,
+    138,
+    114,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  },
+  {
+   "src": "",
+   "text": " ",
+   "rect": [
+    5,
+    156,
+    92,
+    19
+   ],
+   "clear": true,
+   "bg": [
+    10,
+    10,
+    10,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "目立ちたがり",
+   "text": "튀고 싶어 하는",
+   "rect": [
+    9,
+    157,
+    88,
+    17
+   ],
+   "clear": false,
+   "font": "sans-bold",
+   "fill": [
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1,
+   "size": 13,
+   "align": "left"
+  }
+ ]
 }
