@@ -1,32 +1,1589 @@
 {
-  "MENURES.XAP/sysicn01.tm2": [
-    {"src": "内向", "text": "내향", "rect": [1, 0, 30, 16], "clear": true, "font": "sans-bold", "fill": [[178,178,178]], "outline": [24,24,24], "stroke": 1},
-    {"src": "外向", "text": "외향", "rect": [31, 0, 30, 15], "clear": true, "font": "sans-bold", "fill": [[178,178,178]], "outline": [24,24,24], "stroke": 1},
-    {"src": "ピュア", "text": "순수", "rect": [62, 0, 42, 15], "clear": true, "font": "sans-bold", "fill": [[178,178,178]], "outline": [24,24,24], "stroke": 1},
-    {"src": "オトナ", "text": "어른", "rect": [103, 0, 44, 15], "clear": true, "font": "sans-bold", "fill": [[178,178,178]], "outline": [24,24,24], "stroke": 1},
-    {"src": "カラカラ", "text": "바삭바삭", "rect": [147, 0, 48, 15], "clear": true, "font": "sans-bold", "fill": [[178,178,178]], "outline": [24,24,24], "stroke": 1},
-    {"src": "しっとり", "text": "촉촉", "rect": [196, 0, 47, 15], "clear": true, "font": "sans-bold", "fill": [[178,178,178]], "outline": [24,24,24], "stroke": 1},
-    {"src": "春", "text": "봄", "rect": [2, 34, 26, 24], "clear": true, "font": "sans-black", "fill": [[200,140,140],[175,93,91]], "outline": null, "stroke": 0},
-    {"src": "夏", "text": "여름", "rect": [29, 34, 26, 24], "clear": true, "font": "sans-black", "fill": [[110,175,140],[62,146,99]], "outline": null, "stroke": 0},
-    {"src": "秋", "text": "가을", "rect": [57, 34, 28, 24], "clear": true, "font": "sans-black", "fill": [[205,160,120],[191,115,67]], "outline": null, "stroke": 0},
-    {"src": "冬", "text": "겨울", "rect": [85, 34, 27, 24], "clear": true, "font": "sans-black", "fill": [[160,150,180],[76,98,162]], "outline": null, "stroke": 0}
-  ],
-  "MENURES.XAP/sysicn06.tm2": [
-    {"src": "家計簿", "text": "가계부", "rect": [160, 0, 78, 41], "clear": true, "font": "sans-black", "fill": [[160,195,195],[89,112,116]], "outline": [0,0,0], "stroke": 2},
-    {"src": "日記", "text": "일기", "rect": [178, 44, 60, 36], "clear": true, "font": "sans-black", "fill": [[130,180,128],[56,107,59]], "outline": [0,0,0], "stroke": 2},
-    {"src": "みんな", "text": "모두", "rect": [160, 83, 46, 23], "clear": true, "font": "sans-black", "fill": [[215,150,130],[173,100,85]], "outline": [0,0,0], "stroke": 1},
-    {"src": "おすすめ", "text": "추천", "rect": [162, 120, 66, 21], "clear": true, "font": "sans-black", "fill": [[235,140,90],[181,81,45]], "outline": [0,0,0], "stroke": 1}
-  ],
-  "MENURES.XAP/sysicn08.tm2": [
-    {"src": "通知表", "text": "성적표", "rect": [0, 0, 80, 32], "clear": true, "font": "sans-black", "fill": [[230,215,145],[154,141,88]], "outline": [16,16,16], "stroke": 1}
-  ],
-  "MENURES.XAP/sysicn10.tm2": [
-    {"src": "志望校", "text": "지망교", "rect": [0, 0, 54, 20], "clear": true, "font": "sans-black", "fill": [[225,210,130],[154,141,88]], "outline": [16,16,16], "stroke": 1}
-  ],
-  "MENURES.XAP/sysicn11.tm2": [
-    {"src": "エンディング", "text": "엔딩", "rect": [25, 0, 79, 32], "clear": true, "font": "sans-black", "fill": [[245,215,90],[190,140,20]], "outline": [0,0,0], "stroke": 2}
-  ],
-  "INTERF.XAP/a_onsei.tm2": [
-    {"src": "音声", "text": "음성", "rect": [6, 4, 36, 16], "clear": true, "bg": [1,1,1,255], "font": "sans-bold", "fill": [[235,235,235]], "outline": null, "stroke": 0}
-  ]
+ "MENURES.XAP/sysicn01.tm2": [
+  {
+   "src": "内向",
+   "text": "내향",
+   "rect": [
+    1,
+    0,
+    30,
+    16
+   ],
+   "clear": true,
+   "font": "sans-bold",
+   "fill": [
+    [
+     178,
+     178,
+     178
+    ]
+   ],
+   "outline": [
+    24,
+    24,
+    24
+   ],
+   "stroke": 1
+  },
+  {
+   "src": "外向",
+   "text": "외향",
+   "rect": [
+    31,
+    0,
+    30,
+    15
+   ],
+   "clear": true,
+   "font": "sans-bold",
+   "fill": [
+    [
+     178,
+     178,
+     178
+    ]
+   ],
+   "outline": [
+    24,
+    24,
+    24
+   ],
+   "stroke": 1
+  },
+  {
+   "src": "ピュア",
+   "text": "순수",
+   "rect": [
+    62,
+    0,
+    42,
+    15
+   ],
+   "clear": true,
+   "font": "sans-bold",
+   "fill": [
+    [
+     178,
+     178,
+     178
+    ]
+   ],
+   "outline": [
+    24,
+    24,
+    24
+   ],
+   "stroke": 1
+  },
+  {
+   "src": "オトナ",
+   "text": "어른",
+   "rect": [
+    103,
+    0,
+    44,
+    15
+   ],
+   "clear": true,
+   "font": "sans-bold",
+   "fill": [
+    [
+     178,
+     178,
+     178
+    ]
+   ],
+   "outline": [
+    24,
+    24,
+    24
+   ],
+   "stroke": 1
+  },
+  {
+   "src": "カラカラ",
+   "text": "바삭바삭",
+   "rect": [
+    147,
+    0,
+    48,
+    15
+   ],
+   "clear": true,
+   "font": "sans-bold",
+   "fill": [
+    [
+     178,
+     178,
+     178
+    ]
+   ],
+   "outline": [
+    24,
+    24,
+    24
+   ],
+   "stroke": 1
+  },
+  {
+   "src": "しっとり",
+   "text": "촉촉",
+   "rect": [
+    196,
+    0,
+    47,
+    15
+   ],
+   "clear": true,
+   "font": "sans-bold",
+   "fill": [
+    [
+     178,
+     178,
+     178
+    ]
+   ],
+   "outline": [
+    24,
+    24,
+    24
+   ],
+   "stroke": 1
+  },
+  {
+   "src": "春",
+   "text": "봄",
+   "rect": [
+    2,
+    34,
+    26,
+    24
+   ],
+   "clear": true,
+   "font": "sans-black",
+   "fill": [
+    [
+     200,
+     140,
+     140
+    ],
+    [
+     175,
+     93,
+     91
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "夏",
+   "text": "여름",
+   "rect": [
+    29,
+    34,
+    26,
+    24
+   ],
+   "clear": true,
+   "font": "sans-black",
+   "fill": [
+    [
+     110,
+     175,
+     140
+    ],
+    [
+     62,
+     146,
+     99
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "秋",
+   "text": "가을",
+   "rect": [
+    57,
+    34,
+    28,
+    24
+   ],
+   "clear": true,
+   "font": "sans-black",
+   "fill": [
+    [
+     205,
+     160,
+     120
+    ],
+    [
+     191,
+     115,
+     67
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "冬",
+   "text": "겨울",
+   "rect": [
+    85,
+    34,
+    27,
+    24
+   ],
+   "clear": true,
+   "font": "sans-black",
+   "fill": [
+    [
+     160,
+     150,
+     180
+    ],
+    [
+     76,
+     98,
+     162
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  }
+ ],
+ "MENURES.XAP/sysicn06.tm2": [
+  {
+   "src": "家計簿",
+   "text": "가계부",
+   "rect": [
+    160,
+    0,
+    78,
+    41
+   ],
+   "clear": true,
+   "font": "sans-black",
+   "fill": [
+    [
+     160,
+     195,
+     195
+    ],
+    [
+     89,
+     112,
+     116
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 2
+  },
+  {
+   "src": "日記",
+   "text": "일기",
+   "rect": [
+    178,
+    44,
+    60,
+    36
+   ],
+   "clear": true,
+   "font": "sans-black",
+   "fill": [
+    [
+     130,
+     180,
+     128
+    ],
+    [
+     56,
+     107,
+     59
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 2
+  },
+  {
+   "src": "みんな",
+   "text": "모두",
+   "rect": [
+    160,
+    83,
+    46,
+    23
+   ],
+   "clear": true,
+   "font": "sans-black",
+   "fill": [
+    [
+     215,
+     150,
+     130
+    ],
+    [
+     173,
+     100,
+     85
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1
+  },
+  {
+   "src": "おすすめ",
+   "text": "추천",
+   "rect": [
+    162,
+    120,
+    66,
+    21
+   ],
+   "clear": true,
+   "font": "sans-black",
+   "fill": [
+    [
+     235,
+     140,
+     90
+    ],
+    [
+     181,
+     81,
+     45
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 1
+  }
+ ],
+ "MENURES.XAP/sysicn08.tm2": [
+  {
+   "src": "通知表",
+   "text": "성적표",
+   "rect": [
+    0,
+    0,
+    80,
+    32
+   ],
+   "clear": true,
+   "font": "sans-black",
+   "fill": [
+    [
+     230,
+     215,
+     145
+    ],
+    [
+     154,
+     141,
+     88
+    ]
+   ],
+   "outline": [
+    16,
+    16,
+    16
+   ],
+   "stroke": 1
+  }
+ ],
+ "MENURES.XAP/sysicn10.tm2": [
+  {
+   "src": "志望校",
+   "text": "지망교",
+   "rect": [
+    0,
+    0,
+    54,
+    20
+   ],
+   "clear": true,
+   "font": "sans-black",
+   "fill": [
+    [
+     225,
+     210,
+     130
+    ],
+    [
+     154,
+     141,
+     88
+    ]
+   ],
+   "outline": [
+    16,
+    16,
+    16
+   ],
+   "stroke": 1
+  }
+ ],
+ "MENURES.XAP/sysicn11.tm2": [
+  {
+   "src": "エンディング",
+   "text": "엔딩",
+   "rect": [
+    25,
+    0,
+    79,
+    32
+   ],
+   "clear": true,
+   "font": "sans-black",
+   "fill": [
+    [
+     245,
+     215,
+     90
+    ],
+    [
+     190,
+     140,
+     20
+    ]
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "stroke": 2
+  }
+ ],
+ "INTERF.XAP/a_onsei.tm2": [
+  {
+   "src": "音声",
+   "text": "음성",
+   "rect": [
+    6,
+    4,
+    36,
+    16
+   ],
+   "clear": true,
+   "bg": [
+    1,
+    1,
+    1,
+    255
+   ],
+   "font": "sans-bold",
+   "fill": [
+    [
+     235,
+     235,
+     235
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  }
+ ],
+ "MINIG/COMMON.XAP/mgtitle.tm2": [
+  {
+   "src": "柔軟性テスト（ボタン押し）",
+   "text": "유연성 테스트（버튼 누르기）",
+   "rect": [
+    0,
+    0,
+    217,
+    26
+   ],
+   "clear": true,
+   "font": "sans-bold",
+   "fill": [
+    [
+     199,
+     179,
+     100
+    ],
+    [
+     102,
+     95,
+     59
+    ]
+   ],
+   "outline": [
+    16,
+    16,
+    16
+   ],
+   "stroke": 1
+  },
+  {
+   "src": "頭の回転テスト（計算）",
+   "text": "두뇌 회전 테스트（계산）",
+   "rect": [
+    1,
+    26,
+    201,
+    25
+   ],
+   "clear": true,
+   "font": "sans-bold",
+   "fill": [
+    [
+     206,
+     189,
+     117
+    ],
+    [
+     154,
+     139,
+     85
+    ]
+   ],
+   "outline": [
+    16,
+    16,
+    16
+   ],
+   "stroke": 1
+  },
+  {
+   "src": "記憶力テスト（神経衰弱）",
+   "text": "기억력 테스트（짝 맞추기）",
+   "rect": [
+    0,
+    51,
+    221,
+    25
+   ],
+   "clear": true,
+   "font": "sans-bold",
+   "fill": [
+    [
+     206,
+     189,
+     117
+    ],
+    [
+     154,
+     139,
+     85
+    ]
+   ],
+   "outline": [
+    16,
+    16,
+    16
+   ],
+   "stroke": 1
+  },
+  {
+   "src": "反射神経テスト",
+   "text": "반사 신경 테스트",
+   "rect": [
+    0,
+    76,
+    147,
+    26
+   ],
+   "clear": true,
+   "font": "sans-bold",
+   "fill": [
+    [
+     206,
+     189,
+     117
+    ],
+    [
+     154,
+     139,
+     85
+    ]
+   ],
+   "outline": [
+    16,
+    16,
+    16
+   ],
+   "stroke": 1
+  },
+  {
+   "src": "入学試験",
+   "text": "입학시험",
+   "rect": [
+    1,
+    101,
+    83,
+    26
+   ],
+   "clear": true,
+   "font": "sans-bold",
+   "fill": [
+    [
+     206,
+     189,
+     117
+    ],
+    [
+     154,
+     139,
+     85
+    ]
+   ],
+   "outline": [
+    16,
+    16,
+    16
+   ],
+   "stroke": 1
+  },
+  {
+   "src": "スロットを回す",
+   "text": "슬롯 돌리기",
+   "rect": [
+    91,
+    101,
+    134,
+    26
+   ],
+   "clear": true,
+   "font": "sans-bold",
+   "fill": [
+    [
+     206,
+     189,
+     117
+    ],
+    [
+     192,
+     160,
+     94
+    ]
+   ],
+   "outline": [
+    33,
+    29,
+    26
+   ],
+   "stroke": 1
+  }
+ ],
+ "MINIG/COMMON.XAP/mgfont00.tm2": [
+  {
+   "src": "クリア率",
+   "text": "클리어율",
+   "rect": [
+    0,
+    24,
+    66,
+    24
+   ],
+   "clear": true,
+   "font": "sans-black",
+   "fill": [
+    [
+     221,
+     201,
+     99
+    ],
+    [
+     216,
+     186,
+     106
+    ]
+   ],
+   "outline": [
+    42,
+    41,
+    43
+   ],
+   "stroke": 1
+  }
+ ],
+ "MINIG/MINIG1.XAP/quak003.tm2": [
+  {
+   "src": "注目!",
+   "text": "주목!",
+   "rect": [
+    0,
+    36,
+    80,
+    36
+   ],
+   "clear": true,
+   "font": "sans-black",
+   "fill": [
+    [
+     222,
+     177,
+     111
+    ],
+    [
+     165,
+     135,
+     76
+    ]
+   ],
+   "outline": [
+    16,
+    16,
+    16
+   ],
+   "stroke": 1
+  }
+ ],
+ "MINIG/MINIG2.XAP/qno.tm2": [
+  {
+   "src": "第",
+   "text": "제",
+   "rect": [
+    3,
+    2,
+    44,
+    50
+   ],
+   "clear": true,
+   "font": "sans-black",
+   "fill": [
+    [
+     207,
+     190,
+     122
+    ],
+    [
+     199,
+     187,
+     92
+    ]
+   ],
+   "outline": [
+    16,
+    16,
+    16
+   ],
+   "stroke": 1
+  },
+  {
+   "src": "問",
+   "text": "문",
+   "rect": [
+    171,
+    3,
+    45,
+    50
+   ],
+   "clear": true,
+   "font": "sans-black",
+   "fill": [
+    [
+     207,
+     190,
+     122
+    ],
+    [
+     202,
+     171,
+     107
+    ]
+   ],
+   "outline": [
+    16,
+    16,
+    16
+   ],
+   "stroke": 1
+  }
+ ],
+ "MINIG/MINIG3.XAP/mekuri02.tm2": [
+  {
+   "src": "覚えてください",
+   "text": "기억하세요",
+   "rect": [
+    0,
+    0,
+    240,
+    39
+   ],
+   "clear": true,
+   "font": "sans-black",
+   "fill": [
+    [
+     201,
+     179,
+     101
+    ],
+    [
+     191,
+     151,
+     77
+    ]
+   ],
+   "outline": [
+    17,
+    17,
+    17
+   ],
+   "stroke": 1
+  }
+ ],
+ "MINIG/MINIG4.XAP/juice03.tm2": [
+  {
+   "src": "りんご",
+   "text": "사과",
+   "rect": [
+    0,
+    0,
+    51,
+    17
+   ],
+   "clear": true,
+   "font": "sans-bold",
+   "fill": [
+    [
+     69,
+     54,
+     31
+    ],
+    [
+     42,
+     26,
+     10
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "みかん",
+   "text": "귤",
+   "rect": [
+    0,
+    17,
+    51,
+    17
+   ],
+   "clear": true,
+   "font": "sans-bold",
+   "fill": [
+    [
+     69,
+     54,
+     31
+    ],
+    [
+     42,
+     26,
+     10
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "いちご",
+   "text": "딸기",
+   "rect": [
+    0,
+    35,
+    51,
+    17
+   ],
+   "clear": true,
+   "font": "sans-bold",
+   "fill": [
+    [
+     69,
+     54,
+     31
+    ],
+    [
+     42,
+     26,
+     10
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "トマト",
+   "text": "토마토",
+   "rect": [
+    0,
+    52,
+    51,
+    17
+   ],
+   "clear": true,
+   "font": "sans-bold",
+   "fill": [
+    [
+     54,
+     40,
+     20
+    ],
+    [
+     42,
+     26,
+     10
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "なし",
+   "text": "배",
+   "rect": [
+    0,
+    70,
+    51,
+    17
+   ],
+   "clear": true,
+   "font": "sans-bold",
+   "fill": [
+    [
+     69,
+     54,
+     31
+    ],
+    [
+     42,
+     26,
+     10
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "ぶどう",
+   "text": "포도",
+   "rect": [
+    0,
+    87,
+    51,
+    17
+   ],
+   "clear": true,
+   "font": "sans-bold",
+   "fill": [
+    [
+     69,
+     54,
+     31
+    ],
+    [
+     42,
+     26,
+     10
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "もも",
+   "text": "복숭아",
+   "rect": [
+    52,
+    0,
+    51,
+    17
+   ],
+   "clear": true,
+   "font": "sans-bold",
+   "fill": [
+    [
+     69,
+     54,
+     31
+    ],
+    [
+     42,
+     26,
+     10
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "かき",
+   "text": "감",
+   "rect": [
+    52,
+    17,
+    51,
+    17
+   ],
+   "clear": true,
+   "font": "sans-bold",
+   "fill": [
+    [
+     69,
+     54,
+     31
+    ],
+    [
+     42,
+     26,
+     10
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "バナナ",
+   "text": "바나나",
+   "rect": [
+    52,
+    35,
+    51,
+    17
+   ],
+   "clear": true,
+   "font": "sans-bold",
+   "fill": [
+    [
+     69,
+     54,
+     31
+    ],
+    [
+     42,
+     26,
+     10
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "レモン",
+   "text": "레몬",
+   "rect": [
+    52,
+    52,
+    51,
+    17
+   ],
+   "clear": true,
+   "font": "sans-bold",
+   "fill": [
+    [
+     54,
+     40,
+     20
+    ],
+    [
+     42,
+     26,
+     10
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  },
+  {
+   "src": "メロン",
+   "text": "멜론",
+   "rect": [
+    52,
+    70,
+    51,
+    17
+   ],
+   "clear": true,
+   "font": "sans-bold",
+   "fill": [
+    [
+     54,
+     40,
+     20
+    ],
+    [
+     42,
+     26,
+     10
+    ]
+   ],
+   "outline": null,
+   "stroke": 0
+  }
+ ],
+ "MINIG/MINIG4.XAP/juice04.tm2": [
+  {
+   "src": "りんご",
+   "text": "사과",
+   "rect": [
+    0,
+    0,
+    69,
+    28
+   ],
+   "clear": true,
+   "font": "sans-black",
+   "fill": [
+    [
+     197,
+     176,
+     88
+    ],
+    [
+     153,
+     134,
+     72
+    ]
+   ],
+   "outline": [
+    16,
+    16,
+    16
+   ],
+   "stroke": 1
+  },
+  {
+   "src": "みかん",
+   "text": "귤",
+   "rect": [
+    69,
+    0,
+    73,
+    28
+   ],
+   "clear": true,
+   "font": "sans-black",
+   "fill": [
+    [
+     197,
+     176,
+     88
+    ],
+    [
+     153,
+     134,
+     72
+    ]
+   ],
+   "outline": [
+    16,
+    16,
+    16
+   ],
+   "stroke": 1
+  },
+  {
+   "src": "いちご",
+   "text": "딸기",
+   "rect": [
+    144,
+    0,
+    74,
+    28
+   ],
+   "clear": true,
+   "font": "sans-black",
+   "fill": [
+    [
+     197,
+     176,
+     88
+    ],
+    [
+     144,
+     117,
+     64
+    ]
+   ],
+   "outline": [
+    16,
+    16,
+    16
+   ],
+   "stroke": 1
+  },
+  {
+   "src": "トマト",
+   "text": "토마토",
+   "rect": [
+    0,
+    28,
+    62,
+    28
+   ],
+   "clear": true,
+   "font": "sans-black",
+   "fill": [
+    [
+     202,
+     180,
+     105
+    ],
+    [
+     153,
+     134,
+     72
+    ]
+   ],
+   "outline": [
+    16,
+    16,
+    16
+   ],
+   "stroke": 1
+  },
+  {
+   "src": "なし",
+   "text": "배",
+   "rect": [
+    62,
+    28,
+    49,
+    28
+   ],
+   "clear": true,
+   "font": "sans-black",
+   "fill": [
+    [
+     197,
+     176,
+     88
+    ],
+    [
+     144,
+     117,
+     64
+    ]
+   ],
+   "outline": [
+    16,
+    16,
+    16
+   ],
+   "stroke": 1
+  },
+  {
+   "src": "ぶどう",
+   "text": "포도",
+   "rect": [
+    112,
+    28,
+    69,
+    28
+   ],
+   "clear": true,
+   "font": "sans-black",
+   "fill": [
+    [
+     197,
+     176,
+     88
+    ],
+    [
+     124,
+     106,
+     60
+    ]
+   ],
+   "outline": [
+    16,
+    16,
+    16
+   ],
+   "stroke": 1
+  },
+  {
+   "src": "もも",
+   "text": "복숭아",
+   "rect": [
+    182,
+    28,
+    49,
+    28
+   ],
+   "clear": true,
+   "font": "sans-black",
+   "fill": [
+    [
+     197,
+     176,
+     88
+    ],
+    [
+     144,
+     117,
+     64
+    ]
+   ],
+   "outline": [
+    16,
+    16,
+    16
+   ],
+   "stroke": 1
+  },
+  {
+   "src": "かき",
+   "text": "감",
+   "rect": [
+    0,
+    58,
+    49,
+    28
+   ],
+   "clear": true,
+   "font": "sans-black",
+   "fill": [
+    [
+     197,
+     176,
+     88
+    ],
+    [
+     144,
+     117,
+     64
+    ]
+   ],
+   "outline": [
+    16,
+    16,
+    16
+   ],
+   "stroke": 1
+  },
+  {
+   "src": "バナナ",
+   "text": "바나나",
+   "rect": [
+    50,
+    58,
+    75,
+    28
+   ],
+   "clear": true,
+   "font": "sans-black",
+   "fill": [
+    [
+     197,
+     176,
+     88
+    ],
+    [
+     124,
+     106,
+     60
+    ]
+   ],
+   "outline": [
+    16,
+    16,
+    16
+   ],
+   "stroke": 1
+  },
+  {
+   "src": "レモン",
+   "text": "레몬",
+   "rect": [
+    125,
+    58,
+    69,
+    28
+   ],
+   "clear": true,
+   "font": "sans-black",
+   "fill": [
+    [
+     202,
+     180,
+     105
+    ],
+    [
+     144,
+     117,
+     64
+    ]
+   ],
+   "outline": [
+    16,
+    16,
+    16
+   ],
+   "stroke": 1
+  },
+  {
+   "src": "メロン",
+   "text": "멜론",
+   "rect": [
+    0,
+    87,
+    67,
+    28
+   ],
+   "clear": true,
+   "font": "sans-black",
+   "fill": [
+    [
+     197,
+     176,
+     88
+    ],
+    [
+     144,
+     117,
+     64
+    ]
+   ],
+   "outline": [
+    16,
+    16,
+    16
+   ],
+   "stroke": 1
+  },
+  {
+   "src": "ジュースを",
+   "text": "주스를",
+   "rect": [
+    84,
+    87,
+    112,
+    28
+   ],
+   "clear": true,
+   "font": "sans-black",
+   "fill": [
+    [
+     197,
+     176,
+     88
+    ],
+    [
+     124,
+     106,
+     60
+    ]
+   ],
+   "outline": [
+    16,
+    16,
+    16
+   ],
+   "stroke": 1
+  },
+  {
+   "src": "作ってください",
+   "text": "만들어 주세요",
+   "rect": [
+    0,
+    116,
+    155,
+    28
+   ],
+   "clear": true,
+   "font": "sans-black",
+   "fill": [
+    [
+     197,
+     176,
+     88
+    ],
+    [
+     144,
+     117,
+     64
+    ]
+   ],
+   "outline": [
+    16,
+    16,
+    16
+   ],
+   "stroke": 1
+  }
+ ],
+ "MINIG/MINIG5.XAP/quiz-false.tm2": [
+  {
+   "src": "不正解",
+   "text": "오답",
+   "rect": [
+    0,
+    0,
+    128,
+    48
+   ],
+   "clear": true,
+   "font": "sans-black",
+   "fill": [
+    [
+     73,
+     108,
+     177
+    ],
+    [
+     25,
+     50,
+     126
+    ]
+   ],
+   "outline": [
+    12,
+    27,
+    95
+   ],
+   "stroke": 2
+  }
+ ],
+ "MINIG/MINIG5.XAP/quiz-true.tm2": [
+  {
+   "src": "正解",
+   "text": "정답",
+   "rect": [
+    0,
+    0,
+    88,
+    48
+   ],
+   "clear": true,
+   "font": "sans-black",
+   "fill": [
+    [
+     221,
+     182,
+     108
+    ],
+    [
+     221,
+     182,
+     108
+    ]
+   ],
+   "outline": [
+    99,
+    0,
+    0
+   ],
+   "stroke": 2
+  }
+ ]
 }
