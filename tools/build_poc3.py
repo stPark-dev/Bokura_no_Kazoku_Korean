@@ -24,9 +24,25 @@ def main(src, dst):
                                  apply_text.load_jsonl(os.path.join(TEXT, 'event_ko.jsonl')),
                                  lambda s: hangul_map.encode(s, cmap))
     img = bytearray(open(dst, 'rb').read())
-    iso9660.replace_all(img, {'DATA/EVENT.XAP': rebuild(ev, files=new)})
-    open(dst, 'wb').write(img)
+    replaced = {'DATA/EVENT.XAP': rebuild(ev, files=new)}
     print('event files translated:', sorted(new))
+
+    # system text: line units, applied to the archive as it is in the image built so far
+    sys_src = apply_text.load_jsonl(os.path.join(TEXT, 'sys_src.jsonl'))
+    sys_ko = apply_text.load_jsonl(os.path.join(TEXT, 'sys_ko.jsonl'))
+    archives = sorted({k['id'].split('/')[0] for k in sys_ko})
+    for arc in archives:
+        if not arc.endswith('.XAP'):
+            raise ValueError(f'nested archive {arc} not supported yet')
+        _, lba, size = iso9660.find(img, 'DATA/' + arc)
+        x = bytes(img[lba * 2048:lba * 2048 + size])
+        files = {f'{arc}/{e.name}': read_file(x, e) for e in read_entries(x)}
+        ko = [k for k in sys_ko if k['id'].startswith(arc + '/')]
+        out = apply_text.apply_sys(files, sys_src, ko, lambda s: hangul_map.encode(s, cmap))
+        replaced['DATA/' + arc] = rebuild(x, files={n.split('/', 1)[1]: b for n, b in out.items()})
+        print('system text translated:', sorted(out))
+    iso9660.replace_all(img, replaced)
+    open(dst, 'wb').write(img)
 
 
 if __name__ == '__main__':

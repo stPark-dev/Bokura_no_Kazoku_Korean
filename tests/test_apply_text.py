@@ -50,3 +50,22 @@ def test_unknown_and_duplicate_ids_fail():
 
 def test_untranslated_files_untouched():
     assert apply_text.apply_event({'a.mes': DATA}, SRC, [], enc) == {}
+
+
+def test_apply_sys_replaces_lines_and_checks():
+    data = '[OKA]\r\n\t智子\r\n'.encode('cp932')
+    src = [{'id': 'NAMEDB.XAP/namedb.txt:2', 'file': 'NAMEDB.XAP/namedb.txt', 'src': '智子', 'sha1': 'S'}]
+    out = apply_text.apply_sys({'NAMEDB.XAP/namedb.txt': data}, src,
+                               [{'id': 'NAMEDB.XAP/namedb.txt:2', 'sha1': 'S', 'ko': '토모코'}], enc)
+    assert out['NAMEDB.XAP/namedb.txt'] == b'[OKA]\r\n\t' + enc('토모코') + b'\r\n'
+    with pytest.raises(ValueError, match='baseline'):
+        apply_text.apply_sys({'NAMEDB.XAP/namedb.txt': data}, src,
+                             [{'id': 'NAMEDB.XAP/namedb.txt:2', 'sha1': 'X', 'ko': '토모코'}], enc)
+
+
+def test_apply_sys_refuses_file_that_differs_from_baseline():
+    data = '[OKA]\r\n\t別人\r\n'.encode('cp932')
+    src = [{'id': 'NAMEDB.XAP/namedb.txt:2', 'file': 'NAMEDB.XAP/namedb.txt', 'src': '智子', 'sha1': 'S'}]
+    with pytest.raises(ValueError, match='source mismatch'):
+        apply_text.apply_sys({'NAMEDB.XAP/namedb.txt': data}, src,
+                             [{'id': 'NAMEDB.XAP/namedb.txt:2', 'sha1': 'S', 'ko': '토모코'}], enc)

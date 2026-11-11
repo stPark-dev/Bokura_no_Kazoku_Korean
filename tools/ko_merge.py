@@ -5,8 +5,10 @@ usage: ko_merge.py SRC_JSONL KO_JSONL BATCH_JSON [--state S] [--replace]
 """
 import argparse
 import json
+import os
 
 import hangul_map
+import linetext
 import mes
 from apply_text import load_jsonl
 
@@ -58,8 +60,9 @@ def main():
         with open(a.batch, encoding='utf-8') as f:
             batch = json.load(f)
     cmap = hangul_map.build()
+    checker = linetext.check if os.path.basename(a.src).startswith('sys') else mes.check
     out = merge(load_jsonl(a.src), current, batch, a.state, a.replace,
-                check=lambda s, k: mes.check(s, k, lambda t: hangul_map.encode(t, cmap)))
+                check=lambda s, k: checker(s, k, lambda t: hangul_map.encode(t, cmap)))
     with open(a.ko, 'w', encoding='utf-8', newline='\n') as f:
         for e in out:
             f.write(json.dumps(e, ensure_ascii=False) + '\n')
