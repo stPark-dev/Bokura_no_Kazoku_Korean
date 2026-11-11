@@ -68,6 +68,11 @@ def main(src, dst):
         out.update({p: b for p, b in gfx_files.items() if p.startswith(arc + '/')})
         replaced['DATA/' + arc] = rebuild(x, files={n.rsplit('/', 1)[1]: b for n, b in out.items()})
         print('archive', arc, sorted(n.rsplit('/', 1)[1] for n in out))
+    movies = os.path.join(os.path.dirname(__file__), '..', 'work', 'movie_ko')
+    if os.path.isdir(movies):                      # D9 title-only movies, made by tools/build_movies.py
+        for name in sorted(os.listdir(movies)):
+            replaced['DATA/MOVIE/' + name] = open(os.path.join(movies, name), 'rb').read()
+            print('movie', name)
     iso9660.replace_all(img, replaced)
     open(dst, 'wb').write(img)
 
