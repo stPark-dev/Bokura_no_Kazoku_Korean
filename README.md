@@ -104,7 +104,7 @@ f2a8187457148a66fbbb3841032fe430cb5572d4  Bokura no Kazoku - My Family Growing U
 
 ```bash
 python3 -m venv .venv && .venv/bin/pip install pillow keystone-engine opencv-python-headless numpy pytest unicorn capstone
-.venv/bin/python tools/unpack_all.py            # work/unpacked (추출 기준 확인용)
+.venv/bin/python tools/unpack_all.py work/iso/DATA work/unpacked   # 추출 기준 확인·테스트용 (ISO를 work/iso에 푼 뒤)
 .venv/bin/python tools/build_movies.py work/orig.iso work/movie_ko
 .venv/bin/python tools/build_patch.py work/orig.iso work/build/beta.iso --policy beta
 .venv/bin/python -m pytest -q tests/
