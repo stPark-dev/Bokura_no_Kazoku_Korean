@@ -269,10 +269,10 @@
     {
       "id": "T-ctype-jiji",
       "src": "じじくさい",
-      "ko": "애늙은이 같다",
+      "ko": "애늙은이",
       "state": "approved",
       "basis": "KYO 배치(에이전트) 검토",
-      "note": ""
+      "note": "타입 이름. 문장 속에서는 \"애늙은이 같다\" 등 활용 허용"
     },
     {
       "id": "T-ctype-medachi",
