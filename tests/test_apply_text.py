@@ -69,3 +69,17 @@ def test_apply_sys_refuses_file_that_differs_from_baseline():
     with pytest.raises(ValueError, match='source mismatch'):
         apply_text.apply_sys({'NAMEDB.XAP/namedb.txt': data}, src,
                              [{'id': 'NAMEDB.XAP/namedb.txt:2', 'sha1': 'S', 'ko': '토모코'}], enc)
+
+
+def test_apply_event_falls_back_to_plain_spaces_when_expanded_block_is_too_long():
+    vert = mes.vertical_encoder(enc)
+    short = '「아 이」@n'
+    long_ = '「' + '\n'.join(['　' + ' '.join(['가'] * 9) + '@n'] * 3)  # 3 lines, 24 spaces
+    src = [{'id': 'EVENT/a.mes/x_01', 'file': 'a.mes', 'label': 'x_01', 'src': '「あ@n', 'sha1': 'S1'},
+           {'id': 'EVENT/a.mes/x_02', 'file': 'a.mes', 'label': 'x_02', 'src': '「う」@n', 'sha1': 'S2'}]
+    data = 'x_01\r\n\t「あ@n\r\n\r\nx_02\r\n\t「う」@n\r\n'.encode('cp932')
+    ko = [{'id': 'EVENT/a.mes/x_01', 'sha1': 'S1', 'ko': short},
+          {'id': 'EVENT/a.mes/x_02', 'sha1': 'S2', 'ko': long_}]
+    out = apply_text.apply_event({'a.mes': data}, src, ko, [vert, enc], body_max=100)['a.mes']
+    assert b'@s10 @s20' in out.split(b'x_02')[0]          # short block: half spaces
+    assert b'@s10' not in out.split(b'x_02')[1]           # long block: plain spaces

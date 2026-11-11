@@ -80,7 +80,10 @@ def render(data, texts, encode=_cp932):
     replace, drop = {}, set()
     for label, text in texts.items():
         b = blocks[label]
-        new = [b'\t' + encode(line) + b'\r' for line in text.split('\n')]
+        enc = encode
+        if isinstance(text, tuple):  # (text, encoder) chosen per block
+            text, enc = text
+        new = [b'\t' + enc(line) + b'\r' for line in text.split('\n')]
         if b.body_indices:
             replace[b.body_indices[0]] = new
             drop.update(b.body_indices[1:])
@@ -95,7 +98,7 @@ def render(data, texts, encode=_cp932):
     return b'\n'.join(out)
 
 
-def check(src, text, encode=_cp932):
+def check(src, text, encode=_cp932, body_max=BODY_MAX):
     """Mechanical checks of a translated block body against its source; returns error strings."""
     errs = []
     if text.count(',') != src.count(','):
@@ -122,8 +125,8 @@ def check(src, text, encode=_cp932):
         if len(b) > LINE_MAX:
             errs.append(f'line {n}: line bytes {len(b)} > {LINE_MAX}')
         total += len(b)
-    if total > BODY_MAX:
-        errs.append(f'body bytes {total} > {BODY_MAX}')
+    if total > body_max:
+        errs.append(f'body bytes {total} > {body_max}')
     return errs + _layout(text)
 
 
@@ -140,3 +143,11 @@ def _layout(text):
             if n > LINE_CELLS_MAX:
                 errs.append(f'segment {s}: {n} cells > {LINE_CELLS_MAX}: {line}')
     return errs
+
+
+VERTICAL_SPACE = '@s10 @s20'  # vertical event text: pitch 10 for the space, back to the default 20 (PoC3 pixels)
+
+
+def vertical_encoder(encode):
+    """Wrap an encoder so ASCII spaces take half a cell in the vertical event window."""
+    return lambda s: encode(s.replace(' ', VERTICAL_SPACE))

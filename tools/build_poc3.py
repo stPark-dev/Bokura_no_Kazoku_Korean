@@ -8,6 +8,7 @@ import apply_text  # noqa: E402
 import build_poc2  # noqa: E402
 import hangul_map  # noqa: E402
 import iso9660  # noqa: E402
+import mes  # noqa: E402
 from xap import read_entries, read_file, rebuild  # noqa: E402
 
 TEXT = os.path.join(os.path.dirname(__file__), '..', 'text')
@@ -20,9 +21,12 @@ def main(src, dst):
     ev = orig[lba * 2048:lba * 2048 + size]
     files = {e.name: read_file(ev, e) for e in read_entries(ev) if e.name.endswith('.mes')}
     cmap = hangul_map.build()
+
+    def plain(t):
+        return hangul_map.encode(t, cmap)
     new = apply_text.apply_event(files, apply_text.load_jsonl(os.path.join(TEXT, 'event_src.jsonl')),
                                  apply_text.load_jsonl(os.path.join(TEXT, 'event_ko.jsonl')),
-                                 lambda s: hangul_map.encode(s, cmap))
+                                 [mes.vertical_encoder(plain), plain])
     img = bytearray(open(dst, 'rb').read())
     replaced = {'DATA/EVENT.XAP': rebuild(ev, files=new)}
     print('event files translated:', len(new))

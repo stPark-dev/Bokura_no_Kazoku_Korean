@@ -10,11 +10,28 @@ def load_jsonl(path):
         return [json.loads(line) for line in f if line.strip()]
 
 
-def apply_event(files, src, ko, encode):
+def apply_event(files, src, ko, encode, body_max=mes.BODY_MAX):
     """files: {name: original .mes bytes}; src: baseline entries; ko: translation entries.
+    encode: an encoder, or a list of encoders in order of preference (per block, the first one whose
+    output passes mes.check is used; errors are reported for the last one).
     Returns {name: new bytes} for the files that received translations."""
-    return _apply(files, src, ko, encode, mes.check,
-                  lambda b: b['label'], lambda data, texts, name: mes.render(data, texts, encode))
+    encoders = encode if isinstance(encode, list) else [encode]
+    chosen = {}
+
+    def check(s, text, _enc):
+        for e in encoders:
+            errs = mes.check(s, text, e, body_max)
+            if not errs:
+                chosen[(s, text)] = e
+                return []
+        return errs
+
+    def render(data, texts, name):
+        return mes.render(data, {k: (t, chosen[(srcs[name][k], t)]) for k, t in texts.items()}, encoders[-1])
+    srcs = {}
+    for e in src:
+        srcs.setdefault(e['file'], {})[e['label']] = e['src']
+    return _apply(files, src, ko, encoders[-1], check, lambda b: b['label'], render)
 
 
 def apply_sys(files, src, ko, encode):

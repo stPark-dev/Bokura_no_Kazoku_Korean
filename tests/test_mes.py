@@ -115,3 +115,12 @@ def test_layout_counts_particle_pair_as_its_longer_form():
     src = '$OKA$「x$OKA$@n'
     assert mes.check(src, '$OKA$「' + '가' * 9 + '$OKA$은（는）@n', encode=str.encode) == []  # 4+1+9+4+1 = 19
     assert mes.check(src, '$OKA$「' + '가' * 12 + '$OKA$으로（로）@n', encode=str.encode)          # 4+1+12+4+2 = 23
+
+
+def test_vertical_encoder_halves_spaces_and_limits_count_expanded_bytes():
+    enc = mes.vertical_encoder(lambda s: s.encode('cp932'))
+    assert enc('a b') == b'a@s10 @s20b'
+    src = '「x@n'
+    long = '「' + ' '.join(['ab'] * 40) + '@n'          # 39 spaces -> +312 bytes after expansion
+    assert any('line bytes' in e for e in mes.check(src, long, enc))
+    assert not any('line bytes' in e for e in mes.check(src, long, lambda s: s.encode('cp932')))
