@@ -15,6 +15,7 @@ TRIM = ' \t\r\x1a'
 LINE_MAX = 255
 BODY_MAX = 0x400 - 1
 NAME_VAR = re.compile(r'\$[A-Z]+\$')
+NAME_WITH_PARTICLE = re.compile(r'\$[A-Z]+\$(?:([^（）]{1,3})（([^（）]{0,3})）)?')  # hook keeps one form
 LINE_CELLS_MAX = 19   # source maximum (names as 4 cells); 20+ cells left the screen in PoC3
 NAME_CELLS = 4        # name entry field holds 4 characters
 SEG_LINES_MAX = 3     # source maximum display lines per voice segment
@@ -134,7 +135,8 @@ def _layout(text):
         if len(lines) > SEG_LINES_MAX:
             errs.append(f'segment {s}: {len(lines)} display lines > {SEG_LINES_MAX}')
         for line in lines:
-            n = len(NAME_VAR.sub('＊' * NAME_CELLS, line))
+            n = len(NAME_WITH_PARTICLE.sub(
+                lambda m: '＊' * (NAME_CELLS + max(len(m[1] or ''), len(m[2] or ''))), line))
             if n > LINE_CELLS_MAX:
                 errs.append(f'segment {s}: {n} cells > {LINE_CELLS_MAX}: {line}')
     return errs

@@ -109,3 +109,9 @@ def test_corpus_round_trip_and_rules():
                 assert errs == [], (p, b.label)
         n += len(blocks)
     assert len(EVENT) == 1517 and n == 4478 and over == 22
+
+
+def test_layout_counts_particle_pair_as_its_longer_form():
+    src = '$OKA$「x$OKA$@n'
+    assert mes.check(src, '$OKA$「' + '가' * 9 + '$OKA$은（는）@n', encode=str.encode) == []  # 4+1+9+4+1 = 19
+    assert mes.check(src, '$OKA$「' + '가' * 12 + '$OKA$으로（로）@n', encode=str.encode)          # 4+1+12+4+2 = 23
