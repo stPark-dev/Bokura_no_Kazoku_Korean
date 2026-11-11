@@ -36,7 +36,10 @@ def main(src, dst):
             raise ValueError(f'nested archive {arc} not supported yet')
         _, lba, size = iso9660.find(img, 'DATA/' + arc)
         x = bytes(img[lba * 2048:lba * 2048 + size])
-        files = {f'{arc}/{e.name}': read_file(x, e) for e in read_entries(x)}
+        _, olba, osize = iso9660.find(orig, 'DATA/' + arc)
+        ox = orig[olba * 2048:olba * 2048 + osize]
+        # a file with system-text translations is rebuilt from its original bytes (supersedes PoC1 edits)
+        files = {f'{arc}/{e.name}': read_file(ox, e) for e in read_entries(ox)}
         ko = [k for k in sys_ko if k['id'].startswith(arc + '/')]
         out = apply_text.apply_sys(files, sys_src, ko, lambda s: hangul_map.encode(s, cmap))
         replaced['DATA/' + arc] = rebuild(x, files={n.split('/', 1)[1]: b for n, b in out.items()})

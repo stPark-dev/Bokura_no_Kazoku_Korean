@@ -1,3 +1,303 @@
+{"id": "GAMEDB.XAP/childinfo.txt:4", "sha1": "668a884451529db8f16f75c53bcefdaca6e3ca0c", "ko": "nickname = 모크", "state": "needs_review"}
+{"id": "GAMEDB.XAP/childinfo.txt:5", "sha1": "a5d534b022ee473ff34516f6ed5391c2d0c06919", "ko": "defname = 히데키, 카즈히로, 츠네유키, 아유무, 히데아키", "state": "needs_review"}
+{"id": "GAMEDB.XAP/childinfo.txt:13", "sha1": "aa88776989163c825d81bb88cca24ad0af1aa305", "ko": "nickname = 겐코츠", "state": "needs_review"}
+{"id": "GAMEDB.XAP/childinfo.txt:14", "sha1": "6814d00173025494b4da69a2c0fb3447898bee40", "ko": "defname = 타카시, 미츠구, 모토키, 유헤이, 노부오", "state": "needs_review"}
+{"id": "GAMEDB.XAP/childinfo.txt:22", "sha1": "6971fade4cd8230632fb9ecf6434b3fe2b37f5c8", "ko": "nickname = 지지", "state": "needs_review"}
+{"id": "GAMEDB.XAP/childinfo.txt:23", "sha1": "118a6f6b62c9510e3d59ebe4e98008fc8dea2155", "ko": "defname = 타카시, 쇼지, 카즈시, 시게루, 마사히코", "state": "needs_review"}
+{"id": "GAMEDB.XAP/childinfo.txt:26", "sha1": "538b394ccbafac718a4d077c46968a15e85e0f43", "ko": "nickname = 판츠", "state": "needs_review"}
+{"id": "GAMEDB.XAP/childinfo.txt:27", "sha1": "1f0e23d7f5fca97f4ae70c6859f5e273c4bf79e8", "ko": "defname = 야스히코, 테루아키, 스구루, 준, 유", "state": "needs_review"}
+{"id": "GAMEDB.XAP/childinfo.txt:30", "sha1": "6670114a6ed492bc542fdddaa36937a23257e9df", "ko": "nickname = 쿄로", "state": "needs_review"}
+{"id": "GAMEDB.XAP/childinfo.txt:31", "sha1": "a22b75eb98c06ee78d960ef1a2006fb9e34b358e", "ko": "defname = 메구미, 미요코, 유카, 에미, 유리", "state": "needs_review"}
+{"id": "GAMEDB.XAP/childinfo.txt:34", "sha1": "ce3d0c0de3e50d2ac9e25aa655b4936b133d0ba5", "ko": "nickname = 푸", "state": "needs_review"}
+{"id": "GAMEDB.XAP/childinfo.txt:35", "sha1": "0681856aa9d5ca4d0bdb4104e9e91f4893a6803f", "ko": "defname = 아야, 마키, 나오미, 마키코, 토모코", "state": "needs_review"}
+{"id": "GAMEDB.XAP/childinfo.txt:38", "sha1": "fa43e9387da873ca9fbb3897fc899cb4ec7fabdc", "ko": "nickname = 콧코", "state": "needs_review"}
+{"id": "GAMEDB.XAP/childinfo.txt:39", "sha1": "80e561e26dd00dda80bbc26904c90ce3a5875f4d", "ko": "defname = 사토미, 미호, 준코, 에츠코, 코유키", "state": "needs_review"}
+{"id": "GAMEDB.XAP/childinfo.txt:42", "sha1": "b4b370fa029ac3b5429ade44f856231edbe67965", "ko": "nickname = 니야", "state": "needs_review"}
+{"id": "GAMEDB.XAP/childinfo.txt:43", "sha1": "125e82858b88134102b19e6dd1dbf84f23766a49", "ko": "defname = 아사미, 치나츠, 노리코, 루미, 린고", "state": "needs_review"}
+{"id": "GAMEDB.XAP/common.txt:4", "sha1": "afedd19d585fdd1ddb9cb2e7362f2b049d2bd05a", "ko": "봄", "state": "needs_review"}
+{"id": "GAMEDB.XAP/common.txt:5", "sha1": "a79a54dc0c4cd54ca7fc6a67f1c6fef584eeb9b9", "ko": "여름", "state": "needs_review"}
+{"id": "GAMEDB.XAP/common.txt:6", "sha1": "afd284a67c59668e940acec6d684ebd7a42b0e6d", "ko": "가을", "state": "needs_review"}
+{"id": "GAMEDB.XAP/common.txt:7", "sha1": "04e37f31a641b9d0d73cf8563391f2510fac39bf", "ko": "겨울", "state": "needs_review"}
+{"id": "GAMEDB.XAP/scenario-a.txt:5", "sha1": "9af0ee68234278f2c2a19b508e4b08dc9ba6f34d", "ko": "title = 아이가 조금 많은 집", "state": "needs_review"}
+{"id": "GAMEDB.XAP/scenario-b.txt:5", "sha1": "3dc44c64357260d4204998d191a67e9f3a529d01", "ko": "title = 아이가 꽤 많은 집", "state": "needs_review"}
+{"id": "GAMEDB.XAP/scenario-c.txt:5", "sha1": "038e69aa0907a800ccbfe5f6e47a54cfa4094eee", "ko": "title = 아이가 아주 많은 집", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:1", "sha1": "ec409ca265c0ace8e6077f955cc85da829502a58", "ko": "000\t@s22새@s1　@s22게@s1　@s22임", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:2", "sha1": "b1d21b2c66ac62f3e3a0b9b69a863d45c776b8d0", "ko": "001\t@s22이@s14　@s22어@s14　@s22하@s14　@s22기", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:3", "sha1": "fadd775da70b31825d1b0b7daedfc9e860bc04ac", "ko": "002\t@s22가@s5　@s22족@s5　@s22의@s5　@s22기@s5　@s22록", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:4", "sha1": "28c11b660e5b6c3c2cb3ad18b5892c3388c0f2ed", "ko": "003\t@s22설@d20정", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:7", "sha1": "e9f8245a43f19bbea0b3e8bab1e0d0d7e6df9a8e", "ko": "004\t@s18Ａ@d8@s19아이가 조금 많은 집", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:8", "sha1": "9f883462d675ab104278685ce51a8b60ad3081f5", "ko": "005\t@s18Ｂ@d8@s19아이가 꽤 많은 집", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:9", "sha1": "b51267d0004aa8466f2778519cf8200688b2d424", "ko": "006\t@s18Ｃ@d8@s19아이가 아주 많은 집", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:10", "sha1": "8f1adc35a3f81b8e04668cf410fafe163da4b60a", "ko": "007\t@s18@r115@g112@b71시나리오를 고르세요", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:12", "sha1": "b75cbf215ed34a0914fb29b8d10dccfc4a2e3260", "ko": "008\t@s20@r115@g108@b53ＰＲＥＳＳ@s12　@s20ＳＴＡＲＴ@s12　@s20ＢＵＴＴＯＮ", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:14", "sha1": "002283bdb89fc06073da2cae7e5c51f041b868fa", "ko": "009\t@s18@r115@g108@b53새 게임", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:16", "sha1": "1fa68db585386faa2c7766b4fefae7cb77ff7685", "ko": "010\t@s19부부의 이름은", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:17", "sha1": "86182ca145564bf4ca7ff2d49c0ce5b05b53f69f", "ko": "011\t@s19（으）로 할까요？", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:19", "sha1": "4df099a577492d3867f9ead1e9eaab55b15a134f", "ko": "012\t@r119@g119@b96@s20네", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:20", "sha1": "d2dd7227a6daa57e04ef82352015282fa83512e6", "ko": "013\t@r119@g119@b96@s20아니요", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:22", "sha1": "0e1ceb131c384ab9715b452ed1c853d4b9c17339", "ko": "014\t주인공（아빠）의@n@s4　@n@s20이름을 정해 주세요", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:23", "sha1": "f991071096b7a7abe6bf931601ea3195693607a4", "ko": "015\t@s19주인공（아빠）의 이름", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:25", "sha1": "af57ce13df7b2cfc72cd2c4655dfbf194fc5fdc3", "ko": "016\t@r119@g119@b96다@s3　@s20음", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:26", "sha1": "3e4c4379d08ada9018063055fb557eb19976193f", "ko": "017\t@r119@g119@b96이@s3　@s20전", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:27", "sha1": "af4db5b98f443a6baf9e6c9e03c0cb2395071125", "ko": "018\t@s19@r50@g70@b93한@s3　@s19글@s3　@s19자@s3　@s19지@s3　@s19움", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:28", "sha1": "c1665aea15b4cdff58782e16a98a6b866cd3ea45", "ko": "019\t@s20@r115@g66@b56결@s7　@s20정", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:29", "sha1": "86b934455cadfbe5969e98d7dec15084b4aae441", "ko": "020\t@s18영숫자", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:30", "sha1": "bbee0e8f24d211e65812415479127bd3539a9622", "ko": "021\t@s18기호", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:31", "sha1": "870e6530207f0905ad43c4168584de588ac576f7", "ko": "022\t@s18공백", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:33", "sha1": "66d91d40d223563fb26319c4381ddbfc94d191b6", "ko": "024\t@s18다음", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:34", "sha1": "099c1f99ebb71d28d6fa904fff7ab64d5c73a0f2", "ko": "025\t@s18이전", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:36", "sha1": "ca52d6d18cc4bd0376b6c268da4790bc623455f3", "ko": "026\t@s18처음", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:37", "sha1": "56300c06e96b034aca7e2da6d3592b3786388e68", "ko": "027\t@s18마지막", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:39", "sha1": "4733609f0a2ab137a1e844459b609f0b96958c5e", "ko": "028\t이 이름으로 할까요？", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:41", "sha1": "8fac4f879b5b0b5aa339c03a5d38abcd5cdeba81", "ko": "029\t아내（엄마）의 이름을@n@s4　@n@s20정해 주세요", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:42", "sha1": "7d3b63f5e9616215f0f13192a73ce6273f78906d", "ko": "030\t@s19아내（엄마）의 이름", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:44", "sha1": "41fc60ced00abcda34b1388625308a11dc761af8", "ko": "031\t@s16@r115@g108@b53이어서 시작", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:45", "sha1": "82215bcebdc8e355365cb7cf7474e6e8d9f8d6c1", "ko": "032\t@s17@r115@g108@b53세이브 데이터", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:47", "sha1": "81736e315729810167b981ea5b6a7f6d4de34c9c", "ko": "033\t@r119@g119@b96새@s4　@s20로@s4　@s20만@s4　@s20들@s4　@s20기", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:48", "sha1": "8719311add18bb08d7fa3f6a42c74f71725e5ab5", "ko": "034\t@r119@g119@b96목록에서 고르기", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:50", "sha1": "5a4a9275077a137a718487025a9b6c881fd2ee0c", "ko": "035\t＊＊＊＊　＊＊＊＊", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:52", "sha1": "bc758ec59cc85714c539376c6068728906ddc76d", "ko": "036\t@s19@r115@g108@b53아기 이름", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:53", "sha1": "d58030e4335d9a9447b45f91eac3ce0402a4c413", "ko": "037\t@s19아기 이름", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:55", "sha1": "909dee13eeaec726af9e6ce0e42b773aba762e56", "ko": "038\t@s18@r115@g108@b53세이브 데이터", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:57", "sha1": "5c52838ad09da15005ec9dc9f5187a7be3f063c4", "ko": "039\t@d9@s18@r115@g115@b86성격", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:58", "sha1": "7deb47d4143a097bba596f5861329f44703f0ae2", "ko": "040\t@d9@s18@r115@g115@b86정신", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:59", "sha1": "5567e0daa3fa84ee08b20050eac2a54d629aef5d", "ko": "041\t@d9@s18@r115@g115@b86러브", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:60", "sha1": "43c8d8e0efa2cb919de6addada79a80a983f6ce1", "ko": "042\t@d9@s18@r115@g115@b86기력", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:61", "sha1": "7e525d2af85a6454c9d002686436be429efbc6e3", "ko": "043\t@d9@s18@r115@g115@b86체력", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:63", "sha1": "baf01916c99ef82931be46844d21aa1268d4db79", "ko": "044\t@s18@r115@g115@b86문", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:64", "sha1": "c83741e7d6ae0879d212d94e0e37e8ec8b003e6f", "ko": "045\t@s18@r115@g115@b86이", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:65", "sha1": "695ab13706363e899ebd6f3cd0aff922a1d9b70c", "ko": "046\t@s18@r115@g115@b86미", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:66", "sha1": "76d857190339fec73f1a29b429ef2e6023bd2018", "ko": "047\t@s18@r115@g115@b86스", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:68", "sha1": "9cec28ffb6010822330d1204e6dad6adeb8f96d7", "ko": "048\t@s18@r115@g115@b86관심", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:70", "sha1": "7e9cf71fd81cc35de793b26e39155c5b40230490", "ko": "049\t@s18@r74@g42@b40○@s4　@s20@r115@g115@b115성적표・진학 데이터로", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:71", "sha1": "47e35302557d037325cbee8792755c1bf8d46a3d", "ko": "050\t@s22@r56@g71@b104×@s2　@s20@r115@g115@b115돌아가기", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:73", "sha1": "7730533ddfe18b53eabe88b4977bd48670f743b1", "ko": "051\t@s18@r92@g87@b42행동 고르기", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:74", "sha1": "57d7ec92c19ee5b3fc8257c39d4f2b4f2f780c66", "ko": "052\t@s16@r92@g87@b42ＭＥＭＯ", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:75", "sha1": "b3e86559faada7279a5d1d0e7823d07ee913503c", "ko": "053\t@s18@r74@g42@b40○@s4　@s20@r115@g115@b115결정／방향키 좌우로 다른 아이 보기", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:76", "sha1": "33797687969fe7dab20943f671fef28a2d71755e", "ko": "054\t@s18@r74@g42@b40○@s4　@s20@r115@g115@b115결정", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:78", "sha1": "b8cf2a0d180ae3c5ad572eeabed4fc8661719819", "ko": "055\t@s18가족의 기록 보기", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:80", "sha1": "66e369a67c3a6f634a17188857b0cd46996db692", "ko": "056\t@s18아무것도 안 하기", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:82", "sha1": "5ca54990efd4fa43f5f116618303783d1226d94e", "ko": "057\t@r92@g87@b42@s16언제쯤？", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:83", "sha1": "4191306c02e6118a6a404f6e6dead893b8d38ae6", "ko": "058\t@r92@g87@b42@s16코멘트", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:84", "sha1": "5c5bc81f52e5d783040db665740cf1b2561c4820", "ko": "059\t@s19방향키 좌우로 사진 선택 @r10@g71@b40△@r115@g115@b115슬라이드 쇼", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:86", "sha1": "d4ba52ef30f0d81163a0beeae4eb05400da55f37", "ko": "060\t@s18@r92@g87@b42행동", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:88", "sha1": "f2e4c810d5eb42a1445d6088f520a2451fcdcfb6", "ko": "061\t군", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:89", "sha1": "3f94fe2ea03bee635f24f4f9ef43481205dd408e", "ko": "062\t짱", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:91", "sha1": "2024fa832128ee8f4f40a703c76fdfdc05068f3f", "ko": "063\t@s18@r115@g112@b71네", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:92", "sha1": "5d2c732278a78956588f843bfe91bb2520ef7510", "ko": "064\t@s18@r115@g112@b71아니요", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:93", "sha1": "8ce0aecc00d7dbbed9fc9d116c30a9bab65f983c", "ko": "065\t@s18시험을 보겠습니까？", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:95", "sha1": "8ddf30e50a8b9cd4d64f739cb45f602ca11b184d", "ko": "081\t@s18@r115@g115@b115세이브하겠습니까？", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:96", "sha1": "c6e68dc7a8723ad520452e20002a9e1e43fa8cc5", "ko": "082\t@s18@r115@g115@b115게임을@n　계속하겠습니까？", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:97", "sha1": "31b2af169b0c8b56372790bccea89f088f53cb12", "ko": "083\t@r115@g115@b115세이브 또는 게임 종료", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:99", "sha1": "8773474942b1f286ec45edc4f2e20222777e85a1", "ko": "084\t@s18@r119@g119@b96네", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:100", "sha1": "7e11d21eaa771e273af6c33952d77d2c9c7e27d6", "ko": "085\t@s18@r119@g119@b96아니요", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:102", "sha1": "fe5976a4ff713012d4352555b1c5829c73dbb571", "ko": "086\t@s19@r115@g115@b115＜　슬라이드 쇼　＞", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:104", "sha1": "407e0739cf41172828bad5fd0a68e84dd1dbb76e", "ko": "087\t@s16@r115@g108@b53세이브／종료", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:105", "sha1": "6d280d78e1d980f6964f88122ea3ad4850a63e9d", "ko": "088\t@s18@r115@g108@b53ＳＡＶＥ", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:107", "sha1": "a3485cd20bd748dede3ffffc215e4a80daf9b5db", "ko": "090\t@s17@r115@g115@b115누구에게 가정교사를 붙일까요？", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:108", "sha1": "b386cb05f5db43d7f656ec49eb39086b523692ad", "ko": "091\t@s18@r115@g115@b115무엇을 배울까요？", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:109", "sha1": "29e29b7ff14a990034433c224fe7da3e39e1994c", "ko": "092\t@s18@r115@g108@b53가정교사", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:110", "sha1": "b207e167a142aa4f8ff0cc5361c9bc2b898851b5", "ko": "093\t@s18@r115@g115@b115문과의 어려운 공부", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:111", "sha1": "f95ed1aca033b15dab2c6da4364d8be454f2e87e", "ko": "094\t@s18@r115@g115@b115이과의 까다로운 공부", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:112", "sha1": "2d775b0c5f31edf2f922fc6c4cf7608c9b91b17d", "ko": "095\t@s18@r115@g115@b115문과・이과 둘 다 열심히", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:113", "sha1": "e5f6ac0c07a0bb1b09cb0d1d5c9f8dd906952e83", "ko": "096\t@s18@r115@g115@b115아이의 컬러 게이지가 @r110@g63@b55빨강@r115@g115@b115에 들어 있으면，@n큰 학력 향상은 기대할 수 없습니다", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:114", "sha1": "9e031c6c281acc35df0e4fd098ed4ff6e4fad501", "ko": "097\t@s18@r115@g108@b71지망 학교", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:115", "sha1": "38e9bb35b1ff25c3fcc354ab2bc237fb60dc708f", "ko": "098\t@s18@r152@g67@b56（이）가 부족합니다@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:116", "sha1": "f45c4aef7d313fef9455fb40d74dd9108ce1161c", "ko": "@s18@r115@g115@b115수업 내용을 다시 보거나，졸업까지 남은 햇수가@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:117", "sha1": "8971acd8d129d5b127e69d3b34beae5cdfb4af9d", "ko": "줄어든 뒤에 다시 생각해 봅시다", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:118", "sha1": "be8df08fdc0ef8525b8d7c677786cf086af363d3", "ko": "099\t@s18@r115@g115@b115수업료", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:119", "sha1": "c010e3578e07a549d14a72c9f666dcc92599a3f6", "ko": "100\t@s15@r8@g8@b8졸업까지@n잘 부탁해", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:121", "sha1": "40a6a520f1e6f7a6e4f946c930c682a17d5cc795", "ko": "101\t@s20@r112@g96@b56목표", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:125", "sha1": "10d673e7b9ba68f078f2882d142408dc1740e167", "ko": "111\t@s20@r115@g112@b71급여 사정 테스트", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:126", "sha1": "5b88ff8ae5fdf32c9a8d37e47d851c1ff103a19e", "ko": "112\t@s18@r115@g115@b115아빠，힘내！", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:127", "sha1": "66f42d66f0fb0636fb46950ff4e023cd97c4c8d2", "ko": "113\t조금 올리기 코스（무난）", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:128", "sha1": "7cc4d611c2adacfd3b2edcd42cf007f6296f1e52", "ko": "114\t듬뿍 올리기 코스　（위험）", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:129", "sha1": "cf19267009263b2761c166a7387ccee8e5dba807", "ko": "115\t@s18@r115@g112@b71코스를 고르세요", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:131", "sha1": "6895f093a9de1971e6ff444d6b38bf7b73875486", "ko": "116\t능력급", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:132", "sha1": "9b63907111aa0fba1f9938d5617117a73bcb8793", "ko": "117\t연령급", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:133", "sha1": "29e5bf5ce7aa8921606b15d002e7753111ca3f8d", "ko": "118\t아동 수당", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:134", "sha1": "df38fce2fc97d088eb617c2ab450cb405e84c2b2", "ko": "119\t급여 합계", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:136", "sha1": "61677c3edd909eb9803cb6fbaa0dbb97301c7775", "ko": "120\t@s20@r115@g112@b71이번 테스트 결과", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:137", "sha1": "6aee76b5a82b8e9a339d62752f5fc20ab17c906b", "ko": "121\t@s20@r112@g96@b56목표", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:138", "sha1": "54f5ce789263ef0b89695f611e3e235814e64cdb", "ko": "122\t@s15@r115@g115@b86나이", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:139", "sha1": "f6d276240506bca7102a7cfb9a6d8a9eb02562f7", "ko": "123\t@s18보유 금액 합계", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:140", "sha1": "f2cde233933bb0ca3122ba48e231698136a3e85d", "ko": "124\t@s18합계액", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:142", "sha1": "b7b2b83524dbdfee29cc4eace9f3b65fe94448db", "ko": "125\t@s18@r115@g112@b71아르바이트 수입", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:144", "sha1": "f39e24b2f9e9077810c693472d9e825e0d80269c", "ko": "130\t@s18@r92@g87@b42　　책 고르기", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:145", "sha1": "4084ab68e42ca18b385cc3f775d24453b2640762", "ko": "131\t@s18@r92@g87@b42지원 학교 고르기", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:146", "sha1": "dbc5e2a8a127469b9cbf362bf231e1b2b7562b6c", "ko": "132\t@s18@r92@g87@b42동아리 고르기", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:147", "sha1": "27cabeea017972d075d6df1b4ed84bf938bc2b37", "ko": "133\t@s18@r92@g87@b42아르바이트 고르기", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:148", "sha1": "b2fd201577267530da5e94acf4f17c558a711fcd", "ko": "134\t@s18@r92@g87@b42직업 고르기", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:149", "sha1": "cf4f1938ddc58adab708eafda819bd6e30567ad3", "ko": "135\t@s18@r92@g87@b42학교 고르기", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:150", "sha1": "eb53ccebf3c2b0165b7c14fe02d43154f43396b8", "ko": "136\t@s18@r92@g87@b42직업 고르기", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:152", "sha1": "7c7ad42925e7b72620be2ffea272880bd7352b7a", "ko": "139\t@s17한 살", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:153", "sha1": "6f1f40cf85a503a46241a34118f005e6c6f8d1cd", "ko": "140\t@s17영유아", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:154", "sha1": "5044f99efe4a34a9c53fa349704c21bd90d82541", "ko": "141\t@s17유아", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:155", "sha1": "7eccd64df4af08df02fb8f4688082751e281e8e0", "ko": "142\t@s17유치원생", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:156", "sha1": "479225b550224d7e49c2cec7b9ec70e805b41f9a", "ko": "143\t@s17초등학생", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:157", "sha1": "724c673b73575b48804007a13e64f2f8362f0435", "ko": "144\t@s17중학생", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:158", "sha1": "92a7f29c66a3a669cd66c35af0022e37c658b267", "ko": "145\t@s17고등학생", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:159", "sha1": "0a2df072ed80f8651bf2aa38b05d206c96af7fe5", "ko": "146\t@s17대학생", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:160", "sha1": "21ebc44b151bf55b2c01b68ca4052f6f85f28f63", "ko": "147\t@s17전문학교생", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:161", "sha1": "90977a9fb63852f31f0c9255fc2b8e121e134acf", "ko": "148\t@s17재수생", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:162", "sha1": "6e8c228908e6b46c684e4fe06a79b3654983ff69", "ko": "149\t@s17사회인", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:164", "sha1": "5e7944fdd6d152b5825b1b899218c7777adc1954", "ko": "150\t@s17초등학교", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:165", "sha1": "03e911f847ee348dd5f4a51a72cc5fd2cb455445", "ko": "151\t@s17중학교", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:166", "sha1": "2d13261b9cbe96010247e8beb6035f59553c237d", "ko": "152\t@s17고등학교", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:168", "sha1": "103a9709b9f668063d67b7088f081e69f3cfe58d", "ko": "155\t신용평가사 애널리스트", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:169", "sha1": "496d4a812984847554c9643106a858603f33c24f", "ko": "156\t사쿠라 유치원 교사", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:170", "sha1": "3ccd56bced96c254252ba5e8d56b8a73c8389f56", "ko": "157\t전업주부（남편）", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:171", "sha1": "08ce5c0889a7b230d6c119be4ccad54ae40142e2", "ko": "158\t전업주부", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:173", "sha1": "63d2f53c542ae747f148d4f5b5053fdcebad398d", "ko": "160\t영유아", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:174", "sha1": "984cee2e10c8c4f6350c7dabd1ddf75fd40e0c68", "ko": "161\t유아", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:175", "sha1": "09e56621e11964814ca8b39e1abfe865275465fc", "ko": "162\t년", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:176", "sha1": "5f31be25f225f5a07573f387f5eb5fd961531a9f", "ko": "163\t일곱 살반", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:177", "sha1": "3ef0c5577634e0e24dab73d5ec93899f0476b990", "ko": "164\t여섯 살반", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:178", "sha1": "d92f23aa9547ded5e34188bbb81bc39c7d57196d", "ko": "165\t다섯 살반", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:180", "sha1": "badf282da72e98c3ca9fdce002cd391a9b9e8684", "ko": "170\t첫", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:181", "sha1": "cc97925e5a151b92e766ba406968427e7a9ccaa1", "ko": "171\t마지막", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:182", "sha1": "b95bcd948c36c2ffa907054424d2456d161b4493", "ko": "172\t년째", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:183", "sha1": "bdbac881e5cc8c8098fec0ecc3211cd4384162ef", "ko": "173\t봄", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:184", "sha1": "1367bbfdf5041fdeb3ded63a546aa418a5f9d4f6", "ko": "174\t여름", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:185", "sha1": "34c3daa07e824c4d1b3370cb32c475270fe19918", "ko": "175\t가을", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:186", "sha1": "dfcdccad19f3c1f9a16171961d757a9f79e40b85", "ko": "176\t겨울", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:187", "sha1": "1324b478d28d6192ecfa258fd2a20f01a55fe18d", "ko": "177\t년째", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:189", "sha1": "463e1f4f796833f7ab4d1168fe5f401407fabfc7", "ko": "180\t장남", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:190", "sha1": "ec91230422f8c0b8f6bb272c23109dd0a6e842ee", "ko": "181\t차남", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:191", "sha1": "f0d185daf5d8d8c6e31411bbf1f32c443b9aab9d", "ko": "182\t삼남", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:192", "sha1": "4337a1185f7cd435e3413de9e219eff789409008", "ko": "183\t사남", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:193", "sha1": "e34239001ae85dd0ed23a21307a70fe1b8dc6131", "ko": "184\t장녀", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:194", "sha1": "5dec11dec3ce5db205f4eabee40f7ae9127cd265", "ko": "185\t차녀", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:195", "sha1": "328ade2e71831e64986e1976a7cc05e7c904bf46", "ko": "186\t삼녀", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:196", "sha1": "5b4a8e25921486d0e5d9ef7a0716467e0fd22fc8", "ko": "187\t사녀", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:197", "sha1": "d5549254edc1770281a3d6f5b5419f88681cdb67", "ko": "188\t%s째 아이", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:198", "sha1": "0195f2b3e20ba3a5462d6f2013714aac27550b3d", "ko": "189\t막내", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:200", "sha1": "c01c676450dcffa6b6a82d2ccf7d7a2a4a1cc84a", "ko": "190\t고교 시절 여자 친구와 결혼", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:201", "sha1": "79a7647b9904a04ead7b97883a5c7fac02b8fcfc", "ko": "191\t소설가 지망생과 결혼", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:202", "sha1": "5b23db0f7560043bcc8e26edc10448477da3df62", "ko": "192\t짝사랑 상대와 결혼", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:203", "sha1": "82dfde83e47ae34ed061807e8fda3f4949c34dc7", "ko": "193\t편집자 누나와 결혼", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:204", "sha1": "53042a76132e9aa925647226a5dd7df958bcc2ce", "ko": "194\t의사 선생님과 결혼", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:205", "sha1": "66822c4c68b19aa66667f9676ac2f72f65e57ce6", "ko": "195\t공무원 오빠와 결혼", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:206", "sha1": "9b79450dfe969c20db18705e3fcae61b147ed439", "ko": "196\t가정교사와 드디어 결혼", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:207", "sha1": "71e773469d746b17c43b910a3f1e5ce8dcc44888", "ko": "197\t구제 옷 가게 점장과 연애결혼", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:209", "sha1": "c5e3e1b56f768302e50d203ba70c2e630cbfc18f", "ko": "200\t@s15@s3　@n@s3　@s16무럭무럭@n@s3　", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:210", "sha1": "d7a51d7765418f8ccc99ec314674f656048ce195", "ko": "201\t@s15@s3　@n@s16잘 아파요@n@s3　", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:211", "sha1": "2d8bae856455af538acb7e9bfb0e5d9ee0508349", "ko": "202\t@s15@s1　@n@s5　@s15개구쟁이@n@s4　@s15꼬맹이@n@s3　", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:212", "sha1": "c3d0ed8bc05221aa6f05294a9226a0adb1495f21", "ko": "203\t@s15@s3　@n　@s15무기력@n@s3　", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:213", "sha1": "00584a07614298a7dc48638df3c60f60eb1bea49", "ko": "204\t@s15@s9　@n@s15노력파@n랍니다", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:214", "sha1": "8abe4df36b833d234106c36025f1617329c5b75f", "ko": "205\t@s15@s5　@n@s16공상가@n예요", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:215", "sha1": "1b73a8cde109983111dd67d43bff1696b58b770c", "ko": "206\t@s15@s5　@n@s16튀고 @n 싶어요", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:216", "sha1": "505f933d1e70463a3e27dc69f95c404de80764dd", "ko": "207\t@s15@s6　@n@s16응석꾸러기@n예요", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:217", "sha1": "a6f18011475b4db0938f4b1d6e62e0ec914d22b9", "ko": "208\t@s15@s3　@n@s15애늙은이@n@s3　", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:218", "sha1": "aa1336fad0276b924a29388dc9a89f5ae9b2e7b0", "ko": "209\t@s15@s3　@n@s16난폭자@n@s3　", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:219", "sha1": "168325ee225d9203ef0506196d393f4aba833e4c", "ko": "210\t@s15@s3　@n@s16러블리@n@s3　", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:220", "sha1": "e6ab047cddd1b65b5b5d66cdb973aa891e14ff33", "ko": "211\t@s15@s3　@n@s2　@s15오타쿠예요@n@s3　", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:221", "sha1": "4363a346985920cdeaf5530799353f52118bd523", "ko": "212\t@s15@s3　@n@s2　@s15공부벌레@n@s3　", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:222", "sha1": "9ae310feee9b521ab0bb0a269fd27abd998103c6", "ko": "213\t@s15@s7　@n@s15어린애@n같아요", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:223", "sha1": "dfcca778382cdc7b6c4c02dbf6676b76a1885760", "ko": "214\t@s15@s3　@n@s16불량하다@n@s3　", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:224", "sha1": "95d6e9518880f11c825422fa5d44d0f279a8633d", "ko": "215\t@s15@s5　@n@s16멋 내기@n에 빠짐", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:225", "sha1": "67aac0c4d6215edaf96934a2cd76c9070a1b32a3", "ko": "216\t@s15@s5　@n@s16아직도@n젊어요", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:227", "sha1": "ae9d625b847ad8da4899469e50356576faa959d6", "ko": "217\t@s20학교법인 노비노비 학원@n초등부 입학시험", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:229", "sha1": "3863ce1a6557570559f693160bdf4731a99f77ee", "ko": "220\t아기 임신 중", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:230", "sha1": "10d173c0fee489872d6c0dd9b351932bdfaa1a4f", "ko": "221\t배우자가 임신 중", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:231", "sha1": "02bd6e6364a312cd74956f3814e18f8d59d74b9a", "ko": "222\t아이 있음", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:233", "sha1": "c6c82698f4f57342627bbdaa46be47a4c67cb9e1", "ko": "224\t@s20@s18@r115@g108@b71입학시험", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:234", "sha1": "9f585ba5162537be274b11457e74f0a57cd009d8", "ko": "225\t@s20@s18@r115@g108@b71입시 결과", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:236", "sha1": "0b64b7802435ce7d60cfbaae0955b75148429208", "ko": "230\t놀이", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:237", "sha1": "77b8aafce5cd424a9c0d6c2197f16161699d2f0a", "ko": "231\t취미", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:238", "sha1": "2eca748537bc374e51ea642c5a5be76bc49d7052", "ko": "232\t젖", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:239", "sha1": "b6a397d9cc208a9600751f19b01bc6e937a335ae", "ko": "233\t잠", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:240", "sha1": "4ea3ee17582b3893df7979fef47ed3129900bf35", "ko": "234\t먹기", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:241", "sha1": "3abb53e1079e19fab3aae4b8d7deb49cc3c382fa", "ko": "235\t공부", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:242", "sha1": "a6c09a06715572023a91d7582102c9a151eb61e3", "ko": "236\t동아리", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:243", "sha1": "abcf60db0b48e5c8b0581ddb95691d7311081a58", "ko": "237\t연애", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:244", "sha1": "84f24fdcdfc86cd33c057cfa657d6673b4b82195", "ko": "238\t알바", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:245", "sha1": "c4bd2b596e9f5d358bcfe6f97b6be8869eef4f59", "ko": "239\t멋 내기", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:246", "sha1": "a194bc999b06e96e2dbb985ec6a6ad58755e78bd", "ko": "240\t일", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:247", "sha1": "c7470b2c6677f6596c3aa4d94614c148f05def31", "ko": "241\t가정", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:248", "sha1": "2bd04025079f8fa5fb1d67e57bb2697d5de8afae", "ko": "242\t아이", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:249", "sha1": "93be81fc1668f33692d379f88f2a7e10d295cbf4", "ko": "243\t・", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:253", "sha1": "d280556e79e6e9770abdfb5af62be2e1f18727ff", "ko": "세이브하지 않았습니다@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:254", "sha1": "d12b2d43894351ded98a36383a97c1b07f545aec", "ko": "세이브하지 않으면，@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:255", "sha1": "c4dd737ced01f4315cf8d22405373afb443e3316", "ko": "이번 플레이 데이터는 사라집니다@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:256", "sha1": "f7793fe2748fd575730eb453a16432bfb8a856cb", "ko": "세이브하지 않고 종료해도 괜찮겠습니까？", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:259", "sha1": "0ccd4b06146b094ef9b31d976ee4e3dfe7059395", "ko": "300\t@s19@r%d@g%d@b%d@0네　　　@r%d@g%d@b%d@0아니요", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:263", "sha1": "3f719d47d8ac1ad6f454c21d2833add79f7cc0e7", "ko": "메모리 카드 슬롯 １의 메모리 카드(PS2)를@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:264", "sha1": "d7f299a8d9ae3c556e6a18d2004acf0995db4d58", "ko": "확인하고 있습니다@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:265", "sha1": "8199ee46e0269203296c5bd3b6a050f72af0237f", "ko": "컨트롤러나 메모리 카드(PS2)를@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:266", "sha1": "ace2def4feb460d1c58d7f26321410b1833facf4", "ko": "뽑거나 꽂지 마십시오", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:269", "sha1": "3f719d47d8ac1ad6f454c21d2833add79f7cc0e7", "ko": "메모리 카드 슬롯 １의 메모리 카드(PS2)를@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:270", "sha1": "2aa7b5acf70599345adc82ab87d1867ec5bc8e12", "ko": "포맷하고 있습니다@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:271", "sha1": "8199ee46e0269203296c5bd3b6a050f72af0237f", "ko": "컨트롤러나 메모리 카드(PS2)를@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:272", "sha1": "ace2def4feb460d1c58d7f26321410b1833facf4", "ko": "뽑거나 꽂지 마십시오", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:275", "sha1": "7e6482fe6a1fa65e0dbf1a4a8540173b9d07793e", "ko": "메모리 카드 슬롯 １의 메모리 카드(PS2)에@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:276", "sha1": "3d3205f3d5db49c704f3d360041e075e32ad0940", "ko": "「우리들의 가족」 데이터를 세이브하고 있습니다@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:277", "sha1": "8199ee46e0269203296c5bd3b6a050f72af0237f", "ko": "컨트롤러나 메모리 카드(PS2)를@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:278", "sha1": "ace2def4feb460d1c58d7f26321410b1833facf4", "ko": "뽑거나 꽂지 마십시오", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:281", "sha1": "716eea182d43dd3a73470a5b6f3bc7e4637a6c39", "ko": "메모리 카드 슬롯 １의 메모리 카드(PS2)에서@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:282", "sha1": "73c5486a080ca555f5da0ba42e593a67d412fe52", "ko": "「우리들의 가족」 데이터를 로드하고 있습니다@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:283", "sha1": "8199ee46e0269203296c5bd3b6a050f72af0237f", "ko": "컨트롤러나 메모리 카드(PS2)를@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:284", "sha1": "ace2def4feb460d1c58d7f26321410b1833facf4", "ko": "뽑거나 꽂지 마십시오", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:288", "sha1": "07f38ffaa0f7e62e301c4e678cfc66f14a9e57d4", "ko": "메모리 카드 슬롯 １에 메모리 카드(PS2)가@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:289", "sha1": "5614c6182cbf8f9e84bb200a9890b82e3923b8d3", "ko": "꽂혀 있지 않습니다@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:290", "sha1": "530663fc8dd482361d9f6793defdf9ca5218fd47", "ko": "「우리들의 가족」 데이터를 세이브하려면@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:291", "sha1": "fea147b10e4f37c8e0a07b6a55fccb7c63b821c7", "ko": "%dKB 이상의 빈 용량이 있는@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:292", "sha1": "9b6e741782fbc8c2f6dcdbd0c1f77f6599d89361", "ko": "메모리 카드(PS2)가 필요합니다@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:293", "sha1": "8892bb77661c0e0a07984baedb07136471271c4f", "ko": "이대로 게임을 시작하겠습니까？", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:296", "sha1": "ca629032a62e57e09980f827793c3983d4d52dc7", "ko": "메모리 카드 슬롯 １의 메모리 카드(PS2)에는@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:297", "sha1": "64e52882411213d7f267df7598999cdd20eadfde", "ko": "「우리들의 가족」 데이터를 세이브하는 데@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:298", "sha1": "7a8a2059fa52cd6d9afa5008e199e15cee662f2d", "ko": "필요한 빈 용량이 부족합니다@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:299", "sha1": "530663fc8dd482361d9f6793defdf9ca5218fd47", "ko": "「우리들의 가족」 데이터를 세이브하려면@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:300", "sha1": "fea147b10e4f37c8e0a07b6a55fccb7c63b821c7", "ko": "%dKB 이상의 빈 용량이 있는@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:301", "sha1": "9b6e741782fbc8c2f6dcdbd0c1f77f6599d89361", "ko": "메모리 카드(PS2)가 필요합니다@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:302", "sha1": "8892bb77661c0e0a07984baedb07136471271c4f", "ko": "이대로 게임을 시작하겠습니까？", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:305", "sha1": "986ae6ff14030d67ef4fbd472c38fb28b773f8bb", "ko": "메모리 카드 슬롯 １에@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:306", "sha1": "536a3c5e7a871c9bf06ace8ca2057c476547ff64", "ko": "메모리 카드(PS2)가 꽂혀 있지 않습니다@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:307", "sha1": "530663fc8dd482361d9f6793defdf9ca5218fd47", "ko": "「우리들의 가족」 데이터를 세이브하려면@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:308", "sha1": "fea147b10e4f37c8e0a07b6a55fccb7c63b821c7", "ko": "%dKB 이상의 빈 용량이 있는@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:309", "sha1": "9b6e741782fbc8c2f6dcdbd0c1f77f6599d89361", "ko": "메모리 카드(PS2)가 필요합니다@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:310", "sha1": "2feda5f62f727eaf59b2e878113b6f3128fcf49a", "ko": "@s20@r56@g71@b104×@s19@r115@g115@b115버튼을 눌러 주십시오", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:313", "sha1": "ca629032a62e57e09980f827793c3983d4d52dc7", "ko": "메모리 카드 슬롯 １의 메모리 카드(PS2)에는@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:314", "sha1": "64e52882411213d7f267df7598999cdd20eadfde", "ko": "「우리들의 가족」 데이터를 세이브하는 데@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:315", "sha1": "7a8a2059fa52cd6d9afa5008e199e15cee662f2d", "ko": "필요한 빈 용량이 부족합니다@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:316", "sha1": "530663fc8dd482361d9f6793defdf9ca5218fd47", "ko": "「우리들의 가족」 데이터를 세이브하려면@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:317", "sha1": "fea147b10e4f37c8e0a07b6a55fccb7c63b821c7", "ko": "%dKB 이상의 빈 용량이 있는@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:318", "sha1": "9b6e741782fbc8c2f6dcdbd0c1f77f6599d89361", "ko": "메모리 카드(PS2)가 필요합니다@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:319", "sha1": "2feda5f62f727eaf59b2e878113b6f3128fcf49a", "ko": "@s20@r56@g71@b104×@s19@r115@g115@b115버튼을 눌러 주십시오", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:323", "sha1": "d280556e79e6e9770abdfb5af62be2e1f18727ff", "ko": "세이브하지 않았습니다@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:324", "sha1": "d12b2d43894351ded98a36383a97c1b07f545aec", "ko": "세이브하지 않으면，@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:325", "sha1": "c4dd737ced01f4315cf8d22405373afb443e3316", "ko": "이번 플레이 데이터는 사라집니다@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:326", "sha1": "f7793fe2748fd575730eb453a16432bfb8a856cb", "ko": "세이브하지 않고 종료해도 괜찮겠습니까？", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:329", "sha1": "66e474ad9691739b01b4ed98c6bc5dddbbd91065", "ko": "이미 데이터가 있습니다@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:330", "sha1": "b0d5177ab486bae186bf4d14ea393f26e52f7548", "ko": "덮어쓰면 이전 데이터는 사라집니다@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:331", "sha1": "c8f98d47cc919696433f64bcb964ce4f1d47b5b4", "ko": "덮어써도 괜찮겠습니까？", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:334", "sha1": "9fe87ef41c9ca372a4ef3bb07015704de375742b", "ko": "이 자리에 새로 데이터를 세이브하겠습니까？", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:337", "sha1": "7e6482fe6a1fa65e0dbf1a4a8540173b9d07793e", "ko": "메모리 카드 슬롯 １의 메모리 카드(PS2)에@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:338", "sha1": "eb0d33e6f2ae1bec587bf72f419329dfadee7597", "ko": "「우리들의 가족」 데이터를 만듭니다@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:339", "sha1": "cb0371b12f0c879f8846b0a42accdb7391242286", "ko": "괜찮겠습니까？", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:342", "sha1": "f06f6fe65057ff46a97e6a5d9dda6bec5508b15d", "ko": "메모리 카드 슬롯 １의 메모리 카드(PS2)는@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:343", "sha1": "129dacec181d97a4b577e689259daf3623808811", "ko": "포맷되어 있지 않습니다@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:344", "sha1": "c89b1ce1f4ba9c63fd1c92ed4101fbc1a459312a", "ko": "포맷하겠습니까？", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:348", "sha1": "986ae6ff14030d67ef4fbd472c38fb28b773f8bb", "ko": "메모리 카드 슬롯 １에@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:349", "sha1": "536a3c5e7a871c9bf06ace8ca2057c476547ff64", "ko": "메모리 카드(PS2)가 꽂혀 있지 않습니다@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:350", "sha1": "74658d35b66ae342453209334581fd66e82273b5", "ko": "로드를 중지하려면 @s20@r56@g71@b104×@s19@r115@g115@b115버튼을 눌러 주십시오", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:353", "sha1": "ca629032a62e57e09980f827793c3983d4d52dc7", "ko": "메모리 카드 슬롯 １의 메모리 카드(PS2)에는@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:354", "sha1": "e7370b0e3c8d8df92d1681b9ffc4be57a9790ee7", "ko": "「우리들의 가족」 세이브 데이터가 없습니다@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:355", "sha1": "74658d35b66ae342453209334581fd66e82273b5", "ko": "로드를 중지하려면 @s20@r56@g71@b104×@s19@r115@g115@b115버튼을 눌러 주십시오", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:358", "sha1": "33d7e1691c298839812d1979d2fa8bd4583b7196", "ko": "세이브에 실패했습니다@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:359", "sha1": "2feda5f62f727eaf59b2e878113b6f3128fcf49a", "ko": "@s20@r56@g71@b104×@s19@r115@g115@b115버튼을 눌러 주십시오", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:362", "sha1": "8cf7afb1fffdfaa0fb2a00fec98bee3ae1daa58f", "ko": "세이브가 완료되었습니다@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:363", "sha1": "fe6d600247741356b3fb66386d60dad3c2f29da8", "ko": "@r74@g42@b40○@s19@r115@g115@b115버튼을 눌러 주십시오", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:366", "sha1": "09a184e2cba1d1d5ca51b58c9c51e0e25f27cd9b", "ko": "로드에 실패했습니다@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:367", "sha1": "2feda5f62f727eaf59b2e878113b6f3128fcf49a", "ko": "@s20@r56@g71@b104×@s19@r115@g115@b115버튼을 눌러 주십시오", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:370", "sha1": "0660a6b07995040db74bd13ed95479b24b18f47b", "ko": "포맷에 실패했습니다@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:371", "sha1": "2feda5f62f727eaf59b2e878113b6f3128fcf49a", "ko": "@s20@r56@g71@b104×@s19@r115@g115@b115버튼을 눌러 주십시오", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:374", "sha1": "6998128a4b1a5e68196b8f9d2b61d606200da46f", "ko": "로드가 완료되었습니다@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:375", "sha1": "fe6d600247741356b3fb66386d60dad3c2f29da8", "ko": "@r74@g42@b40○@s19@r115@g115@b115버튼을 눌러 주십시오", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:378", "sha1": "61f2ad4854bc45b19a6690d10f3ef6e2e2f63a89", "ko": "이 데이터를 로드하겠습니까？", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:381", "sha1": "ca629032a62e57e09980f827793c3983d4d52dc7", "ko": "메모리 카드 슬롯 １의 메모리 카드(PS2)에는@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:382", "sha1": "996bc660aec9bbbdfc42d513f3e625eb5f6410ac", "ko": "「우리들의 가족」 클리어 데이터가 없습니다@n", "state": "needs_review"}
+{"id": "MENURES.XAP/menumes.txt:383", "sha1": "74658d35b66ae342453209334581fd66e82273b5", "ko": "로드를 중지하려면 @s20@r56@g71@b104×@s19@r115@g115@b115버튼을 눌러 주십시오", "state": "needs_review"}
 {"id": "NAMEDB.XAP/namedb.txt:3", "sha1": "88a3842dff5bcde14f0259a5caa55db698d71bf7", "ko": "사쿠라다, 사쿠타로", "state": "needs_review"}
 {"id": "NAMEDB.XAP/namedb.txt:6", "sha1": "1d094917d95a681f339ff2a68c59b8279d503f54", "ko": "토모코", "state": "needs_review"}
 {"id": "NAMEDB.XAP/namedb.txt:9", "sha1": "e51500e4b3b0909fda6e69314b59391383d4f2cd", "ko": "타쿠야", "state": "needs_review"}
@@ -136,3 +436,23 @@
 {"id": "NAMEDB.XAP/namedb.txt:156", "sha1": "46cca918c0ba44ead586f8bb3361871686bc9c6a", "ko": "타마미", "state": "needs_review"}
 {"id": "NAMEDB.XAP/namedb.txt:157", "sha1": "e7b6b1c9a0c792cfe1b19f5de734f01686e60e13", "ko": "마사코", "state": "needs_review"}
 {"id": "NAMEDB.XAP/namedb.txt:158", "sha1": "e78eb285dcbc5d09a098986ae4ecb3b11ddf0043", "ko": "키미에", "state": "needs_review"}
+{"id": "RESNAME.XAP/school.txt:9", "sha1": "25ff49d1decfa0c53231a8b63ba12b1b26918c03", "ko": "2, 고엔지 초등학교（Ａ초）,        ,       2_05", "state": "needs_review"}
+{"id": "RESNAME.XAP/school.txt:10", "sha1": "6c51817167ab454e99bcc76f36c985eedde366c8", "ko": "3, 노비노비 학원（Ｂ초）,        ,       2_06", "state": "needs_review"}
+{"id": "RESNAME.XAP/school.txt:12", "sha1": "da061ab59bb42f9db7b92f0b5c4cf57087426465", "ko": "4, 스기나미 제일중（Ａ중）,          3_04,   3_05", "state": "needs_review"}
+{"id": "RESNAME.XAP/school.txt:13", "sha1": "5710af3e04d5dd9bdd5ccb64b0665554f2427ab8", "ko": "5, 클레버 학원중（Ｂ중）,      3_06,   3_07", "state": "needs_review"}
+{"id": "RESNAME.XAP/school.txt:14", "sha1": "57342b5a27d809581079b863dfb60e70bc18a011", "ko": "6, 세이세이 여학원 중등부（Ｃ중）,    3_08,   3_09", "state": "needs_review"}
+{"id": "RESNAME.XAP/school.txt:16", "sha1": "b45f5b5b2a3bea5b6ccdf272b95368d2abb95393", "ko": "7, 무사시노미나미고（Ａ고）,          ,       4_05", "state": "needs_review"}
+{"id": "RESNAME.XAP/school.txt:17", "sha1": "52de6340f643d43d6e8fc5ac23b6a4d6e201c728", "ko": "8, 에이스 학원（Ｂ고）,          4_06,   4_07", "state": "needs_review"}
+{"id": "RESNAME.XAP/school.txt:18", "sha1": "f9e9dc5a43e442f15febc94115f22d5a0dced7cf", "ko": "9, 세이세이 여학원 고등부（Ｃ고）,    4_08,   4_09", "state": "needs_review"}
+{"id": "SYSMES.XAP/sysmes.txt:2", "sha1": "2a0dc60c50fa539d5753f7dee2ca7e2278a70959", "ko": "1000\t재수한다", "state": "needs_review"}
+{"id": "SYSMES.XAP/sysmes.txt:4", "sha1": "358cad6e2ec91132e8f11c296c97095feaaa73e0", "ko": "1001\t취직한다", "state": "needs_review"}
+{"id": "SYSMES.XAP/sysmes.txt:6", "sha1": "e3356245b4bc551871c080a2e9ffa5222a1f3c27", "ko": "1002\t동아리 활동을 안 한다", "state": "needs_review"}
+{"id": "SYSMES.XAP/sysmes.txt:8", "sha1": "a9023ca4bf8912e05fd2149f75077fcbf28cc619", "ko": "1003\t아르바이트를 안 한다", "state": "needs_review"}
+{"id": "SYSMES.XAP/sysmes.txt:10", "sha1": "104c7584e2dabadfb454ff12b972a32b907ce818", "ko": "1004\t돌아가기", "state": "needs_review"}
+{"id": "SYSMES.XAP/sysmes.txt:12", "sha1": "27dfd532d1ff91fdb31d4e9cbff9b1fbc8d370ab", "ko": "1005\t가와이주쿠（재수 학원）", "state": "needs_review"}
+{"id": "SYSMES.XAP/sysmes.txt:14", "sha1": "f9ea1520a77dd0c4ae3478f2b73eb3f59fce4f7e", "ko": "1006\t학원 없이 재수", "state": "needs_review"}
+{"id": "SYSMES.XAP/sysmes.txt:16", "sha1": "e62e0b1c74c63b46b22cf8589afa751272ed355e", "ko": "1007\t역시 재수 안 한다", "state": "needs_review"}
+{"id": "SYSMES.XAP/sysmes.txt:18", "sha1": "557621911cdb228e43633e87fd3f95e663aa2594", "ko": "1008\t역시 진학한다", "state": "needs_review"}
+{"id": "SYSMES.XAP/sysmes.txt:20", "sha1": "191473273daf17d0ecce297f4ead7e733799b949", "ko": "1010\t@r115@g108@b53@s20가@s4　@s20족@s4　@s20뉴스", "state": "needs_review"}
+{"id": "SYSMES.XAP/sysmes.txt:22", "sha1": "dd23c679458b676c0f61afaa4703663ea3df8165", "ko": "1020\t，", "state": "needs_review"}
+{"id": "SYSMES.XAP/sysmes.txt:24", "sha1": "9e40b40fd1adca5bb7925a63b0ea7fa847af9ad4", "ko": "1021\t모두", "state": "needs_review"}

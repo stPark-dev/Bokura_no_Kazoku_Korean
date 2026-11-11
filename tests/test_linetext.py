@@ -58,3 +58,14 @@ def test_round_trip_all_txt_files():
         fid = '/'.join(p.split(os.sep)[-2:])
         rows = linetext.extract(data, fid)
         assert linetext.render(data, {r['id']: r['src'] for r in rows}, fid) == data, p
+
+
+@pytest.mark.parametrize('src,ko,ok', [
+    ('000\t@s22続@s14　@s22き@s14　@s22か@s14　@s22ら', '000\t@s22이@s14　@s22어@s14　@s22하@s14　@s22기', True),
+    ('009\t@s18@r115@g108@b53ＮＥＷゲーム', '009\t@s18@r115@g108@b53새 게임', True),
+    ('000\t@s22Ｎ@s1　@s22Ｅ@s1　@s22Ｗ', '000\t@s22새@s3　@s22게@d20임', True),   # spacing tokens are layout
+    ('003\t@s22設@d20定', '003\t@s22설정', True),
+    ('012\t@r119@g119@b96@s20は@s10　@s20い', '012\t@s20네', False),           # colour dropped
+])
+def test_spacing_tokens_are_movable(src, ko, ok):
+    assert (linetext.check(src, ko, encode=str.encode) == []) is ok

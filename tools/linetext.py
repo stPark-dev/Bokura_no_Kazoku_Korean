@@ -46,8 +46,11 @@ def render(data, texts, file_id, encode=_cp932):
     return b'\n'.join(out)
 
 
+LAYOUT = re.compile(r'@[sd]\d+')  # pitch/offset codes: movable-layout policy, re-tuned per screen
+
+
 def _skeleton(s):
-    return re.sub(r'[^\x21-\x7e]', '', s)
+    return re.sub(r'[^\x21-\x7e]', '', LAYOUT.sub('', s))
 
 
 def check(src, text, encode=_cp932):
