@@ -1,0 +1,32 @@
+{
+  "MENURES.XAP/sysicn01.tm2": [
+    {"src": "内向", "text": "내향", "rect": [1, 0, 30, 16], "clear": true, "font": "sans-bold", "fill": [[178,178,178]], "outline": [24,24,24], "stroke": 1},
+    {"src": "外向", "text": "외향", "rect": [31, 0, 30, 15], "clear": true, "font": "sans-bold", "fill": [[178,178,178]], "outline": [24,24,24], "stroke": 1},
+    {"src": "ピュア", "text": "순수", "rect": [62, 0, 42, 15], "clear": true, "font": "sans-bold", "fill": [[178,178,178]], "outline": [24,24,24], "stroke": 1},
+    {"src": "オトナ", "text": "어른", "rect": [103, 0, 44, 15], "clear": true, "font": "sans-bold", "fill": [[178,178,178]], "outline": [24,24,24], "stroke": 1},
+    {"src": "カラカラ", "text": "바삭바삭", "rect": [147, 0, 48, 15], "clear": true, "font": "sans-bold", "fill": [[178,178,178]], "outline": [24,24,24], "stroke": 1},
+    {"src": "しっとり", "text": "촉촉", "rect": [196, 0, 47, 15], "clear": true, "font": "sans-bold", "fill": [[178,178,178]], "outline": [24,24,24], "stroke": 1},
+    {"src": "春", "text": "봄", "rect": [2, 34, 26, 24], "clear": true, "font": "sans-black", "fill": [[200,140,140],[175,93,91]], "outline": null, "stroke": 0},
+    {"src": "夏", "text": "여름", "rect": [29, 34, 26, 24], "clear": true, "font": "sans-black", "fill": [[110,175,140],[62,146,99]], "outline": null, "stroke": 0},
+    {"src": "秋", "text": "가을", "rect": [57, 34, 28, 24], "clear": true, "font": "sans-black", "fill": [[205,160,120],[191,115,67]], "outline": null, "stroke": 0},
+    {"src": "冬", "text": "겨울", "rect": [85, 34, 27, 24], "clear": true, "font": "sans-black", "fill": [[160,150,180],[76,98,162]], "outline": null, "stroke": 0}
+  ],
+  "MENURES.XAP/sysicn06.tm2": [
+    {"src": "家計簿", "text": "가계부", "rect": [160, 0, 78, 41], "clear": true, "font": "sans-black", "fill": [[160,195,195],[89,112,116]], "outline": [0,0,0], "stroke": 2},
+    {"src": "日記", "text": "일기", "rect": [178, 44, 60, 36], "clear": true, "font": "sans-black", "fill": [[130,180,128],[56,107,59]], "outline": [0,0,0], "stroke": 2},
+    {"src": "みんな", "text": "모두", "rect": [160, 83, 46, 23], "clear": true, "font": "sans-black", "fill": [[215,150,130],[173,100,85]], "outline": [0,0,0], "stroke": 1},
+    {"src": "おすすめ", "text": "추천", "rect": [162, 120, 66, 21], "clear": true, "font": "sans-black", "fill": [[235,140,90],[181,81,45]], "outline": [0,0,0], "stroke": 1}
+  ],
+  "MENURES.XAP/sysicn08.tm2": [
+    {"src": "通知表", "text": "성적표", "rect": [0, 0, 80, 32], "clear": true, "font": "sans-black", "fill": [[230,215,145],[154,141,88]], "outline": [16,16,16], "stroke": 1}
+  ],
+  "MENURES.XAP/sysicn10.tm2": [
+    {"src": "志望校", "text": "지망교", "rect": [0, 0, 54, 20], "clear": true, "font": "sans-black", "fill": [[225,210,130],[154,141,88]], "outline": [16,16,16], "stroke": 1}
+  ],
+  "MENURES.XAP/sysicn11.tm2": [
+    {"src": "エンディング", "text": "엔딩", "rect": [25, 0, 79, 32], "clear": true, "font": "sans-black", "fill": [[245,215,90],[190,140,20]], "outline": [0,0,0], "stroke": 2}
+  ],
+  "INTERF.XAP/a_onsei.tm2": [
+    {"src": "音声", "text": "음성", "rect": [6, 4, 36, 16], "clear": true, "bg": [1,1,1,255], "font": "sans-bold", "fill": [[235,235,235]], "outline": null, "stroke": 0}
+  ]
+}

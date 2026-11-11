@@ -5,6 +5,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(__file__))
 import apply_text  # noqa: E402
+import build_gfx  # noqa: E402
 import build_poc2  # noqa: E402
 import hangul_map  # noqa: E402
 import iso9660  # noqa: E402
@@ -44,18 +45,29 @@ def main(src, dst):
     # system text: line units, applied to the archive as it is in the image built so far
     sys_src = apply_text.load_jsonl(os.path.join(TEXT, 'sys_src.jsonl'))
     sys_ko = apply_text.load_jsonl(os.path.join(TEXT, 'sys_ko.jsonl'))
-    archives = sorted({k['id'].rsplit(':', 1)[0].rsplit('/', 1)[0] for k in sys_ko})  # e.g. MINIG/MINIG5.XAP
-    for arc in archives:
+    archives = {k['id'].rsplit(':', 1)[0].rsplit('/', 1)[0] for k in sys_ko}  # e.g. MINIG/MINIG5.XAP
+
+    def orig_archive(arc):
+        _, olba, osize = iso9660.find(orig, 'DATA/' + arc)
+        return orig[olba * 2048:olba * 2048 + osize]
+
+    def orig_file(path):
+        arc, name = path.rsplit('/', 1)
+        ox = orig_archive(arc)
+        return read_file(ox, next(e for e in read_entries(ox) if e.name == name))
+    gfx_files = build_gfx.build(orig_file)
+    archives |= {p.rsplit('/', 1)[0] for p in gfx_files}
+    for arc in sorted(archives):
         _, lba, size = iso9660.find(img, 'DATA/' + arc)
         x = bytes(img[lba * 2048:lba * 2048 + size])
-        _, olba, osize = iso9660.find(orig, 'DATA/' + arc)
-        ox = orig[olba * 2048:olba * 2048 + osize]
+        ox = orig_archive(arc)
         # a file with system-text translations is rebuilt from its original bytes (supersedes PoC1 edits)
         files = {f'{arc}/{e.name}': read_file(ox, e) for e in read_entries(ox)}
         ko = [k for k in sys_ko if k['id'].startswith(arc + '/')]
         out = apply_text.apply_sys(files, sys_src, ko, [linetext.horizontal_encoder(plain), plain])
+        out.update({p: b for p, b in gfx_files.items() if p.startswith(arc + '/')})
         replaced['DATA/' + arc] = rebuild(x, files={n.rsplit('/', 1)[1]: b for n, b in out.items()})
-        print('system text translated:', sorted(out))
+        print('archive', arc, sorted(n.rsplit('/', 1)[1] for n in out))
     iso9660.replace_all(img, replaced)
     open(dst, 'wb').write(img)
 
