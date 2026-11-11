@@ -1,0 +1,17 @@
+{"id": "EVENT/000h0a.mes/000h0a_01", "sha1": "5585ba989d8a31e92587fda8f8e61ddb687632c8", "ko": "「있잖아，우리@n\n　만난 지 몇 년이나 됐을까？」@n", "state": "needs_review"}
+{"id": "EVENT/000h0a.mes/000h0a_02", "sha1": "e92b7f3c138b05bed23a81527d7909b0c8a7e804", "ko": "「응？　…처음엔 유치원이었지@n\n　그다음엔…　」@n", "state": "needs_review"}
+{"id": "EVENT/000h0a.mes/000h0a_03", "sha1": "dfaaa49876d13b640d71ffc81d227dae3f18fb5f", "ko": "「초등학교였지…　중학교였지…　」@n", "state": "needs_review"}
+{"id": "EVENT/000h0a.mes/000h0a_04", "sha1": "c7e7e4b681733c32f296cce43f4a284144a6aca5", "ko": "（둘이서「고등학교，대학교…　」@n", "state": "needs_review"}
+{"id": "EVENT/000h0a.mes/000h0a_05", "sha1": "360f584a4ed90ec43e733482534480a106a7b09b", "ko": "「아～아，정말이지…@n\n　이렇게 오래 사귀게 될 줄이야@n\n　…너무해」@n", "state": "needs_review"}
+{"id": "EVENT/000h1a.mes/000h0a_01", "sha1": "5585ba989d8a31e92587fda8f8e61ddb687632c8", "ko": "「있잖아，우리@n\n　만난 지 몇 년이나 됐을까？」@n", "state": "needs_review"}
+{"id": "EVENT/000h1a.mes/000h0a_02", "sha1": "e92b7f3c138b05bed23a81527d7909b0c8a7e804", "ko": "「응？　…처음엔 유치원이었지@n\n　그다음엔…　」@n", "state": "needs_review"}
+{"id": "EVENT/000h1a.mes/000h0a_03", "sha1": "dfaaa49876d13b640d71ffc81d227dae3f18fb5f", "ko": "「초등학교였지…　중학교였지…　」@n", "state": "needs_review"}
+{"id": "EVENT/000h1a.mes/000h0a_04", "sha1": "c7e7e4b681733c32f296cce43f4a284144a6aca5", "ko": "（둘이서「고등학교，대학교…　」@n", "state": "needs_review"}
+{"id": "EVENT/000h1a.mes/000h0a_05", "sha1": "360f584a4ed90ec43e733482534480a106a7b09b", "ko": "「아～아，정말이지…@n\n　이렇게 오래 사귀게 될 줄이야@n\n　…너무해」@n", "state": "needs_review"}
+{"id": "EVENT/000h1a.mes/000h1a_01", "sha1": "f4f9e0cc4c735d6d73d043797d64f53aaeb3b789", "ko": "「내 인생…@n\n,\n　나는 이십 대 중반에 동갑내기@n\n　그녀와 결혼했다」@n", "state": "needs_review"}
+{"id": "EVENT/000h1a.mes/000h1a_02", "sha1": "5fe2b52fa83f245eb69779e54339cec3a2f8edcf", "ko": "「그녀의 별명은 치코@n\n,\n　유치원 때부터 그렇게 불렸다」@n", "state": "needs_review"}
+{"id": "EVENT/000h1a.mes/000h1a_03", "sha1": "b8d7568c05155110c17045036bf397bd2294626d", "ko": "치코「이거，아까 엄마한테@n\n　받은 거야@n\n,\n　결혼 축하 선물…　」@n", "state": "needs_review"}
+{"id": "EVENT/000h1a.mes/000h1a_04", "sha1": "3d1dc7cda11feeeb1fa3b6f38ae3e3de87190d42", "ko": "$OTO$「일기？　쓸 칸이 꽤@n\n　넓은데…　」@n", "state": "needs_review"}
+{"id": "EVENT/000h1a.mes/000h1a_05", "sha1": "5adb8d6ac95ed486b5aabdc7abb2698e42e69568", "ko": "치코「게으른 사람용이래@n\n　계절마다 쓰는 거래@n\n,\n　당신이 예순 살이 되면 완성」@n", "state": "needs_review"}
+{"id": "EVENT/000h1a.mes/000h1a_06", "sha1": "03b2d67a134c880a0e7362ba5ed2468f02241082", "ko": "$OTO$「예순…　먼 미래네@n\n,\n　…정년 나이인가」@n", "state": "needs_review"}
+{"id": "EVENT/000h1a.mes/000h1a_07", "sha1": "07ac9419663e1ce487c9776367b16b0a8706ef27", "ko": "치코「응，그때쯤엔 분명@n\n　애들도 다 키웠겠지」@n", "state": "needs_review"}
