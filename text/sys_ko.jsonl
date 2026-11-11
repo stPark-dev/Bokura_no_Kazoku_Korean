@@ -1,3 +1,19 @@
+{"id": "DEMO/M16A0A.XAP/curflag.txt:25", "sha1": "f588b71c9c1479efa5286a8c5f17bf4da2a1d116", "ko": "CURF_LAST_NAME=사쿠라다", "state": "needs_review"}
+{"id": "DEMO/M16A0A.XAP/curflag.txt:26", "sha1": "0d83edb8d1827c13c1caf5d11c108f602c8dbbf0", "ko": "CURF_OTO_NAME=사쿠타로", "state": "needs_review"}
+{"id": "DEMO/M16A0A.XAP/curflag.txt:27", "sha1": "c8785872b30b92c093738a82f1251e40a444f0e1", "ko": "CURF_OKA_NAME=토모코", "state": "needs_review"}
+{"id": "DEMO/M16A0A.XAP/curflag.txt:31", "sha1": "9c3b66d0b3e7009b9bf09d32dbf729bc82018c58", "ko": "CURF_CHILD_NAME=타쿠야,겐,후코,,,", "state": "needs_review"}
+{"id": "DEMO/M23H0C.XAP/curflag.txt:25", "sha1": "f588b71c9c1479efa5286a8c5f17bf4da2a1d116", "ko": "CURF_LAST_NAME=사쿠라다", "state": "needs_review"}
+{"id": "DEMO/M23H0C.XAP/curflag.txt:26", "sha1": "0d83edb8d1827c13c1caf5d11c108f602c8dbbf0", "ko": "CURF_OTO_NAME=사쿠타로", "state": "needs_review"}
+{"id": "DEMO/M23H0C.XAP/curflag.txt:27", "sha1": "c8785872b30b92c093738a82f1251e40a444f0e1", "ko": "CURF_OKA_NAME=토모코", "state": "needs_review"}
+{"id": "DEMO/M23H0C.XAP/curflag.txt:31", "sha1": "9c3b66d0b3e7009b9bf09d32dbf729bc82018c58", "ko": "CURF_CHILD_NAME=타쿠야,겐,후코,,,", "state": "needs_review"}
+{"id": "DEMO/N00F0A.XAP/curflag.txt:25", "sha1": "f588b71c9c1479efa5286a8c5f17bf4da2a1d116", "ko": "CURF_LAST_NAME=사쿠라다", "state": "needs_review"}
+{"id": "DEMO/N00F0A.XAP/curflag.txt:26", "sha1": "0d83edb8d1827c13c1caf5d11c108f602c8dbbf0", "ko": "CURF_OTO_NAME=사쿠타로", "state": "needs_review"}
+{"id": "DEMO/N00F0A.XAP/curflag.txt:27", "sha1": "c8785872b30b92c093738a82f1251e40a444f0e1", "ko": "CURF_OKA_NAME=토모코", "state": "needs_review"}
+{"id": "DEMO/N00F0A.XAP/curflag.txt:31", "sha1": "5a931bde76bafb47b1468aa80b1bd713a4206cd5", "ko": "CURF_CHILD_NAME=쿄코,후코,코코,니와코,,", "state": "needs_review"}
+{"id": "DEMO/P20N0D.XAP/curflag.txt:25", "sha1": "f588b71c9c1479efa5286a8c5f17bf4da2a1d116", "ko": "CURF_LAST_NAME=사쿠라다", "state": "needs_review"}
+{"id": "DEMO/P20N0D.XAP/curflag.txt:26", "sha1": "0d83edb8d1827c13c1caf5d11c108f602c8dbbf0", "ko": "CURF_OTO_NAME=사쿠타로", "state": "needs_review"}
+{"id": "DEMO/P20N0D.XAP/curflag.txt:27", "sha1": "c8785872b30b92c093738a82f1251e40a444f0e1", "ko": "CURF_OKA_NAME=토모코", "state": "needs_review"}
+{"id": "DEMO/P20N0D.XAP/curflag.txt:31", "sha1": "5a931bde76bafb47b1468aa80b1bd713a4206cd5", "ko": "CURF_CHILD_NAME=쿄코,후코,코코,니와코,,", "state": "needs_review"}
 {"id": "GAMEDB.XAP/action.txt:17", "sha1": "19314eccb603152efa9a5ee838226f854e943273", "ko": "1,  모집　하숙인 구함！,      모집　하숙인 구함！,      0, g21h0a, , 0, 4, , ,", "state": "needs_review"}
 {"id": "GAMEDB.XAP/action.txt:18", "sha1": "0f3ba7ea4165443243e9c15439b1cf24c6a8d731", "ko": "2,  모집　하숙인 구함！,      모집　하숙인 구함！,      0, k20h0a, , 0, 4, , ,", "state": "needs_review"}
 {"id": "GAMEDB.XAP/action.txt:19", "sha1": "b6c57fc70bdfc89484940f3f4ab5c43e2ab39835", "ko": "3,  푸와 크리스마스 데이트,  푸와 크리스마스 데이트,  1, p24a1b, POO, 0, 1, AUT, , ,", "state": "needs_review"}
@@ -1944,6 +1960,22 @@
 {"id": "MENURES.XAP/window.txt:1718", "sha1": "2e5ecb76ccb90b296a3560fb4fb26176967a60f7", "ko": "comment, 240, 161, left, \"입금액\"", "state": "needs_review"}
 {"id": "MENURES.XAP/window.txt:1719", "sha1": "c354fff420a60d9ae8a188676d1ca68ae5720fc6", "ko": "comment, 240, 198, left, \"보유 금액 합계\"", "state": "needs_review"}
 {"id": "MENURES.XAP/window.txt:1732", "sha1": "449605568f4658adb0777742b1159a20b8256d5d", "ko": "comment, 320, 304, center, \"@r115@g108@b53@s20가@s4　@s20족@s4　@s20뉴스\"", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/layout.txt:45", "sha1": "fcb1eb7c06d9a53563bad76b6cf0a2b940a7c0eb", "ko": "help,\ttext:@o@h4@s18문제를 ３개 냅니다@n각각 제한 시간 안에 답해 주세요@n２문제를 맞히면 합격입니다, xy:54:56", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/layout.txt:47", "sha1": "fb850cd7676c829c031ad41de9eec39bc3671ef8", "ko": "start,\ttext:@o초등부　입학시험　시작！,\t\txy:70:78", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/layout.txt:49", "sha1": "465bf51b161643b19b45e1f64bb565ae8cb5b9a4", "ko": "passed,\ttext:@h4@r115@g108@b71「합격을 축하합니다！」@r128@g128@b128@n노비노비 학원 초등부,\t\txy:38:48:307:79, hcenter, vcenter", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/layout.txt:51", "sha1": "dda0a66a74c5f4cbe3c0c45ab119149b4176be91", "ko": "failed,\ttext:@h4노비노비 학원 초등부@n불합격입니다！, xy:38:48:307:79, hcenter, vcenter", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/layout.txt:58", "sha1": "94bae5f6a9da71fef87385284ccc8cbc97cb26cc", "ko": "title,\ttext:@s18【문제１】바른 말은？,\txy:24:39", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/layout.txt:59", "sha1": "03cf182ddfc13672efc5c96c2f8cbf383a39f6b2", "ko": "quest,\ttext:문제:@s20@r115@g108@b71@-,\t\txy:33:66", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/layout.txt:60", "sha1": "f64ddfb97b1d43959cd01fa65394f33f238f4901", "ko": "ans0,\ttext:답１:@s20,\t\t\t\t\txy:30:99", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/layout.txt:61", "sha1": "19b10a715357ee92fe3dc29a550d0d926048b12d", "ko": "ans1,\ttext:답２:@s20,\t\t\t\t\txy:191:99", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/layout.txt:70", "sha1": "ba929705c2189887a05d3a0a9291c3ad69b5e10c", "ko": "title,\ttext:@s18【문제２】무슨 뜻？,\txy:24:39", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/layout.txt:71", "sha1": "476af0044547c5d362921e39f2bc918bcdd74a96", "ko": "quest,\ttext:문제:@s18@r115@g108@b71@-,\t\txy:17:61", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/layout.txt:72", "sha1": "cfe36bcb3b018f2269235529b26ba5baecfc6072", "ko": "ans0,\ttext:답１:@s18,\t\t\t\t\txy:7:83", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/layout.txt:73", "sha1": "10272978081337a31c6178fb9e939245b32f2ec7", "ko": "ans1,\ttext:답２:@s18,\t\t\t\t\txy:7:106", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/layout.txt:82", "sha1": "387f5088ce48b188475bee2faa3121613999763f", "ko": "title,\ttext:@s18【문제３】틀린 것은？,xy:24:39", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/layout.txt:83", "sha1": "476af0044547c5d362921e39f2bc918bcdd74a96", "ko": "quest,\ttext:문제:@s18@r115@g108@b71@-,\t\txy:17:61", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/layout.txt:84", "sha1": "cfe36bcb3b018f2269235529b26ba5baecfc6072", "ko": "ans0,\ttext:답１:@s18,\t\t\t\t\txy:7:83", "state": "needs_review"}
+{"id": "MINIG/MINIG5.XAP/layout.txt:85", "sha1": "10272978081337a31c6178fb9e939245b32f2ec7", "ko": "ans1,\ttext:답２:@s18,\t\t\t\t\txy:7:106", "state": "needs_review"}
 {"id": "NAMEDB.XAP/namedb.txt:3", "sha1": "88a3842dff5bcde14f0259a5caa55db698d71bf7", "ko": "사쿠라다, 사쿠타로", "state": "needs_review"}
 {"id": "NAMEDB.XAP/namedb.txt:6", "sha1": "1d094917d95a681f339ff2a68c59b8279d503f54", "ko": "토모코", "state": "needs_review"}
 {"id": "NAMEDB.XAP/namedb.txt:9", "sha1": "e51500e4b3b0909fda6e69314b59391383d4f2cd", "ko": "타쿠야", "state": "needs_review"}

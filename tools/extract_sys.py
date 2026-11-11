@@ -13,6 +13,8 @@ import linetext
 EXCLUDE = {
     'FONT.XAP/vcode.txt': 'vertical punctuation substitution table, not displayed text (kept per D5)',
     'MENU.XAP/kanji.txt': 'name-entry candidate list, replaced by the jamo grid (D6)',
+    'GAMEDB.XAP/readme.txt': 'developer notes: name not referenced by the executable (txt names via strings) '
+                             'nor by any data list (presetev-*.txt list pev-*.txt), so never loaded',
 }
 
 

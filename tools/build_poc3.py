@@ -39,10 +39,8 @@ def main(src, dst):
     # system text: line units, applied to the archive as it is in the image built so far
     sys_src = apply_text.load_jsonl(os.path.join(TEXT, 'sys_src.jsonl'))
     sys_ko = apply_text.load_jsonl(os.path.join(TEXT, 'sys_ko.jsonl'))
-    archives = sorted({k['id'].split('/')[0] for k in sys_ko})
+    archives = sorted({k['id'].rsplit(':', 1)[0].rsplit('/', 1)[0] for k in sys_ko})  # e.g. MINIG/MINIG5.XAP
     for arc in archives:
-        if not arc.endswith('.XAP'):
-            raise ValueError(f'nested archive {arc} not supported yet')
         _, lba, size = iso9660.find(img, 'DATA/' + arc)
         x = bytes(img[lba * 2048:lba * 2048 + size])
         _, olba, osize = iso9660.find(orig, 'DATA/' + arc)
@@ -51,7 +49,7 @@ def main(src, dst):
         files = {f'{arc}/{e.name}': read_file(ox, e) for e in read_entries(ox)}
         ko = [k for k in sys_ko if k['id'].startswith(arc + '/')]
         out = apply_text.apply_sys(files, sys_src, ko, lambda s: hangul_map.encode(s, cmap))
-        replaced['DATA/' + arc] = rebuild(x, files={n.split('/', 1)[1]: b for n, b in out.items()})
+        replaced['DATA/' + arc] = rebuild(x, files={n.rsplit('/', 1)[1]: b for n, b in out.items()})
         print('system text translated:', sorted(out))
     iso9660.replace_all(img, replaced)
     open(dst, 'wb').write(img)

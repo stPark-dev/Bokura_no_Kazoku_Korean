@@ -1187,24 +1187,6 @@
 {"id": "GAMEDB.XAP/pev-poo.txt:340", "file": "GAMEDB.XAP/pev-poo.txt", "src": "【プー、未婚の場合】, 30, WIN, 100, \\", "sha1": "110df736f9c338f3e0047d680b9669ee04eeb8ee"}
 {"id": "GAMEDB.XAP/pev-poo.txt:343", "file": "GAMEDB.XAP/pev-poo.txt", "src": "【プー、未婚の場合】, 32, WIN, 100, \\", "sha1": "8ef37a523f9d2cbefa9b1c642992efc06459fef2"}
 {"id": "GAMEDB.XAP/pev-poo.txt:346", "file": "GAMEDB.XAP/pev-poo.txt", "src": "【大人キャラタイプ＿32歳プー】, 32, SPR, 10, \\", "sha1": "a689e268417b79cac15d2bac2e681fa7ea8de644"}
-{"id": "GAMEDB.XAP/readme.txt:1", "file": "GAMEDB.XAP/readme.txt", "src": "○各種ファイルの説明", "sha1": "6c6ec6847a3a8b5b3d5faabcb64145ffc24cd170"}
-{"id": "GAMEDB.XAP/readme.txt:3", "file": "GAMEDB.XAP/readme.txt", "src": "common.txt\t\t共通情報", "sha1": "efdfb3777fd7cede93e27b944f15493fc7325a5e"}
-{"id": "GAMEDB.XAP/readme.txt:5", "file": "GAMEDB.XAP/readme.txt", "src": "senario-*.txt\tシナリオ*情報", "sha1": "7aeedc79e9fd48a73ce4eaaa375d7dd770b33116"}
-{"id": "GAMEDB.XAP/readme.txt:6", "file": "GAMEDB.XAP/readme.txt", "src": "・タイトル\t\t\t\ttitle", "sha1": "a479a33454ab1ada8f1495474aeb09ff5739255e"}
-{"id": "GAMEDB.XAP/readme.txt:7", "file": "GAMEDB.XAP/readme.txt", "src": "・子供の出産情報\t\tBIRTH", "sha1": "42c50b35c57d7702a2594f9d87ebaade9d029a30"}
-{"id": "GAMEDB.XAP/readme.txt:9", "file": "GAMEDB.XAP/readme.txt", "src": "action-*.txt\tシナリオ*行動情報", "sha1": "8a1151917c7bda222f9db6f6c4de6128706b4f05"}
-{"id": "GAMEDB.XAP/readme.txt:11", "file": "GAMEDB.XAP/readme.txt", "src": "autoevent-*.txt\tシナリオ*自動イベント発生情報", "sha1": "b5fe74ed17de4387fd5bc2a84081d6442eb08a1a"}
-{"id": "GAMEDB.XAP/readme.txt:13", "file": "GAMEDB.XAP/readme.txt", "src": "childinfo.txt\t子供基本情報", "sha1": "8e837d86452ffeff309225c71812603a0699e4c0"}
-{"id": "GAMEDB.XAP/readme.txt:14", "file": "GAMEDB.XAP/readme.txt", "src": "childgrow.txt\t子供成長情報", "sha1": "8eaca10b45f26a4078413fc370ec37000c2d2f71"}
-{"id": "GAMEDB.XAP/readme.txt:15", "file": "GAMEDB.XAP/readme.txt", "src": "childstat.txt\t子供ステータス変化情報", "sha1": "72dd59723437723aad5afae44ca3248b321c659f"}
-{"id": "GAMEDB.XAP/readme.txt:16", "file": "GAMEDB.XAP/readme.txt", "src": "childstat-*.txt\t子供シナリオ別ステータス変化情報", "sha1": "11d85ffb9f55f0cde63779849cdc2cd8744d02a7"}
-{"id": "GAMEDB.XAP/readme.txt:18", "file": "GAMEDB.XAP/readme.txt", "src": "school.txt\t\t学校情報", "sha1": "ba7100846da9568f26dc8d6a3140da53ca46c1ca"}
-{"id": "GAMEDB.XAP/readme.txt:20", "file": "GAMEDB.XAP/readme.txt", "src": "job.txt\t\t\t職業情報", "sha1": "5a38b9b8e5f48210940844ce908b82d644194b27"}
-{"id": "GAMEDB.XAP/readme.txt:22", "file": "GAMEDB.XAP/readme.txt", "src": "part.txt\t\tアルバイト情報", "sha1": "d5f2f10b106e6ed791d3cbc8f335537c4034b6c4"}
-{"id": "GAMEDB.XAP/readme.txt:24", "file": "GAMEDB.XAP/readme.txt", "src": "club.txt\t\tクラブ、部活動情報", "sha1": "82167437bcd4008a2a17b046ac1bc44e350844e7"}
-{"id": "GAMEDB.XAP/readme.txt:26", "file": "GAMEDB.XAP/readme.txt", "src": "book.txt\t\t本情報", "sha1": "35713a5056974793a78657ca05a18af06458c889"}
-{"id": "GAMEDB.XAP/readme.txt:28", "file": "GAMEDB.XAP/readme.txt", "src": "tutor.txt\t\t家庭教師情報", "sha1": "633e6d6768223ce2761007be9dc0d5e9ba09f2dd"}
-{"id": "GAMEDB.XAP/readme.txt:30", "file": "GAMEDB.XAP/readme.txt", "src": "ctype.txt\t\tキャラタイプ情報", "sha1": "340f64327397ffc4c988416f4ba833006cddc6c4"}
 {"id": "GAMEDB.XAP/review-a.txt:16", "file": "GAMEDB.XAP/review-a.txt", "src": "26, 16, ２９歳, ボタン記憶ゲーム, QUOKEY, 1,  6, 3", "sha1": "e1a94b8fc741c37e8385fce41a3c6c115368d964"}
 {"id": "GAMEDB.XAP/review-a.txt:17", "file": "GAMEDB.XAP/review-a.txt", "src": "30, 18, ３４歳, ボタン記憶ゲーム, QUOKEY, 2,  6, 3", "sha1": "60ac07e661476ab468c3f25b108725480361d66f"}
 {"id": "GAMEDB.XAP/review-a.txt:18", "file": "GAMEDB.XAP/review-a.txt", "src": "35, 20, ３９歳, ボタン記憶ゲーム, QUOKEY, 3,  6, 3", "sha1": "02d7aaae16ac366e3bb83b81a8b561f7f05317a3"}
