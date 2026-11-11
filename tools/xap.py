@@ -45,3 +45,42 @@ def read_file(d, e):
     if e.flags == 0 and e.csize == e.size:
         return raw
     raise ValueError(f'{e.name}: unknown flags {e.flags}')
+
+
+def _pad16(n):
+    return (n + 15) & ~15
+
+
+def rebuild(orig, files=None, raw_payloads=None):
+    """Rebuild an XAPF archive keeping entry order, names, flags and timestamps.
+
+    files: {name: uncompressed bytes} to (re)compress; raw_payloads: {name: stored bytes} used verbatim.
+    Entries in neither map keep their original stored bytes.
+    """
+    from xaplz import compress
+    files = files or {}
+    raw_payloads = raw_payloads or {}
+    ents = read_entries(orig)
+    unknown = (set(files) | set(raw_payloads)) - {e.name for e in ents}
+    if unknown:
+        raise KeyError(f'not in archive: {sorted(unknown)}')
+    file_chunk_len = struct.unpack_from('<I', orig, 8)[0]
+    file_chunk = bytearray(orig[0x10:0x10 + file_chunk_len])
+    body = bytearray()
+    body_start = 0x10 + file_chunk_len + 0x10
+    for i, e in enumerate(ents):
+        if e.name in files:
+            if e.flags != 1:
+                raise ValueError(f'{e.name}: unsupported flags {e.flags}')
+            size, stored = len(files[e.name]), compress(files[e.name])
+        elif e.name in raw_payloads:
+            size, stored = e.size, raw_payloads[e.name]
+        else:
+            size, stored = e.size, orig[e.data_off:e.data_off + e.csize]
+        off = body_start + len(body)
+        struct.pack_into('<III', file_chunk, 0x10 + i * 32 + 8, off, size, len(stored))
+        body += stored + b'\0' * (_pad16(len(stored)) - len(stored))
+    body_chunk = b'BODY' + struct.pack('<I', len(body) + 8) + b'\0' * 8 + bytes(body)
+    total = len(file_chunk) + len(body_chunk)
+    head = b'XAPF' + struct.pack('<III', total, len(file_chunk), len(body_chunk))
+    return head + bytes(file_chunk) + body_chunk
