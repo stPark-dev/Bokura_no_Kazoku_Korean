@@ -1,27 +1,302 @@
 {
   "rules": [
-    {"id": "R-translit", "state": "approved", "basis": "D7",
-     "rule": "일본 인명·별명은 음역. 국립국어원 일본어 표기법을 따르되 어두 カ·タ·チャ행은 격음(ㅋ·ㅌ·ㅊ), ツ는 '츠', 촉음 ッ는 ㅅ받침(읽기 어려우면 앞 음절 받침 ㄱ/ㅅ 중 자연스러운 쪽), 장음은 표기하지 않음."},
-    {"id": "R-quote", "state": "approved", "basis": "D5",
-     "rule": "세로쓰기 문장부호 유지: 「」『』（）…？！～ 전각. 문장 쉼표는 '，'(ASCII ',' 금지). 말한 사람 표시 '이름「…」' 형식 유지."},
-    {"id": "R-particle", "state": "approved", "basis": "PoC3 훅",
-     "rule": "이름 변수 바로 뒤 조사는 받침형（무받침형）: 은（는） 이（가） 을（를） 과（와） 으로（로） 아（야） 이랑（랑） 이에요（예요）. 각 형태 1–3자/0–3자."},
-    {"id": "R-numbers", "state": "approved", "basis": "폰트(한자 제거)",
-     "rule": "한자 숫자(二九〇〇 등)는 한글 수사로 쓴다(이천구백). 세로 줄 안의 아라비아 숫자는 피한다."}
+    {
+      "id": "R-translit",
+      "state": "approved",
+      "basis": "D7",
+      "rule": "일본 인명·별명은 음역. 국립국어원 일본어 표기법을 따르되 어두 カ·タ·チャ행은 격음(ㅋ·ㅌ·ㅊ), ツ는 '츠', 촉음 ッ는 ㅅ받침(읽기 어려우면 앞 음절 받침 ㄱ/ㅅ 중 자연스러운 쪽), 장음은 표기하지 않음."
+    },
+    {
+      "id": "R-quote",
+      "state": "approved",
+      "basis": "D5",
+      "rule": "세로쓰기 문장부호 유지: 「」『』（）…？！～ 전각. 문장 쉼표는 '，'(ASCII ',' 금지). 말한 사람 표시 '이름「…」' 형식 유지."
+    },
+    {
+      "id": "R-particle",
+      "state": "approved",
+      "basis": "PoC3 훅",
+      "rule": "이름 변수 바로 뒤 조사는 받침형（무받침형）: 은（는） 이（가） 을（를） 과（와） 으로（로） 아（야） 이랑（랑） 이에요（예요）. 각 형태 1–3자/0–3자."
+    },
+    {
+      "id": "R-numbers",
+      "state": "approved",
+      "basis": "폰트(한자 제거)",
+      "rule": "한자 숫자(二九〇〇 등)는 한글 수사로 쓴다(이천구백). 세로 줄 안의 아라비아 숫자는 피한다."
+    }
   ],
   "terms": [
-    {"id": "N-OKA", "src": "チコ", "ko": "치코", "state": "approved", "basis": "D7", "note": "엄마($OKA$)의 별명, 유치원 때부터. 본명 기본값 智子"},
-    {"id": "N-OKA-name", "src": "智子", "ko": "토모코", "state": "approved", "basis": "D7, R-translit", "note": "NAMEDB 엄마 기본 이름"},
-    {"id": "N-OTO-name", "src": "桜田 咲太郎", "ko": "사쿠라다 사쿠타로", "state": "approved", "basis": "D7, R-translit", "note": "NAMEDB 아빠 기본 성·이름"},
-    {"id": "N-MOK", "src": "モック", "ko": "모크", "state": "approved", "basis": "D7", "note": "$MOK$ 별명. 코가 높아서. 촉음 규칙의 '못쿠' 대신 읽기 쉬운 표기"},
-    {"id": "N-GEN", "src": "ゲンコツ", "ko": "겐코츠", "state": "approved", "basis": "D7", "note": "$GEN$ 별명. 주먹(손을 꽉 쥠)"},
-    {"id": "N-JIJ", "src": "ジジ", "ko": "지지", "state": "approved", "basis": "D7", "note": "$JIJ$ 별명. 할아버지 같은 얼굴(爺)"},
-    {"id": "N-KYO", "src": "キョロ", "ko": "쿄로", "state": "approved", "basis": "D7", "note": "$KYO$ 별명. 눈을 두리번거림(きょろきょろ)"},
-    {"id": "N-NIY", "src": "ニヤ", "ko": "니야", "state": "approved", "basis": "D7", "note": "$NIY$ 별명. 히죽거림(ニヤニヤ)"},
-    {"id": "N-POO", "src": "プー", "ko": "푸", "state": "approved", "basis": "D7", "note": "$POO$ 별명. 포동포동(ふっくら)"},
-    {"id": "N-KOK", "src": "コッコ", "ko": "콧코", "state": "approved", "basis": "D7", "note": "$KOK$ 별명. 작고 귀여움"},
-    {"id": "N-PAN", "src": "パンツ", "ko": "판츠", "state": "approved", "basis": "D7", "note": "$PAN$ 별명. 아빠가 땀을 $MOK$의 팬티(パンツ)로 닦아 줌 — 본문 설명에서는 '팬티'로 옮기고 별명은 음역"},
-    {"id": "T-otosan", "src": "お父さん／おとうさん", "ko": "아빠", "state": "approved", "basis": "", "note": "아이들이 부를 때. 부부끼리 '여보/당신'은 문맥"},
-    {"id": "T-okasan", "src": "お母さん／おかあさん", "ko": "엄마", "state": "approved", "basis": "", "note": "아이들이 부를 때"}
+    {
+      "id": "N-OKA",
+      "src": "チコ",
+      "ko": "치코",
+      "state": "approved",
+      "basis": "D7",
+      "note": "엄마($OKA$)의 별명, 유치원 때부터. 본명 기본값 智子"
+    },
+    {
+      "id": "N-OKA-name",
+      "src": "智子",
+      "ko": "토모코",
+      "state": "approved",
+      "basis": "D7, R-translit",
+      "note": "NAMEDB 엄마 기본 이름"
+    },
+    {
+      "id": "N-OTO-name",
+      "src": "桜田 咲太郎",
+      "ko": "사쿠라다 사쿠타로",
+      "state": "approved",
+      "basis": "D7, R-translit",
+      "note": "NAMEDB 아빠 기본 성·이름"
+    },
+    {
+      "id": "N-MOK",
+      "src": "モック",
+      "ko": "모크",
+      "state": "approved",
+      "basis": "D7",
+      "note": "$MOK$ 별명. 코가 높아서. 촉음 규칙의 '못쿠' 대신 읽기 쉬운 표기"
+    },
+    {
+      "id": "N-GEN",
+      "src": "ゲンコツ",
+      "ko": "겐코츠",
+      "state": "approved",
+      "basis": "D7",
+      "note": "$GEN$ 별명. 주먹(손을 꽉 쥠)"
+    },
+    {
+      "id": "N-JIJ",
+      "src": "ジジ",
+      "ko": "지지",
+      "state": "approved",
+      "basis": "D7",
+      "note": "$JIJ$ 별명. 할아버지 같은 얼굴(爺)"
+    },
+    {
+      "id": "N-KYO",
+      "src": "キョロ",
+      "ko": "쿄로",
+      "state": "approved",
+      "basis": "D7",
+      "note": "$KYO$ 별명. 눈을 두리번거림(きょろきょろ)"
+    },
+    {
+      "id": "N-NIY",
+      "src": "ニヤ",
+      "ko": "니야",
+      "state": "approved",
+      "basis": "D7",
+      "note": "$NIY$ 별명. 히죽거림(ニヤニヤ)"
+    },
+    {
+      "id": "N-POO",
+      "src": "プー",
+      "ko": "푸",
+      "state": "approved",
+      "basis": "D7",
+      "note": "$POO$ 별명. 포동포동(ふっくら)"
+    },
+    {
+      "id": "N-KOK",
+      "src": "コッコ",
+      "ko": "콧코",
+      "state": "approved",
+      "basis": "D7",
+      "note": "$KOK$ 별명. 작고 귀여움"
+    },
+    {
+      "id": "N-PAN",
+      "src": "パンツ",
+      "ko": "판츠",
+      "state": "approved",
+      "basis": "D7",
+      "note": "$PAN$ 별명. 아빠가 땀을 $MOK$의 팬티(パンツ)로 닦아 줌 — 본문 설명에서는 '팬티'로 옮기고 별명은 음역"
+    },
+    {
+      "id": "T-otosan",
+      "src": "お父さん／おとうさん",
+      "ko": "아빠",
+      "state": "approved",
+      "basis": "",
+      "note": "아이들이 부를 때. 부부끼리 '여보/당신'은 문맥"
+    },
+    {
+      "id": "T-okasan",
+      "src": "お母さん／おかあさん",
+      "ko": "엄마",
+      "state": "approved",
+      "basis": "",
+      "note": "아이들이 부를 때"
+    },
+    {
+      "id": "T-school-sakura",
+      "src": "さくら幼稚園",
+      "ko": "사쿠라 유치원",
+      "state": "approved",
+      "basis": "KYO 배치(에이전트) 검토",
+      "note": ""
+    },
+    {
+      "id": "T-school-koenji",
+      "src": "高円寺小（学校）",
+      "ko": "고엔지 초등학교",
+      "state": "approved",
+      "basis": "KYO 배치(에이전트) 검토",
+      "note": ""
+    },
+    {
+      "id": "T-school-nobinobi",
+      "src": "のびのび学園",
+      "ko": "노비노비 학원",
+      "state": "approved",
+      "basis": "KYO 배치(에이전트) 검토",
+      "note": ""
+    },
+    {
+      "id": "T-school-suginami",
+      "src": "杉並（第一）中",
+      "ko": "스기나미 (제일)중학교",
+      "state": "approved",
+      "basis": "KYO 배치(에이전트) 검토",
+      "note": ""
+    },
+    {
+      "id": "T-school-clever",
+      "src": "クレバー学園",
+      "ko": "클레버 학원",
+      "state": "approved",
+      "basis": "KYO 배치(에이전트) 검토",
+      "note": ""
+    },
+    {
+      "id": "T-school-seisei",
+      "src": "清星女学院",
+      "ko": "세이세이 여학원",
+      "state": "approved",
+      "basis": "KYO 배치(에이전트) 검토",
+      "note": ""
+    },
+    {
+      "id": "T-school-musashino",
+      "src": "武蔵野南高",
+      "ko": "무사시노미나미 고등학교",
+      "state": "approved",
+      "basis": "KYO 배치(에이전트) 검토",
+      "note": ""
+    },
+    {
+      "id": "T-school-ace",
+      "src": "エース学園",
+      "ko": "에이스 학원",
+      "state": "approved",
+      "basis": "KYO 배치(에이전트) 검토",
+      "note": ""
+    },
+    {
+      "id": "T-univ-teito",
+      "src": "帝都大",
+      "ko": "테이토 대학",
+      "state": "approved",
+      "basis": "KYO 배치(에이전트) 검토",
+      "note": ""
+    },
+    {
+      "id": "T-kawai",
+      "src": "河合塾",
+      "ko": "가와이주쿠",
+      "state": "approved",
+      "basis": "KYO 배치(에이전트) 검토",
+      "note": ""
+    },
+    {
+      "id": "T-yobiko",
+      "src": "予備校",
+      "ko": "재수 학원",
+      "state": "approved",
+      "basis": "KYO 배치(에이전트) 검토",
+      "note": ""
+    },
+    {
+      "id": "T-baito",
+      "src": "アルバイト／バイト",
+      "ko": "아르바이트／알바",
+      "state": "approved",
+      "basis": "KYO 배치(에이전트) 검토",
+      "note": ""
+    },
+    {
+      "id": "T-bukatsu",
+      "src": "部活動",
+      "ko": "동아리 활동",
+      "state": "approved",
+      "basis": "KYO 배치(에이전트) 검토",
+      "note": ""
+    },
+    {
+      "id": "T-chonan",
+      "src": "長男／お兄ちゃん(母→長男)",
+      "ko": "큰아들",
+      "state": "approved",
+      "basis": "KYO 배치(에이전트) 검토",
+      "note": ""
+    },
+    {
+      "id": "T-chojo",
+      "src": "長女／お姉ちゃん(母→長女)",
+      "ko": "큰딸",
+      "state": "approved",
+      "basis": "KYO 배치(에이전트) 검토",
+      "note": ""
+    },
+    {
+      "id": "T-grandma",
+      "src": "ばあちゃん",
+      "ko": "할머니",
+      "state": "approved",
+      "basis": "KYO 배치(에이전트) 검토",
+      "note": ""
+    },
+    {
+      "id": "T-couple",
+      "src": "おとうさん(妻→夫)",
+      "ko": "여보",
+      "state": "approved",
+      "basis": "KYO 배치(에이전트) 검토",
+      "note": ""
+    },
+    {
+      "id": "T-ctype-jiji",
+      "src": "じじくさい",
+      "ko": "애늙은이 같다",
+      "state": "approved",
+      "basis": "KYO 배치(에이전트) 검토",
+      "note": ""
+    },
+    {
+      "id": "T-ctype-medachi",
+      "src": "目立ちたがり",
+      "ko": "튀고 싶어 하는",
+      "state": "approved",
+      "basis": "KYO 배치(에이전트) 검토",
+      "note": ""
+    },
+    {
+      "id": "T-ctype-lovely",
+      "src": "ラブリー",
+      "ko": "러블리",
+      "state": "approved",
+      "basis": "KYO 배치(에이전트) 검토",
+      "note": ""
+    },
+    {
+      "id": "T-ketsuban",
+      "src": "欠番",
+      "ko": "결번",
+      "state": "approved",
+      "basis": "KYO 배치(에이전트) 검토",
+      "note": ""
+    }
   ]
 }
