@@ -10,6 +10,9 @@ from PIL import Image
 
 import gfx
 import tim2
+import title_logo
+
+GENERATORS = {'title_logo': title_logo.make}
 
 SPEC = os.path.join(os.path.dirname(__file__), '..', 'text', 'gfx_ko.json')
 
@@ -19,8 +22,13 @@ def build(read, spec=None, preview=None):
     spec = spec or json.load(open(SPEC, encoding='utf-8'))
     out = {}
     for path, items in spec.items():
-        orig = read(path)
-        img = gfx.render(tim2.decode(orig), items)
+        if isinstance(items, dict):          # {"generator": name}: whole-image generator
+            fn = GENERATORS[items['generator']]
+            orig = read(path)
+            img = fn(tim2.decode(orig))
+        else:
+            orig = read(path)
+            img = gfx.render(tim2.decode(orig), items)
         out[path] = tim2.encode(orig, img)
         if preview:
             back = tim2.decode(out[path])

@@ -44,3 +44,26 @@ def test_spec_validation():
     with pytest.raises(KeyError):
         gfx.render(base(), [{'rect': [0, 0, 10, 10], 'clear': True, 'text': 'x', 'font': 'nope',
                              'fill': [[0, 0, 0]], 'outline': None, 'stroke': 0}])
+
+
+def test_title_logo_only_changes_logo_band():
+    import os
+    p = os.path.join(os.path.dirname(__file__), '..', 'work', 'png', 'TITLE.XAP', 'title.png')
+    if not os.path.exists(p):
+        pytest.skip('no data')
+    import title_logo
+    im = Image.open(p).convert('RGBA')
+    out = title_logo.make(im)
+    assert out.size == im.size
+    x0, y0, x1, y1 = title_logo.BOX
+    assert out.crop((0, y1, im.width, im.height)).tobytes() == im.crop((0, y1, im.width, im.height)).tobytes()
+    assert out.crop((x0, y0, x1, y1)).tobytes() != im.crop((x0, y0, x1, y1)).tobytes()
+
+
+def test_generator_entry_in_build():
+    import build_gfx
+
+    def read(path):
+        raise AssertionError('not called for an unknown generator')
+    with pytest.raises(KeyError):
+        build_gfx.build(read, spec={'X.XAP/a.tm2': {'generator': 'nope'}})

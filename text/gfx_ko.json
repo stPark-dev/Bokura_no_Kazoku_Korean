@@ -1585,5 +1585,10 @@
    ],
    "stroke": 2
   }
- ]
+ ],
+ "TITLE.XAP/title.tm2": {
+  "generator": "title_logo",
+  "src": "ぼくらのかぞく",
+  "text": "우리들의 가족"
+ }
 }
