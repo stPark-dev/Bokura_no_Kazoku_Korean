@@ -60,3 +60,49 @@ def decode(data):
     else:
         raise ValueError(f'image type {itype}')
     return im
+
+
+def _layout(data):
+    off = 0x10 if data[5] == 0 else 0x80
+    total, clut_sz, img_sz, hdr_sz, clut_cols, fmt, mip, ctype, itype, w, h = struct.unpack_from('<IIIHHBBBBHH', data, off)
+    return off + hdr_sz, img_sz, clut_sz, clut_cols, ctype, itype, w, h
+
+
+def encode(orig, img):
+    """Return `orig` with its pixel data replaced by `img` (same size). Header and CLUT are kept; CLUT images
+    use the nearest palette colour (an unchanged pixel keeps its original index, so round trips are exact)."""
+    p, img_sz, clut_sz, clut_cols, ctype, itype, w, h = _layout(orig)
+    img = img.convert('RGBA')
+    if img.size != (w, h):
+        raise ValueError(f'size {img.size} != {(w, h)}')
+    out = bytearray(orig)
+    pix = orig[p:p + img_sz]
+    src = img.load()
+    if itype in (4, 5):
+        cols = _clut(orig[p + img_sz:p + img_sz + clut_sz], clut_cols, ctype)
+        cache = {}
+
+        def nearest(c):
+            if c not in cache:
+                cache[c] = min(range(len(cols)), key=lambda k: sum((a - b) ** 2 for a, b in zip(cols[k], c)))
+            return cache[c]
+        idx = []
+        for y in range(h):
+            for x in range(w):
+                i = y * w + x
+                old = (pix[i >> 1] >> (4 * (i & 1))) & 15 if itype == 4 else pix[i]
+                c = src[x, y]
+                idx.append(old if old < len(cols) and cols[old] == c else nearest(c))
+        if itype == 4:
+            for i in range(0, w * h, 2):
+                out[p + (i >> 1)] = idx[i] | (idx[i + 1] << 4 if i + 1 < w * h else 0)
+        else:
+            out[p:p + w * h] = bytes(idx)
+    elif itype == 3:
+        for i in range(w * h):
+            r, g, b, a = src[i % w, i // w]
+            oa = orig[p + i * 4 + 3]
+            out[p + i * 4:p + i * 4 + 4] = bytes((r, g, b, oa if _a(oa) == a else (a + 1) // 2))
+    else:
+        raise ValueError(f'encoding image type {itype} not supported')
+    return bytes(out)
