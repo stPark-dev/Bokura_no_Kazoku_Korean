@@ -106,3 +106,46 @@ def encode(orig, img):
     else:
         raise ValueError(f'encoding image type {itype} not supported')
     return bytes(out)
+
+
+def _clut_raw(cols, ctype):
+    """Inverse of _clut for 32-bit CLUT entries (all CLUT images in SCPS-15088 use them)."""
+    if ctype & 0x3f != 3:
+        raise ValueError(f'CLUT type {ctype:#x} not supported')
+    raw = list(cols)
+    if len(cols) == 256 and not (ctype & 0x80):
+        for i in range(256):
+            raw[(i & 0xE7) | ((i & 0x08) << 1) | ((i & 0x10) >> 1)] = cols[i]
+    return b''.join(bytes((r, g, b, (a + 1) // 2)) for r, g, b, a in raw)
+
+
+def encode_palette(orig, img):
+    """Like encode, but for CLUT images builds a new palette from `img` (for repainted images whose colours
+    are not in the original palette). Header, sizes and CLUT format are kept."""
+    p, img_sz, clut_sz, clut_cols, ctype, itype, w, h = _layout(orig)
+    if itype not in (4, 5):
+        return encode(orig, img)
+    img = img.convert('RGBA')
+    if img.size != (w, h):
+        raise ValueError(f'size {img.size} != {(w, h)}')
+    n = min(clut_cols, 16 if itype == 4 else 256)
+    px = list(img.get_flattened_data())
+    exact = img.getcolors(n)
+    if exact:                                   # few colours: exact palette
+        cols = [c for _, c in exact]
+        where = {c: k for k, c in enumerate(cols)}
+        idx = [where[c] for c in px]
+    else:
+        q = img.quantize(colors=n, method=Image.Quantize.FASTOCTREE, dither=Image.Dither.NONE)
+        pal = q.getpalette(rawmode='RGBA')
+        cols = [tuple(pal[4 * i:4 * i + 4]) for i in range(min(n, len(pal) // 4))]
+        idx = list(q.get_flattened_data())
+    cols += [(0, 0, 0, 0)] * (clut_cols - len(cols))
+    out = bytearray(orig)
+    if itype == 4:
+        for i in range(0, w * h, 2):
+            out[p + (i >> 1)] = idx[i] | (idx[i + 1] << 4 if i + 1 < w * h else 0)
+    else:
+        out[p:p + w * h] = bytes(idx)
+    out[p + img_sz:p + img_sz + clut_cols * 4] = _clut_raw(cols, ctype)
+    return bytes(out)

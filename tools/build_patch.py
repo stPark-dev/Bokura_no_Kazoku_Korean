@@ -21,7 +21,6 @@ import elfpatch  # noqa: E402
 import font20  # noqa: E402
 import hangul_map  # noqa: E402
 import iso9660  # noqa: E402
-import linetext  # noqa: E402
 import mes  # noqa: E402
 from xap import read_entries, read_file, rebuild  # noqa: E402
 
@@ -124,9 +123,11 @@ def build(orig, policy):
         x = archive('DATA/' + arc)
         out = apply_text.apply_sys({f'{arc}/{e.name}': read_file(x, e) for e in read_entries(x)}, src,
                                    [k for k in ko if k['id'].startswith(arc + '/')],
-                                   [linetext.horizontal_encoder(plain), plain])
+                                   plain)   # spaces: half-cell advance hook in the ELF (elfpatch SPACE_SITE)
         files.update(out)
-    files.update(build_gfx.build(lambda p: file_of(archive('DATA/' + p.rsplit('/', 1)[0]), p.rsplit('/', 1)[1])))
+    gfx_used = {}                     # D13: repainted PNGs in work/gfx_import (not in the repository)
+    files.update(build_gfx.build(lambda p: file_of(archive('DATA/' + p.rsplit('/', 1)[0]), p.rsplit('/', 1)[1]),
+                                 imports=build_gfx.IMPORTS, used=gfx_used))
 
     by_arc = {}
     for path, data in files.items():
@@ -150,7 +151,7 @@ def build(orig, policy):
         commit = ''
     manifest = {'policy': policy, 'source_sha1': SOURCE_SHA1, 'out_sha1': sha1(out), 'commit': commit,
                 'replaced': sorted(replaced), 'exceptions': EXCEPTIONS,
-                'units': {n: len(loaded[n][1]) for n, _ in TEXT_SETS}}
+                'units': {n: len(loaded[n][1]) for n, _ in TEXT_SETS}, 'gfx_import': gfx_used}
     return out, manifest
 
 

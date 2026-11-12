@@ -67,3 +67,48 @@ def test_generator_entry_in_build():
         raise AssertionError('not called for an unknown generator')
     with pytest.raises(KeyError):
         build_gfx.build(read, spec={'X.XAP/a.tm2': {'generator': 'nope'}})
+
+
+UNPACKED = os.path.join(os.path.dirname(__file__), '..', 'work', 'unpacked')
+ICON = 'MENURES.XAP/sysicn06.tm2'
+
+
+def _read(path):
+    return open(os.path.join(UNPACKED, path), 'rb').read()
+
+
+@pytest.mark.skipif(not os.path.isdir(UNPACKED), reason='work/unpacked not present')
+def test_import_png_replaces_spec_and_gets_new_palette(tmp_path):
+    import build_gfx
+    import tim2
+    w, h = tim2.decode(_read(ICON)).size
+    painted = Image.new('RGBA', (w, h), (12, 200, 90, 255))
+    (tmp_path / 'MENURES.XAP').mkdir()
+    painted.save(tmp_path / 'MENURES.XAP' / 'sysicn06.png')
+    used = {}
+    out = build_gfx.build(_read, spec={ICON: [{'rect': [0, 0, 4, 4], 'clear': True}]}, imports=str(tmp_path),
+                          used=used)
+    assert tim2.decode(out[ICON]).getpixel((w // 2, h // 2))[:3] == (12, 200, 90)
+    assert list(used) == [ICON] and len(used[ICON]) == 40
+
+
+@pytest.mark.skipif(not os.path.isdir(UNPACKED), reason='work/unpacked not present')
+def test_import_png_with_wrong_size_fails(tmp_path):
+    import build_gfx
+    (tmp_path / 'MENURES.XAP').mkdir()
+    Image.new('RGBA', (3, 3)).save(tmp_path / 'MENURES.XAP' / 'sysicn06.png')
+    with pytest.raises(ValueError):
+        build_gfx.build(_read, spec={}, imports=str(tmp_path))
+
+
+@pytest.mark.skipif(not os.path.isdir(UNPACKED), reason='work/unpacked not present')
+def test_export_writes_original_and_current_korean(tmp_path):
+    import gfx_export
+    import tim2
+    rows = gfx_export.export(_read, {ICON: [{'src': '家計簿', 'text': '가계부', 'rect': [160, 0, 78, 41],
+                                             'clear': True, 'font': 'sans-black', 'fill': [[160, 195, 195]]}]},
+                             str(tmp_path))
+    orig = Image.open(tmp_path / '원본' / 'MENURES.XAP' / 'sysicn06.png')
+    assert orig.size == tim2.decode(_read(ICON)).size
+    assert (tmp_path / '현재한글' / 'MENURES.XAP' / 'sysicn06.png').exists()
+    assert rows[0]['path'] == ICON and rows[0]['texts'] == '家計簿→가계부'
