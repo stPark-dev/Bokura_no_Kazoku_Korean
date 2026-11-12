@@ -31,3 +31,19 @@ def test_policy_release_needs_distribution_eligible():
 def test_exceptions_are_declared_with_decisions():
     for e in build_patch.EXCEPTIONS:
         assert e['what'] and e['basis']
+
+
+def test_elf_strings_replaces_same_length_and_checks_original():
+    enc = lambda s: s.encode('cp932') if s == '春' else b'\x8d\xbb'
+    elf = b'xx' + '春'.encode('cp932') + b'\x00yy'
+    out = build_patch.patch_elf_strings(elf, [(2, '春', '봄')], enc, off=lambda d, va: va)
+    assert out == b'xx\x8d\xbb\x00yy'
+    with pytest.raises(ValueError, match='original'):
+        build_patch.patch_elf_strings(b'xxAB\x00', [(2, '春', '봄')], enc, off=lambda d, va: va)
+    with pytest.raises(ValueError, match='length'):
+        build_patch.patch_elf_strings(elf, [(2, '春', '봄봄')], lambda s: b'\x8d\xbb' * len(s) if s != '春' else s.encode('cp932'),
+                                      off=lambda d, va: va)
+
+
+def test_album_season_is_korean():
+    assert (0x2DD758, '春', '봄') in build_patch.ELF_STRINGS

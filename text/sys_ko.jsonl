@@ -1863,7 +1863,7 @@
 {"id": "MENURES.XAP/window.txt:431", "sha1": "6285c2cba3a8ed56a7a71ffd8de987cc437ac5f9", "ko": "string,  34, 107, left, \"@s22되는 대로\", 16, 109", "state": "reviewed"}
 {"id": "MENURES.XAP/window.txt:494", "sha1": "10bf0d64328635c87e6adaeed5213b386332ca90", "ko": "string, 360, 325, center, \"　　첫 봄%s\", -1, -1", "state": "reviewed"}
 {"id": "MENURES.XAP/window.txt:495", "sha1": "53b13559eed3a0487fd90a8340e8dc16d243d0fa", "ko": "string, 360, 325, center, \"　마지막 봄%s\", -1, -1", "state": "reviewed"}
-{"id": "MENURES.XAP/window.txt:496", "sha1": "2184c60c0a3c3f5b31d1673cf484b5e072338b3a", "ko": "string, 360, 325, center, \"%s년째%s%s\", -1, -1", "state": "reviewed"}
+{"id": "MENURES.XAP/window.txt:496", "sha1": "2184c60c0a3c3f5b31d1673cf484b5e072338b3a", "ko": "string, 360, 325, center, \"%s년째 %s%s\", -1, -1", "state": "reviewed"}
 {"id": "MENURES.XAP/window.txt:593", "sha1": "49b2312ca23803659713196f410cb03ae6cce245", "ko": "string, 451,  30, right, \"@r92@g87@b42@s20@0살\", -1, -1", "state": "reviewed"}
 {"id": "MENURES.XAP/window.txt:597", "sha1": "73214b42e9641442f62a0edc4279fab8de83fb3c", "ko": "string, 226,  78, left, \"%s＊%s\", -1, -1", "state": "reviewed"}
 {"id": "MENURES.XAP/window.txt:619", "sha1": "1284268dfb10ec2c575d0ae35fcc1054594bad57", "ko": "string, 598,  28, right, \"@r115@g108@b53@s20@0%s살\", -1, -1", "state": "reviewed"}

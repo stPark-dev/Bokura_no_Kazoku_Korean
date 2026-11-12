@@ -50,6 +50,23 @@ def text_problems(src, ko, policy):
     return out
 
 
+# Strings passed to formats by the executable (same byte length). 0x2DD758: season argument of the album
+# caption '%s年目の%s%s' (window.txt [album], code 0x1960A4); its cp932 bytes are a Hangul code in our font.
+ELF_STRINGS = [(0x2DD758, '春', '봄')]
+
+
+def patch_elf_strings(elf, table, encode, off=elfpatch._off):
+    out = bytearray(elf)
+    for va, orig, new in table:
+        o, a, b = off(out, va), orig.encode('cp932'), encode(new)
+        if bytes(out[o:o + len(a) + 1]) != a + b'\0':
+            raise ValueError(f'{va:#x}: original {orig!r} not found')
+        if len(b) != len(a):
+            raise ValueError(f'{va:#x}: length {len(b)} != {len(a)}')
+        out[o:o + len(b)] = b
+    return bytes(out)
+
+
 def sha1(data):
     return hashlib.sha1(data).hexdigest()
 
@@ -101,7 +118,7 @@ def build(orig, policy):
     expect = 'あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもや  ゆ  よらりるれろわ        '
     assert bytes(elf[off:off + build_poc2.KANA_LABELS_LEN]) == expect.encode('cp932')[:build_poc2.KANA_LABELS_LEN]
     elf[off:off + build_poc2.KANA_LABELS_LEN] = build_poc2.labels(cmap)
-    replaced = {'SCPS_150.88': bytes(elf)}
+    replaced = {'SCPS_150.88': patch_elf_strings(elf, ELF_STRINGS, plain)}
     files['MENU.XAP/kanji.txt'] = hangul_map.encode(
         build_poc2.kanji_txt(file_of(archive('DATA/MENU.XAP'), 'kanji.txt').decode('cp932')), cmap)
 
