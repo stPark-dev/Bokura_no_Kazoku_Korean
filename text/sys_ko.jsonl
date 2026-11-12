@@ -1208,9 +1208,9 @@
 {"id": "GAMEDB.XAP/review-c.txt:20", "sha1": "11c51a963db509c4a15ca3aaa7c7801660357404", "ko": "45, 24, ４９살, 카드 짝 맞추기,         PELMAN, 3,  4,  2", "state": "reviewed"}
 {"id": "GAMEDB.XAP/review-c.txt:21", "sha1": "e8d43b86b5fcfe8e6e40697d157f3af666e062f9", "ko": "50, 26, ５４살, 카드 짝 맞추기,         PELMAN, 4,  4,  2", "state": "reviewed"}
 {"id": "GAMEDB.XAP/review-c.txt:22", "sha1": "d2caf7cc1a6c10a8b0f1d71d816fa6c6da13c29c", "ko": "55, 28, 정년,   버튼 기억 게임, QUOKEY, 5,  10, 5", "state": "reviewed"}
-{"id": "GAMEDB.XAP/scenario-a.txt:5", "sha1": "9af0ee68234278f2c2a19b508e4b08dc9ba6f34d", "ko": "title = 조금 다둥이네", "state": "reviewed"}
-{"id": "GAMEDB.XAP/scenario-b.txt:5", "sha1": "3dc44c64357260d4204998d191a67e9f3a529d01", "ko": "title = 아이가 꽤 많은 집", "state": "reviewed"}
-{"id": "GAMEDB.XAP/scenario-c.txt:5", "sha1": "038e69aa0907a800ccbfe5f6e47a54cfa4094eee", "ko": "title = 아주 다둥이네", "state": "reviewed"}
+{"id": "GAMEDB.XAP/scenario-a.txt:5", "sha1": "9af0ee68234278f2c2a19b508e4b08dc9ba6f34d", "ko": "title = 오순도순 다둥이네", "state": "reviewed"}
+{"id": "GAMEDB.XAP/scenario-b.txt:5", "sha1": "3dc44c64357260d4204998d191a67e9f3a529d01", "ko": "title = 북적북적 다둥이네", "state": "reviewed"}
+{"id": "GAMEDB.XAP/scenario-c.txt:5", "sha1": "038e69aa0907a800ccbfe5f6e47a54cfa4094eee", "ko": "title = 왁자지껄 다둥이네", "state": "reviewed"}
 {"id": "GAMEDB.XAP/school.txt:12", "sha1": "26d0de5cc61c740cacc32ae7bb28ab8ba86366db", "ko": "1,  사쿠라유치원,       사쿠라유치원,               KINDER,  3", "state": "reviewed"}
 {"id": "GAMEDB.XAP/school.txt:14", "sha1": "5af3552cd28983bdbe72a1499ce3fcdf12dffbf6", "ko": "2,  고엔지초,       고엔지 초등학교,               GRAMMER, 6", "state": "reviewed"}
 {"id": "GAMEDB.XAP/school.txt:15", "sha1": "cf66e9ab3080df7fef3f780e5bd2da08c3291c96", "ko": "3,  노비노비학원,       노비노비학원초등부,         GRAMMER, 6", "state": "reviewed"}
@@ -1468,9 +1468,9 @@
 {"id": "MENURES.XAP/menumes.txt:2", "sha1": "b1d21b2c66ac62f3e3a0b9b69a863d45c776b8d0", "ko": "001\t@s22이@s14　@s22어@s14　@s22하@s14　@s22기", "state": "reviewed"}
 {"id": "MENURES.XAP/menumes.txt:3", "sha1": "fadd775da70b31825d1b0b7daedfc9e860bc04ac", "ko": "002\t@s22가@s5　@s22족@s5　@s22기@s5　@s22록", "state": "reviewed"}
 {"id": "MENURES.XAP/menumes.txt:4", "sha1": "28c11b660e5b6c3c2cb3ad18b5892c3388c0f2ed", "ko": "003\t@s22설@d20정", "state": "reviewed"}
-{"id": "MENURES.XAP/menumes.txt:7", "sha1": "e9f8245a43f19bbea0b3e8bab1e0d0d7e6df9a8e", "ko": "004\t@s18Ａ@d8@s19조금 아이 부자", "state": "reviewed"}
-{"id": "MENURES.XAP/menumes.txt:8", "sha1": "9f883462d675ab104278685ce51a8b60ad3081f5", "ko": "005\t@s18Ｂ@d8@s19꽤 아이 부자", "state": "reviewed"}
-{"id": "MENURES.XAP/menumes.txt:9", "sha1": "b51267d0004aa8466f2778519cf8200688b2d424", "ko": "006\t@s18Ｃ@d8@s19엄청난 아이 부자", "state": "reviewed"}
+{"id": "MENURES.XAP/menumes.txt:7", "sha1": "e9f8245a43f19bbea0b3e8bab1e0d0d7e6df9a8e", "ko": "004\t@s18Ａ@d8@s19오순도순 다둥이네", "state": "reviewed"}
+{"id": "MENURES.XAP/menumes.txt:8", "sha1": "9f883462d675ab104278685ce51a8b60ad3081f5", "ko": "005\t@s18Ｂ@d8@s19북적북적 다둥이네", "state": "reviewed"}
+{"id": "MENURES.XAP/menumes.txt:9", "sha1": "b51267d0004aa8466f2778519cf8200688b2d424", "ko": "006\t@s18Ｃ@d8@s19왁자지껄 다둥이네", "state": "reviewed"}
 {"id": "MENURES.XAP/menumes.txt:10", "sha1": "8f1adc35a3f81b8e04668cf410fafe163da4b60a", "ko": "007\t@s18@r115@g112@b71시나리오를 고르세요", "state": "reviewed"}
 {"id": "MENURES.XAP/menumes.txt:12", "sha1": "b75cbf215ed34a0914fb29b8d10dccfc4a2e3260", "ko": "008\t@s20@r115@g108@b53ＰＲＥＳＳ@s12　@s20ＳＴＡＲＴ@s12　@s20ＢＵＴＴＯＮ", "state": "reviewed"}
 {"id": "MENURES.XAP/menumes.txt:14", "sha1": "002283bdb89fc06073da2cae7e5c51f041b868fa", "ko": "009\t@s18@r115@g108@b53새 게임", "state": "reviewed"}
@@ -1918,9 +1918,9 @@
 {"id": "MENURES.XAP/window.txt:1566", "sha1": "8ca9996eda13a3d3dd2d489979184493a37d4056", "ko": "comment, 216, 260, left, \"@s16총지출\"", "state": "reviewed"}
 {"id": "MENURES.XAP/window.txt:1567", "sha1": "231f07044ee524d008df08362059f9e96605bf2c", "ko": "comment, 185, 291, left, \"@s17@r115@g112@b71@0작년 이월\"", "state": "reviewed"}
 {"id": "MENURES.XAP/window.txt:1568", "sha1": "9abf8d85a32f88900e7f3149a785e318838f297f", "ko": "comment, 385, 152, left, \"@s17@r115@g112@b71@0인생경험률\"", "state": "reviewed"}
-{"id": "MENURES.XAP/window.txt:1569", "sha1": "867839ed5e035b61afe931a1fd7b125316ed8e3e", "ko": "comment, 385, 170, left, \"@s15Ａ）조금 다둥이네\"", "state": "reviewed"}
-{"id": "MENURES.XAP/window.txt:1570", "sha1": "b0d1dd5fd1d804cdbd0376a360b337dd5f53e50f", "ko": "comment, 385, 222, left, \"@s15Ｂ）제법 다둥이네\"", "state": "reviewed"}
-{"id": "MENURES.XAP/window.txt:1571", "sha1": "1945418f7369be9b4889b29d82a5d5ac7f4e06eb", "ko": "comment, 385, 274, left, \"@s15Ｃ）아주 다둥이네\"", "state": "reviewed"}
+{"id": "MENURES.XAP/window.txt:1569", "sha1": "867839ed5e035b61afe931a1fd7b125316ed8e3e", "ko": "comment, 385, 170, left, \"@s15Ａ）오순도순 다둥이네\"", "state": "reviewed"}
+{"id": "MENURES.XAP/window.txt:1570", "sha1": "b0d1dd5fd1d804cdbd0376a360b337dd5f53e50f", "ko": "comment, 385, 222, left, \"@s15Ｂ）북적북적 다둥이네\"", "state": "reviewed"}
+{"id": "MENURES.XAP/window.txt:1571", "sha1": "1945418f7369be9b4889b29d82a5d5ac7f4e06eb", "ko": "comment, 385, 274, left, \"@s15Ｃ）왁자지껄 다둥이네\"", "state": "reviewed"}
 {"id": "MENURES.XAP/window.txt:1572", "sha1": "4b87f6a0fc279167343f81275c4c708fde72e412", "ko": "string, 561,  99, right, \"@s18@r115@g108@b53@0%s　%s살\", -1, -1", "state": "reviewed"}
 {"id": "MENURES.XAP/window.txt:1573", "sha1": "9dc6f9b8a6ca99a5bf9541bfb0ccdbe3a7319286", "ko": "string, 376, 123, center, \"@s19%s@d8%s@d8인@d8가@d8족\", -1, -1", "state": "reviewed"}
 {"id": "MENURES.XAP/window.txt:1580", "sha1": "fd77b848a159424aedb65421d2effb673156dd7f", "ko": "string, 473, 187, center, \"@s16%s화／%s％\", -1, -1", "state": "reviewed"}
