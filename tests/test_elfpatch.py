@@ -93,3 +93,40 @@ def test_particle_hook_replaces_strlen_call_and_updates_source_pointer():
     assert uc.reg_read(UC_MIPS_REG_V0) == 6
     assert bytes(uc.mem_read(0x500000, 7)) == hangul_map.encode('치코는', cmap) + b'\0'
     assert uc.reg_read(UC_MIPS_REG_S0) == 0x501000 + len(src) - 2
+
+
+def _space_run(out, info, glyph_code, mono=True):
+    """Run t_space as the horizontal glyph loop (0x257068) would after 'add.s f20,f20,f0' with f0 = cell."""
+    import unicorn
+    from unicorn import mips_const as m
+    uc = unicorn.Uc(unicorn.UC_ARCH_MIPS, unicorn.UC_MODE_MIPS32 + unicorn.UC_MODE_LITTLE_ENDIAN)
+    uc.mem_map(0x400000, 0x300000)
+    off = elfpatch._off(bytearray(out), info['base'])
+    uc.mem_write(info['base'], out[off:off + info['size']])
+    st, glyphs, rec = 0x500000, 0x501000, 0x502000
+    uc.mem_write(st + 0x7C, struct.pack('<I', 0x5FF000 if mono else 0))
+    uc.mem_write(st + 0x50, struct.pack('<f', 2.0))
+    uc.mem_write(glyphs, struct.pack('<I', rec if glyph_code is not None else 0))
+    uc.mem_write(rec, struct.pack('<H', glyph_code or 0))
+    uc.reg_write(m.UC_MIPS_REG_CP0_STATUS, uc.reg_read(m.UC_MIPS_REG_CP0_STATUS) | (1 << 29))
+    uc.reg_write(m.UC_MIPS_REG_S0, st)
+    uc.reg_write(m.UC_MIPS_REG_S1, glyphs)
+    uc.reg_write(m.UC_MIPS_REG_F0, struct.unpack('<I', struct.pack('<f', 18.0))[0])
+    uc.reg_write(m.UC_MIPS_REG_F20, struct.unpack('<I', struct.pack('<f', 118.0))[0])
+    uc.reg_write(m.UC_MIPS_REG_RA, 0x600000)
+    uc.emu_start(info['t_space'], 0x600000, count=100)
+    f = lambda r: struct.unpack('<f', struct.pack('<I', uc.reg_read(r) & 0xFFFFFFFF))[0]
+    return f(m.UC_MIPS_REG_F20), f(m.UC_MIPS_REG_F0)
+
+
+@need
+def test_space_hook_halves_the_advance_of_an_ascii_space():
+    pytest.importorskip('unicorn')
+    out, info = elfpatch.name_entry_patch(_orig())
+    w = struct.unpack_from('<I', out, elfpatch._off(bytearray(out), elfpatch.SPACE_SITE))[0]
+    assert w >> 26 == 3 and (w & 0x3FFFFFF) << 2 == info['t_space']
+    assert struct.unpack_from('<I', out, elfpatch._off(bytearray(out), elfpatch.SPACE_SITE + 4))[0] == 0x2652FFFF
+    assert _space_run(out, info, 0x20) == (109.0, 2.0)          # 118 - 18/2; f0 = letter spacing as before
+    assert _space_run(out, info, 0x889F) == (118.0, 2.0)        # other glyphs unchanged
+    assert _space_run(out, info, None) == (118.0, 2.0)          # missing glyph unchanged
+    assert _space_run(out, info, 0x20, mono=False) == (118.0, 2.0)  # proportional mode untouched

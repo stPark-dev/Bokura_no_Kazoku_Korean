@@ -26,6 +26,11 @@ BS_RESUME = 0x1A56A0
 BS_EMPTY = 0x1A62F0
 PARTICLE_SITE = 0x13E4C8    # jal strlen(s1) right after a $VAR$ name was expanded (loop at 0x13E3D0)
 PARTICLE_ORIG = 0x0C0A2CFA  # jal 0x28b3e8; delay slot 'move a0,s1' kept; s0 = source after the closing '$'
+# Horizontal glyph run (0x257068: s0 = text state, s1 -> glyph record pointers, f20 = pen x). In fixed-pitch
+# mode (state+0x7c != 0) every glyph advances by the cell width state+0x10, a space included; then
+# 0x257154 add.s f20,f20,f0 and 0x257158 lwc1 f0,0x50(s0) (letter spacing). D12: a space advances half a cell.
+SPACE_SITE = 0x257158
+SPACE_ORIG = 0xC6000050     # lwc1 f0,0x50(s0) -> jal t_space (delay slot 'addiu s2,s2,-1' kept)
 
 
 def _segments(d):
@@ -153,6 +158,23 @@ t_part:
     lw    $ra, 0($sp)
     jr    $ra
     addiu $sp, $sp, 16
+t_space:
+    lw    $v0, 0x7c($s0)
+    beq   $v0, $zero, t_sp_done
+    lw    $v1, 0($s1)
+    beq   $v1, $zero, t_sp_done
+    nop
+    lhu   $v1, 0($v1)
+    addiu $v0, $zero, 0x20
+    bne   $v1, $v0, t_sp_done
+    lui   $v0, 0x3f00
+    mtc1  $v0, $f1
+    nop
+    mul.s $f1, $f0, $f1
+    sub.s $f20, $f20, $f1
+t_sp_done:
+    jr    $ra
+    lwc1  $f0, 0x50($s0)
 '''
     ks = keystone.Ks(keystone.KS_ARCH_MIPS, keystone.KS_MODE_MIPS32 + keystone.KS_MODE_LITTLE_ENDIAN)
     enc, _ = ks.asm(src, base)
@@ -160,8 +182,9 @@ t_part:
     head, _ = ks.asm(src.split('t_bs:')[0], base)
     head2, _ = ks.asm(src.split('t_rbs:')[0], base)
     head3, _ = ks.asm(src.split('t_part:')[0], base)
+    head4, _ = ks.asm(src.split('t_space:')[0], base)
     return code, {'t_commit': base, 't_bs': base + len(head), 't_rbs': base + len(head2),
-                  't_part': base + len(head3)}
+                  't_part': base + len(head3), 't_space': base + len(head4)}
 
 
 def _j(target):
@@ -193,5 +216,6 @@ def name_entry_patch(elf):
     table[RIGHT_CANCEL_SITE] = (RIGHT_CANCEL_ORIG[0], _j(tsyms['t_rbs']))
     table[RIGHT_CANCEL_SITE + 4] = (RIGHT_CANCEL_ORIG[1], 0)
     table[PARTICLE_SITE] = (PARTICLE_ORIG, (3 << 26) | (tsyms['t_part'] >> 2))
+    table[SPACE_SITE] = (SPACE_ORIG, (3 << 26) | (tsyms['t_space'] >> 2))
     patch_words(d, table)
     return bytes(d), {'base': HOOK_BASE, 'size': len(blob), 'end': end, **tsyms, **ime_syms}
