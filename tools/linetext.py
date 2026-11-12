@@ -70,6 +70,24 @@ def check(src, text, encode=_cp932):
     return errs
 
 
+# Fixed byte limits of CSV fields, by file: {file: (field index, max bytes, rows whose field 3 is one of)}.
+# school.txt full name: the school menu formats '@r%d@g%d@b%d@s%d@e%d@0%s@e0' (SCPS_150.88 0x1DF0B0) with
+# the name cut at 26 bytes; a cut double-byte character swallows the '@' and 'e0' is drawn as text.
+FIELD_BYTES = {'GAMEDB.XAP/school.txt': (2, 26, {'JHIGH', 'HIGH', 'COLLEGE'})}
+
+
+def field_limits(line_id, text, encode=_cp932):
+    rule = FIELD_BYTES.get(line_id.rpartition(':')[0])
+    if not rule:
+        return []
+    col, most, kinds = rule
+    f = text.split(',')
+    if len(f) <= max(col, 3) or f[3].strip() not in kinds:
+        return []
+    n = len(encode(f[col].strip(TRIM)))
+    return [f'field {col} {n} bytes > {most}'] if n > most else []
+
+
 SIZE = re.compile(r'@s(\d+)')
 
 

@@ -92,3 +92,18 @@ def test_apply_sys_uses_first_passing_encoder():
     ko = [{'id': 'M.XAP/m.txt:1', 'sha1': 'S', 'ko': '000\t@s18새 게임'}]
     out = apply_text.apply_sys({'M.XAP/m.txt': data}, src, ko, [linetext.horizontal_encoder(enc), enc])
     assert out['M.XAP/m.txt'] == b'000\t@s18' + enc('새') + b'@s9 @s18' + enc('게임') + b'\r\n'
+
+
+def test_school_full_name_over_26_bytes_fails():
+    # the school menu formats '@0%s@e0' with the name cut at 26 bytes: a cut double-byte character
+    # swallows the '@' and 'e0' is drawn as text
+    src = '14, ユーラシア大政経,   私立）ユーラシア大　政経学, COLLEGE, 4'
+    data = (src + '\r\n').encode('cp932')
+    base = [{'id': 'GAMEDB.XAP/school.txt:1', 'file': 'GAMEDB.XAP/school.txt', 'src': src, 'sha1': 'S'}]
+
+    def run(name):
+        ko = [{'id': 'GAMEDB.XAP/school.txt:1', 'sha1': 'S', 'ko': f'14, 유라시아대 정경,   {name}, COLLEGE, 4'}]
+        return apply_text.apply_sys({'GAMEDB.XAP/school.txt': data}, base, ko, enc)
+    with pytest.raises(ValueError, match='27 bytes > 26'):
+        run('사립）유라시아 대학　정경학')
+    assert run('사립）유라시아대　정경학부')

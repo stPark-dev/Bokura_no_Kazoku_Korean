@@ -58,6 +58,9 @@ def apply_sys(files, src, ko, encode):
         for i, t in texts.items():
             out = linetext.render(out, {i: t}, name, chosen[(base[i], t)])
         return out
+    errors = [f'{k["id"]}: {e}' for k in ko for e in linetext.field_limits(k['id'], k['ko'], encoders[-1])]
+    if errors:
+        raise ValueError('\n'.join(errors))
     return _apply(files, src, ko, encoders[-1], check, lambda b: b['id'], render)
 
 

@@ -1224,15 +1224,15 @@
 {"id": "GAMEDB.XAP/school.txt:26", "sha1": "0448859362a3c7a000e01978e4e35d673975a700", "ko": "11, 테이토대　법학부,   국립）테이토대　법학부,     COLLEGE, 4", "state": "reviewed"}
 {"id": "GAMEDB.XAP/school.txt:27", "sha1": "bff1ba47df2460968f3508ff1aecf96cd80dabb2", "ko": "12, 테이토대　농학부,   국립）테이토대　농학부,     COLLEGE, 4", "state": "reviewed"}
 {"id": "GAMEDB.XAP/school.txt:28", "sha1": "d0b7bd60b4d6e30aa28e2f348a4bbc778ef6deb4", "ko": "13, 테이토대　공학부,   국립）테이토대　공학부,     COLLEGE, 4", "state": "reviewed"}
-{"id": "GAMEDB.XAP/school.txt:30", "sha1": "b1264d6f1e8a29c5b45476a934dd40e669c4c096", "ko": "14, 유라시아대 정경,   사립）유라시아 대학　정경학, COLLEGE, 4", "state": "reviewed"}
-{"id": "GAMEDB.XAP/school.txt:31", "sha1": "c951d987a9c8e2be18ec05d04e7d8e6d7302bc1c", "ko": "15, 유라시아대 교육,   사립）유라시아 대학　교육학, COLLEGE, 4", "state": "reviewed"}
+{"id": "GAMEDB.XAP/school.txt:30", "sha1": "b1264d6f1e8a29c5b45476a934dd40e669c4c096", "ko": "14, 유라시아대 정경,   사립）유라시아대　정경학부, COLLEGE, 4", "state": "reviewed"}
+{"id": "GAMEDB.XAP/school.txt:31", "sha1": "c951d987a9c8e2be18ec05d04e7d8e6d7302bc1c", "ko": "15, 유라시아대 교육,   사립）유라시아대　교육학부, COLLEGE, 4", "state": "reviewed"}
 {"id": "GAMEDB.XAP/school.txt:33", "sha1": "406f5e176516bcf1b174fc49162179f734b18114", "ko": "16, 세이세이여대문학,   사립）세이세이여대　문학부, COLLEGE, 4", "state": "reviewed"}
 {"id": "GAMEDB.XAP/school.txt:34", "sha1": "098e7b3f897591c3c824b9557c63a3d1dad204c3", "ko": "17, 세이세이여대국제,   사립）세이세이여대국제사회, COLLEGE, 4", "state": "reviewed"}
 {"id": "GAMEDB.XAP/school.txt:35", "sha1": "41b0e1df03cfc56ede78e5cfac82f164a11ee8cb", "ko": "18, 세이세이여대경영,   사립）세이세이여대　경영학, COLLEGE, 4", "state": "reviewed"}
 {"id": "GAMEDB.XAP/school.txt:37", "sha1": "b2fabbf8701687024e5f3bc9761d3483a2797b9a", "ko": "19, 아트 스쿨　,   도쿄 아트 스쿨,         COLLEGE, 2", "state": "reviewed"}
 {"id": "GAMEDB.XAP/school.txt:38", "sha1": "e231fe20d500654de756d5b1c1e8f0dbdb6d486e", "ko": "20, 타나카 치요 복식,   타나카 치요 복식학교,       COLLEGE, 2", "state": "reviewed"}
-{"id": "GAMEDB.XAP/school.txt:39", "sha1": "fea6ec84ac8b0e3168e04f6117520dd166a72517", "ko": "21, 신주쿠조리 일식,   신주쿠 조리전문학교　일식과, COLLEGE, 2", "state": "reviewed"}
-{"id": "GAMEDB.XAP/school.txt:40", "sha1": "98b6dc665283ef100c32a93e7637dd277ffa92b3", "ko": "22, 신주쿠조리 양식,   신주쿠 조리전문학교　양식과, COLLEGE, 2", "state": "reviewed"}
+{"id": "GAMEDB.XAP/school.txt:39", "sha1": "fea6ec84ac8b0e3168e04f6117520dd166a72517", "ko": "21, 신주쿠조리 일식,   신주쿠조리전문학교　일식과, COLLEGE, 2", "state": "reviewed"}
+{"id": "GAMEDB.XAP/school.txt:40", "sha1": "98b6dc665283ef100c32a93e7637dd277ffa92b3", "ko": "22, 신주쿠조리 양식,   신주쿠조리전문학교　양식과, COLLEGE, 2", "state": "reviewed"}
 {"id": "GAMEDB.XAP/school.txt:41", "sha1": "ced45b8f5517b1ff17bb09523f2c06d2b2d21382", "ko": "23, 테이토 간호학교,   테이토대 병원 간호학교,   COLLEGE, 3", "state": "reviewed"}
 {"id": "GAMEDB.XAP/school.txt:43", "sha1": "e93def22bc19fa3927da6a52507def8071962377", "ko": "24, 재수,             재수학원,                     CRAMMER, 1", "state": "reviewed"}
 {"id": "GAMEDB.XAP/school.txt:59", "sha1": "d32b13f3c33e441c1787add2843eb3ef2051c60b", "ko": "1,  0, 사쿠라유치원,       0,    0,   0,   0,   0,   0", "state": "reviewed"}
