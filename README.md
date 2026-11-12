@@ -96,7 +96,7 @@ f2a8187457148a66fbbb3841032fe430cb5572d4  Bokura no Kazoku - My Family Growing U
 | 이름 입력 | `CMenuInputKanji`에 MIPS 훅 3곳, 자모 조합 코드는 Python 기준 구현과 Unicorn으로 대조(`tools/ime_asm.py`, `tools/elfpatch.py`) |
 | 조사 | 이름 변수 확장 직후 훅(0x13E4C8): 번역문의 `은（는）` 꼴을 이름 끝 받침에 맞춰 하나로 |
 | 그림 | TIM2 재인코딩(원본 팔레트 유지), 영역별 한글 렌더 사양 `text/gfx_ko.json`, 로고는 인페인팅 후 생성 |
-| 동영상 | 제목 구간 GOP만 다시 인코딩해 0바이트 채움으로 같은 길이로 끼움 → 나머지 영상·오디오·타임스탬프는 원본 그대로(`tools/pss.py`, `tools/movie_title.py`) |
+| 동영상 | 제목 구간 GOP만 원본과 같은 GOP 구성(I 위치·B 2장·열린 GOP)으로 다시 인코딩하고, 그림 한 장 한 장을 원래 위치에 넣은 뒤 0바이트로 채움 → 그림별 PES 타임스탬프가 그대로 맞고, 나머지 영상·오디오는 원본 그대로(`tools/pss.py`, `tools/movie_title.py`) |
 
 ## 빌드
 

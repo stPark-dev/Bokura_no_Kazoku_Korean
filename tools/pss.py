@@ -122,3 +122,42 @@ def strip_sequence_headers(seg):
         if not skipping:
             out += seg[a:b]
     return bytes(out)
+
+
+_UNIT_END = (0x00, 0xb3, 0xb7, 0xb8)          # picture, sequence header, sequence end, GOP
+
+
+def picture_units(es, start, end):
+    """Pictures in es[start:end] in coded order: offset/end (picture header up to the next picture, GOP,
+    sequence header or sequence end code), temporal reference and coding type."""
+    out = []
+    j = es.find(b'\x00\x00\x01', start, end)
+    while 0 <= j:
+        code = es[j + 3]
+        if out and out[-1]['end'] is None and code in _UNIT_END:
+            out[-1]['end'] = j
+        if code == 0x00:
+            out.append({'offset': j, 'end': None, 'tr': (es[j + 4] << 2) | (es[j + 5] >> 6),
+                        'type': 'xIPB'[(es[j + 5] >> 3) & 7]})
+        j = es.find(b'\x00\x00\x01', j + 3, end)
+    if out and out[-1]['end'] is None:
+        out[-1]['end'] = end
+    return out
+
+
+def place_pictures(es, start, end, new):
+    """Put the pictures of `new` (same coded order, types and temporal references) into the slots of the
+    pictures in es[start:end], each at its original offset followed by zero stuffing. Everything else,
+    GOP headers included, stays. The PES timestamps of the pack that carries each picture start therefore
+    keep pointing at the same picture."""
+    old_units, new_units = picture_units(es, start, end), picture_units(new, 0, len(new))
+    if [(u['tr'], u['type']) for u in old_units] != [(u['tr'], u['type']) for u in new_units]:
+        raise ValueError('new pictures differ in coded order, type or temporal reference')
+    out = bytearray(es)
+    for o, n in zip(old_units, new_units):
+        data = new[n['offset']:n['end']]
+        room = o['end'] - o['offset']
+        if len(data) > room:
+            raise ValueError(f'picture at {o["offset"]:#x}: {len(data)} bytes > {room}')
+        out[o['offset']:o['end']] = data + b'\0' * (room - len(data))
+    return bytes(out)

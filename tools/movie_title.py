@@ -97,35 +97,60 @@ def _run(cmd):
     subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
 
+def _closed(es, gop):
+    return bool(es[gop['offset'] + 7] & 0x40)
+
+
+def _encode_chunk(es, table, a, b, fdir, start_number, lead, tmp):
+    """Encode frames for GOPs [a, b) (closed GOPs only at a) and return the pictures from GOP a on."""
+    first = table[a]['base']
+    keys = [table[k]['base'] - first + lead + next(u['tr'] for u in pss.picture_units(
+        es, table[k]['offset'], table[k + 1]['offset']) if u['type'] == 'I') for k in range(a, b)]
+    frames = lead + table[b]['base'] - first
+    _, non_intra = pss.quant_matrices(es)
+    out = os.path.join(tmp, 'seg.m2v')
+    for q in range(2, 32):
+        _run(['ffmpeg', '-y', '-framerate', '30000/1001', '-start_number', str(start_number),
+              '-i', os.path.join(fdir, '%05d.png'), '-frames:v', str(frames), '-c:v', 'mpeg2video',
+              '-pix_fmt', 'yuv420p', '-g', '1000', '-bf', '2', '-b_strategy', '0', '-sc_threshold', '1000000000',
+              '-aspect', '10:7', '-qscale:v', str(q),
+              '-force_key_frames', ','.join(f'{max(0.0, k - 0.5) * 1001 / 30000:.6f}' for k in sorted({0, *keys})),
+              '-inter_matrix', ','.join(map(str, non_intra)), out])
+        seg = open(out, 'rb').read()
+        if lead:
+            seg = seg[pss.gops(seg)[1]['offset']:]
+        try:
+            return pss.place_pictures(es, table[a]['offset'], table[b]['offset'], seg)
+        except ValueError as e:
+            if 'bytes >' not in str(e):
+                raise
+            es_fit = e
+    raise ValueError(f'could not fit the re-encoded pictures: {es_fit}')
+
+
 def reencode(es, a, b, edit, tmp):
-    """Re-encode GOPs [a, b) of `es` with the frame list passed through edit(list of PIL) -> list of PIL."""
+    """Re-encode GOPs [a, b) of `es` with the frame list passed through edit(list of PIL) -> list of PIL.
+    The encoder is driven to the same GOP layout (I frames at the same display positions, two B frames,
+    open GOPs; a closed GOP starts a separate encode) and every picture is put back at its original offset,
+    so the per-picture PES timestamps stay valid. An open first GOP gets four lead-in frames so its leading
+    B frames have a P frame to refer to."""
     table = pss.gops(es)
     first, n = table[a]['base'], table[b]['base'] - table[a]['base']
+    lead = 0 if a == 0 or _closed(es, table[a]) else 4
     src = os.path.join(tmp, 'in.m2v')
     open(src, 'wb').write(es)
     fdir = os.path.join(tmp, 'f')
     os.makedirs(fdir, exist_ok=True)
-    _run(['ffmpeg', '-y', '-i', src, '-vf', f"select='between(n,{first},{first + n - 1})'", '-vsync', '0',
+    _run(['ffmpeg', '-y', '-i', src, '-vf', f"select='between(n,{first - lead},{first + n - 1})'", '-vsync', '0',
           '-start_number', '0', os.path.join(fdir, '%05d.png')])
-    paths = [os.path.join(fdir, f'{k:05d}.png') for k in range(n)]
+    paths = [os.path.join(fdir, f'{k:05d}.png') for k in range(lead, lead + n)]
     for p, img in zip(paths, edit([Image.open(p) for p in paths])):
         img.save(p)
-    _, non_intra = pss.quant_matrices(es)
-    budget = table[b]['offset'] - table[a]['offset']
-    rate = int(budget * 8 / (n / 29.97) * 0.9)
-    for _ in range(8):
-        out = os.path.join(tmp, 'seg.m2v')
-        _run(['ffmpeg', '-y', '-framerate', '30000/1001', '-start_number', '0', '-i', os.path.join(fdir, '%05d.png'),
-              '-frames:v', str(n), '-c:v', 'mpeg2video', '-pix_fmt', 'yuv420p', '-g', '18', '-bf', '2',
-              '-flags', '+cgop', '-sc_threshold', '1000000000', '-aspect', '10:7', '-b:v', str(rate), '-maxrate', '9000k', '-bufsize', '1835008',
-              '-inter_matrix', ','.join(map(str, non_intra)), out])
-        seg = pss.strip_sequence_headers(pss.gop_data(open(out, 'rb').read()))
-        if len(seg) <= budget:
-            break
-        rate = int(rate * 0.8)
-    else:
-        raise ValueError('could not fit the re-encoded segment')
-    return pss.replace_range(es, table[a]['offset'], table[b]['offset'], seg), n
+    cuts = [a] + [k for k in range(a + 1, b) if _closed(es, table[k])] + [b]
+    for c0, c1 in zip(cuts, cuts[1:]):
+        lead_c = lead if c0 == a else 0
+        es = _encode_chunk(es, table, c0, c1, fdir, table[c0]['base'] - first + lead - lead_c, lead_c, tmp)
+    return es, n
 
 
 def ending(pss_bytes, number, title, gops=11):
@@ -151,7 +176,7 @@ def ending(pss_bytes, number, title, gops=11):
 
 # Opening: 「ぼくらのかぞく」 letter-spaced over a near-static city shot (measured on SCPS-15088 OPENING.PSS).
 OPENING = {'centers': [87, 163, 240, 319, 400, 482, 558], 'rows': (192, 209), 'plate': 1680, 'first': 1690,
-           'last': 1905, 'text': '우리들의가족'}
+           'last': 1905, 'text': '우리들의가족', 'shot_diff': 25}
 
 
 def opening_edit(frames, first_index, cfg=OPENING):
@@ -159,7 +184,7 @@ def opening_edit(frames, first_index, cfg=OPENING):
     from PIL import ImageFilter
     plate = np.asarray(frames[cfg['plate'] - first_index].convert('L')).astype(float)
     y0, y1 = cfg['rows']
-    boxes = [(c - 14, y0 - 6, c + 15, y1 + 6) for c in cfg['centers']]
+    boxes = [(c - 18, y0 - 6, c + 16, y1 + 9) for c in cfg['centers']]
 
     def strength(f, box):
         x0, b0, x1, b1 = box
@@ -170,24 +195,25 @@ def opening_edit(frames, first_index, cfg=OPENING):
     n = len(cfg['text'])
     span = (cfg['centers'][0], cfg['centers'][-1])
     xs = [span[0] + (span[1] - span[0]) * j / (n - 1) for j in range(n)]
-    near = [min(range(len(boxes)), key=lambda i: abs(cfg['centers'][i] - x)) for x in xs]
     f_ = _font(20)
-    out = []
+    out, started = [], False
     for f, r in zip(frames, raw):
-        alpha = [min(1.0, v / p) if v / p > 0.08 else 0.0 for v, p in zip(r, peak)]
-        if not any(alpha):
+        # Inside the sky shot, every box is erased from the first trace of the title on (the source letters
+        # fade out at different rates, and cloud drift leaves small residues), and the Korean title is drawn
+        # with the mean fade. A cut to another shot ends the edit: there every box looks "bright".
+        ratios = [v / p for v, p in zip(r, peak)]
+        shot = np.abs(np.asarray(f.convert('L')).astype(float) - plate).mean() < cfg['shot_diff']
+        started = started or max(ratios) > 0.03
+        if not shot or not started:
             out.append(f)
             continue
+        a = min(1.0, float(np.mean(ratios)))
         bgr = cv2.cvtColor(np.asarray(f.convert('RGB')), cv2.COLOR_RGB2BGR)
         mask = np.zeros(bgr.shape[:2], np.uint8)
-        for (x0, b0, x1, b1), a in zip(boxes, alpha):
-            if a:
-                mask[b0:b1, x0:x1] = 255
+        for x0, b0, x1, b1 in boxes:
+            mask[b0:b1, x0:x1] = 255
         clean = Image.fromarray(cv2.cvtColor(cv2.inpaint(bgr, mask, 5, cv2.INPAINT_TELEA), cv2.COLOR_BGR2RGB)).convert('RGBA')
-        for ch, x, i in zip(cfg['text'], xs, near):
-            a = alpha[i]
-            if not a:
-                continue
+        for ch, x in zip(cfg['text'], xs):
             shadow = Image.new('RGBA', clean.size, (0, 0, 0, 0))
             ImageDraw.Draw(shadow).text((x + 2, (y0 + y1) / 2 + 2), ch, font=f_, fill=(40, 50, 70, int(150 * a)),
                                         anchor='mm')
