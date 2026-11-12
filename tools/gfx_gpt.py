@@ -286,6 +286,53 @@ def has_guide_box(result, size, areas):
     return bool(m.mean(axis=1).max() > 0.5 or m.mean(axis=0).max() > 0.5)
 
 
+def _is_key(px):
+    r, g, b = px
+    return r > 200 and b > 200 and g < 80
+
+
+def refit(result, size, areas):
+    """Sprite sheets are cut by fixed cells, but GPT respaces words in a row of cells. For each row of 2+
+    cells (same y), split the GPT row at its widest magenta gaps into one word per cell and fit each word
+    into its own cell (aspect kept, centred, 1 px margin). Returns the result at SCALE x size."""
+    big = result.convert('RGB').resize((size[0] * SCALE, size[1] * SCALE), Image.LANCZOS)
+    rows = {}
+    for a in areas:
+        rows.setdefault(a[1], []).append(a)
+    for group in rows.values():
+        if len(group) < 2:
+            continue
+        group = sorted(group, key=lambda a: a[0])
+        x0, x1 = group[0][0] * SCALE, max(a[0] + a[2] for a in group) * SCALE
+        y0, y1 = min(a[1] for a in group) * SCALE, max(a[1] + a[3] for a in group) * SCALE
+        band = big.crop((x0, y0, x1, y1))
+        px = band.load()
+        ink = [any(not _is_key(px[x, y]) for y in range(band.height)) for x in range(band.width)]
+        cols = [x for x, v in enumerate(ink) if v]
+        if not cols:
+            continue
+        gaps = []                                 # (length, start, end) of empty runs between inked columns
+        for a, b in zip(cols, cols[1:]):
+            if b - a > 1:
+                gaps.append((b - a - 1, a + 1, b))
+        if len(gaps) < len(group) - 1:
+            continue
+        cuts = sorted(sorted(gaps, reverse=True)[:len(group) - 1], key=lambda g: g[1])
+        bounds = [cols[0]] + [c for g in cuts for c in (g[1], g[2])] + [cols[-1] + 1]
+        words = []
+        for k in range(len(group)):
+            wx0, wx1 = bounds[2 * k], bounds[2 * k + 1]
+            ys = [y for y in range(band.height) if any(not _is_key(px[x, y]) for x in range(wx0, wx1))]
+            words.append(band.crop((wx0, ys[0], wx1, ys[-1] + 1)))
+        big.paste(KEY, (x0, y0, x1, y1))
+        for (cx, cy, cw, ch), word in zip(group, words):
+            bw, bh = (cw - 2) * SCALE, (ch - 2) * SCALE
+            sc = min(bw / word.width, bh / word.height)
+            word = word.resize((max(1, round(word.width * sc)), max(1, round(word.height * sc))), Image.LANCZOS)
+            big.paste(word, ((cx + 1) * SCALE + (bw - word.width) // 2, (cy + 1) * SCALE + (bh - word.height) // 2))
+    return big
+
+
 def take_areas(path, items, size):
     """GPT often draws a cover title larger than the original one, so covers take the whole repainted cover
     (cutting at the old title box leaves seams); icon sheets take only their text rects."""
@@ -298,6 +345,8 @@ def _take_one(read, spec, path, result, titles, imports, compare_dir):
     orig = tim2.decode(read(path))
     if not path.startswith('MENU.XAP/') and has_guide_box(result, orig.size, rects(path, spec[path])):
         raise ValueError('빨간 안내 테두리가 그려져 있음 - 안내/ 가 아니라 입력/ 그림으로 다시 요청')
+    if not path.startswith('MENU.XAP/'):
+        result = refit(result, orig.size, rects(path, spec[path]))
     new = merge(orig, result, take_areas(path, spec[path], orig.size), keep_alpha=path.startswith('MENU.XAP/'))
     dest = os.path.join(imports, *path[:-4].split('/')) + '.png'
     os.makedirs(os.path.dirname(dest), exist_ok=True)

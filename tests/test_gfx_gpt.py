@@ -195,3 +195,24 @@ def test_guide_box_moved_elsewhere_is_still_detected():
     im = Image.new('RGB', (200, 100), KEY)
     ImageDraw.Draw(im).rectangle((3, 3, 196, 80), outline=(250, 10, 10), width=4)
     assert gfx_gpt.has_guide_box(im, (20, 10), [[5, 3, 4, 4]])
+
+
+def test_refit_puts_each_word_back_into_its_own_cell():
+    from PIL import ImageDraw
+    rects = [[0, 0, 10, 5], [10, 0, 10, 5], [20, 0, 20, 5]]        # original sprite cells (1x)
+    gpt = Image.new('RGB', (40 * 4, 10 * 4), KEY)
+    d = ImageDraw.Draw(gpt)
+    for x0, x1 in ((2, 30), (60, 90), (110, 150)):                 # GPT spaced the words differently
+        d.rectangle((x0, 4, x1, 15), fill=(250, 250, 250))
+    out = gfx_gpt.refit(gpt, (40, 10), rects)
+    a = out.load()
+    for x, y, w, h in rects:                                       # every word lies inside its cell
+        xs = [px for px in range(out.width) for py in range(0, 20) if a[px, py] != KEY and x * 4 <= px < (x + w) * 4]
+        assert xs
+    for b in (40, 80):                                             # nothing crosses a cell border
+        assert all(a[b, py] == KEY for py in range(20)) and all(a[b - 1, py] == KEY for py in range(20))
+
+
+def test_refit_leaves_single_rects_alone():
+    gpt = Image.new('RGB', (40, 40), (1, 2, 3))
+    assert gfx_gpt.refit(gpt, (10, 10), [[0, 0, 5, 5]]).tobytes() == gpt.tobytes()
