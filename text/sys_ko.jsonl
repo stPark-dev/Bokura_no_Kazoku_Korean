@@ -1444,11 +1444,11 @@
 {"id": "MENU.XAP/schlinfo.txt:10", "sha1": "d6bd44d3d5989ffa9fa1c461096a92f9520d802a", "ko": "2, inf03010.tm2,  @r115@g115@b115집 근처에 있는 즐겁고@n밝은 평범한 초등학교", "state": "reviewed"}
 {"id": "MENU.XAP/schlinfo.txt:11", "sha1": "463a0b8131531a47f85929573aeed0d8a5347808", "ko": "3, inf03020.tm2,  @r115@g115@b115자율성을 존중해 @r92@g87@b42기력@r115@g115@b115을@n키우는 교풍，학급이 작아@n전 과목 성적이 오릅니다", "state": "reviewed"}
 {"id": "MENU.XAP/schlinfo.txt:13", "sha1": "fa07d8553a8cf5cd9f6aa82b921c2109cb54c480", "ko": "4, inf05010.tm2,  @r115@g115@b115집 근처 평범한 중학교@n문예부가 조금 유명하다", "state": "reviewed"}
-{"id": "MENU.XAP/schlinfo.txt:14", "sha1": "19252d63d6ec8a029924de75c097e1b9fe0fa02c", "ko": "5, inf06010.tm2,  @r115@g115@b115사립 명문 중학교，@r92@g87@b42문이스@r115@g115@b115@n학력을 @r92@g87@b42크게@r115@g115@b115 키웁니다@n조금 세련된 남녀공학", "state": "reviewed"}
-{"id": "MENU.XAP/schlinfo.txt:15", "sha1": "976056ebd52e627b9a1a45623fb08db6fc09ebff", "ko": "6, inf16010.tm2,  @r115@g115@b115전 과목을 키우는 명문 여중@n@r92@g87@b42미@r115@g115@b115가 @r92@g87@b42크게@r115@g115@b115 오르기로 유명@n고교 진학에도 유리", "state": "reviewed"}
+{"id": "MENU.XAP/schlinfo.txt:14", "sha1": "19252d63d6ec8a029924de75c097e1b9fe0fa02c", "ko": "5, inf06010.tm2,  @r115@g115@b115명문 사립중，@r92@g87@b42국・수・체@r115@g115@b115@n학력을 @r92@g87@b42크게@r115@g115@b115 키웁니다@n조금 세련된 남녀공학", "state": "reviewed"}
+{"id": "MENU.XAP/schlinfo.txt:15", "sha1": "976056ebd52e627b9a1a45623fb08db6fc09ebff", "ko": "6, inf16010.tm2,  @r115@g115@b115전 과목을 키우는 명문 여중@n@r92@g87@b42예술@r115@g115@b115이 @r92@g87@b42크게@r115@g115@b115 오르기로 유명@n고교 진학에도 유리", "state": "reviewed"}
 {"id": "MENU.XAP/schlinfo.txt:17", "sha1": "fe56d2c16a143bb4a1804b535716c4308999407c", "ko": "7, inf07010.tm2,  @r115@g115@b115우리 구의 평범한 고등학교@n옷・머리 자유，불량은 적다", "state": "reviewed"}
-{"id": "MENU.XAP/schlinfo.txt:18", "sha1": "c70e143d22f89fe5c6ce38d861c784710e5a37f3", "ko": "8, inf08010.tm2,  @r92@g87@b42문이스@r115@g115@b115 학력을 @r92@g87@b42크게@r115@g115@b115@n키우는 입시 명문 남고@n운동으로도 유명하다", "state": "reviewed"}
-{"id": "MENU.XAP/schlinfo.txt:19", "sha1": "fe0855ea05ae2adcb94bca21246faeaf539a5595", "ko": "9, inf16030.tm2,  @r115@g115@b115전 과목을 키우는 명문 여고@n@r92@g87@b42미@r115@g115@b115가 @r92@g87@b42크게@r115@g115@b115 오르기로 유명@n대학 진학에도 유리", "state": "reviewed"}
+{"id": "MENU.XAP/schlinfo.txt:18", "sha1": "c70e143d22f89fe5c6ce38d861c784710e5a37f3", "ko": "8, inf08010.tm2,  @r92@g87@b42국어・수학・체육@r115@g115@b115을 @r92@g87@b42크게@r115@g115@b115@n키우는 입시 명문 남고@n운동으로도 유명하다", "state": "reviewed"}
+{"id": "MENU.XAP/schlinfo.txt:19", "sha1": "fe0855ea05ae2adcb94bca21246faeaf539a5595", "ko": "9, inf16030.tm2,  @r115@g115@b115전 과목을 키우는 명문 여고@n@r92@g87@b42예술@r115@g115@b115이 @r92@g87@b42크게@r115@g115@b115 오르기로 유명@n대학 진학에도 유리", "state": "reviewed"}
 {"id": "MENU.XAP/schlinfo.txt:21", "sha1": "90c973bddbe1625c294bb4a7f5b316a437019752", "ko": "10, inf09010.tm2, 국립）테이토대　의학부", "state": "reviewed"}
 {"id": "MENU.XAP/schlinfo.txt:22", "sha1": "f53ba34dc3994c41dfc51755b8c69a2ab9886be1", "ko": "11, inf09010.tm2, 국립）테이토대　법학부", "state": "reviewed"}
 {"id": "MENU.XAP/schlinfo.txt:23", "sha1": "8f63a383ede8d47624f2147ee025009eeff0bfdc", "ko": "12, inf09010.tm2, @r115@g115@b115국립대 명문 농학부@n@r92@g87@b42바이오@r115@g115@b115 분야 취업에 유리", "state": "reviewed"}
@@ -1458,8 +1458,8 @@
 {"id": "MENU.XAP/schlinfo.txt:29", "sha1": "03a8484cae1cfb236055268546ddb084abd05d73", "ko": "16, inf16060.tm2, @r115@g115@b115명문 여대 문학부，@r92@g87@b42언론@n관련@r115@g115@b115 취업률이 높다！", "state": "reviewed"}
 {"id": "MENU.XAP/schlinfo.txt:30", "sha1": "cf125b2158d437c62fbcac61d09c5f5af4c20690", "ko": "17, inf16060.tm2, @r115@g115@b115사립대 최상위권 학부@n@r92@g87@b42국제 사회@r115@g115@b115에서 활약하자", "state": "reviewed"}
 {"id": "MENU.XAP/schlinfo.txt:31", "sha1": "44d96f9144f28769f7ab88ddecb1a7aeb5d94c6c", "ko": "18, inf16060.tm2, @r115@g115@b115경영학을 배워 @r92@g87@b42창업가@r115@g115@b115나@n@r92@g87@b42비서@r115@g115@b115를 꿈꿔 보자", "state": "reviewed"}
-{"id": "MENU.XAP/schlinfo.txt:33", "sha1": "ac0839f517de736f4a1303f66cef39fbe4584263", "ko": "19, inf11010.tm2, @r115@g115@b115@r92@g87@b42미@r115@g115@b115 파라미터를 올리고@n졸업 후 인맥도 여기서", "state": "reviewed"}
-{"id": "MENU.XAP/schlinfo.txt:34", "sha1": "07db636c8242e19cfdac1a4e0497e01ca3cccd87", "ko": "20, inf12010.tm2, @r115@g115@b115@r92@g87@b42미@r115@g115@b115 파라미터를 올리고@n덤으로 @r92@g87@b42튀는 성격@r115@g115@b115으로…", "state": "reviewed"}
+{"id": "MENU.XAP/schlinfo.txt:33", "sha1": "ac0839f517de736f4a1303f66cef39fbe4584263", "ko": "19, inf11010.tm2, @r115@g115@b115@r92@g87@b42예술@r115@g115@b115 능력치를 올리고@n졸업 후 인맥도 여기서", "state": "reviewed"}
+{"id": "MENU.XAP/schlinfo.txt:34", "sha1": "07db636c8242e19cfdac1a4e0497e01ca3cccd87", "ko": "20, inf12010.tm2, @r115@g115@b115@r92@g87@b42예술@r115@g115@b115 능력치를 올리고@n덤으로 @r92@g87@b42튀는 성격@r115@g115@b115으로…", "state": "reviewed"}
 {"id": "MENU.XAP/schlinfo.txt:35", "sha1": "77e7df4d4e31127b6b8d772c1d6a78cde53fdb4f", "ko": "21, inf13010.tm2, @r115@g115@b115@r92@g87@b42일식@r115@g115@b115의 기본을 탄탄하게@n공부해 보자", "state": "reviewed"}
 {"id": "MENU.XAP/schlinfo.txt:36", "sha1": "83afc1ec804230e66963d2fdb222b16d6e691c78", "ko": "22, inf13010.tm2, @r115@g115@b115@r92@g87@b42양식@r115@g115@b115의 세계를 체험하고@n솜씨를 갈고닦아 보자", "state": "reviewed"}
 {"id": "MENU.XAP/schlinfo.txt:37", "sha1": "09d27a765b7c966a2c293df48fd8cdfacd480953", "ko": "23, inf14010.tm2, @r115@g115@b115@r92@g87@b42간호학@r115@g115@b115 공부뿐만 아니라@n@r92@g87@b42기력@r115@g115@b115과 @r92@g87@b42체력@r115@g115@b115도 자랍니다", "state": "reviewed"}
@@ -1507,10 +1507,10 @@
 {"id": "MENURES.XAP/menumes.txt:59", "sha1": "5567e0daa3fa84ee08b20050eac2a54d629aef5d", "ko": "041\t@d9@s18@r115@g115@b86러브", "state": "reviewed"}
 {"id": "MENURES.XAP/menumes.txt:60", "sha1": "43c8d8e0efa2cb919de6addada79a80a983f6ce1", "ko": "042\t@d9@s18@r115@g115@b86기력", "state": "reviewed"}
 {"id": "MENURES.XAP/menumes.txt:61", "sha1": "7e525d2af85a6454c9d002686436be429efbc6e3", "ko": "043\t@d9@s18@r115@g115@b86체력", "state": "reviewed"}
-{"id": "MENURES.XAP/menumes.txt:63", "sha1": "baf01916c99ef82931be46844d21aa1268d4db79", "ko": "044\t@s18@r115@g115@b86문", "state": "reviewed"}
-{"id": "MENURES.XAP/menumes.txt:64", "sha1": "c83741e7d6ae0879d212d94e0e37e8ec8b003e6f", "ko": "045\t@s18@r115@g115@b86이", "state": "reviewed"}
-{"id": "MENURES.XAP/menumes.txt:65", "sha1": "695ab13706363e899ebd6f3cd0aff922a1d9b70c", "ko": "046\t@s18@r115@g115@b86미", "state": "reviewed"}
-{"id": "MENURES.XAP/menumes.txt:66", "sha1": "76d857190339fec73f1a29b429ef2e6023bd2018", "ko": "047\t@s18@r115@g115@b86스", "state": "reviewed"}
+{"id": "MENURES.XAP/menumes.txt:63", "sha1": "baf01916c99ef82931be46844d21aa1268d4db79", "ko": "044\t@s18@r115@g115@b86국", "state": "reviewed"}
+{"id": "MENURES.XAP/menumes.txt:64", "sha1": "c83741e7d6ae0879d212d94e0e37e8ec8b003e6f", "ko": "045\t@s18@r115@g115@b86수", "state": "reviewed"}
+{"id": "MENURES.XAP/menumes.txt:65", "sha1": "695ab13706363e899ebd6f3cd0aff922a1d9b70c", "ko": "046\t@s18@r115@g115@b86예", "state": "reviewed"}
+{"id": "MENURES.XAP/menumes.txt:66", "sha1": "76d857190339fec73f1a29b429ef2e6023bd2018", "ko": "047\t@s18@r115@g115@b86체", "state": "reviewed"}
 {"id": "MENURES.XAP/menumes.txt:68", "sha1": "9cec28ffb6010822330d1204e6dad6adeb8f96d7", "ko": "048\t@s18@r115@g115@b86관심", "state": "reviewed"}
 {"id": "MENURES.XAP/menumes.txt:70", "sha1": "7e9cf71fd81cc35de793b26e39155c5b40230490", "ko": "049\t@s18@r74@g42@b40○@s4　@s20@r115@g115@b115성적표・진학 데이터", "state": "reviewed"}
 {"id": "MENURES.XAP/menumes.txt:71", "sha1": "47e35302557d037325cbee8792755c1bf8d46a3d", "ko": "050\t@s22@r56@g71@b104×@s2　@s20@r115@g115@b115뒤로", "state": "reviewed"}
@@ -1613,7 +1613,7 @@
 {"id": "MENURES.XAP/menumes.txt:194", "sha1": "5dec11dec3ce5db205f4eabee40f7ae9127cd265", "ko": "185\t차녀", "state": "reviewed"}
 {"id": "MENURES.XAP/menumes.txt:195", "sha1": "328ade2e71831e64986e1976a7cc05e7c904bf46", "ko": "186\t삼녀", "state": "reviewed"}
 {"id": "MENURES.XAP/menumes.txt:196", "sha1": "5b4a8e25921486d0e5d9ef7a0716467e0fd22fc8", "ko": "187\t사녀", "state": "reviewed"}
-{"id": "MENURES.XAP/menumes.txt:197", "sha1": "d5549254edc1770281a3d6f5b5419f88681cdb67", "ko": "188\t%s번째 아이", "state": "reviewed"}
+{"id": "MENURES.XAP/menumes.txt:197", "sha1": "d5549254edc1770281a3d6f5b5419f88681cdb67", "ko": "188\t%s째", "state": "reviewed"}
 {"id": "MENURES.XAP/menumes.txt:198", "sha1": "0195f2b3e20ba3a5462d6f2013714aac27550b3d", "ko": "189\t막내", "state": "reviewed"}
 {"id": "MENURES.XAP/menumes.txt:200", "sha1": "c01c676450dcffa6b6a82d2ccf7d7a2a4a1cc84a", "ko": "190\t고교 때 여친과 결혼", "state": "reviewed"}
 {"id": "MENURES.XAP/menumes.txt:201", "sha1": "79a7647b9904a04ead7b97883a5c7fac02b8fcfc", "ko": "191\t예비 작가와 결혼", "state": "reviewed"}
@@ -1743,7 +1743,7 @@
 {"id": "MENURES.XAP/menumes.txt:383", "sha1": "74658d35b66ae342453209334581fd66e82273b5", "ko": "로드를 중지하려면 @s20@r56@g71@b104×@s19@r115@g115@b115버튼을 눌러 주십시오", "state": "reviewed"}
 {"id": "MENURES.XAP/wheel.txt:37", "sha1": "24f4b7f78fe027190cee029bea67b216edc46041", "ko": "484, 314, \"놀이\"", "state": "reviewed"}
 {"id": "MENURES.XAP/wheel.txt:38", "sha1": "a43a66241d6a4839941f20c25179b20d2e8dadea", "ko": "539, 355, \"취미\"", "state": "reviewed"}
-{"id": "MENURES.XAP/wheel.txt:39", "sha1": "f9d132dd487fc94f8f62cf2a6769d2ba5018ec81", "ko": "462, 396, \"젖\"", "state": "reviewed"}
+{"id": "MENURES.XAP/wheel.txt:39", "sha1": "f9d132dd487fc94f8f62cf2a6769d2ba5018ec81", "ko": "462, 396, \"맘마\"", "state": "reviewed"}
 {"id": "MENURES.XAP/wheel.txt:40", "sha1": "a9cd6ef1da7fc2d8f64ad2f1417a55a802514da7", "ko": "430, 356, \"잠\"", "state": "reviewed"}
 {"id": "MENURES.XAP/wheel.txt:46", "sha1": "24f4b7f78fe027190cee029bea67b216edc46041", "ko": "484, 314, \"놀이\"", "state": "reviewed"}
 {"id": "MENURES.XAP/wheel.txt:47", "sha1": "a43a66241d6a4839941f20c25179b20d2e8dadea", "ko": "539, 355, \"취미\"", "state": "reviewed"}
